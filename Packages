@@ -309,16 +309,16 @@ ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothi
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
 
 Package: fanqiefn
-Version: 3.0.0
+Version: 3.0.1
 Architecture: iphoneos-arm64
 Maintainer: Junhong
 Installed-Size: 204
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn.deb
-Size: 20856
-MD5sum: fc04b3b7b9900e32ef50b73ef7581c6f
-SHA1: 433c51f69fc1f6f722bb96db6f2016340f35f520
-SHA256: b4b55b58017d976fddc569eecebdb1792e53832d2ed7129e918e4c830841d5be
+Size: 23438
+MD5sum: 033adbca630a4b9c13ff563cd212dc8f
+SHA1: 91386b21141b3395e66b4c3f6543eb652185970b
+SHA256: a0db5aaa7b7b3e25cec76c9c83396bdc5c9e310ec16b641fa224a33b42c42328
 Section: Tweaks
 Homepage: https://fanqie.goforit.si
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。开源：https://github.com/5hux1n/fanqiefn
@@ -329,16 +329,16 @@ ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
 Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
 
 Package: fanqiefn.roothide
-Version: 3.0.0
+Version: 3.0.1
 Architecture: iphoneos-arm64e
 Maintainer: Junhong
 Installed-Size: 204
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn.roothide.deb
-Size: 20828
-MD5sum: 7d58d25b446416368b3dc33cf04e6133
-SHA1: 2206a67d1c129a13b45324e77ff169aeaa454b1c
-SHA256: 3fb7eff3efc586641ea84284f16c03aedd9b34a7c85421fdb67af7806b5dd5c8
+Size: 23388
+MD5sum: aee0d090da602d34af83dd8befdd8673
+SHA1: 4b8d35667e58e3e241c1ab17099369514643fc52
+SHA256: 3957470ea4c0cff8f31966aee48e2e47c7e1fa5e87fc49b8dd2dc3bd8fa53fea
 Section: Roothide
 Homepage: https://fanqie.goforit.si
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。开源：https://github.com/5hux1n/fanqiefn
