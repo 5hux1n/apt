@@ -1,25 +1,3 @@
-Package: danmutool
-Version: 1.1.1
-Architecture: iphoneos-arm64
-Maintainer: Junhong <mail@mjh.im>
-Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./pkg/danmutool.deb
-Size: 399348
-MD5sum: 8d8e25e8d2dd53c796a3183bcf14b842
-SHA1: b79781db17078a252a2f62e791a84d1a1512564b
-SHA256: fe4ccb1e9f04e46880ffd0a106afb5badef278b68232ae72611b5155a4db6086
-Section: Tweaks
-Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
-Author: Junhong <mail@mjh.im>
-Moderndepiction: https://apt.mjh.im/depiction/native/danmutool.json
-Name: 弹幕助手
-Sileodepiction: https://apt.mjh.im/depiction/native/danmutool.json
-Tags: compatible_min::ios15.0, compatible_max::ios26.0
-Depiction: https://apt.mjh.im/depiction/web/danmutool.html
-SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.json
-ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.json
-Icon: https://apt.mjh.im/assets/danmutool/icon.png
-
 Package: im.mjh.alipay2nfc
 Version: 3.5.0
 Architecture: iphoneos-arm64
@@ -347,3 +325,43 @@ Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
 SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
 ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
 Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
+
+Package: danmutool
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong <mail@mjh.im>
+Installed-Size: 1016
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./pkg/danmutool.deb
+Size: 328244
+MD5sum: ce296385877afb581bdc2ac008993832
+SHA1: 8f00a6a4f5c000e81213753dfd91d1eae19be685
+SHA256: 2adf1c95f91f73404038bc40b053bc3ae2205a191085e9dba61fe85a328c9d79
+Section: Tweaks
+Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
+Author: Junhong <mail@mjh.im>
+Name: 弹幕助手
+Depiction: https://apt.mjh.im/depiction/web/danmutool.html
+SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.json
+ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.json
+Icon: https://apt.mjh.im/assets/danmutool/icon.png
+
+Package: danmutool.roothide
+Version: 2.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Junhong <mail@mjh.im>
+Installed-Size: 968
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./pkg/danmutool.roothide.deb
+Size: 315486
+MD5sum: 2ea43eda770102bf7accccb379a0598e
+SHA1: 84f173cf0ac36c758d90ddf4b321705ce1e9541f
+SHA256: a8db2fae09181e220452717f39b77c1f0dfa03a3994c0c79ca23f9b92ea5a759
+Section: Roothide
+Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
+Author: Junhong <mail@mjh.im>
+Name: 弹幕助手 (Roothide)
+Depiction: https://apt.mjh.im/depiction/web/danmutool.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json
+ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json
+Icon: https://apt.mjh.im/assets/danmutool.roothide/icon.png
