@@ -30,10 +30,10 @@ Conflicts: com.yourname.alipaynfcredirect
 Replaces: com.yourname.alipaynfcredirect
 Filename: ./pkg/im.mjh.alipay2nfc.roothide.deb
 Size: 22882
-MD5sum: 701b18ad271fab8be0d27d2091856d3b
-SHA1: 0a5d569c2aa2f52ef64e86eccdc16d14b4a8fca5
-SHA256: 9255f4a39fb9dd8fe2af31e3c29d24955cbd6e93268181a87d052a411041ac2f
-Section: Roothide
+MD5sum: dead054ec74fe957b80342d87d14587f
+SHA1: 600fe2a0edfa9938ca427743df8d06e935569f05
+SHA256: c4e148c0d02e036802ff410cac34d7c2d0b742dc1743a648e0dc580080f17daa
+Section: Tweaks
 Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
 Author: Junhong
 Name: Alipay2NFC · 碰一碰转接 (Roothide)
@@ -169,11 +169,11 @@ Maintainer: Junhong
 Installed-Size: 1588
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.7.0_iphoneos-arm64e.deb
-Size: 277764
-MD5sum: 86b388552b69b41c47b715a83d7e8cc6
-SHA1: 9eebe0bb707ce2f10fed51e65b8b59ea960c7277
-SHA256: a58c271cff0f371faedd165d65a056751a028cb42fd4e10652affb7e35056e1f
-Section: Roothide
+Size: 277758
+MD5sum: 9e4bc264053238513be89d717c785b0d
+SHA1: 0075eab52f525dfb610c544b34bba616de06a1e0
+SHA256: 3b0f591095b7eacf08d2e47a8eaf33cc96350841b3e609efc815121481cf023d
+Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
 Name: 虚拟权限 · Fake Permission (Roothide)
@@ -189,11 +189,11 @@ Maintainer: Junhong
 Installed-Size: 1588
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.7.1_iphoneos-arm64e.deb
-Size: 276274
-MD5sum: 241a1388e72956fdae5ba6d2aace88db
-SHA1: 60507a64b1e41cbf44159b0357afb59acdb6b788
-SHA256: ddfc32cf633da0e10e6250d97d578e9848ab9d0b518bd1c5b5448c8689fe96a8
-Section: Roothide
+Size: 276270
+MD5sum: 24b67a1ef582c280213679be19910615
+SHA1: 0c38c9bc8fdcd57cacae71aa4162676129f11fac
+SHA256: be456bd1e68ab7538aa30c611d69ca33a59207bfbb6459be1786a36d301424de
+Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
 Name: 虚拟权限 · Fake Permission (Roothide)
@@ -209,11 +209,11 @@ Maintainer: Junhong
 Installed-Size: 1588
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm.roothide.deb
-Size: 282156
-MD5sum: 10e90676a928a9c1399d0db67ed9e76b
-SHA1: c7d260df07ae254b36aff66f0ad05c2f7ba94419
-SHA256: f0007b08ee12c250c1ba34bcb56c2d4af8f19ab44f14efc1cd3cf1c5e26bf1dd
-Section: Roothide
+Size: 282146
+MD5sum: 046fadb47a2684c400354837659b1de2
+SHA1: 0443bdb4e18bdce9386c0381a7feadf0d9bee7f1
+SHA256: f3514d8d380ef9cf8be819d69ef314949895aa10c33ed2b3e3c739d55be8d5e5
+Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
 Name: 虚拟权限 · Fake Permission (Roothide)
@@ -273,11 +273,11 @@ Depends: firmware (>=15.0), mobilesubstrate
 Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Filename: ./pkg/im.mjh.xianyuadblock.roothide.deb
-Size: 23896
-MD5sum: 9e3bbd5b70d9842dadda7ce65f10843f
-SHA1: 87ef631913153770de20f5e44cee08c17be1c6d8
-SHA256: 2ee7e2f29cbbe2b89fd950b7f8176a1fa3cb83b25835ff97d8167f10c27d8d36
-Section: Roothide
+Size: 23890
+MD5sum: a78e82e185530304ef30c294bc082ef7
+SHA1: c77dd9248863ee5f5aa1748cd858fce7d4975339
+SHA256: 70762984e8cbbed0912daac10079034b87e52126ca56d628487a3c5761f10d1f
+Section: Tweaks
 Description: 拦截闲鱼开屏广告（含切后台再回前台时的启动广告），过滤搜索结果中的淘宝广告商品
 Author: Junhong
 Name: 闲鱼去广告助手 (Roothide)
@@ -313,11 +313,11 @@ Maintainer: Junhong <mail@mjh.im>
 Installed-Size: 968
 Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
 Filename: ./pkg/danmutool.roothide.deb
-Size: 312044
-MD5sum: bfd88f4ba693740872e3107882769b0c
-SHA1: 574d97d5816ce999321359480f94f2b2119b6c12
-SHA256: f5732f30ad287c941894439d0c9d380891a988ed380500b8812469994cac0be2
-Section: Roothide
+Size: 312352
+MD5sum: f0f2f554a85f8e2623b25bec90568e17
+SHA1: 4aea751744ce09c667a59bd3745588268bf68bc0
+SHA256: 1c5bc51629d44b3a8c33998e368da856bf6c78812885edd5a7a1a64fbec8943b
+Section: Tweaks
 Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
 Author: Junhong <mail@mjh.im>
 Name: 弹幕助手 (Roothide)
@@ -353,11 +353,11 @@ Maintainer: Junhong
 Installed-Size: 240
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn.roothide.deb
-Size: 25944
-MD5sum: ea1a437e7e109f868f5541844f30ee1d
-SHA1: 095d7a781b74aa2dd6fac292a1f3e92639658a7c
-SHA256: b701d7e723cacb2fc6417bc3fbabc01c7989925bd3039a8959c356388d8205e5
-Section: Roothide
+Size: 26258
+MD5sum: 09668707b8a14dd8ca7a78946000df07
+SHA1: 2ab7a050b64cde32becb39157ce4407880849b61
+SHA256: 9ef914743e357d9c6e5980c7b9a6cf3bcf2836059f3b2e508ddb62ab5fa07ae0
+Section: Tweaks
 Homepage: https://fanqie.goforit.si
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。开源：https://github.com/5hux1n/fanqiefn
 Name: 番茄净化 (Roothide)
