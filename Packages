@@ -242,50 +242,6 @@ SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json
 Icon: https://apt.mjh.im/assets/im.mjh.wclocate/icon.png
 
-Package: im.mjh.xianyuadblock
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 224
-Depends: firmware (>=15.0), mobilesubstrate
-Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Filename: ./pkg/im.mjh.xianyuadblock.deb
-Size: 23946
-MD5sum: 62e8d808897448979897344bb2d1ef40
-SHA1: 6743c3a95ebf5503c0bae3835954650184de72c0
-SHA256: 85f2f20cfce03f3265a9a6e615dae8189781475f350343a7aad9e75314fff7e3
-Section: Tweaks
-Description: 拦截闲鱼开屏广告（含切后台再回前台时的启动广告），过滤搜索结果中的淘宝广告商品
-Author: Junhong
-Name: 闲鱼去广告助手
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json
-Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
-
-Package: im.mjh.xianyuadblock.roothide
-Version: 2.0
-Architecture: iphoneos-arm64e
-Maintainer: Junhong
-Installed-Size: 224
-Depends: firmware (>=15.0), mobilesubstrate
-Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Filename: ./pkg/im.mjh.xianyuadblock.roothide.deb
-Size: 23890
-MD5sum: a78e82e185530304ef30c294bc082ef7
-SHA1: c77dd9248863ee5f5aa1748cd858fce7d4975339
-SHA256: 70762984e8cbbed0912daac10079034b87e52126ca56d628487a3c5761f10d1f
-Section: Tweaks
-Description: 拦截闲鱼开屏广告（含切后台再回前台时的启动广告），过滤搜索结果中的淘宝广告商品
-Author: Junhong
-Name: 闲鱼去广告助手 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json
-Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
-
 Package: danmutool
 Version: 2.0.0
 Architecture: iphoneos-arm64
@@ -365,3 +321,49 @@ Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
 SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
 ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
 Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
+
+Package: im.mjh.xianyuadblock
+Version: 3.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 372
+Depends: firmware (>=15.0), mobilesubstrate
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: ./pkg/im.mjh.xianyuadblock.deb
+Size: 68084
+MD5sum: 016192141ad4d59be084c514a9c017b5
+SHA1: 6f3eac16c80d69820839e899668a86cd0136691f
+SHA256: 827d391c59a62fda62e26902a3620ec6e671988cbeb9b5eb6638f73e6ab0baad
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: Junhong
+Name: 闲鱼助手
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+
+Package: im.mjh.xianyuadblock.roothide
+Version: 3.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 372
+Depends: firmware (>=15.0), mobilesubstrate
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: ./pkg/im.mjh.xianyuadblock.roothide.deb
+Size: 68130
+MD5sum: 4c5916a7552a713402f09570e4ecd080
+SHA1: 1a007bb5dd55af0f98ba282cc1aa19e7abd48ff2
+SHA256: 350a73e23da60e7c1ae694a66401dbec4454fb27cc172a6c3a84b8143306a1fa
+Section: Tweaks
+Homepage: https://xianyu.goforit.si
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: Junhong
+Name: 闲鱼助手 (Roothide)
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
