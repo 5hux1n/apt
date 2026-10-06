@@ -330,13 +330,13 @@ Package: danmutool
 Version: 2.0.0
 Architecture: iphoneos-arm64
 Maintainer: Junhong <mail@mjh.im>
-Installed-Size: 1016
+Installed-Size: 952
 Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
 Filename: ./pkg/danmutool.deb
-Size: 328244
-MD5sum: ce296385877afb581bdc2ac008993832
-SHA1: 8f00a6a4f5c000e81213753dfd91d1eae19be685
-SHA256: 2adf1c95f91f73404038bc40b053bc3ae2205a191085e9dba61fe85a328c9d79
+Size: 309024
+MD5sum: ea1bdb8b9337c396e512b04554c5c4a3
+SHA1: 3d397febf327b8627738a934e92e94519ba8f0a4
+SHA256: b47deb473d6eeaa8432745bad4286124b1373ecf9d1cc3d3790fc25d3dca76e6
 Section: Tweaks
 Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
 Author: Junhong <mail@mjh.im>
@@ -353,10 +353,10 @@ Maintainer: Junhong <mail@mjh.im>
 Installed-Size: 968
 Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
 Filename: ./pkg/danmutool.roothide.deb
-Size: 315486
-MD5sum: 2ea43eda770102bf7accccb379a0598e
-SHA1: 84f173cf0ac36c758d90ddf4b321705ce1e9541f
-SHA256: a8db2fae09181e220452717f39b77c1f0dfa03a3994c0c79ca23f9b92ea5a759
+Size: 312044
+MD5sum: bfd88f4ba693740872e3107882769b0c
+SHA1: 574d97d5816ce999321359480f94f2b2119b6c12
+SHA256: f5732f30ad287c941894439d0c9d380891a988ed380500b8812469994cac0be2
 Section: Roothide
 Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
 Author: Junhong <mail@mjh.im>
