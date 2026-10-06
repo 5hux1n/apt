@@ -241,41 +241,8 @@
             <div class="summary-box">让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC</div>
             <div class="md_view"><h1>Alipay2NFC</h1>
 <p>让支付宝「碰一碰」唤起你指定的第二个支付宝客户端。</p>
-<h2>解决的问题</h2>
-<p>在越狱设备上用 Crane 之类的工具多开支付宝之后，贴商户的碰一碰贴纸时，系统始终唤起官方客户端，第二个账号用不上 NFC 付款。</p>
-<p>碰一碰贴纸里是一条指向 <code>render.alipay.com</code> 的链接，iOS 按 Universal Link / App Clip 规则投递，而只有官方客户端在该域名下完成过关联声明 —— 多开客户端不在其中，系统不会把链接交给它。</p>
-<h2>做什么</h2>
-<p>本插件在官方客户端处理这次碰一碰的那一刻接管过来，把付款交给你的多开客户端完成。</p>
-<h2>使用</h2>
+<p>在越狱设备上安装多开支付宝之后，贴商户的碰一碰贴纸时，系统始终唤起官方客户端</p>
 <p>打开官方支付宝，贴商户的碰一碰贴纸即可。多开客户端会在后台被唤起，无需提前打开，也不用做任何配置。</p>
-<h2>兼容性</h2>
-<ul>
-<li>越狱：rootful、rootless、roothide</li>
-<li>架构：arm64、arm64e</li>
-<li>系统：iOS 14 及以上</li>
-<li>多开客户端：任意多开工具生成的客户端</li>
-</ul>
-<h2>已知限制</h2>
-<p>冷启动贴纸时，官方客户端会先生效再转交，因此会短暂出现一下。</p>
-<hr />
-<h1>English</h1>
-<p>Redirect Alipay's 碰一碰 (NFC tap-to-pay) to the Alipay client of your choice.</p>
-<h2>The problem</h2>
-<p>After duplicating Alipay on a jailbroken device with tools like Crane, tapping a merchant's sticker always launches the official client — the second account can't use NFC payment.</p>
-<p>The sticker carries a link to <code>render.alipay.com</code>. iOS delivers it as a Universal Link / App Clip, and only the official client has an association claim for that domain, so iOS never hands the link to the clone.</p>
-<h2>What it does</h2>
-<p>The tweak takes over at the moment the official client processes the tap and hands the payment to your chosen client.</p>
-<h2>Usage</h2>
-<p>Open the official Alipay and tap the merchant's sticker. The second client is brought up in the background — no need to open it first, and no configuration is required.</p>
-<h2>Compatibility</h2>
-<ul>
-<li>Jailbreak: rootful, rootless, roothide</li>
-<li>Architecture: arm64, arm64e</li>
-<li>iOS: 14.0+</li>
-<li>Second client: any created by any multi-instance tool</li>
-</ul>
-<h2>Known limitation</h2>
-<p>On a cold launch the official client briefly takes effect before handing over, so it appears for a moment.</p>
 </div>
             
             
