@@ -295,7 +295,7 @@ SHA1: e3c9187e2ce27103acfe3df3a9fe9211e7f619cf
 SHA256: 215704d9009a64bcb6b4076b1cb514afed893f76eb0425d5f7bdb2f6d1b5a313
 Section: Tweaks
 Homepage: https://fanqie.goforit.si
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。开源：https://github.com/5hux1n/fanqiefn
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
 Name: 番茄净化
 Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html
 SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
@@ -315,7 +315,7 @@ SHA1: 8bb7f5ba86e5c64fb02c0d0f02c7b69e3be138df
 SHA256: 1f9a8d052a509634967a6d4aa3a4fc9a8fb5822f12208f910db841074a1563bd
 Section: Tweaks
 Homepage: https://fanqie.goforit.si
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。开源：https://github.com/5hux1n/fanqiefn
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
 Name: 番茄净化 (Roothide)
 Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
 SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
