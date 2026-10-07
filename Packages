@@ -321,3 +321,43 @@ Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
 SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
 ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
 Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
+
+Package: hongguofn
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 340
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/hongguofn.deb
+Size: 54654
+MD5sum: 100b604e6d2e676c5327bba8b582b988
+SHA1: 2f06933505204451f37d05096e7032ca923d7b55
+SHA256: 3ed983a9c3c3a5b701483a4f3ac4dfc14b7eca129849aa25ab951fc09da71a0c
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
+Name: 红果净化
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.html
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json
+Icon: https://apt.mjh.im/assets/hongguofn/icon.png
+
+Package: hongguofn.roothide
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 340
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/hongguofn.roothide.deb
+Size: 54776
+MD5sum: ad9f12dd21ec34aef9f3ed46960f52ff
+SHA1: 4971bbe971456469ae53c0c09f63b5c1b0e7aafa
+SHA256: 55994dca35190bbe6ba0b46c68cc2ec6be9f9d7b3ccff74a422ac7c86def20b2
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
+Name: 红果净化 (Roothide)
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
+Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
