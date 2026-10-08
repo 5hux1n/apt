@@ -374,7 +374,7 @@ Architecture: iphoneos-arm64
 Maintainer: Junhong
 Installed-Size: 436
 Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/hongguofn.deb
+Filename: ./pkg/hongguofn_1.0.1_69e90b6695.deb
 Size: 79264
 MD5sum: e5307874e19bb665b8b53a80e54fc81c
 SHA1: 82a1e0f237d1c0545fbc339217080d1ea996931d
@@ -394,7 +394,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Junhong
 Installed-Size: 436
 Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/hongguofn.roothide.deb
+Filename: ./pkg/hongguofn.roothide_1.0.1_a1af718a68.deb
 Size: 79332
 MD5sum: bbec161c67cb26fbd386e90c0b2f3f1e
 SHA1: 54e3aec34dd473a003554eb73606090d5faffe17
