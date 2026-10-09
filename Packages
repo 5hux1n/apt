@@ -1,3 +1,382 @@
+Package: danmutool
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong <mail@mjh.im>
+Installed-Size: 952
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./pkg/danmutool.deb
+Size: 309352
+MD5sum: eb41ec8ee48d0d3b0bf54f9a81564c4d
+SHA1: a59c90a174bc5ff3c457a875208437b8c5876d0e
+SHA256: 81292aa93b8c91d50e5646381dc56cb3f120ba3a6d5ae9336fa09e73125bbe29
+Section: Tweaks
+Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
+Author: Junhong <mail@mjh.im>
+Name: 弹幕助手
+Depiction: https://apt.mjh.im/depiction/web/danmutool.html
+SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.json
+ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.json
+Icon: https://apt.mjh.im/assets/danmutool/icon.png
+
+Package: danmutool.roothide
+Version: 2.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Junhong <mail@mjh.im>
+Installed-Size: 968
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./pkg/danmutool.roothide.deb
+Size: 312372
+MD5sum: 03a837d5d622a004434c9a016a01c243
+SHA1: a87d531c2e6e31a41165da6cb3f784e7cefc8218
+SHA256: 8bb72d2b6eca4eea15218d0929615928fe6eae1cb07c0d5acf7d37d94e29e175
+Section: Tweaks
+Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
+Author: Junhong <mail@mjh.im>
+Name: 弹幕助手 (Roothide)
+Depiction: https://apt.mjh.im/depiction/web/danmutool.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json
+ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json
+Icon: https://apt.mjh.im/assets/danmutool.roothide/icon.png
+
+Package: fanqiefn
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 168
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/fanqiefn_2.0.0_iphoneos-arm64.deb
+Size: 5628
+MD5sum: 1fb192ed58c4b0b46f12b64620f8cfe3
+SHA1: 585ec0795b4d547a6e1912c09f2e9c73702e2b5d
+SHA256: e8ff7f8816262a1da168b208c08864fddf2add490e14c29326156719632fadf9
+Section: Tweaks
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
+Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
+
+Package: fanqiefn
+Version: 3.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 204
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/fanqiefn_3.0.0_iphoneos-arm64.deb
+Size: 21090
+MD5sum: 375aed61679baa1c14494b55641074fd
+SHA1: 854ed21332bfd9490d290431996ce8b0c6fc31ce
+SHA256: 55d7354535290172b236d095da4a107a819a561383243932ef0ad24df01847bd
+Section: Tweaks
+Homepage: https://fanqie.goforit.si/
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
+Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
+
+Package: fanqiefn
+Version: 3.0.1
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 204
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/fanqiefn_3.0.1_iphoneos-arm64.deb
+Size: 23674
+MD5sum: d5e1315643d6313eef19e72fec774d64
+SHA1: 855be9ce4167c463fc4f55ec013060107339da74
+SHA256: 9813f53a456daa0b072a4eb9c7411d694ae2f4775adf3320634d692019442a78
+Section: Tweaks
+Homepage: https://fanqie.goforit.si/
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
+Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
+
+Package: fanqiefn
+Version: 3.0.2
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 240
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/fanqiefn_3.0.2_iphoneos-arm64.deb
+Size: 26216
+MD5sum: eb410e964a811c5975f3df4fa9caf735
+SHA1: 7dbf83736aa89d7f7f98bc289a41ae06b66c0b2a
+SHA256: 8a91d973735daab1933b7e362ed33374403f5a45472a2700830a394741b0bfd0
+Section: Tweaks
+Homepage: https://fanqie.goforit.si/
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
+Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
+
+Package: fanqiefn
+Version: 3.0.3
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 240
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/fanqiefn_3.0.3_iphoneos-arm64.deb
+Size: 28968
+MD5sum: 252f2f4df31dbbcc473a4e1d071d515d
+SHA1: 73072781400a417ee7950f22cb5745f896179d7a
+SHA256: afb27111e960fdaf6c85ee92be140041c2873c867b2ab38b38f1d77d3b383e6b
+Section: Tweaks
+Homepage: https://fanqie.goforit.si/
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
+Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
+
+Package: fanqiefn
+Version: 3.0.4
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 240
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/fanqiefn.deb
+Size: 29934
+MD5sum: a423433c02a0e934668fdcd836e4482a
+SHA1: 39bc775ff433d5b572e5c15b321596f4c99d1f57
+SHA256: 85e4cdd9857f99e664a3f25ab818e798c61b13d50ae9fe47771964bf6a2ee4d3
+Section: Tweaks
+Homepage: https://fanqie.goforit.si/
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
+Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
+
+Package: fanqiefn.roothide
+Version: 3.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 204
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/fanqiefn.roothide_3.0.0_iphoneos-arm64e.deb
+Size: 21074
+MD5sum: d1e8d178e915bb732d5fc88bd083e05a
+SHA1: 405d504c0d57cbebfd3e878459f974ba43710714
+SHA256: 66716337c142587ef70ab8efd284ed6d2681bf633050818f626c6070c13105a9
+Section: Tweaks
+Homepage: https://fanqie.goforit.si/
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化 (Roothide)
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
+Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
+
+Package: fanqiefn.roothide
+Version: 3.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 204
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/fanqiefn.roothide_3.0.1_iphoneos-arm64e.deb
+Size: 23638
+MD5sum: 024d2171ed96e536166688fa1c2b045b
+SHA1: 61e3bd4690cf536a35322be4d59c31e7da1b3f80
+SHA256: 87e464c7698ca618f3a3c3416cd2dd680d306a8a02a6b347cf1175f53629833a
+Section: Tweaks
+Homepage: https://fanqie.goforit.si/
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化 (Roothide)
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
+Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
+
+Package: fanqiefn.roothide
+Version: 3.0.2
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 240
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/fanqiefn.roothide_3.0.2_iphoneos-arm64e.deb
+Size: 26192
+MD5sum: e5184e9098070211055b4be508cdff14
+SHA1: c88cbfc14e7822144c6936cf71adb05652c3f689
+SHA256: 22f95bfe83818f6c001ede65b3bd776912971c6905e7435fa1c4163a902d7cca
+Section: Tweaks
+Homepage: https://fanqie.goforit.si/
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化 (Roothide)
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
+Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
+
+Package: fanqiefn.roothide
+Version: 3.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 240
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/fanqiefn.roothide_3.0.3_iphoneos-arm64e.deb
+Size: 28926
+MD5sum: 3311ba628bdc86fa7a8bcbeb6f105567
+SHA1: b16798ab805bd13ffa5c566ff0e40c7f4eff6fdc
+SHA256: c16d811fe289f8cb9695b9afe0543795adf6a1140cf70339c5415f00c619335e
+Section: Tweaks
+Homepage: https://fanqie.goforit.si/
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化 (Roothide)
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
+Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
+
+Package: fanqiefn.roothide
+Version: 3.0.4
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 240
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/fanqiefn.roothide.deb
+Size: 29938
+MD5sum: 68c450d0688f9275e8205d6ba21ba82d
+SHA1: 3e44eeadfb6442ed15523876649ee0de65ecdd33
+SHA256: 064fb7214f92af32f044f4c278842c4bc79eb15d7c3ee72c7f082dca4d53b2cb
+Section: Tweaks
+Homepage: https://fanqie.goforit.si/
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化 (Roothide)
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
+Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
+
+Package: hongguofn
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: 5hux1n
+Installed-Size: 436
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./pkg/hongguofn_1.0.1_69e90b6695.deb
+Size: 79264
+MD5sum: e5307874e19bb665b8b53a80e54fc81c
+SHA1: 82a1e0f237d1c0545fbc339217080d1ea996931d
+SHA256: 69e90b6695fc7f08139391e522a27f1e5ad283892621133451bf9ade0b385424
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.html
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json
+Icon: https://apt.mjh.im/assets/hongguofn/icon.png
+
+Package: hongguofn
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 436
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/hongguofn.deb
+Size: 79564
+MD5sum: ff9871d7b9ea74424107a4c64db141f1
+SHA1: bbae54e43a9a3a7480b98371c99f4d714f68eb8e
+SHA256: c7d9e836890dac420c0c0aa812f0ee698c076aedb388aadc2e86e31314f3a0c9
+Section: Tweaks
+Homepage: https://hongguo.goforit.si/
+Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
+Name: 红果净化
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.html
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json
+Icon: https://apt.mjh.im/assets/hongguofn/icon.png
+
+Package: hongguofn.roothide
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 436
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/hongguofn.roothide.deb
+Size: 79638
+MD5sum: 218230e68ca21bef9a5d620b00af4f34
+SHA1: 7338e64057e5e92ce032e8c06ca2ce1ccabde404
+SHA256: 8de8ebbbc9cf51da9bad4be6b77a028abbb1b3526d26a448f5009f5e5c3886bd
+Section: Tweaks
+Homepage: https://hongguo.goforit.si/
+Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
+Name: 红果净化 (Roothide)
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
+Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
+
+Package: hongguofn.roothide
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: 5hux1n
+Installed-Size: 436
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./pkg/hongguofn.roothide_1.0.1_a1af718a68.deb
+Size: 79332
+MD5sum: bbec161c67cb26fbd386e90c0b2f3f1e
+SHA1: 54e3aec34dd473a003554eb73606090d5faffe17
+SHA256: a1af718a6879f677330e1f50724e9448d7c349451d94cb0293ac207722b624ce
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
+Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
+
+Package: hypicfix
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 204
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/hypicfix.deb
+Size: 17310
+MD5sum: 67bcf649d27b699388dd34342b6a625c
+SHA1: dd086ee8c21eca2f3d6b1f23542329e71439e0b2
+SHA256: 034eb5732561ea07baf12b7a56b98294231ef96bce2eb68cb56608a5f5e2e141
+Section: Tweaks
+Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
+Author: Junhong
+Name: 醒图国际版修复工具
+Depiction: https://apt.mjh.im/depiction/web/hypicfix.html
+SileoDepiction: https://apt.mjh.im/depiction/native/hypicfix.json
+ModernDepiction: https://apt.mjh.im/depiction/native/hypicfix.json
+Icon: https://apt.mjh.im/assets/hypicfix/icon.png
+
+Package: hypicfix.roothide
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 204
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/hypicfix.roothide.deb
+Size: 17322
+MD5sum: f8c23637b860a345c96a34d058bd5aff
+SHA1: 8f91b0a74cf6b8888f24f57e34c2ff98532b4231
+SHA256: bf7d87c9d5ddd83389915daf78ca0aed4ceaed50aa482542f0e7a9617f8d0f79
+Section: Tweaks
+Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
+Author: Junhong
+Name: 醒图国际版修复工具 (Roothide)
+Depiction: https://apt.mjh.im/depiction/web/hypicfix.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/hypicfix.roothide.json
+ModernDepiction: https://apt.mjh.im/depiction/native/hypicfix.roothide.json
+Icon: https://apt.mjh.im/assets/hypicfix.roothide/icon.png
+
 Package: im.mjh.alipay2nfc
 Version: 3.5.0
 Architecture: iphoneos-arm64
@@ -7,10 +386,10 @@ Depends: firmware (>=14.0), preferenceloader
 Conflicts: com.yourname.alipaynfcredirect
 Replaces: com.yourname.alipaynfcredirect
 Filename: ./pkg/im.mjh.alipay2nfc.deb
-Size: 22874
-MD5sum: f1a6e0b700aab18ec7995c883e88d6ae
-SHA1: 39257f1d335757d56107741564ed0cfd4b96d980
-SHA256: db27a445dbbdefbffbd8744044fbdef0bb5b17c6ae1880a5d628ebcd21a57e88
+Size: 22864
+MD5sum: 7e3c4f901cc58c07df705a9974d9d474
+SHA1: c0bd8cd719e13cc673187179b0e6ddc343c5d2e8
+SHA256: e3b2973d905d795b9c0b81061dff16092dcdb3c0c5d57450a2ddb37ac5080768
 Section: Tweaks
 Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
 Author: Junhong
@@ -29,10 +408,10 @@ Depends: firmware (>=14.0), preferenceloader
 Conflicts: com.yourname.alipaynfcredirect
 Replaces: com.yourname.alipaynfcredirect
 Filename: ./pkg/im.mjh.alipay2nfc.roothide.deb
-Size: 22882
-MD5sum: dead054ec74fe957b80342d87d14587f
-SHA1: 600fe2a0edfa9938ca427743df8d06e935569f05
-SHA256: c4e148c0d02e036802ff410cac34d7c2d0b742dc1743a648e0dc580080f17daa
+Size: 22878
+MD5sum: eca5288138033e9d50110cea085577c5
+SHA1: 396d029eca19e0e5bd858d473657233993a4c7f6
+SHA256: 5efdcdfde3f46b8503535d0f6bcb70e111e6290553ddd6c33a9652179ff5fd93
 Section: Tweaks
 Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
 Author: Junhong
@@ -49,10 +428,10 @@ Maintainer: Junhong
 Installed-Size: 1452
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.3.0_iphoneos-arm64.deb
-Size: 258160
-MD5sum: 660a0b8a245570399e19d4e0b039d9f0
-SHA1: ce7dc4501066132e0a0de363975581f3f5873976
-SHA256: 967714daab38070d99d8fc9b063eceef6875685823dcca3167f52de24f56d461
+Size: 258154
+MD5sum: 6a7f3283eacd9a0a6ea5074b1ad816b4
+SHA1: 124adf1992bc6f91489c4e063ba4654fb2177fb6
+SHA256: 3c0bd32d6a992260b6c125e7ed0ee275cb81b8901024aa77f1be80500d345d76
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -69,10 +448,10 @@ Maintainer: Junhong
 Installed-Size: 1520
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.5.0_iphoneos-arm64.deb
-Size: 265242
-MD5sum: 2e87c13cbdc21c32d6c7a1380d184e71
-SHA1: 9aa6db58477754c68c599fc70c7417f7e4153cef
-SHA256: 6e15926272e7f7b181968fb154b2db0f2600c649232b423239e1754654bbbb62
+Size: 265236
+MD5sum: d27fae4a1c83b7ff6b166479a59d41c6
+SHA1: a6c6fdfde242d11d60e7b07039cabfdee3516f38
+SHA256: 9e7c881fda7d0ee9dbd5d512e12312291f20c7eaa11774970685ea9915ee21f0
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -89,10 +468,10 @@ Maintainer: Junhong
 Installed-Size: 1520
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.6.0_iphoneos-arm64.deb
-Size: 266006
-MD5sum: 273aea66166cdf00d78c72f03318e9ed
-SHA1: 644dd735b46fc64d52538a20f2a18b73b6e92f22
-SHA256: 0fcdae1f6f95cc49f6f13c64798dd40fcbcf75aa4e5fd5e37a5a9c9fb3261ec1
+Size: 266002
+MD5sum: f05512bddd487718d37ebf9030abe647
+SHA1: bbae45fcf52c2b0c75ed120988f278fe8aad3480
+SHA256: 0b2bbaacdd59691851d5c4e9a35710f4d82c43343815d97353d8a223d315148b
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -109,10 +488,10 @@ Maintainer: Junhong
 Installed-Size: 1588
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.7.0_iphoneos-arm64.deb
-Size: 277680
-MD5sum: 61f16eff3d20ae7796c2d327e023c77c
-SHA1: 7fb992f34b1eebae612024496cac25a5a85cd1b4
-SHA256: 499f9cdd74ba3fc3b8116da6ac038b5a331b091e0748d05685989a16d9bed559
+Size: 277668
+MD5sum: 660017cb169d4b6013f9d8c2e0919b9f
+SHA1: d5a91e92948628fb68b3cfe689f0a882a0f51109
+SHA256: babe1097b1285fc848ccd8b4e15d26945ad18c2405e126a91dafcf7c84814b3f
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -129,10 +508,10 @@ Maintainer: Junhong
 Installed-Size: 1588
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.7.1_iphoneos-arm64.deb
-Size: 276370
-MD5sum: 039fb470f3d4800c51c7d71921890dd3
-SHA1: 3531d7dd04c971dda16c0624b4e231c10ddb04f1
-SHA256: 5a2d020684a01bc5038e5268fa8646db9ae43252934f8b6e53f556e827c1d52d
+Size: 276362
+MD5sum: 00c8739429af7f5f765b5d23b571f42e
+SHA1: 7d1da9858e76ef8af4c120b4b577f2a202c86c6d
+SHA256: 58cc74e905325a567e6402919689c0535012c6a4f50ba2dd1b1c7424ff98792d
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -149,10 +528,10 @@ Maintainer: Junhong
 Installed-Size: 1588
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm.deb
-Size: 282270
-MD5sum: 63cb7e6f5b277374563f1f5278ca9d68
-SHA1: 7221b9a944acef6be237aa1d025a079a2efe6566
-SHA256: c80c86537125f9ac23cefa4e1d2515c7fad5808cb76ea95e3d136b691d19369e
+Size: 282260
+MD5sum: 5a232fbcb34a5b53f7b0b6d7f4924495
+SHA1: 14b59d720c57ecb15e22960d355bc2f789955f7b
+SHA256: 681ab23c717dd0a8eed5907e97b1151930393f105685672728e8f126e324181b
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -169,10 +548,10 @@ Maintainer: Junhong
 Installed-Size: 1588
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.7.0_iphoneos-arm64e.deb
-Size: 277758
-MD5sum: 9e4bc264053238513be89d717c785b0d
-SHA1: 0075eab52f525dfb610c544b34bba616de06a1e0
-SHA256: 3b0f591095b7eacf08d2e47a8eaf33cc96350841b3e609efc815121481cf023d
+Size: 277754
+MD5sum: 0bd4117d7abc3888cce52766f71055e9
+SHA1: c43df4ec2f0cebb875c16aa4b4e020846b2ca2c7
+SHA256: 302022bba0fe8959f719cb3a31f84799cf318a5dbf44f2abf36c480ab9299806
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -189,10 +568,10 @@ Maintainer: Junhong
 Installed-Size: 1588
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.7.1_iphoneos-arm64e.deb
-Size: 276270
-MD5sum: 24b67a1ef582c280213679be19910615
-SHA1: 0c38c9bc8fdcd57cacae71aa4162676129f11fac
-SHA256: be456bd1e68ab7538aa30c611d69ca33a59207bfbb6459be1786a36d301424de
+Size: 276272
+MD5sum: 58c6756e9e153a3a1a9485802b7c930c
+SHA1: 6a086695f8bc9af665092c11b3128043395a2c06
+SHA256: 4cf855b684230252b82b326f5ef509145cf3b56ff9edea5334e5fafe75ccf302
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -209,10 +588,10 @@ Maintainer: Junhong
 Installed-Size: 1588
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm.roothide.deb
-Size: 282146
-MD5sum: 046fadb47a2684c400354837659b1de2
-SHA1: 0443bdb4e18bdce9386c0381a7feadf0d9bee7f1
-SHA256: f3514d8d380ef9cf8be819d69ef314949895aa10c33ed2b3e3c739d55be8d5e5
+Size: 282144
+MD5sum: 094db62396d2b2b91560b7b748ed89a0
+SHA1: 197ae425d83a0ec364877484e01d57f4ffe3dbad
+SHA256: 50b92143b1de31c96f15311f4c4c144c3d12552f04546613e10f5e4256776e07
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -229,10 +608,10 @@ Maintainer: Junhong
 Installed-Size: 272
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/im.mjh.wclocate.deb
-Size: 35124
-MD5sum: 2093d4a684a48c3c8f68710d26ccc505
-SHA1: edc794d2ca372bf8592dcbdf5567201314a212cb
-SHA256: aacc542e7595f217a67ccf86ec4d9919bd623c61115245641063f7286b9d8b07
+Size: 35122
+MD5sum: 797ca49c7c2a9e83e15962ab55307ced
+SHA1: 5d5b46645ce4746d6ddd6430ed2cebdee13eb886
+SHA256: 2d7346f84b5105f988854afa542b1fb0e1bfd949cea3e45fbb24ffb41c74d41e
 Section: Tweaks
 Description: 微信虚拟定位 — 支持巨魔/越狱/证书自签，地图选点、地点搜索、拖拽定位、海拔伪装。开源地址：已在 github 开源，地址：https://github.com/11195666/wclocate
 Author: Junhong
@@ -241,46 +620,6 @@ Depiction: https://apt.mjh.im/depiction/web/im.mjh.wclocate.html
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json
 Icon: https://apt.mjh.im/assets/im.mjh.wclocate/icon.png
-
-Package: danmutool
-Version: 2.0.0
-Architecture: iphoneos-arm64
-Maintainer: Junhong <mail@mjh.im>
-Installed-Size: 952
-Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./pkg/danmutool.deb
-Size: 309024
-MD5sum: ea1bdb8b9337c396e512b04554c5c4a3
-SHA1: 3d397febf327b8627738a934e92e94519ba8f0a4
-SHA256: b47deb473d6eeaa8432745bad4286124b1373ecf9d1cc3d3790fc25d3dca76e6
-Section: Tweaks
-Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
-Author: Junhong <mail@mjh.im>
-Name: 弹幕助手
-Depiction: https://apt.mjh.im/depiction/web/danmutool.html
-SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.json
-ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.json
-Icon: https://apt.mjh.im/assets/danmutool/icon.png
-
-Package: danmutool.roothide
-Version: 2.0.0
-Architecture: iphoneos-arm64e
-Maintainer: Junhong <mail@mjh.im>
-Installed-Size: 968
-Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./pkg/danmutool.roothide.deb
-Size: 312352
-MD5sum: f0f2f554a85f8e2623b25bec90568e17
-SHA1: 4aea751744ce09c667a59bd3745588268bf68bc0
-SHA256: 1c5bc51629d44b3a8c33998e368da856bf6c78812885edd5a7a1a64fbec8943b
-Section: Tweaks
-Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
-Author: Junhong <mail@mjh.im>
-Name: 弹幕助手 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/danmutool.roothide.html
-SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json
-ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json
-Icon: https://apt.mjh.im/assets/danmutool.roothide/icon.png
 
 Package: im.mjh.xianyuadblock
 Version: 3.0.0
@@ -291,12 +630,12 @@ Depends: firmware (>=15.0), mobilesubstrate
 Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Filename: ./pkg/im.mjh.xianyuadblock.deb
-Size: 82542
-MD5sum: 9e8b896222364564ed9bcaa797f261a2
-SHA1: 4df6b7f7a25ae497161cbd1da71088377173ea2d
-SHA256: 3af6dd88273dc9de0c90bc7702d470383d8e973ae0e7b23bdc66243638c54084
+Size: 82862
+MD5sum: 2667ffcca1c890f6f0dac976843788c1
+SHA1: 9562654dc854fda6b4419699be50233823cba654
+SHA256: ba3fb287c6c9ad44c48b04d44f6a72123d600807d9b797ba7efb18e6b995f3d8
 Section: Tweaks
-Homepage: https://xianyu.goforit.si
+Homepage: https://xianyu.goforit.si/
 Description: 闲鱼广告与页面净化、自动普通擦亮、会员经验领取、原样编辑商品及按日期查看运行记录。
 Author: Junhong
 Name: 闲鱼助手
@@ -314,12 +653,12 @@ Depends: firmware (>=15.0), mobilesubstrate
 Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Filename: ./pkg/im.mjh.xianyuadblock.roothide.deb
-Size: 82304
-MD5sum: 5ecf02251f683a4b6a6fb31524f6a140
-SHA1: 5b66723c3a3fc5df4cf4eda4a46c48fdeb9744e0
-SHA256: fc55ef95a15083c2e1356057700b4b0d4b548eb3240a4b6404c5bcec3feee7fd
+Size: 82630
+MD5sum: 563a2ab326f6f587ced6f83b97342e04
+SHA1: eae100c6896e9abaf12ff386c790940c240e051c
+SHA256: 6dc66107410f4dd6b98eb05350df652a9044f35dc781d4db862279f10ea914ec
 Section: Tweaks
-Homepage: https://xianyu.goforit.si
+Homepage: https://xianyu.goforit.si/
 Description: 闲鱼广告与页面净化、自动普通擦亮、会员经验领取、原样编辑商品及按日期查看运行记录。
 Author: Junhong
 Name: 闲鱼助手 (Roothide)
@@ -327,83 +666,3 @@ Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
-
-Package: fanqiefn
-Version: 3.0.4
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 240
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/fanqiefn.deb
-Size: 29696
-MD5sum: c689abfd6327d431cc49d50ea668e48a
-SHA1: 672a1a247d162f6fcb3c529e11f072f2e2ccd7b3
-SHA256: 9f717dd3eff33531997d350cb9c494355543ce9bb9105ab762c138329d54c774
-Section: Tweaks
-Homepage: https://fanqie.goforit.si
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
-Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
-
-Package: fanqiefn.roothide
-Version: 3.0.4
-Architecture: iphoneos-arm64e
-Maintainer: Junhong
-Installed-Size: 240
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/fanqiefn.roothide.deb
-Size: 29688
-MD5sum: ca1d48a1142a526942d47f596fc04320
-SHA1: 63d206996256105cf5b0e669835e4c8230f88297
-SHA256: 16fcdefc1f69b1b7cd6369b8b2b3f28b2c9c07f284d3a1ae796a318b0dfc1923
-Section: Tweaks
-Homepage: https://fanqie.goforit.si
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
-Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
-
-Package: hongguofn
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 436
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/hongguofn_1.0.1_69e90b6695.deb
-Size: 79264
-MD5sum: e5307874e19bb665b8b53a80e54fc81c
-SHA1: 82a1e0f237d1c0545fbc339217080d1ea996931d
-SHA256: 69e90b6695fc7f08139391e522a27f1e5ad283892621133451bf9ade0b385424
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
-Name: 红果净化
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.html
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json
-Icon: https://apt.mjh.im/assets/hongguofn/icon.png
-
-Package: hongguofn.roothide
-Version: 1.0.1
-Architecture: iphoneos-arm64e
-Maintainer: Junhong
-Installed-Size: 436
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/hongguofn.roothide_1.0.1_a1af718a68.deb
-Size: 79332
-MD5sum: bbec161c67cb26fbd386e90c0b2f3f1e
-SHA1: 54e3aec34dd473a003554eb73606090d5faffe17
-SHA256: a1af718a6879f677330e1f50724e9448d7c349451d94cb0293ac207722b624ce
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
-Name: 红果净化 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
-Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
