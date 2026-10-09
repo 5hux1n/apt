@@ -5,10 +5,10 @@ Maintainer: Junhong <mail@mjh.im>
 Installed-Size: 952
 Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
 Filename: ./pkg/danmutool.deb
-Size: 309350
-MD5sum: c1ca1df00863345ba82058431c2feb3e
-SHA1: 0212565f6a491d9d8d3db95b4c76f77107f1e569
-SHA256: 5a48957f6fac5d6fdcf732eac25f710ac4b294b2703c80f31afca1c124bf2527
+Size: 309352
+MD5sum: 244ada587bffc9eb1cb268d508935977
+SHA1: c175e3926eb79797b881090cc8aea1c7b71afd5c
+SHA256: c3a3fb158ae0fa2cbf621d3782cc25588ff4d48b20414c1bdc0720b6795d1ad0
 Section: Tweaks
 Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
 Author: Junhong <mail@mjh.im>
@@ -25,10 +25,10 @@ Maintainer: Junhong <mail@mjh.im>
 Installed-Size: 968
 Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
 Filename: ./pkg/danmutool.roothide.deb
-Size: 312372
-MD5sum: 1137d98b54cf9a4279c36a50f6a1feab
-SHA1: 71815f9264a08f16df115938983a7f011e0e5ff6
-SHA256: 59dde85eff00a9be1c80bbb6cce3a2d2893045fb126127f5db0a3e4b464a8645
+Size: 312376
+MD5sum: f4327634a3e6365f1af747b9de50a7c9
+SHA1: b1ebaffae3842c6be5be3f0c70f138d6689b2b02
+SHA256: dcbce5b78c4b85cfb2378463536c43fa8b50560601724d651f19e5828600ef5c
 Section: Tweaks
 Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
 Author: Junhong <mail@mjh.im>
@@ -46,9 +46,9 @@ Installed-Size: 168
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn_2.0.0_iphoneos-arm64.deb
 Size: 5626
-MD5sum: 80219203d4c390b66d65b66d8fce945b
-SHA1: c21e6fbc3804bed8479da250602b54cab09a7f20
-SHA256: a8f1b54e826ab8cf6cfe19b592695cc0b5ad5849356c249d16faac5b34c0c7cb
+MD5sum: ff9dd8128c4a5d153ce0918a7b3904a6
+SHA1: 6053b8a9ab6cacb946ba1ebbd5b104d5d11596e3
+SHA256: 61a4bcf423fccedee93433521b2dffbce5109e2879880204bce636eba82d3e57
 Section: Tweaks
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
 Name: 番茄净化
@@ -65,9 +65,9 @@ Installed-Size: 204
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn_3.0.0_iphoneos-arm64.deb
 Size: 21090
-MD5sum: beefdb817673ec7653f537de621f3cbc
-SHA1: 9378a362c9a6a7b004e739fa589ac629c87ca9ab
-SHA256: ebd88597ac709263e1132e59d8ac078240908275fba604a1c103ba0aad029660
+MD5sum: 7bcd63a217f0acb7141bcb1087f63330
+SHA1: 38dc6cf0e6db0849bb116704e4b7baa277d9fb1f
+SHA256: 27c902138a77f112002c446f0c5de6e3c7133a91ba2e565d0beece39e80b7897
 Section: Tweaks
 Homepage: https://fanqie.goforit.si/
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
@@ -84,10 +84,10 @@ Maintainer: Junhong
 Installed-Size: 204
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn_3.0.1_iphoneos-arm64.deb
-Size: 23674
-MD5sum: 9ed6d145e03468ffb00ac5064d60d440
-SHA1: 837ac0b3ea59d98598dfbe479b40812a1ba03ec2
-SHA256: 038d90d38e21b457f815e465046d73e7d5507aa2b34c9023f82887b3e6a4ede7
+Size: 23676
+MD5sum: d81a967c33130cc7a745ca8f7a8484f3
+SHA1: e6a9258345f65f9ffb828b0125155a99ec33545e
+SHA256: 5c3170fd7abb79b1b74895b9f4ed4350e80d4c561b4853396efe9925bc2964ce
 Section: Tweaks
 Homepage: https://fanqie.goforit.si/
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
@@ -104,10 +104,10 @@ Maintainer: Junhong
 Installed-Size: 240
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn_3.0.2_iphoneos-arm64.deb
-Size: 26216
-MD5sum: c501f1d32b2c60bfb4d300f7739f6929
-SHA1: 6f53512e9d2167942012ca46b1c5ca95b7309eb2
-SHA256: fd081c44f88a1b5b6adb8a4fdb2b88106c26d49593db5be833f39e777a5a5ad2
+Size: 26214
+MD5sum: 9713368ad822d805fea1c3bbf3ab43c1
+SHA1: 1d89883fbbf48c1596ec9e7be9959715b3c7b863
+SHA256: 63d2d6696cf6fd1792195ab8ae1fa80a6668457457d079b4dac4615bea325038
 Section: Tweaks
 Homepage: https://fanqie.goforit.si/
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
@@ -125,9 +125,9 @@ Installed-Size: 240
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn_3.0.3_iphoneos-arm64.deb
 Size: 28966
-MD5sum: ef0b2ec2e39d9d52539edbf4db31375f
-SHA1: 4004d7090d95b92395fc04c91722e616eb09a84a
-SHA256: 66573b87d63eb4c4804c1eba3b63f5c61cfd386af28ebf531f6023f8328c663e
+MD5sum: bce495a4fd0ac4a3eba5c2be0b770320
+SHA1: cba399e3563b5713ebfc6998320c92d0a6f15661
+SHA256: 2ad8369574ee82ede19809c922a388d585ad4f912b78b675cce8abbf47a8f6a1
 Section: Tweaks
 Homepage: https://fanqie.goforit.si/
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
@@ -145,9 +145,9 @@ Installed-Size: 240
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn.deb
 Size: 29934
-MD5sum: cca22976d6ce986ed838a9aed41f36a1
-SHA1: 556e831f7ea6976b1278dc96878b3bc21296569b
-SHA256: 7519b21dba761d65986dcbe9430bd9468e3a983fbe4505eba58c442bd266d300
+MD5sum: 15fd1e97c548af750910d254ee7eae60
+SHA1: fa317f8c7d6ca7ab6adfad5a4d9df8d2395d1335
+SHA256: 4bb5f059020d0f782a4674f9bd7be8c7fd34aecab18f188168de838c5c891718
 Section: Tweaks
 Homepage: https://fanqie.goforit.si/
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
@@ -164,10 +164,10 @@ Maintainer: Junhong
 Installed-Size: 204
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn.roothide_3.0.0_iphoneos-arm64e.deb
-Size: 21076
-MD5sum: d44abb67bee1990ee0317af2340ffa87
-SHA1: d231b4ec0a47f4bcf35fca25baa7f48a5fca02f9
-SHA256: 9a7d61335713bc11649e0adaab7fdb6495a5311739b1ff0df36c22ae037949f7
+Size: 21070
+MD5sum: 447778e4cb7cd46a4b0cf083af7180c5
+SHA1: 5f88a6ff76339ec6b4964f76d4ce982ade5ecc22
+SHA256: a6ba0a05bfd9c713feb189b9f2efa0a54d0ef816bcb66cdd26a2042f2f69daaa
 Section: Tweaks
 Homepage: https://fanqie.goforit.si/
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
@@ -184,10 +184,10 @@ Maintainer: Junhong
 Installed-Size: 204
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn.roothide_3.0.1_iphoneos-arm64e.deb
-Size: 23638
-MD5sum: 7529b4d73ce32990dc90c4b649c9958c
-SHA1: 734c506aaac8a866b917438e9350900cc038b503
-SHA256: da2d6e50201c58f7e104987baca41cd5c5213fb07b88ca79f3c3107c3fd5ec91
+Size: 23636
+MD5sum: 19e8e87bb6677e09318a186049034052
+SHA1: dcca5828b327e1c97b1792fbc19a84454427d49c
+SHA256: d06cd76b77715c77418f255724ee5ed25199b559c5c1d08ce4ef4f681c45b0a9
 Section: Tweaks
 Homepage: https://fanqie.goforit.si/
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
@@ -204,10 +204,10 @@ Maintainer: Junhong
 Installed-Size: 240
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn.roothide_3.0.2_iphoneos-arm64e.deb
-Size: 26192
-MD5sum: 9174250325b2ef289139311022340c99
-SHA1: 757eb74f09fccf4d587c079c7301ccf4f1818a84
-SHA256: 1627a4fc658dc038db737319c625bd1ed54f8a715bfb0eba61cbd6ea766da809
+Size: 26190
+MD5sum: 8aa725dde76eab1fe84c1bc8d3f9f0b8
+SHA1: a40d68fb2a995d5ef2ce9848108f0188c3c2c684
+SHA256: 73a18ee102fe44af7d0f0fa37729865204f32ab35b69dd778d8032beaccc47db
 Section: Tweaks
 Homepage: https://fanqie.goforit.si/
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
@@ -224,10 +224,10 @@ Maintainer: Junhong
 Installed-Size: 240
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn.roothide_3.0.3_iphoneos-arm64e.deb
-Size: 28934
-MD5sum: cc5c25254a4e8fc975f481c1806c6f0f
-SHA1: 70360fdd5d8d1a8fce4cf58a0a015e24314b9863
-SHA256: 283fa79dbe107c0217b65919c7e2b5965c47e02fe3ff24835e26adce0f3b3127
+Size: 28924
+MD5sum: 1b8d576672cb5d25bcdaf6f5b731a476
+SHA1: 410235a612c16e4753f7a3ed1be49a538f1f38ba
+SHA256: e16edbf6ce6a8ae4affc2f9f9ef525c69069514a43c2c5f09f6785842d27ba90
 Section: Tweaks
 Homepage: https://fanqie.goforit.si/
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
@@ -244,10 +244,10 @@ Maintainer: Junhong
 Installed-Size: 240
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn.roothide.deb
-Size: 29938
-MD5sum: 922278585f7296550debd3a803b6894f
-SHA1: 2a8a7f4a59c5e4f0d317e155832895831539c055
-SHA256: e3b47b833e76b6252a1a1fdb516df1d3a1e144a5ee029e2f536e479fcc56b90d
+Size: 29936
+MD5sum: 26ff7dcddff2f010c93faec4e7523026
+SHA1: a70809696ac702eadcafa9457c5ad96cce6ca677
+SHA256: cd9de8e845c91e7752a9961e6ce43dce99d405e7b62be6fc76662eb8cacbb888
 Section: Tweaks
 Homepage: https://fanqie.goforit.si/
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
@@ -284,10 +284,10 @@ Maintainer: Junhong
 Installed-Size: 436
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/hongguofn.deb
-Size: 79562
-MD5sum: 7e853c50516dc0d1cdb293533583c3cb
-SHA1: 0dea99fc383ff0062c98dc09a7ccf7fad4dd52f9
-SHA256: f16f7691f1349f352d5f2c9633f488d18c4e17dae7bdbfcd80740007683e924a
+Size: 79564
+MD5sum: b5ee20c3955390604d0a9829f6fdf0c4
+SHA1: 019cd165e7b9cd198295e33c66572547478c75c9
+SHA256: 2d67e8ffa5096d70f21cff9b17aa67853413e4159912c95cde931ffb229cb9d9
 Section: Tweaks
 Homepage: https://hongguo.goforit.si/
 Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
@@ -304,10 +304,10 @@ Maintainer: Junhong
 Installed-Size: 436
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/hongguofn.roothide.deb
-Size: 79638
-MD5sum: e288e3da4269bb310d19793d905e121f
-SHA1: b96be53d4aeacea234ffe834f74feee95208e3dc
-SHA256: 90d3b7a3355c9b568fc214544f8f1398c94e8c86b82c8049c85ad1200531d670
+Size: 79636
+MD5sum: f195831451db58d5de2d58a31604a8cb
+SHA1: 6358e40b22eade7b6a242a5c8883a3b7b7f8cf0a
+SHA256: 65942f20169b260de396112e41e96c023ecc678c4b7c61707160f75ec394aa0a
 Section: Tweaks
 Homepage: https://hongguo.goforit.si/
 Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
@@ -343,31 +343,11 @@ Architecture: iphoneos-arm64
 Maintainer: Junhong
 Installed-Size: 204
 Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/hypicfix_1.0.0_arm64.deb
-Size: 17310
-MD5sum: ea656e2b6c940cbeb8d492780b0cb554
-SHA1: e02e20b701fd579c6cbcf57f88adab49bd84dbd2
-SHA256: 7b6b58d3ef2e6f045cdf5f13b26e0115fccf22d57299c97230f47e6d50178218
-Section: Tweaks
-Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
-Author: Junhong
-Name: 醒图国际版修复工具
-Depiction: https://apt.mjh.im/depiction/web/hypicfix.html
-SileoDepiction: https://apt.mjh.im/depiction/native/hypicfix.json
-ModernDepiction: https://apt.mjh.im/depiction/native/hypicfix.json
-Icon: https://apt.mjh.im/assets/hypicfix/icon.png
-
-Package: hypicfix
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 204
-Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/hypicfix.deb
-Size: 17422
-MD5sum: 5b25701d58f91e2d6a363d62c0466988
-SHA1: 977751cdcc635e48ba51c13c9fbd160c29bbef8c
-SHA256: f7a3b6696fb2bcc5fdee429a4d2e8b16c7fe85ac61ecaf9cb482ed6513c070e8
+Size: 17362
+MD5sum: 08a113576b4987ac3ef107d88f4a8ff0
+SHA1: 116b9886b3a44490316c2186aba9a7455c4f5f8e
+SHA256: 847c50dcb811c60e59654c4812f4985cf1b6b706d18f33287e7cae72cc722c55
 Section: Tweaks
 Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
 Author: Junhong
@@ -383,31 +363,11 @@ Architecture: iphoneos-arm64e
 Maintainer: Junhong
 Installed-Size: 204
 Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/hypicfix_1.0.0_arm64e.deb
-Size: 17322
-MD5sum: 88e107ba8bb59356432d71d43a780034
-SHA1: 18660f1312866259afabfcfaeebf280fe162eba0
-SHA256: 0bd288aa778b0e8f9883671832da97ce9948a9804ab52dee4988333f7b05e98c
-Section: Tweaks
-Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
-Author: Junhong
-Name: 醒图国际版修复工具 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/hypicfix.roothide.html
-SileoDepiction: https://apt.mjh.im/depiction/native/hypicfix.roothide.json
-ModernDepiction: https://apt.mjh.im/depiction/native/hypicfix.roothide.json
-Icon: https://apt.mjh.im/assets/hypicfix.roothide/icon.png
-
-Package: hypicfix.roothide
-Version: 1.0.1
-Architecture: iphoneos-arm64e
-Maintainer: Junhong
-Installed-Size: 204
-Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/hypicfix.roothide.deb
-Size: 17274
-MD5sum: d7caf0d0c38507e899289b6917ec1bf1
-SHA1: 0842c3f67aa97cc8f1d3e9b9c761dc253b9ddec1
-SHA256: a2c0f4d3b7fd16c8851b31dc91f255810ee75e1a101dbc5ab4d1feb262acec7f
+Size: 17276
+MD5sum: c71b20ada5ee8e665ccbffeefaabb5fe
+SHA1: 42b383b40d1d8228f32c8b48858fdf3a383494d3
+SHA256: bd0fcbe26790e423235cbead292d045c109fa85860d029449c8c52740e397f21
 Section: Tweaks
 Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
 Author: Junhong
@@ -427,9 +387,9 @@ Conflicts: com.yourname.alipaynfcredirect
 Replaces: com.yourname.alipaynfcredirect
 Filename: ./pkg/im.mjh.alipay2nfc.deb
 Size: 22864
-MD5sum: 4c9536fa901eb693aa2855ffe67b97b8
-SHA1: c2039e420ee211948868dc8949a83c05bc676ac5
-SHA256: a7e46307ae89b5e19c3b619e389a1029064bb8eb8b0716f9ce85a0336577641a
+MD5sum: de94eed8e015ff62c18a34a16dcd5f74
+SHA1: 5a3abf2f7b4c03dfae0cd484b5526eb6e3fa8f64
+SHA256: fc7dc40c3a5546fa278de6f08ab69145af205b4f9467a7a646489e54bf491fb3
 Section: Tweaks
 Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
 Author: Junhong
@@ -448,10 +408,10 @@ Depends: firmware (>=14.0), preferenceloader
 Conflicts: com.yourname.alipaynfcredirect
 Replaces: com.yourname.alipaynfcredirect
 Filename: ./pkg/im.mjh.alipay2nfc.roothide.deb
-Size: 22882
-MD5sum: 4f93f58185f27bbfdd73cec955a8f660
-SHA1: 7fcc8783a4cbe15a445d1fa34af7ceaf8f9b57ce
-SHA256: 5189cf63296d1cd0274f917d78de75a28a6b9dc6232fd19565b3b6bb4101913e
+Size: 22880
+MD5sum: bb360395cc75dfdbac778145902bf7fc
+SHA1: 56b53e9e5ff55f2e83d03058074c3bfd77f7cfbe
+SHA256: 3637918ba98c3fdaddc4cd7ec9f61443522f0fa210c5aa16295fba8c02edcd62
 Section: Tweaks
 Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
 Author: Junhong
@@ -468,10 +428,10 @@ Maintainer: Junhong
 Installed-Size: 1452
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.3.0_iphoneos-arm64.deb
-Size: 258152
-MD5sum: e1909efad3265bfedd98bc14f2a05225
-SHA1: dcf058248ea8da6c99cd5eed9afc8a793443106e
-SHA256: 1b823bea37db93175501088062240a0637dc886b47e039698fcc2ff392f8e05d
+Size: 258156
+MD5sum: 0b636f870e5642762b6adbecc065d7f4
+SHA1: db66dad65d02207aa57e71bc74e8bfafcf329cad
+SHA256: b8676d675e4141f57b0cb6d2301ec150121b2f95d0fcc51ec1114209a64c4256
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -488,10 +448,10 @@ Maintainer: Junhong
 Installed-Size: 1520
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.5.0_iphoneos-arm64.deb
-Size: 265234
-MD5sum: 0c17eef6e763b5d40726735a9d986673
-SHA1: 52b48a9b05d85094dd70a8e2a24ad009c3529820
-SHA256: 1ca7db1718908babf8ff0b80eea338812013ca3581b7410ef6ef58a6d9aec7da
+Size: 265240
+MD5sum: 5153f1ae0d833003785270f221930955
+SHA1: e200778ea56370343a611b0aee58d2da386f75a9
+SHA256: a13833251ca486bc08a5dc0b91cb0e22cc640e80064ed917567b315829ce704c
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -508,10 +468,10 @@ Maintainer: Junhong
 Installed-Size: 1520
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.6.0_iphoneos-arm64.deb
-Size: 266002
-MD5sum: 84cb70a6e1903986215b3cc5b5180014
-SHA1: 217f72365ba01747c9101a6a18180a261ce05399
-SHA256: 2954cc31d6e7ccbe4ef83420fbd8ec68442c822ebafa08cf28c971718824b642
+Size: 266004
+MD5sum: 3bdb6c435b5efc8d7f0c4f17f02888df
+SHA1: 9849d816c1d2aaa4201a990a1b257aa092d125fa
+SHA256: 9ab70ada3a4853401d0fa023075360f6dd35b06a61f5632843f8f24ead163272
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -529,9 +489,9 @@ Installed-Size: 1588
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.7.0_iphoneos-arm64.deb
 Size: 277668
-MD5sum: e8a21c47c05a2602558c183c8e3ee491
-SHA1: 0d34858442ebd5dd40531dafe96e204200e4c1b1
-SHA256: 63cb796144cc856a603f176dbffa26a3091ed55007c390e8951ce17d23c29844
+MD5sum: 0522ff522e5c0563ea2163b8df152b00
+SHA1: db7d66ef3ec408f910c92e4ccd7387fa2dacad80
+SHA256: f0051e65717f2f65070efa9c7fda9d08cb81fae2610b242894810729165789d4
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -548,10 +508,10 @@ Maintainer: Junhong
 Installed-Size: 1588
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.7.1_iphoneos-arm64.deb
-Size: 276360
-MD5sum: ef0a5bfb9ad2678bd18d7db77d9a8455
-SHA1: 50190144bf573fc7706f419bdfb6da931d76529f
-SHA256: fe92f17f02917716e0bd076acce7cbed8134e4780c59fa94c5e840b099483c5f
+Size: 276364
+MD5sum: 93481ab7153eaac4ce2661db37e650b7
+SHA1: 89aac637a5b9b277b8b4d635ce59c0a91bb2bb07
+SHA256: 1828e28a17722d6ffd7669ef7211eb024482e74e218c05cfe68aa9bd7d352567
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -568,10 +528,10 @@ Maintainer: Junhong
 Installed-Size: 1588
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm.deb
-Size: 282262
-MD5sum: 9b3cc51dde4f83370a64e2218f61308b
-SHA1: 066210b3ea7b709635ebdc8e2caa5503b70391d7
-SHA256: d891fa3669ea8eb22be60f0ecbbc1c2aa3c7f76049ac5eb64ea6fe6b5f2f9296
+Size: 282264
+MD5sum: 892b47eb2899e6a2b3dcb98ea1151575
+SHA1: 42a697c901436fba4348bd52588e42fd5fb96ecc
+SHA256: 7ced0ca6b174505d49133fc72601238d13f4b20f2fc270dfb1f728872761aa02
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -588,10 +548,10 @@ Maintainer: Junhong
 Installed-Size: 1588
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.7.0_iphoneos-arm64e.deb
-Size: 277756
-MD5sum: c0363568bad9986140327f48e58736bb
-SHA1: edd183c41c5d506bc50faa0ba462a0c8a1035a5a
-SHA256: 17b78ac61c6d6f7dd56d6043fc3c0155f0cc0a4c7cb2b49b95fba8649db9941e
+Size: 277752
+MD5sum: 854834f7dce516304a18b264704cd01f
+SHA1: 35078bbf1b66c58b32b3a1c7f5c3d1e126cc55e4
+SHA256: 6d0b12addfad813dc0d7916a5d7334c7379bcb3b4da281ee7f015de1562b9a26
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -609,9 +569,9 @@ Installed-Size: 1588
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm_8.7.1_iphoneos-arm64e.deb
 Size: 276268
-MD5sum: 1a106785f275b30c61bb760ae033cc3b
-SHA1: 2d326341562a15f60a552e7bb488554a73027029
-SHA256: 03536e6d555c234455895c2c73d4bbf9e43530ec73349b00f414db9a49a8a8ae
+MD5sum: 78258d5e2b4ac27e60792336d3c114f3
+SHA1: 1193a732c427445e5180be9a9d2d75a9328eb169
+SHA256: 108e83d71c492974a089a0bd92266e54defe0d4dac5e493ec395c47b1498fad2
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -629,9 +589,9 @@ Installed-Size: 1588
 Depends: firmware (>=15.0), preferenceloader
 Filename: ./pkg/im.mjh.fakeperm.roothide.deb
 Size: 282146
-MD5sum: f32762ffc067cd0122947800a0ce9b4f
-SHA1: 84f472a214088a983530faf7d6a24b5ecca987f4
-SHA256: 853f879de9fb35411c78cdd8a482699762847eed6cb0680d41a008b1a6f982da
+MD5sum: df05845d523fce7e81aedf248d7dfe28
+SHA1: dc29bd1beeed78196d41565724fa7b6e012bec9e
+SHA256: 339e00dc705e98bc74ba0bab16540ee77a097dcd613df27751513abe937ffd2f
 Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
@@ -648,10 +608,10 @@ Maintainer: Junhong
 Installed-Size: 272
 Depends: firmware (>=15.0), mobilesubstrate
 Filename: ./pkg/im.mjh.wclocate.deb
-Size: 35124
-MD5sum: a65fda3d643d434f359cb67074304319
-SHA1: 909b20275f9e475bce631e598b16c4d78e9f1e30
-SHA256: 11846c7a7146d11ff4faf0abfb2389568252830e78c75d4fa2b07a28acff8059
+Size: 35122
+MD5sum: 417f12a6b514e7db71a3d7b4a444cb2d
+SHA1: 15c024aa039f67e127bd6d8420565330334b61ac
+SHA256: 8927f501de4d458264094f89b0a7c03a95511a037c6bf9f18dd755c400172625
 Section: Tweaks
 Description: 微信虚拟定位 — 支持巨魔/越狱/证书自签，地图选点、地点搜索、拖拽定位、海拔伪装。开源地址：已在 github 开源，地址：https://github.com/11195666/wclocate
 Author: Junhong
@@ -671,9 +631,9 @@ Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Filename: ./pkg/im.mjh.xianyuadblock.deb
 Size: 82860
-MD5sum: b84dd5562f915aedb186922742eb910c
-SHA1: 1e98e0424f5ca840eb71acb2e79104a5863565ea
-SHA256: 972c04e789ebc07b537053057d4f3ebc24673aad93b86b71f03278be4c49e162
+MD5sum: aa54b4c1f488707937f1311dc37b37d7
+SHA1: ab32495a024abd8452b4cbc795022f121c10578f
+SHA256: 73b635de04a813c9dcd81659c693727ce7cd0cc223ea27c6741364c706c542df
 Section: Tweaks
 Homepage: https://xianyu.goforit.si/
 Description: 闲鱼广告与页面净化、自动普通擦亮、会员经验领取、原样编辑商品及按日期查看运行记录。
@@ -693,10 +653,10 @@ Depends: firmware (>=15.0), mobilesubstrate
 Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Filename: ./pkg/im.mjh.xianyuadblock.roothide.deb
-Size: 82626
-MD5sum: 276e6f4d417d0af7cf5b3277040e25de
-SHA1: 8882afe1d718d76be0ef1653b8afe134d94f3592
-SHA256: d7f746aa7f0888ecbd066fa6a9f2b276e2332d27f16adb8e1b99a89c168d1844
+Size: 82628
+MD5sum: ecdfa34c863a2be592780f521b91ffa2
+SHA1: df30ac0eebc0fb3445ace8715bcdf79fd6f8d373
+SHA256: 7fd9845b8d026e22243a74a50eff3a638d4598996f9ae79c7549d5390c08a96b
 Section: Tweaks
 Homepage: https://xianyu.goforit.si/
 Description: 闲鱼广告与页面净化、自动普通擦亮、会员经验领取、原样编辑商品及按日期查看运行记录。
