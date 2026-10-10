@@ -666,3 +666,43 @@ Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
+
+Package: im.mjh.fakenotify
+Name: FakeNotify
+Description: 一款模拟通知插件，允许配置多个通知任务，原生通知方案，支持通知栏、锁屏页面显示。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 584
+Filename: ./pkg/FakeNotify_1.0.0_arm64.deb
+Size: 77428
+MD5sum: 9dc1241e46c27a7552db030c7d46449f
+SHA1: 4f4bc560db488e84fe67dcb235cc46927b699c47
+SHA256: 815ccd7477dde7de504a9bdfaac16d95f4c49246816a0477d946abb68c5c6883
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakenotify.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.json
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.json
+Icon: https://apt.mjh.im/assets/im.mjh.fakenotify/icon.png
+
+Package: im.mjh.fakenotify
+Name: FakeNotify
+Description: 一款模拟通知插件，允许配置多个通知任务，原生通知方案，支持通知栏、锁屏页面显示。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 588
+Filename: ./pkg/FakeNotify_1.0.0_arm64e.deb
+Size: 76510
+MD5sum: 8e47b7138191f6f238053e7ed631aacf
+SHA1: ba7d1779a18465a8efab992a0ae2709542313e2d
+SHA256: 9e580b09011a50c2c1d0dd6a6cbd1875b07734c2c46a677e63a8463d1af41627
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakenotify.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.json
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.json
+Icon: https://apt.mjh.im/assets/im.mjh.fakenotify/icon.png
