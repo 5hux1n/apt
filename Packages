@@ -415,7 +415,7 @@ Version: 1.0.3
 Architecture: iphoneos-arm64
 Maintainer: Junhong
 Installed-Size: 552
-Depends: firmware (>=15.0), mobilesubstrate
+Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./pkg/hongguofn_1.0.3_b55cb13b30.deb
 Size: 102750
 MD5sum: afbfffa99b8b3b20ca7337e4ee29058d
@@ -435,7 +435,7 @@ Version: 1.0.3
 Architecture: iphoneos-arm64e
 Maintainer: Junhong
 Installed-Size: 552
-Depends: firmware (>=15.0), mobilesubstrate
+Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./pkg/hongguofn.roothide_1.0.3_ef771ac8e3.deb
 Size: 102858
 MD5sum: 321868f0fbc6651cf4a9c8f487b2973f
@@ -455,7 +455,7 @@ Version: 3.0.5
 Architecture: iphoneos-arm64
 Maintainer: Junhong
 Installed-Size: 240
-Depends: firmware (>=15.0), mobilesubstrate
+Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn.deb
 Size: 30454
 MD5sum: ab384b00621c1c40e36997181ea4dcd1
@@ -475,7 +475,7 @@ Version: 3.0.5
 Architecture: iphoneos-arm64e
 Maintainer: Junhong
 Installed-Size: 240
-Depends: firmware (>=15.0), mobilesubstrate
+Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./pkg/fanqiefn.roothide.deb
 Size: 30404
 MD5sum: 1439464a274006b6ec5dceef3f446288
