@@ -635,11 +635,11 @@ Architecture: iphoneos-arm64
 Maintainer: Junhong
 Installed-Size: 552
 Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/hongguofn_1.0.3_fa276e9d6a.deb
-Size: 101896
-MD5sum: 4e1b9246355337d69e789f0ee5bced94
-SHA1: 5a3a6a3d7f4b2bcf91b09f3e194a613799d88ffb
-SHA256: fa276e9d6ad24abc7816f86f6ec6b690657f0d966f35ee32177d55f812fbe188
+Filename: ./pkg/hongguofn_1.0.3_27d988d421.deb
+Size: 102592
+MD5sum: 530cbb5760908f6eaeea3e17b5a48a2c
+SHA1: 17f26f257c1c81a398982d878ce7d43b1829a63c
+SHA256: 27d988d421b1fa5ad2c5fba70164e229a47b935c5ccfd90e87a4492a03045d05
 Section: Tweaks
 Homepage: https://hongguo.goforit.si
 Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
@@ -655,11 +655,11 @@ Architecture: iphoneos-arm64e
 Maintainer: Junhong
 Installed-Size: 552
 Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/hongguofn.roothide_1.0.3_3717607e7b.deb
-Size: 101910
-MD5sum: 284599a5af512b915f4eb119e26f800c
-SHA1: 5764af166f194e2e4b98b8a8cc31e4836e28ead2
-SHA256: 3717607e7b2b83c77f4de7bbeecd36a4cb0c4d8acb125be4e86c046cdedc92ab
+Filename: ./pkg/hongguofn.roothide_1.0.3_bdf7e482c9.deb
+Size: 102498
+MD5sum: 042c4b7e899ce2ce71fc07223c86809d
+SHA1: 37751dcf94e8394cb52067afe9b0a6cd3d441e3e
+SHA256: bdf7e482c91cf508312c16d9b2273f643044ee3678cabd5cfabeb7e4f11c1fc4
 Section: Tweaks
 Homepage: https://hongguo.goforit.si
 Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
