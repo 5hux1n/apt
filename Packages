@@ -38,225 +38,6 @@ SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json
 ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json
 Icon: https://apt.mjh.im/assets/danmutool.roothide/icon.png
 
-Package: fanqiefn
-Version: 2.0.0
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 168
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/fanqiefn_2.0.0_iphoneos-arm64.deb
-Size: 5626
-MD5sum: ff9dd8128c4a5d153ce0918a7b3904a6
-SHA1: 6053b8a9ab6cacb946ba1ebbd5b104d5d11596e3
-SHA256: 61a4bcf423fccedee93433521b2dffbce5109e2879880204bce636eba82d3e57
-Section: Tweaks
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
-Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
-
-Package: fanqiefn
-Version: 3.0.0
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 204
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/fanqiefn_3.0.0_iphoneos-arm64.deb
-Size: 21090
-MD5sum: 7bcd63a217f0acb7141bcb1087f63330
-SHA1: 38dc6cf0e6db0849bb116704e4b7baa277d9fb1f
-SHA256: 27c902138a77f112002c446f0c5de6e3c7133a91ba2e565d0beece39e80b7897
-Section: Tweaks
-Homepage: https://fanqie.goforit.si/
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
-Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
-
-Package: fanqiefn
-Version: 3.0.1
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 204
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/fanqiefn_3.0.1_iphoneos-arm64.deb
-Size: 23676
-MD5sum: d81a967c33130cc7a745ca8f7a8484f3
-SHA1: e6a9258345f65f9ffb828b0125155a99ec33545e
-SHA256: 5c3170fd7abb79b1b74895b9f4ed4350e80d4c561b4853396efe9925bc2964ce
-Section: Tweaks
-Homepage: https://fanqie.goforit.si/
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
-Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
-
-Package: fanqiefn
-Version: 3.0.2
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 240
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/fanqiefn_3.0.2_iphoneos-arm64.deb
-Size: 26214
-MD5sum: 9713368ad822d805fea1c3bbf3ab43c1
-SHA1: 1d89883fbbf48c1596ec9e7be9959715b3c7b863
-SHA256: 63d2d6696cf6fd1792195ab8ae1fa80a6668457457d079b4dac4615bea325038
-Section: Tweaks
-Homepage: https://fanqie.goforit.si/
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
-Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
-
-Package: fanqiefn
-Version: 3.0.3
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 240
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/fanqiefn_3.0.3_iphoneos-arm64.deb
-Size: 28966
-MD5sum: bce495a4fd0ac4a3eba5c2be0b770320
-SHA1: cba399e3563b5713ebfc6998320c92d0a6f15661
-SHA256: 2ad8369574ee82ede19809c922a388d585ad4f912b78b675cce8abbf47a8f6a1
-Section: Tweaks
-Homepage: https://fanqie.goforit.si/
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
-Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
-
-Package: fanqiefn
-Version: 3.0.4
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 240
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/fanqiefn.deb
-Size: 29934
-MD5sum: 15fd1e97c548af750910d254ee7eae60
-SHA1: fa317f8c7d6ca7ab6adfad5a4d9df8d2395d1335
-SHA256: 4bb5f059020d0f782a4674f9bd7be8c7fd34aecab18f188168de838c5c891718
-Section: Tweaks
-Homepage: https://fanqie.goforit.si/
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
-Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
-
-Package: fanqiefn.roothide
-Version: 3.0.0
-Architecture: iphoneos-arm64e
-Maintainer: Junhong
-Installed-Size: 204
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/fanqiefn.roothide_3.0.0_iphoneos-arm64e.deb
-Size: 21070
-MD5sum: 447778e4cb7cd46a4b0cf083af7180c5
-SHA1: 5f88a6ff76339ec6b4964f76d4ce982ade5ecc22
-SHA256: a6ba0a05bfd9c713feb189b9f2efa0a54d0ef816bcb66cdd26a2042f2f69daaa
-Section: Tweaks
-Homepage: https://fanqie.goforit.si/
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
-Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
-
-Package: fanqiefn.roothide
-Version: 3.0.1
-Architecture: iphoneos-arm64e
-Maintainer: Junhong
-Installed-Size: 204
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/fanqiefn.roothide_3.0.1_iphoneos-arm64e.deb
-Size: 23636
-MD5sum: 19e8e87bb6677e09318a186049034052
-SHA1: dcca5828b327e1c97b1792fbc19a84454427d49c
-SHA256: d06cd76b77715c77418f255724ee5ed25199b559c5c1d08ce4ef4f681c45b0a9
-Section: Tweaks
-Homepage: https://fanqie.goforit.si/
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
-Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
-
-Package: fanqiefn.roothide
-Version: 3.0.2
-Architecture: iphoneos-arm64e
-Maintainer: Junhong
-Installed-Size: 240
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/fanqiefn.roothide_3.0.2_iphoneos-arm64e.deb
-Size: 26190
-MD5sum: 8aa725dde76eab1fe84c1bc8d3f9f0b8
-SHA1: a40d68fb2a995d5ef2ce9848108f0188c3c2c684
-SHA256: 73a18ee102fe44af7d0f0fa37729865204f32ab35b69dd778d8032beaccc47db
-Section: Tweaks
-Homepage: https://fanqie.goforit.si/
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
-Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
-
-Package: fanqiefn.roothide
-Version: 3.0.3
-Architecture: iphoneos-arm64e
-Maintainer: Junhong
-Installed-Size: 240
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/fanqiefn.roothide_3.0.3_iphoneos-arm64e.deb
-Size: 28924
-MD5sum: 1b8d576672cb5d25bcdaf6f5b731a476
-SHA1: 410235a612c16e4753f7a3ed1be49a538f1f38ba
-SHA256: e16edbf6ce6a8ae4affc2f9f9ef525c69069514a43c2c5f09f6785842d27ba90
-Section: Tweaks
-Homepage: https://fanqie.goforit.si/
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
-Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
-
-Package: fanqiefn.roothide
-Version: 3.0.4
-Architecture: iphoneos-arm64e
-Maintainer: Junhong
-Installed-Size: 240
-Depends: firmware (>=15.0), mobilesubstrate
-Filename: ./pkg/fanqiefn.roothide.deb
-Size: 29936
-MD5sum: 26ff7dcddff2f010c93faec4e7523026
-SHA1: a70809696ac702eadcafa9457c5ad96cce6ca677
-SHA256: cd9de8e845c91e7752a9961e6ce43dce99d405e7b62be6fc76662eb8cacbb888
-Section: Tweaks
-Homepage: https://fanqie.goforit.si/
-Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
-Name: 番茄净化 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
-Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
-
 Package: hypicfix
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -668,3 +449,43 @@ Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html
 SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
 ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
 Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
+
+Package: fanqiefn
+Version: 3.0.5
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 240
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/fanqiefn.deb
+Size: 30454
+MD5sum: ab384b00621c1c40e36997181ea4dcd1
+SHA1: 3865a99bcbc0d63d8ed8d4be47c40de641c6cb26
+SHA256: ba8b095fc9f13c3caf304849ca75e203941601e1858dac7f97d194b396810932
+Section: Tweaks
+Homepage: https://fanqie.goforit.si
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json
+Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
+
+Package: fanqiefn.roothide
+Version: 3.0.5
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 240
+Depends: firmware (>=15.0), mobilesubstrate
+Filename: ./pkg/fanqiefn.roothide.deb
+Size: 30404
+MD5sum: 1439464a274006b6ec5dceef3f446288
+SHA1: ac5698b8c079172ebff968e3f07db28923c9894e
+SHA256: 3258077b9e8d31924ef2e206e5e1f3ff4a1bf01aafab1353ef25d098803b9ed3
+Section: Tweaks
+Homepage: https://fanqie.goforit.si
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化 (Roothide)
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json
+Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
