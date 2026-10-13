@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
-    <title>Alipay2NFC · 碰一碰转接 (Roothide)</title>
+    <title>Alipay2NFC · 碰一碰转接</title>
     <link rel="stylesheet" type="text/css" href="../../web/index.css">
     <style>
         a, .tint, .table-btn:after { color: #27BEF5; }
@@ -26,15 +26,22 @@
             background: rgba(0,0,0,0.05);
             color: inherit;
         }
-        .meta-badge-stable { background: rgba(48, 209, 88, 0.14); color: #30d158; }
-        .meta-badge-beta { background: rgba(255, 159, 10, 0.14); color: #ff9f0a; }
-        .meta-badge-experimental { background: rgba(191, 90, 242, 0.14); color: #bf5af2; }
-        .meta-badge-deprecated { background: rgba(255, 69, 58, 0.14); color: #ff453a; }
-        .meta-badge-nightly { background: rgba(90, 200, 250, 0.14); color: #5ac8fa; }
+        .package_head { display: flex; align-items: flex-start; gap: 15px; margin-bottom: 12px; }
+        .package_head > img { float: none; flex: 0 0 75px; }
+        .package_head .package_info { margin-left: 0; min-width: 0; }
+        .package_name { overflow-wrap: anywhere; }
+        .detail-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 9px; }
+        .detail-tag { background: #e9f3ff; color: #335d86; font-size: 11px; line-height: 1.5; padding: 2px 7px; border-radius: 4px; }
+        .detail-updated { color: #8e8e93; font-size: 12px; line-height: 1.5; margin: 8px 0 0; }
+        @media (prefers-color-scheme: dark) {
+            .detail-tag { background: #203c55; color: #badbff; }
+        }
+        .footer { border-top: 1px solid rgba(0,0,0,0.08); margin-top: 24px; padding-top: 16px; }
+        @media (prefers-color-scheme: dark) { .footer { border-top-color: rgba(255,255,255,0.12); } }
         /* Tabs styling */
         .nav {
             display: flex;
-            margin: 20px 0;
+            margin: 12px 0 10px;
             background: rgba(0,0,0,0.04);
             border-radius: 12px;
             padding: 4px;
@@ -63,11 +70,11 @@
             background: rgba(0,0,0,0.03);
         }
         .summary-box {
-            background: rgba(0,0,0,0.03);
-            border-radius: 16px;
-            padding: 14px 16px;
-            margin: 14px 0 10px;
+            padding: 0;
+            margin: 18px 0 20px;
             line-height: 1.7;
+            font-size: 14px;
+            color: #626660;
         }
         .table { margin-bottom: 10px; }
         .resource-grid, .info-list, .badge-row {
@@ -75,6 +82,22 @@
             gap: 10px;
             margin-top: 12px;
         }
+        .resource-grid { display: flex; gap: 10px; margin: 0 0 18px; }
+        .resource-grid > .resource-button { flex: 1; min-width: 0; }
+        .resource-button {
+            display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+            min-height: 38px; padding: 0 15px; border-radius: 10px;
+            background: #e9f3ff; color: #335d86; font-size: 13px; font-weight: 600;
+            text-decoration: none; transition: background .15s ease, transform .15s ease;
+        }
+        .resource-button:hover { background: #deecfc; opacity: 1; }
+        .resource-button:active { transform: scale(.97); }
+        .resource-button:focus-visible { outline: 2px solid #335d86; outline-offset: 3px; }
+        @media (prefers-color-scheme: dark) {
+            .resource-button { background: #203c55; color: #badbff; }
+            .resource-button:hover { background: #294966; }
+        }
+        @media (prefers-reduced-motion: reduce) { .resource-button { transition: none; } .resource-button:active { transform: none; } }
         .social-links {
             display: flex;
             flex-wrap: wrap;
@@ -188,7 +211,6 @@
                 color: #d2d2d7;
                 background: rgba(255,255,255,0.04);
             }
-            .summary-box,
             .social-pill,
             .info-list-item,
             .matrix-item,
@@ -199,6 +221,7 @@
             .meta-note, .matrix-title {
                 color: #98989d;
             }
+            .summary-box { color: #a9afa5; }
             .md_view p, .md_view li {
                 color: #d2d2d7;
             }
@@ -210,14 +233,14 @@
             }
         }
     </style>
-    <script src="../../web/index.js"></script>
-    <meta name="description" content="Alipay2NFC · 碰一碰转接 (Roothide) by Junhong · 14.0 to 17.0">
-    <meta property="og:title" content="Alipay2NFC · 碰一碰转接 (Roothide)">
-    <meta property="og:description" content="Alipay2NFC · 碰一碰转接 (Roothide) by Junhong · 14.0 to 17.0">
+    <script src="../../web/index.js?v=20261013-cn"></script>
+    <meta name="description" content="Alipay2NFC · 碰一碰转接 · 开发者：Junhong · 14.0 至 17.0">
+    <meta property="og:title" content="Alipay2NFC · 碰一碰转接">
+    <meta property="og:description" content="Alipay2NFC · 碰一碰转接 · 开发者：Junhong · 14.0 至 17.0">
     <meta property="og:image" content="../../assets/im.mjh.alipay2nfc.roothide/banner.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Alipay2NFC · 碰一碰转接 (Roothide)">
-    <meta name="twitter:description" content="Alipay2NFC · 碰一碰转接 (Roothide) by Junhong · 14.0 to 17.0">
+    <meta name="twitter:title" content="Alipay2NFC · 碰一碰转接">
+    <meta name="twitter:description" content="Alipay2NFC · 碰一碰转接 · 开发者：Junhong · 14.0 至 17.0">
     <meta name="twitter:image" content="https://apt.mjh.im/assets/im.mjh.alipay2nfc.roothide/banner.png">
     <meta name="theme-color" content="#27BEF5">
 </head>
@@ -227,18 +250,27 @@
         <div class="package package_head">
             <img src="../../assets/im.mjh.alipay2nfc.roothide/icon.png">
             <div class="package_info">
-                <h1 class="package_name">Alipay2NFC · 碰一碰转接 (Roothide)</h1>
-                <p class="package_caption">Junhong</p>
-                
+                <h1 class="package_name">Alipay2NFC · 碰一碰转接</h1>
+                <div class="detail-tags" aria-label="版本与适配信息">
+                    <span class="detail-tag">v3.5.0</span>
+                    <span class="detail-tag">RootHide · arm64e</span>
+                    <span class="detail-tag">iOS 14.0–17.0</span>
+                </div>
+                <p class="detail-updated">更新时间：暂未同步</p>
             </div>
         </div>
         <div class="nav">
-            <div class="nav_btn active tweak_info_btn" onclick="swap('.changelog','.tweak_info');">详情 Details</div>
-            <div class="nav_btn changelog_btn" onclick="swap('.tweak_info','.changelog');">更新日志 Changelog</div>
+            <div class="nav_btn active tweak_info_btn" onclick="swap('.changelog','.tweak_info');">详情</div>
+            <div class="nav_btn changelog_btn" onclick="swap('.tweak_info','.changelog');">更新日志</div>
         </div>
+            <div class="resource-grid">
+                <a href="https://mjh.im" class="resource-button">插件官网</a>
+                <a href="https://pingme.pm/alipay2nfc" class="resource-button">提交反馈</a>
+                <a href="alipays://platformapi/startapp?saId=10000007&amp;qrcode=https%3A%2F%2Fqr.alipay.com%2Ffkx180736inoxop5mkbqh83%3F_s%3Dweb-other&amp;launchKey=c7f8d186-3e05-4668-a7eb-8cf336c2108f-1780370320745" class="resource-button donation-button">赏杯咖啡</a>
+            </div>
         <div class="tweak_info">
             
-            <div class="summary-box">让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC</div>
+            <div class="summary-box">让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。</div>
             <div class="md_view"><h1>Alipay2NFC</h1>
 <p>让支付宝「碰一碰」唤起你指定的第二个支付宝客户端。</p>
 <p>在越狱设备上安装多开支付宝之后，贴商户的碰一碰贴纸时，系统始终唤起官方客户端</p>
@@ -247,31 +279,6 @@
             
             
             
-            <h3>插件信息 Info</h3>
-            <div class="table">
-                <div class="cell">
-                    <div class="title">开发者 Developer</div>
-                    <div class="text">Junhong</div>
-                    <br><br>
-                </div>
-                <div class="cell">
-                    <div class="title">版本 Version</div>
-                    <div class="text">3.5.0</div>
-                    <br><br>
-                </div>
-                <div class="cell">
-                    <div class="title">兼容性 Compatibility</div>
-                    <div class="text">14.0 to 17.0</div>
-                    <br><br>
-                </div>
-                <div class="cell">
-                    <div class="title">分类 Section</div>
-                    <div class="text">Tweaks</div>
-                    <br><br>
-                </div>
-            </div>
-            <div class="resource-grid">
-            </div>
         </div>
         <div class="changelog">
             <div class="changelog_entry">
@@ -292,8 +299,8 @@
 </div>
             </div>
         </div>
-        <div class="caption center footer">Junhong&amp;#x27;s Repo · Updated </div>
+        <div class="caption center footer">junhong&#x27;s repo</div>
     </div>
 </body>
-<script>compatible("14.0","17.0","14.0 to 17.0");externalize()</script>
+<script>compatible("14.0","17.0","14.0 至 17.0");externalize()</script>
 </html>
