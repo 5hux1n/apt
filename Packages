@@ -14,8 +14,8 @@ Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
 Author: Junhong
 Name: 弹幕助手
 Depiction: https://apt.mjh.im/depiction/web/danmutool.html?v=d16a7bc88fcc
-SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.json?v=8110c9e7c4f0
-ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.json?v=8110c9e7c4f0
+SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.json?v=f720a44d0836
+ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.json?v=f720a44d0836
 Icon: https://apt.mjh.im/assets/danmutool/icon.png
 
 Package: danmutool.roothide
@@ -34,8 +34,8 @@ Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
 Author: Junhong
 Name: 弹幕助手 (Roothide)
 Depiction: https://apt.mjh.im/depiction/web/danmutool.roothide.html?v=4076dc2c0709
-SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json?v=736c08f1bae9
-ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json?v=736c08f1bae9
+SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json?v=d271fc6b2bce
+ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json?v=d271fc6b2bce
 Icon: https://apt.mjh.im/assets/danmutool.roothide/icon.png
 
 Package: fanqiefn
@@ -54,9 +54,9 @@ Homepage: https://fanqie.goforit.si
 Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
 Author: Junhong
 Name: 番茄净化
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html?v=f668c4f27802
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=603c90b4d67c
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=603c90b4d67c
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html?v=20d9f2ebbea6
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=815bf0241d26
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=815bf0241d26
 Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
 
 Package: fanqiefn.roothide
@@ -65,19 +65,19 @@ Architecture: iphoneos-arm64e
 Maintainer: 5hux1n
 Installed-Size: 240
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pkg/2ebe61c14c6f/fanqiefn_3.0.5_arm64e.deb
+Filename: ./pkg/c4f14d85d4ef/fanqiefn_3.0.5_arm64e.deb
 Size: 30728
-MD5sum: 2973a52594eceeb896954bd20ac3d43a
-SHA1: 963a79afb2051c556e01b6a52e031b1fc2774473
-SHA256: 2ebe61c14c6f9c5a6cb97779cdfc86808779acb783b5f1badc207d2f7a641535
-Section: Roothide
+MD5sum: 73f32336fbcc9528cba0bb56d450d72e
+SHA1: ba540edc7e8ba01451b1a55230decf630868df2e
+SHA256: c4f14d85d4ef37ae5abac667c88ffc34fba03698dc2f7f5e93f603d0dd31dd79
+Section: Tweaks
 Homepage: https://fanqie.goforit.si
 Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
 Author: Junhong
 Name: 番茄净化
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html?v=3b17029726fe
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=bb922cfbc920
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=bb922cfbc920
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html?v=d553b206fbc6
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=2448abec4e7a
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=2448abec4e7a
 Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
 
 Package: hongguofn
@@ -97,8 +97,8 @@ Description: 红果短剧界面净化、短剧广告控制、原生独立设置�
 Author: Junhong
 Name: 红果净化
 Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=4079662ef0c7
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=860934ed9a38
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=860934ed9a38
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=acb8ca9ce7c6
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=acb8ca9ce7c6
 Icon: https://apt.mjh.im/assets/hongguofn/icon.png
 
 Package: hongguofn.roothide
@@ -118,8 +118,8 @@ Description: 红果短剧界面净化、短剧广告控制、原生独立设置�
 Author: Junhong
 Name: 红果净化
 Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=a5f18b8bb68c
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=45295fac20ac
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=45295fac20ac
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=da0dcbc9f9bc
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=da0dcbc9f9bc
 Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
 
 Package: hypicfix
@@ -138,8 +138,8 @@ Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再
 Author: Junhong
 Name: 醒图国际版修复工具
 Depiction: https://apt.mjh.im/depiction/web/hypicfix.html?v=a0eabc3fa623
-SileoDepiction: https://apt.mjh.im/depiction/native/hypicfix.json?v=6a29928934d9
-ModernDepiction: https://apt.mjh.im/depiction/native/hypicfix.json?v=6a29928934d9
+SileoDepiction: https://apt.mjh.im/depiction/native/hypicfix.json?v=a824eda7cf07
+ModernDepiction: https://apt.mjh.im/depiction/native/hypicfix.json?v=a824eda7cf07
 Icon: https://apt.mjh.im/assets/hypicfix/icon.png
 
 Package: hypicfix.roothide
@@ -158,8 +158,8 @@ Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再
 Author: Junhong
 Name: 醒图国际版修复工具 (Roothide)
 Depiction: https://apt.mjh.im/depiction/web/hypicfix.roothide.html?v=f4363f2dd622
-SileoDepiction: https://apt.mjh.im/depiction/native/hypicfix.roothide.json?v=369ead966466
-ModernDepiction: https://apt.mjh.im/depiction/native/hypicfix.roothide.json?v=369ead966466
+SileoDepiction: https://apt.mjh.im/depiction/native/hypicfix.roothide.json?v=76787067e807
+ModernDepiction: https://apt.mjh.im/depiction/native/hypicfix.roothide.json?v=76787067e807
 Icon: https://apt.mjh.im/assets/hypicfix.roothide/icon.png
 
 Package: im.mjh.alipay2nfc
@@ -180,8 +180,8 @@ Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客�
 Author: Junhong
 Name: Alipay2NFC
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.alipay2nfc.html?v=5ce2b40c0ca4
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.json?v=8ca62d3f6ba1
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.json?v=8ca62d3f6ba1
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.json?v=5eb473f0fb99
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.json?v=5eb473f0fb99
 Icon: https://apt.mjh.im/assets/im.mjh.alipay2nfc/icon.png
 
 Package: im.mjh.alipay2nfc.roothide
@@ -202,8 +202,8 @@ Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客�
 Author: Junhong
 Name: Alipay2NFC · 碰一碰转接 (Roothide)
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.alipay2nfc.roothide.html?v=040899a7755e
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.roothide.json?v=47ea196f8380
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.roothide.json?v=47ea196f8380
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.roothide.json?v=b80384177e37
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.roothide.json?v=b80384177e37
 Icon: https://apt.mjh.im/assets/im.mjh.alipay2nfc.roothide/icon.png
 
 Package: im.mjh.fakenotify
@@ -222,8 +222,8 @@ Description: 一款模拟通知插件，允许配置多个通知任务，原生�
 Author: Junhong
 Name: FakeNotify
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakenotify.html?v=ebaab0d04cdf
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.json?v=a681bc29a158
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.json?v=a681bc29a158
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.json?v=dba6235e6cdb
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.json?v=dba6235e6cdb
 Icon: https://apt.mjh.im/assets/im.mjh.fakenotify/icon.png
 
 Package: im.mjh.fakenotify.roothide
@@ -244,8 +244,8 @@ Description: 一款模拟通知插件，允许配置多个通知任务，原生�
 Author: Junhong
 Name: FakeNotify (Roothide)
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakenotify.roothide.html?v=c4093ea6b610
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.roothide.json?v=cb299b619b97
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.roothide.json?v=cb299b619b97
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.roothide.json?v=2f5e0e9237f2
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.roothide.json?v=2f5e0e9237f2
 Icon: https://apt.mjh.im/assets/im.mjh.fakenotify.roothide/icon.png
 
 Package: im.mjh.fakeperm
@@ -264,8 +264,8 @@ Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度�
 Author: Junhong
 Name: 虚拟权限 · Fake Permission
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakeperm.html?v=b424f999fb15
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.json?v=512ba910968b
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.json?v=512ba910968b
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.json?v=1691500b0b07
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.json?v=1691500b0b07
 Icon: https://apt.mjh.im/assets/im.mjh.fakeperm/icon.png
 
 Package: im.mjh.fakeperm.roothide
@@ -284,8 +284,8 @@ Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度�
 Author: Junhong
 Name: 虚拟权限 · Fake Permission (Roothide)
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakeperm.roothide.html?v=8b7672ec3564
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.roothide.json?v=2f6455ffc850
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.roothide.json?v=2f6455ffc850
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.roothide.json?v=064eac2cfa05
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.roothide.json?v=064eac2cfa05
 Icon: https://apt.mjh.im/assets/im.mjh.fakeperm.roothide/icon.png
 
 Package: im.mjh.wclocate
@@ -304,8 +304,8 @@ Description: 微信虚拟定位 — 支持巨魔/越狱/证书自签，地图选
 Author: Junhong
 Name: 微信虚拟定位
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.wclocate.html?v=9edfaedab2c2
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json?v=3c803ece310c
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json?v=3c803ece310c
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json?v=8db8815a73ff
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json?v=8db8815a73ff
 Icon: https://apt.mjh.im/assets/im.mjh.wclocate/icon.png
 
 Package: im.mjh.xianyuadblock
@@ -327,8 +327,8 @@ Description: 闲鱼广告与页面净化、自动普通擦亮、会员经验领�
 Author: Junhong
 Name: 闲鱼助手
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=825b78b56268
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=04e700cd49d9
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=04e700cd49d9
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=855699926251
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=855699926251
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 
 Package: im.mjh.xianyuadblock.roothide
@@ -350,6 +350,6 @@ Description: 闲鱼广告与页面净化、自动普通擦亮、会员经验领�
 Author: Junhong
 Name: 闲鱼助手 (Roothide)
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=afe977c0a783
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=b99c8c95d44a
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=b99c8c95d44a
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=dc870874a444
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=dc870874a444
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
