@@ -287,9 +287,9 @@ Moderndepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json
 Name: 闲鱼助手
 Sileodepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=32fa0b8baa3f
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=e14b483c3e6b
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=e14b483c3e6b
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=0c59ab90be59
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=41d2f92670c5
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=41d2f92670c5
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 
 Package: im.mjh.xianyuadblock.roothide
@@ -313,9 +313,9 @@ Moderndepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothi
 Name: 闲鱼助手 (Roothide)
 Sileodepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=8b4e1bf062ac
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=faf262e79886
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=faf262e79886
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=dae60d89fb1d
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=43aaad8c53ce
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=43aaad8c53ce
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
 
 Package: im.mjh.fakenotify
