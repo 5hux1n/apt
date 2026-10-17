@@ -150,10 +150,22 @@
             margin-bottom: 14px;
         }
         .changelog_entry h4 {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 12px;
             font-size: 15px;
             font-weight: 700;
             color: #27BEF5;
             margin-bottom: 10px;
+        }
+        .changelog_date {
+            margin-left: auto;
+            font-size: 12px;
+            font-weight: 500;
+            opacity: 0.55;
+            text-align: right;
+            white-space: nowrap;
         }
         /* Description markdown beautification */
         .md_view h1 {
@@ -312,7 +324,7 @@
         </div>
         <div class="changelog">
             <div class="changelog_entry">
-                <h4>3.0.5</h4>
+                <h4><span class="changelog_version">3.0.5</span><span class="changelog_date">2026-10-11</span></h4>
                 <div class="md_view"><ul>
 <li>新增屏蔽热启动广告开关，减少回到前台时的广告打扰。</li>
 <li>新增解除自动阅读广告时长限制开关，保留手动暂停与后台暂停。</li>
@@ -320,14 +332,14 @@
 </ul>
 </div>
             </div><div class="changelog_entry">
-                <h4>3.0.4</h4>
+                <h4><span class="changelog_version">3.0.4</span><span class="changelog_date">2026-10-08</span></h4>
                 <div class="md_view"><ul>
 <li>新增书架漫剧推荐、今日听读时长和导入本地书入口的独立隐藏开关。</li>
 <li>修复会员类型被统一显示为出版 VIP 的问题，保留各卡片的原生类型。</li>
 </ul>
 </div>
             </div><div class="changelog_entry">
-                <h4>3.0.3</h4>
+                <h4><span class="changelog_version">3.0.3</span><span class="changelog_date">2026-10-07</span></h4>
                 <div class="md_view"><ul>
 <li>新增书城与我的页发帖悬浮按钮的独立隐藏开关。</li>
 <li>新增底部短剧导航隐藏开关。</li>
@@ -335,21 +347,21 @@
 </ul>
 </div>
             </div><div class="changelog_entry">
-                <h4>3.0.2</h4>
+                <h4><span class="changelog_version">3.0.2</span><span class="changelog_date">2026-10-06</span></h4>
                 <div class="md_view"><ul>
 <li>修复退出阅读及章末的自动评分邀请屏蔽。</li>
 <li>改善最新章节底部留白，避免催更与更新时间被阅读底栏遮挡。</li>
 </ul>
 </div>
             </div><div class="changelog_entry">
-                <h4>3.0.1</h4>
+                <h4><span class="changelog_version">3.0.1</span><span class="changelog_date">2026-10-06</span></h4>
                 <div class="md_view"><ul>
 <li>修复番茄小说 7.3.9 中“隐藏本章讨论”开关失效的问题。</li>
 <li>改善最新章节末尾布局：隐藏圈子或快捷按钮时，增加避开阅读底栏的自适应留白。</li>
 </ul>
 </div>
             </div><div class="changelog_entry">
-                <h4>3.0.0</h4>
+                <h4><span class="changelog_version">3.0.0</span><span class="changelog_date">2026-10-05</span></h4>
                 <div class="md_view"><p>1、新增阅读与听书广告净化、推广入口清理。<br />
 2、新增章末内容、福利导航及个人页卡片的独立开关。<br />
 3、新增原生二级设置、插件总开关、版本及作者和插件源链接。<br />
@@ -359,7 +371,7 @@
 7、新增 RootHide 安装包与官网下载安装入口。</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>2.0.0</h4>
+                <h4><span class="changelog_version">2.0.0</span></h4>
                 <div class="md_view"><p>新增小组件权限伪装，去除添加小组件的弹窗提醒；优化通知权限伪装逻辑</p>
 </div>
             </div>

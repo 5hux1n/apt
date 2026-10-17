@@ -150,10 +150,22 @@
             margin-bottom: 14px;
         }
         .changelog_entry h4 {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 12px;
             font-size: 15px;
             font-weight: 700;
             color: #27BEF5;
             margin-bottom: 10px;
+        }
+        .changelog_date {
+            margin-left: auto;
+            font-size: 12px;
+            font-weight: 500;
+            opacity: 0.55;
+            text-align: right;
+            white-space: nowrap;
         }
         /* Description markdown beautification */
         .md_view h1 {
@@ -328,21 +340,21 @@ iPad 9 - iOS 15.4.1
         </div>
         <div class="changelog">
             <div class="changelog_entry">
-                <h4>8.9.3</h4>
+                <h4><span class="changelog_version">8.9.3</span><span class="changelog_date">2026-09-22</span></h4>
                 <div class="md_view"><p>1、修复地图选点页地名与坐标不符、地名不显示的问题<br />
 2、地址改为多行完整显示（国家 - 省 - 市 - 区 - 街道），经纬度作副标题<br />
 3、历史记录中只有坐标的旧条目会自动补全地址<br />
 4、下架异常的 roothide 8.6.0，roothide 用户请用 8.7.0 及以上</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>8.7.1</h4>
+                <h4><span class="changelog_version">8.7.1</span><span class="changelog_date">2026-09-21</span></h4>
                 <div class="md_view"><p>1、修复支付宝等 App 开启虚拟定位后一直停在「定位中」、始终拿不到位置的问题<br />
 2、修复同时开启虚拟定位与虚拟传感器时，支付宝等 App 一打开就闪退的问题<br />
 3、修复插件主页的 Telegram 入口无法直接打开聊天的问题<br />
 4、插件主页页脚精简显示内容</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>8.7.0</h4>
+                <h4><span class="changelog_version">8.7.0</span><span class="changelog_date">2026-09-19</span></h4>
                 <div class="md_view"><p>【机型 / 版本数据更新】</p>
 <ul>
 <li>机型伪装新增 iPhone Duo（折叠屏，iPhone19,4）与 iPhone 18 全系：18 Pro（iPhone19,2）、18 Pro Max US/Global（iPhone19,3 / iPhone19,7）</li>
@@ -368,19 +380,19 @@ iPad 9 - iOS 15.4.1
 </ul>
 </div>
             </div><div class="changelog_entry">
-                <h4>8.6.0</h4>
+                <h4><span class="changelog_version">8.6.0</span><span class="changelog_date">2026-09-19</span></h4>
                 <div class="md_view"><p>1、新增权限配置页入口右侧显示当前配置值。<br />
 2、修复配置导入导出清除缺失字段的问题。<br />
 3、修复卸载插件异常残留问题。<br />
 4、优化 UI</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>8.5.0</h4>
+                <h4><span class="changelog_version">8.5.0</span></h4>
                 <div class="md_view"><p>1、修复 iOS15.0 pac 指针崩溃问题。<br />
 2、优化启动逻辑</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>8.3.0</h4>
+                <h4><span class="changelog_version">8.3.0</span></h4>
                 <div class="md_view"><p>【新增功能】<br />
 1、iOS 版本伪装<br />
 2、地区伪装，自动关联运营商 MCC/MNC<br />
@@ -397,7 +409,7 @@ iPad 9 - iOS 15.4.1
 12、修复 v8.2.0 引入的部分 C 函数 hook 导致启动阶段闪退的问题</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>8.2.0</h4>
+                <h4><span class="changelog_version">8.2.0</span></h4>
                 <div class="md_view"><p>1、修复定位坐标回退问题（cfprefsd 异步刷盘导致读到旧缓存）<br />
 2、修复多进程 App 杀后台不彻底的问题（大众点评等）<br />
 3、新增高德/百度/腾讯定位 SDK 完整代理拦截<br />
@@ -412,7 +424,7 @@ iPad 9 - iOS 15.4.1
 12、多项 UI 优化与性能改进</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>8.1.0</h4>
+                <h4><span class="changelog_version">8.1.0</span></h4>
                 <div class="md_view"><p>1、修复部分设备插件不生效的问题<br />
 2、优化注入可靠性问题<br />
 3、支持 arm64 + arm64e 双架构，提升 roothide 兼容性<br />
@@ -420,25 +432,25 @@ iPad 9 - iOS 15.4.1
 5、多项性能优化，大幅提升 App 列表加载速度</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>8.0.0</h4>
+                <h4><span class="changelog_version">8.0.0</span></h4>
                 <div class="md_view"><p>修复部分用户下载安装失败的问题</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>7.0.0</h4>
+                <h4><span class="changelog_version">7.0.0</span></h4>
                 <div class="md_view"><p>重构注入逻辑，减少注入失败的概率</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>5.3.0</h4>
+                <h4><span class="changelog_version">5.3.0</span></h4>
                 <div class="md_view"><p>新增版本检测功能</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>5.2.4</h4>
+                <h4><span class="changelog_version">5.2.4</span></h4>
                 <div class="md_view"><p>1、修复拍照替换图片异常旋转的问题<br />
 2、修复持续获取定位数据导致定位失败的问题<br />
 3、修复伪装麦克风权限部分接口失效</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>5.2.2</h4>
+                <h4><span class="changelog_version">5.2.2</span></h4>
                 <div class="md_view"><p>1、紧急修复了部分 IOS15 设备插件不生效的 BUG<br />
 2、修复了导入、导出、重置配置会丢失部分配置的 BUG<br />
 3、修复了配置变更后，无法自动杀掉目标 app 进程的 bug<br />
@@ -448,31 +460,31 @@ iPad 9 - iOS 15.4.1
 7、优化权限配置的逻辑性，个性化配置变得更简单</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>5.2.1</h4>
+                <h4><span class="changelog_version">5.2.1</span></h4>
                 <div class="md_view"><p>修复部分设备无效的问题</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>5.1.3</h4>
+                <h4><span class="changelog_version">5.1.3</span></h4>
                 <div class="md_view"><p>优化可能造成的 ios15 系统上安全模式的问题（待验证）</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>5.1.2</h4>
+                <h4><span class="changelog_version">5.1.2</span></h4>
                 <div class="md_view"><p>优化 UI，优化可能造成的 ios15 系统上安全模式的问题（待验证），修复 bug</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>5.0.0</h4>
+                <h4><span class="changelog_version">5.0.0</span></h4>
                 <div class="md_view"><p>新增日历、WIFI 伪装，新增导入导出配置、新增可暂停配置，修复 bug</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>4.0.0</h4>
+                <h4><span class="changelog_version">4.0.0</span></h4>
                 <div class="md_view"><p>修复部分 app 伪装定位不生效的 BUG，新增支持自定义机型</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>3.0.0</h4>
+                <h4><span class="changelog_version">3.0.0</span></h4>
                 <div class="md_view"><p>新增相机伪装（强制相册/虚拟拍照）、机型伪装、全局开关即时生效无需注销；中英文界面</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>2.0.0</h4>
+                <h4><span class="changelog_version">2.0.0</span></h4>
                 <div class="md_view"><p>新增相机、麦克风、剪贴板保护；支持地图选点/搜索地址/海拔伪装；全局开关一键控制</p>
 </div>
             </div>

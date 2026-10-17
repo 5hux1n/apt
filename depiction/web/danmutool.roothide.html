@@ -150,10 +150,22 @@
             margin-bottom: 14px;
         }
         .changelog_entry h4 {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 12px;
             font-size: 15px;
             font-weight: 700;
             color: #27BEF5;
             margin-bottom: 10px;
+        }
+        .changelog_date {
+            margin-left: auto;
+            font-size: 12px;
+            font-weight: 500;
+            opacity: 0.55;
+            text-align: right;
+            white-space: nowrap;
         }
         /* Description markdown beautification */
         .md_view h1 {
@@ -282,7 +294,7 @@
         </div>
         <div class="changelog">
             <div class="changelog_entry">
-                <h4>2.0.0</h4>
+                <h4><span class="changelog_version">2.0.0</span><span class="changelog_date">2026-10-06</span></h4>
                 <div class="md_view"><p>1、移除调试入口与日志功能<br />
 2、修复抖音切换直播间时弹幕发送到其他直播间<br />
 3、新增 RootHide 安装版本</p>

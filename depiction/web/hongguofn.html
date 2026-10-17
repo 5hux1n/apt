@@ -150,10 +150,22 @@
             margin-bottom: 14px;
         }
         .changelog_entry h4 {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 12px;
             font-size: 15px;
             font-weight: 700;
             color: #27BEF5;
             margin-bottom: 10px;
+        }
+        .changelog_date {
+            margin-left: auto;
+            font-size: 12px;
+            font-weight: 500;
+            opacity: 0.55;
+            text-align: right;
+            white-space: nowrap;
         }
         /* Description markdown beautification */
         .md_view h1 {
@@ -300,7 +312,7 @@
         </div>
         <div class="changelog">
             <div class="changelog_entry">
-                <h4>1.0.3</h4>
+                <h4><span class="changelog_version">1.0.3</span><span class="changelog_date">2026-10-11</span></h4>
                 <div class="md_view"><ul>
 <li>理清插件长按倍速与普通播放倍速：手动选择原生倍速后不再被插件强制覆盖</li>
 <li>修正长按倍速提示出现浮点长小数的问题，设置列表中的倍速值及时刷新</li>
@@ -312,7 +324,7 @@
 </ul>
 </div>
             </div><div class="changelog_entry">
-                <h4>1.0.2</h4>
+                <h4><span class="changelog_version">1.0.2</span><span class="changelog_date">2026-10-10</span></h4>
                 <div class="md_view"><ul>
 <li>补充短剧插页广告和缓存广告的请求、插入拦截</li>
 <li>新增播放页顶部集数、倍速按钮、更多菜单、清屏按钮、底部弹幕按钮的独立开关，播放时隐藏、暂停时恢复</li>
@@ -320,7 +332,7 @@
 </ul>
 </div>
             </div><div class="changelog_entry">
-                <h4>1.0.1</h4>
+                <h4><span class="changelog_version">1.0.1</span><span class="changelog_date">2026-10-08</span></h4>
                 <div class="md_view"><ul>
 <li>修正默认启动页与首页频道选择</li>
 <li>移除失效的分类选项</li>
@@ -331,7 +343,7 @@
 </ul>
 </div>
             </div><div class="changelog_entry">
-                <h4>1.0.0</h4>
+                <h4><span class="changelog_version">1.0.0</span><span class="changelog_date">2026-10-07</span></h4>
                 <div class="md_view"><ul>
 <li>观看页面独立净化开关</li>
 <li>顶部与底部导航多选隐藏</li>

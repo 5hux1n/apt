@@ -150,10 +150,22 @@
             margin-bottom: 14px;
         }
         .changelog_entry h4 {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 12px;
             font-size: 15px;
             font-weight: 700;
             color: #27BEF5;
             margin-bottom: 10px;
+        }
+        .changelog_date {
+            margin-left: auto;
+            font-size: 12px;
+            font-weight: 500;
+            opacity: 0.55;
+            text-align: right;
+            white-space: nowrap;
         }
         /* Description markdown beautification */
         .md_view h1 {
@@ -277,7 +289,7 @@
         </div>
         <div class="changelog">
             <div class="changelog_entry">
-                <h4>1.0.0</h4>
+                <h4><span class="changelog_version">1.0.0</span><span class="changelog_date">2026-10-09</span></h4>
                 <div class="md_view"><p>首次发布：修复越狱环境下误弹的非官方版提示，修复模板列表无法拉取。</p>
 </div>
             </div>

@@ -150,10 +150,22 @@
             margin-bottom: 14px;
         }
         .changelog_entry h4 {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 12px;
             font-size: 15px;
             font-weight: 700;
             color: #27BEF5;
             margin-bottom: 10px;
+        }
+        .changelog_date {
+            margin-left: auto;
+            font-size: 12px;
+            font-weight: 500;
+            opacity: 0.55;
+            text-align: right;
+            white-space: nowrap;
         }
         /* Description markdown beautification */
         .md_view h1 {
@@ -286,15 +298,15 @@
         </div>
         <div class="changelog">
             <div class="changelog_entry">
-                <h4>4.0.0</h4>
+                <h4><span class="changelog_version">4.0.0</span><span class="changelog_date">2026-09-19</span></h4>
                 <div class="md_view"><p>修复不同设备底部安全距离导致的按钮无法点击/被覆盖的 BUG</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>3.0.0</h4>
+                <h4><span class="changelog_version">3.0.0</span></h4>
                 <div class="md_view"><p>新增海拔伪装</p>
 </div>
             </div><div class="changelog_entry">
-                <h4>2.0.0</h4>
+                <h4><span class="changelog_version">2.0.0</span></h4>
                 <div class="md_view"><p>调整插件入口，支持巨魔/越狱/证书自签三种安装方式</p>
 </div>
             </div>
