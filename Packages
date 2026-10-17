@@ -292,32 +292,6 @@ SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=c9b8975a6676
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 
-Package: im.mjh.xianyuadblock.roothide
-Version: 3.1.0
-Architecture: iphoneos-arm64e
-Maintainer: Junhong
-Installed-Size: 1560
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Filename: ./pkg/bf4a98d48faf/XianYuHelper_3.1.0_arm64e.deb
-Size: 559998
-MD5sum: a9a7fc367019344bfb6a9d8bac03214c
-SHA1: 8f9d1a5cb83434a15091a0a820a6806541e24c37
-SHA256: bf4a98d48faf6d362383eecf94dc64a31cb64ec21aee34d679202b46356b5c12
-Section: Tweaks
-Homepage: https://xianyu.goforit.si/
-Description: 闲鱼广告与页面净化、自动好评与商品任务、虚拟商品交付、配置迁移及运行记录。
-Author: Junhong
-Moderndepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json
-Name: 闲鱼助手 (Roothide)
-Sileodepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json
-Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=4531f5253245
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=79b6b77a1f70
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=79b6b77a1f70
-Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
-
 Package: im.mjh.fakenotify
 Name: FakeNotify
 Description: 一款模拟通知插件，允许配置多个通知任务，原生通知方案，支持通知栏、锁屏页面显示。
