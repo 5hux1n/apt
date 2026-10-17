@@ -267,49 +267,55 @@ ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json?v=8db8
 Icon: https://apt.mjh.im/assets/im.mjh.wclocate/icon.png
 
 Package: im.mjh.xianyuadblock
-Version: 3.0.0
+Version: 3.1.0
 Architecture: iphoneos-arm64
 Maintainer: Junhong
-Installed-Size: 488
-Depends: firmware (>=15.0), mobilesubstrate
+Installed-Size: 1560
+Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Filename: ./pkg/73b635de04a8/XianYuHelper_3.0.0_arm64.deb
-Size: 82860
-MD5sum: aa54b4c1f488707937f1311dc37b37d7
-SHA1: ab32495a024abd8452b4cbc795022f121c10578f
-SHA256: 73b635de04a813c9dcd81659c693727ce7cd0cc223ea27c6741364c706c542df
+Filename: ./pkg/09731fd3e790/XianYuHelper_3.1.0_arm64.deb
+Size: 561450
+MD5sum: 3fb02212457eff03b8cf60a8e815db36
+SHA1: 222ecac0750b3fbdd0baa57c66fa4c94d7e2bb22
+SHA256: 09731fd3e79009a2354dc5cbadabeff755b9ad766db7f7637163572b5797e6e6
 Section: Tweaks
 Homepage: https://xianyu.goforit.si/
-Description: 闲鱼广告与页面净化、自动普通擦亮、会员经验领取、原样编辑商品及按日期查看运行记录。
+Description: 闲鱼广告与页面净化、自动好评与商品任务、虚拟商品交付、配置迁移及运行记录。
 Author: Junhong
+Moderndepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json
 Name: 闲鱼助手
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=825b78b56268
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=855699926251
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=855699926251
+Sileodepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json
+Tags: compatible_min::ios15.0
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=32fa0b8baa3f
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=e14b483c3e6b
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=e14b483c3e6b
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 
 Package: im.mjh.xianyuadblock.roothide
-Version: 3.0.0
+Version: 3.1.0
 Architecture: iphoneos-arm64e
 Maintainer: Junhong
-Installed-Size: 488
-Depends: firmware (>=15.0), mobilesubstrate
+Installed-Size: 1560
+Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
-Filename: ./pkg/7fd9845b8d02/XianYuHelper_3.0.0_arm64e.deb
-Size: 82628
-MD5sum: ecdfa34c863a2be592780f521b91ffa2
-SHA1: df30ac0eebc0fb3445ace8715bcdf79fd6f8d373
-SHA256: 7fd9845b8d026e22243a74a50eff3a638d4598996f9ae79c7549d5390c08a96b
+Filename: ./pkg/bf4a98d48faf/XianYuHelper_3.1.0_arm64e.deb
+Size: 559998
+MD5sum: a9a7fc367019344bfb6a9d8bac03214c
+SHA1: 8f9d1a5cb83434a15091a0a820a6806541e24c37
+SHA256: bf4a98d48faf6d362383eecf94dc64a31cb64ec21aee34d679202b46356b5c12
 Section: Tweaks
 Homepage: https://xianyu.goforit.si/
-Description: 闲鱼广告与页面净化、自动普通擦亮、会员经验领取、原样编辑商品及按日期查看运行记录。
+Description: 闲鱼广告与页面净化、自动好评与商品任务、虚拟商品交付、配置迁移及运行记录。
 Author: Junhong
+Moderndepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json
 Name: 闲鱼助手 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=afe977c0a783
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=dc870874a444
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=dc870874a444
+Sileodepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json
+Tags: compatible_min::ios15.0
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=8b4e1bf062ac
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=faf262e79886
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=faf262e79886
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
 
 Package: im.mjh.fakenotify
