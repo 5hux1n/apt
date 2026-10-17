@@ -359,3 +359,63 @@ Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=175cc342e294
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=175cc342e294
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
+
+Package: spoofnotify
+Name: 通知权限伪装
+Description: 从虚拟权限插件独立出来的通知权限伪装插件
+ 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
+ App 正常开启通知权限时不会被拦截，通知提醒正常放行。
+ .
+ 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。
+ .
+ 越狱环境安装后在桌面打开「通知权限伪装」进行配置；巨魔/自签环境直接注入目标 App
+ 即可生效，默认伪装已开启通知权限，无需配置。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 448
+Filename: ./pkg/spoofnotify-1.0.0/SpoofNotify_1.0.0_arm64.deb
+Size: 47648
+MD5sum: 3f4d69d9ca57baa77bb5b3c690d068ee
+SHA1: d12de0ab24cb8bd2218aeb23bc0ceeab8881d2fc
+SHA256: f44ada59b81feeeeef23daf602ae1a2859d56292906de47601b6e9cfc92883b4
+Depiction: https://apt.mjh.im/depiction/web/spoofnotify.html?v=20261018
+SileoDepiction: https://apt.mjh.im/depiction/native/spoofnotify.json?v=20261018
+ModernDepiction: https://apt.mjh.im/depiction/native/spoofnotify.json?v=20261018
+Icon: https://apt.mjh.im/assets/spoofnotify/icon.png
+Homepage: https://tongzhi.goforit.si/
+
+Package: spoofnotify.roothide
+Name: 通知权限伪装 (Roothide)
+Description: 从虚拟权限插件独立出来的通知权限伪装插件
+ 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
+ App 正常开启通知权限时不会被拦截，通知提醒正常放行。
+ .
+ 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。
+ .
+ 越狱环境安装后在桌面打开「通知权限伪装」进行配置；巨魔/自签环境直接注入目标 App
+ 即可生效，默认伪装已开启通知权限，无需配置。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 448
+Filename: ./pkg/spoofnotify-1.0.0/SpoofNotify_1.0.0_arm64e.deb
+Size: 47604
+MD5sum: 73822ca0e057884bd82fe0c2d9292fdf
+SHA1: af599a35ff399b979146a54950ecad26c64ff927
+SHA256: b50afc5d575e950baba9e3f5da0e0c0dd33d61811329621b3520fba85bbe06d6
+Depiction: https://apt.mjh.im/depiction/web/spoofnotify.roothide.html?v=20261018
+SileoDepiction: https://apt.mjh.im/depiction/native/spoofnotify.roothide.json?v=20261018
+ModernDepiction: https://apt.mjh.im/depiction/native/spoofnotify.roothide.json?v=20261018
+Icon: https://apt.mjh.im/assets/spoofnotify.roothide/icon.png
+Homepage: https://tongzhi.goforit.si/
