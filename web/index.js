@@ -1,14 +1,11 @@
 function compatible(works_min, works_max, tweak_compatibility) {
     let currentiOS = parseFloat(('' + (/CPU.*OS ([0-9_]{1,})|(CPU like).*AppleWebKit.*Mobile/i.exec(navigator.userAgent) || [0, ''])[1]).replace('undefined', '3_2').replace('_', '.').replace('_', ''));
     works_min = numerize(works_min);
-    works_max = numerize(works_max);
+    // works_max 仅展示测试范围；安装兼容性由包依赖决定，高于该范围不再判定为不兼容。
     let el = document.querySelector('.compatibility');
     if (!el) return;
     if (currentiOS < works_min) {
         el.innerHTML = '你的 iOS 版本过低，此插件不兼容你的设备。本插件兼容 ' + tweak_compatibility + '。';
-        el.classList.add('red');
-    } else if (currentiOS > works_max) {
-        el.innerHTML = '你的 iOS 版本过高，此插件不兼容你的设备。本插件兼容 ' + tweak_compatibility + '。';
         el.classList.add('red');
     } else if (String(currentiOS) !== 'NaN') {
         el.innerHTML = '此插件与你当前设备兼容！';
