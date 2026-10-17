@@ -359,3 +359,61 @@ Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=175cc342e294
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=175cc342e294
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
+
+Package: im.mjh.virtualnotify
+Name: 虚拟通知
+Description: 从虚拟权限插件独立出来的虚拟通知权限插件
+ 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
+ App 正常开启通知权限时不会被拦截，通知提醒正常放行。
+ .
+ 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。
+ .
+ 越狱环境安装后在桌面打开「虚拟通知」进行配置；巨魔/自签环境直接注入目标 App
+ 即可生效，默认伪装已开启通知权限，无需配置。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 448
+Filename: ./pkg/virtualnotify-1.0.0/VirtualNotify_1.0.0_arm64.deb
+Size: 47172
+MD5sum: 9fe87da47ed0acd82261bb9e6d004cd9
+SHA1: 60ac5f54a8333abf2cc77cc022e8d25eba03e74f
+SHA256: 7b02c1c5a7b4d9ef6d8e646c80a284333e26ed96be2c5a8b4f22ccc9dbfe128a
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.virtualnotify.html?v=20261018
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.virtualnotify.json?v=20261018
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.virtualnotify.json?v=20261018
+Icon: https://apt.mjh.im/assets/im.mjh.virtualnotify/icon.png
+Homepage: https://tongzhi.goforit.si/
+
+Package: im.mjh.virtualnotify.roothide
+Name: 虚拟通知 (Roothide)
+Description: 从虚拟权限插件独立出来的虚拟通知权限插件
+ 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
+ App 正常开启通知权限时不会被拦截，通知提醒正常放行。
+ .
+ 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。
+ .
+ 越狱环境安装后在桌面打开「虚拟通知」进行配置；巨魔/自签环境直接注入目标 App
+ 即可生效，默认伪装已开启通知权限，无需配置。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.virtualnotify
+Replaces: im.mjh.virtualnotify
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 448
+Filename: ./pkg/virtualnotify-1.0.0/VirtualNotify_1.0.0_arm64e.deb
+Size: 47830
+MD5sum: 3eaeb4f4ddc9e06614de846ef271e3a6
+SHA1: 91e6761988cb423154955e70fbb494225abe6d5e
+SHA256: db276ef89242879bdb07083bdc7dd9aff339c50531151fba37911593835fe643
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.virtualnotify.roothide.html?v=20261018
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.virtualnotify.roothide.json?v=20261018
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.virtualnotify.roothide.json?v=20261018
+Icon: https://apt.mjh.im/assets/im.mjh.virtualnotify.roothide/icon.png
+Homepage: https://tongzhi.goforit.si/
