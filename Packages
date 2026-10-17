@@ -377,16 +377,16 @@ Depends: firmware (>= 15.0)
 Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
 Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
 Architecture: iphoneos-arm64
-Version: 1.0.0
-Installed-Size: 448
-Filename: ./pkg/spoofnotify-1.0.0/SpoofNotify_1.0.0_arm64.deb
-Size: 47648
-MD5sum: 3f4d69d9ca57baa77bb5b3c690d068ee
-SHA1: d12de0ab24cb8bd2218aeb23bc0ceeab8881d2fc
-SHA256: f44ada59b81feeeeef23daf602ae1a2859d56292906de47601b6e9cfc92883b4
-Depiction: https://apt.mjh.im/depiction/web/spoofnotify.html?v=20261018
-SileoDepiction: https://apt.mjh.im/depiction/native/spoofnotify.json?v=20261018
-ModernDepiction: https://apt.mjh.im/depiction/native/spoofnotify.json?v=20261018
+Version: 1.0.1
+Installed-Size: 428
+Filename: ./pkg/spoofnotify-1.0.1/SpoofNotify_1.0.1_arm64.deb
+Size: 43656
+MD5sum: 0902c5d4cd7a3a2aae6b8ce4e4127ecf
+SHA1: 3d14e80d80fff6d05b3c9b4852daf8d72bb5d1f8
+SHA256: 21c692c0ac5d7f585d9e2fb420a2e7e8d443d32ebd495c7f1ce0b1ee65c1f3af
+Depiction: https://apt.mjh.im/depiction/web/spoofnotify.html?v=1.0.1
+SileoDepiction: https://apt.mjh.im/depiction/native/spoofnotify.json?v=1.0.1
+ModernDepiction: https://apt.mjh.im/depiction/native/spoofnotify.json?v=1.0.1
 Icon: https://apt.mjh.im/assets/spoofnotify/icon.png
 Homepage: https://tongzhi.goforit.si/
 
@@ -407,15 +407,16 @@ Depends: firmware (>= 15.0)
 Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
 Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
 Architecture: iphoneos-arm64e
-Version: 1.0.0
-Installed-Size: 448
-Filename: ./pkg/spoofnotify-1.0.0/SpoofNotify_1.0.0_arm64e.deb
-Size: 47604
-MD5sum: 73822ca0e057884bd82fe0c2d9292fdf
-SHA1: af599a35ff399b979146a54950ecad26c64ff927
-SHA256: b50afc5d575e950baba9e3f5da0e0c0dd33d61811329621b3520fba85bbe06d6
-Depiction: https://apt.mjh.im/depiction/web/spoofnotify.roothide.html?v=20261018
-SileoDepiction: https://apt.mjh.im/depiction/native/spoofnotify.roothide.json?v=20261018
-ModernDepiction: https://apt.mjh.im/depiction/native/spoofnotify.roothide.json?v=20261018
+Version: 1.0.1
+Installed-Size: 428
+Filename: ./pkg/spoofnotify-1.0.1/SpoofNotify_1.0.1_arm64e.deb
+Size: 43546
+MD5sum: bf6660a7dc3475fdd6b8aa1747e5c3a3
+SHA1: 198aef9ee889ed86c6214e7afdd76778d627ec7e
+SHA256: 687600ed2bc20dea805ee6b02e7bee1f586c1559fda8f8cd5972cad6d2fd33a1
+Depiction: https://apt.mjh.im/depiction/web/spoofnotify.roothide.html?v=1.0.1
+SileoDepiction: https://apt.mjh.im/depiction/native/spoofnotify.roothide.json?v=1.0.1
+ModernDepiction: https://apt.mjh.im/depiction/native/spoofnotify.roothide.json?v=1.0.1
 Icon: https://apt.mjh.im/assets/spoofnotify.roothide/icon.png
 Homepage: https://tongzhi.goforit.si/
+
