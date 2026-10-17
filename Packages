@@ -206,48 +206,6 @@ SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.roothide.j
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.roothide.json?v=b80384177e37
 Icon: https://apt.mjh.im/assets/im.mjh.alipay2nfc.roothide/icon.png
 
-Package: im.mjh.fakenotify
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 584
-Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
-Filename: ./pkg/815ccd7477dd/FakeNotify_1.0.0_arm64.deb
-Size: 77428
-MD5sum: 9dc1241e46c27a7552db030c7d46449f
-SHA1: 4f4bc560db488e84fe67dcb235cc46927b699c47
-SHA256: 815ccd7477dde7de504a9bdfaac16d95f4c49246816a0477d946abb68c5c6883
-Section: Tweaks
-Description: 一款模拟通知插件，允许配置多个通知任务，原生通知方案，支持通知栏、锁屏页面显示。
-Author: Junhong
-Name: FakeNotify
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakenotify.html?v=ebaab0d04cdf
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.json?v=dba6235e6cdb
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.json?v=dba6235e6cdb
-Icon: https://apt.mjh.im/assets/im.mjh.fakenotify/icon.png
-
-Package: im.mjh.fakenotify.roothide
-Version: 1.0.0
-Architecture: iphoneos-arm64e
-Maintainer: Junhong
-Installed-Size: 588
-Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
-Conflicts: im.mjh.fakenotify
-Replaces: im.mjh.fakenotify
-Filename: ./pkg/74d74eda4532/FakeNotify_1.0.0_arm64e.deb
-Size: 143800
-MD5sum: 5a3026309a637a2ad7b2b819247adfa3
-SHA1: a465c499fc126958b9f6b70cbe231a3da5d5714c
-SHA256: 74d74eda4532287f8a0b3743cfca4035e984c2af3263bfc7b486340ffb34cdcf
-Section: Tweaks
-Description: 一款模拟通知插件，允许配置多个通知任务，原生通知方案，支持通知栏、锁屏页面显示。
-Author: Junhong
-Name: FakeNotify (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakenotify.roothide.html?v=c4093ea6b610
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.roothide.json?v=2f5e0e9237f2
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.roothide.json?v=2f5e0e9237f2
-Icon: https://apt.mjh.im/assets/im.mjh.fakenotify.roothide/icon.png
-
 Package: im.mjh.fakeperm
 Version: 8.9.3
 Architecture: iphoneos-arm64
@@ -353,3 +311,45 @@ Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=dc870874a444
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=dc870874a444
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
+
+Package: im.mjh.fakenotify
+Name: FakeNotify
+Description: 一款模拟通知插件，允许配置多个通知任务，原生通知方案，支持通知栏、锁屏页面显示。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 584
+Filename: ./pkg/FakeNotify_1.0.1_arm64.deb
+Size: 78132
+MD5sum: d7ff654f48a7792bb886d89ed7f9aeb7
+SHA1: ce373d9045d9aeb637fb210e29a5cac2dc3105ad
+SHA256: e928665b3982038f83fad5c7945b3fa34cd649fbe9432823d674c9213822be5c
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakenotify.1.0.1-identity2.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.1.0.1-identity2.json
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.1.0.1-identity2.json
+Icon: https://apt.mjh.im/assets/im.mjh.fakenotify/icon.png
+
+Package: im.mjh.fakenotify.roothide
+Name: FakeNotify (Roothide)
+Description: 一款模拟通知插件，允许配置多个通知任务，原生通知方案，支持通知栏、锁屏页面显示。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: im.mjh.fakenotify
+Replaces: im.mjh.fakenotify
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 584
+Filename: ./pkg/FakeNotify_1.0.1_arm64e.deb
+Size: 78742
+MD5sum: 514073af111a49b810ecfde2f4f56fe6
+SHA1: ed8551a83c2b95f97f34e816dc7194a9ec9a4039
+SHA256: 3aafaadc029ba84f12baa1fea2796f372fc0e83a6479c2941b86fd66b7b47d91
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakenotify.roothide.1.0.1-identity2.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.roothide.1.0.1-identity2.json
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.roothide.1.0.1-identity2.json
+Icon: https://apt.mjh.im/assets/im.mjh.fakenotify.roothide/icon.png
