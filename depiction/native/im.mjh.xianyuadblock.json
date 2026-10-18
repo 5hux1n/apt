@@ -9,12 +9,6 @@
       "class": "DepictionStackView",
       "views": [
         {
-          "class": "DepictionButtonView",
-          "text": "下载保留版本 3.1.2+2",
-          "action": "https://apt.mjh.im/pkg/a603a5338b9d/XianYuHelper_3.1.2+2_arm64.deb",
-          "openExternal": true
-        },
-        {
           "class": "DepictionStackView",
           "orientation": "landscape",
           "xPadding": 8,
