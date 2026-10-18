@@ -1,3 +1,7 @@
+> 巨魔注入环境可能会导致 App 卡死、闪退，建议使用越狱环境，或降级使用 3.0.0 版本。
+
+[下载 3.0.0 旧版（arm64）](https://apt.mjh.im/pkg/3af6dd88273d/im.mjh.xianyuadblock_3.0.0_iphoneos-arm64.deb)
+
 ## 广告与页面净化
 - 去除冷启动开屏广告
 - 去除切后台再回前台的热启动广告
