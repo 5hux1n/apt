@@ -1,3 +1,72 @@
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手 Rootful
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm
+Version: 3.2.1
+Installed-Size: 1580
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=6c0a2409906e
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=d34bf75a3125
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=d34bf75a3125
+Filename: ./pkg/6137da153d4a/XianYuHelperRootful_3.2.1_arm64.deb
+Size: 570494
+MD5sum: c5fde29f2b391f8522bb59db3c584fae
+SHA1: decedcc410eb259ea727ba6aa0f36b5f833aa1ad
+SHA256: 6137da153d4ada975f92123b6e4627fc029f1f681178b98b537c236e65d79621
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64
+Version: 3.2.1
+Installed-Size: 1580
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=6c0a2409906e
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=d34bf75a3125
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=d34bf75a3125
+Filename: ./pkg/d59e53da8f22/XianYuHelper_3.2.1_arm64.deb
+Size: 572918
+MD5sum: d60858bd390fe98a188e1e7ce10cc3a3
+SHA1: 1a3985332024619252e1c9d9f0d67d14be3bf9d9
+SHA256: d59e53da8f22846fd5c05865449eccda3a6e4eb7e1495fdd5d7a238a5f73a477
+
+Package: im.mjh.xianyuadblock.roothide
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64e
+Version: 3.2.1
+Installed-Size: 1580
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=1ed737eaaa74
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
+Filename: ./pkg/fbb56ab0fb62/XianYuHelper_3.2.1_arm64e.deb
+Size: 570460
+MD5sum: 5fefe81dbdbaa64919ae918ad015d415
+SHA1: c4a0d1f5aff377652ebe2a3d69d1e2a045327e2c
+SHA256: fbb56ab0fb62bf4a5edc761ec96aebbbee47af718a7a85927050dc089acc85c3
+
 Package: danmutool
 Version: 2.0.0
 Architecture: iphoneos-arm64
@@ -340,9 +409,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm
 Version: 3.2.0
 Installed-Size: 1560
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=ef758895c2a3
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=bc5975d2f57f
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=bc5975d2f57f
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=6c0a2409906e
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=d34bf75a3125
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=d34bf75a3125
 Filename: ./pkg/af182d5d8d2c/XianYuHelperRootful_3.2.0_arm64.deb
 Size: 565692
 MD5sum: 4251b49a4cf38f9b90eef622c14405a1
@@ -363,9 +432,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm64
 Version: 3.2.0
 Installed-Size: 1560
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=ef758895c2a3
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=bc5975d2f57f
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=bc5975d2f57f
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=6c0a2409906e
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=d34bf75a3125
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=d34bf75a3125
 Filename: ./pkg/7368f35f049a/XianYuHelper_3.2.0_arm64.deb
 Size: 566334
 MD5sum: 1b22ed67b08a8c9042d06b4f46d7b5cf
@@ -386,9 +455,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
 Architecture: iphoneos-arm64e
 Version: 3.2.0
 Installed-Size: 1560
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=acff54cfa9b1
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=44acf56e9a4e
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=44acf56e9a4e
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=1ed737eaaa74
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
 Filename: ./pkg/6d072c8059bc/XianYuHelper_3.2.0_arm64e.deb
 Size: 563014
 MD5sum: 44499a9ad87be672f794789fbfed5459
@@ -409,9 +478,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm64
 Version: 3.1.2+2
 Installed-Size: 1560
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=ef758895c2a3
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=bc5975d2f57f
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=bc5975d2f57f
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=6c0a2409906e
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=d34bf75a3125
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=d34bf75a3125
 Filename: ./pkg/a603a5338b9d/XianYuHelper_3.1.2+2_arm64.deb
 Size: 559872
 MD5sum: ce5e319992db2717817b68af305e77b5
@@ -432,9 +501,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm64
 Version: 3.0.0
 Installed-Size: 488
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=ef758895c2a3
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=bc5975d2f57f
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=bc5975d2f57f
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=6c0a2409906e
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=d34bf75a3125
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=d34bf75a3125
 Filename: ./pkg/3af6dd88273d/im.mjh.xianyuadblock_3.0.0_iphoneos-arm64.deb
 Size: 82542
 MD5sum: 9e8b896222364564ed9bcaa797f261a2
@@ -455,9 +524,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
 Architecture: iphoneos-arm64e
 Version: 3.1.2+2
 Installed-Size: 1560
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=acff54cfa9b1
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=44acf56e9a4e
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=44acf56e9a4e
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=1ed737eaaa74
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
 Filename: ./pkg/57fd8e1dc00b/XianYuHelper_3.1.2+2_arm64e.deb
 Size: 557820
 MD5sum: 1f4b099f92c4f9c95fe0c042699db7a0
@@ -478,9 +547,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
 Architecture: iphoneos-arm64e
 Version: 3.0.0
 Installed-Size: 488
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=acff54cfa9b1
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=44acf56e9a4e
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=44acf56e9a4e
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=1ed737eaaa74
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
 Filename: ./pkg/fc55ef95a150/im.mjh.xianyuadblock.roothide_3.0.0_iphoneos-arm64e.deb
 Size: 82304
 MD5sum: 5ecf02251f683a4b6a6fb31524f6a140

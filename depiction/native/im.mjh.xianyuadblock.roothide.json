@@ -144,6 +144,15 @@
         },
         {
           "class": "DepictionTableTextView",
+          "title": "版本 3.2.1",
+          "text": "2026-10-19"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1、修复部分场景下热启动广告拦截失效的问题。  \n2、修复搜索过滤导致商品误隐藏、布局异常及关闭后显示不恢复的问题。  \n3、优化「闲鱼回收」卡片隐藏的稳定性。  \n4、优化部分注入环境下广告拦截的兼容性。"
+        },
+        {
+          "class": "DepictionTableTextView",
           "title": "版本 3.2.0",
           "text": "2026-10-18"
         },
