@@ -609,16 +609,16 @@ Author: junhong
 Section: Tweaks
 Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64
-Filename: ./pkg/uuscreenswitch-1.0.0/UUScreenSwitch_1.0.0_arm64.deb
-Version: 1.0.0
-Installed-Size: 172
-Size: 13766
-MD5sum: 16078c2b2065fad442c9386e61259408
-SHA1: 41320acd464048310ebc6c5f4c664707941ab594
-SHA256: 67b32bcaa977318de994cfdc318493418b60df6cea93cf3ad060fec4c0604e90
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.html?v=9fa82d0db42b
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=fa4fa30c5411
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=fa4fa30c5411
+Filename: ./pkg/uuscreenswitch-1.0.1/UUScreenSwitch_1.0.1_arm64.deb
+Version: 1.0.1
+Installed-Size: 208
+Size: 15944
+MD5sum: b36ae5656470373249840e1f69951302
+SHA1: 444de58faf20c89d76ba522ae7282af92749e619
+SHA256: 26bf2ec50bc187cb38abe6a6a0e09cc5f384a1cde5bcf1b6ce2024014b3b8a9c
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.html?v=cd95ecfcd23c
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=4de011fb9fd4
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=4de011fb9fd4
 Icon: https://apt.mjh.im/assets/im.mjh.uuscreenswitch/icon.png
 
 Package: im.mjh.uuscreenswitch.roothide
@@ -629,14 +629,14 @@ Author: junhong
 Section: Tweaks
 Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64e
-Filename: ./pkg/uuscreenswitch-1.0.0/UUScreenSwitch_1.0.0_arm64e.deb
-Version: 1.0.0
-Installed-Size: 172
-Size: 13738
-MD5sum: 6725d08cb15b9c2c47cfc5ed9364aa97
-SHA1: 0e6082a26132f7dbf0cf23d7012e458ca095dd6b
-SHA256: da36a46c2227d745fbb1062572a3a97f7683fd1b23f2234394ce0bbfbd8644cb
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.roothide.html?v=2b8c8e1c1928
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=863cb4683027
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=863cb4683027
+Filename: ./pkg/uuscreenswitch-1.0.1/UUScreenSwitch_1.0.1_arm64e.deb
+Version: 1.0.1
+Installed-Size: 208
+Size: 15894
+MD5sum: 4f2603e9d822c1beca38e15e4c3eb94d
+SHA1: 5e732070ecef53ca771fb3c8df29de800eb72a20
+SHA256: 4df1c16f3b905bfdb1bf7ca683c0313309de9c1d1ce7a4821b46adce19115ad6
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.roothide.html?v=3396834f2dd0
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=667a37d4f836
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=667a37d4f836
 Icon: https://apt.mjh.im/assets/im.mjh.uuscreenswitch.roothide/icon.png
