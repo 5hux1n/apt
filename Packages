@@ -600,3 +600,43 @@ Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html?v=53c593603bb
 SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=adfa4f60fd9b
 ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=adfa4f60fd9b
 Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
+
+Package: im.mjh.uuscreenswitch
+Name: UU远控切屏
+Description: 把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。
+Maintainer: junhong
+Author: junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Filename: ./pkg/uuscreenswitch-1.0.0/UUScreenSwitch_1.0.0_arm64.deb
+Version: 1.0.0
+Installed-Size: 172
+Size: 13766
+MD5sum: 16078c2b2065fad442c9386e61259408
+SHA1: 41320acd464048310ebc6c5f4c664707941ab594
+SHA256: 67b32bcaa977318de994cfdc318493418b60df6cea93cf3ad060fec4c0604e90
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.html?v=9fa82d0db42b
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=fa4fa30c5411
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=fa4fa30c5411
+Icon: https://apt.mjh.im/assets/im.mjh.uuscreenswitch/icon.png
+
+Package: im.mjh.uuscreenswitch.roothide
+Name: UU远控切屏
+Description: 把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。
+Maintainer: junhong
+Author: junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Filename: ./pkg/uuscreenswitch-1.0.0/UUScreenSwitch_1.0.0_arm64e.deb
+Version: 1.0.0
+Installed-Size: 172
+Size: 13738
+MD5sum: 6725d08cb15b9c2c47cfc5ed9364aa97
+SHA1: 0e6082a26132f7dbf0cf23d7012e458ca095dd6b
+SHA256: da36a46c2227d745fbb1062572a3a97f7683fd1b23f2234394ce0bbfbd8644cb
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.roothide.html?v=2b8c8e1c1928
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=863cb4683027
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=863cb4683027
+Icon: https://apt.mjh.im/assets/im.mjh.uuscreenswitch.roothide/icon.png
