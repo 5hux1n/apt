@@ -45,7 +45,7 @@ SHA1: 1c1e3101dae4bd51d88afec64faac86c53e77069
 SHA256: 9638dfb97707391d980095c0f920c2aa562e12d5d0dffbbe0aecb342baedeaf7
 
 Package: im.mjh.xianyuadblock.roothide
-Name: 闲鱼助手
+Name: 闲鱼助手 (Roothide)
 Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
 Author: junhong
 Maintainer: junhong
@@ -61,11 +61,11 @@ Installed-Size: 1580
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=6f2c9b10d847
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=1253a741354a
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=1253a741354a
-Filename: ./pkg/91b6c48ffd07/XianYuHelper_3.2.2_arm64e.deb
-Size: 572774
-MD5sum: 9d0317285d0e725d6da1b011dddb6bf0
-SHA1: f1a8d95a8448a0e454317cc542dc7003441166af
-SHA256: 91b6c48ffd0754c30528c3f2e709866884a375972d3d6cae28119d93f7e0367e
+Filename: ./pkg/ae47c8891b67/XianYuHelper_3.2.2_arm64e.deb
+Size: 572782
+MD5sum: 7a7390546e48127b10269b88c4aa219a
+SHA1: fd32e630d49bdfa93f1e5411e558d848d7870566
+SHA256: ae47c8891b67bee9bf46ee061f37e2923615c94852d45bca385f4f5f29302324
 
 Package: im.mjh.xianyuadblock
 Name: 闲鱼助手 Rootful
