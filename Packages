@@ -45,7 +45,7 @@ SHA1: 1a3985332024619252e1c9d9f0d67d14be3bf9d9
 SHA256: d59e53da8f22846fd5c05865449eccda3a6e4eb7e1495fdd5d7a238a5f73a477
 
 Package: im.mjh.xianyuadblock.roothide
-Name: 闲鱼助手
+Name: 闲鱼助手 (Roothide)
 Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
 Author: junhong
 Maintainer: junhong
@@ -61,11 +61,11 @@ Installed-Size: 1580
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=1ed737eaaa74
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
-Filename: ./pkg/fbb56ab0fb62/XianYuHelper_3.2.1_arm64e.deb
-Size: 570460
-MD5sum: 5fefe81dbdbaa64919ae918ad015d415
-SHA1: c4a0d1f5aff377652ebe2a3d69d1e2a045327e2c
-SHA256: fbb56ab0fb62bf4a5edc761ec96aebbbee47af718a7a85927050dc089acc85c3
+Filename: ./pkg/0a05319e054f/XianYuHelper_3.2.1_arm64e.deb
+Size: 570470
+MD5sum: ac09b66dab5ee1e71298b62847e60d4b
+SHA1: 8f170d137b2513e05cb929e244cf44bed659077b
+SHA256: 0a05319e054f7f77abaff80bc14fe088824106c4836a298f537d1a5a8d94c31d
 
 Package: danmutool
 Version: 2.0.0
@@ -134,16 +134,16 @@ Architecture: iphoneos-arm64e
 Maintainer: 5hux1n
 Installed-Size: 552
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pkg/84ea730ad99d/hongguofn_1.0.3_arm64e.deb
-Size: 103174
-MD5sum: 66d523a1812e803cc580b11661cb2b8a
-SHA1: 8a0214e1c1b980700585f34aa5b7691eea161bf2
-SHA256: 84ea730ad99d13f23e2192a128ab52b792264cc3a8410c69ef028f92726e4099
+Filename: ./pkg/e0c22d4a8730/hongguofn_1.0.3_arm64e.deb
+Size: 103166
+MD5sum: 3647a99e59e257d9e761e1ce777e0a62
+SHA1: d7df67d324a188ec269da666ae957c8ff4a8d175
+SHA256: e0c22d4a873064a2be7c6ff4b38bbb0ff3475f0fc994047d82a73f9aa0c17dc8
 Section: Tweaks
 Homepage: https://hongguo.goforit.si
 Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
 Author: Junhong
-Name: 红果净化
+Name: 红果净化 (Roothide)
 Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=b4afeae5f348
 SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=8a44329b3d00
 ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=8a44329b3d00
@@ -442,7 +442,7 @@ SHA1: 8cb2a7d9254fd22fcfa5ac3249d9c4a7e78d71f8
 SHA256: 7368f35f049a03cc5a33aa1442951f44952f55115b1c3a7afddffb0e3252ef13
 
 Package: im.mjh.xianyuadblock.roothide
-Name: 闲鱼助手
+Name: 闲鱼助手 (Roothide)
 Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
 Author: junhong
 Maintainer: junhong
@@ -458,11 +458,11 @@ Installed-Size: 1560
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=1ed737eaaa74
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
-Filename: ./pkg/6d072c8059bc/XianYuHelper_3.2.0_arm64e.deb
-Size: 563014
-MD5sum: 44499a9ad87be672f794789fbfed5459
-SHA1: d71a9d8020149d30681f546abb1ba052f1cd64b6
-SHA256: 6d072c8059bc9e14bcda76a9d2019a9401ce66a3b12752694f2911be6ec467f1
+Filename: ./pkg/2fdf3d1de5da/XianYuHelper_3.2.0_arm64e.deb
+Size: 563020
+MD5sum: 01e8259eea8fce37eecc070974abfebb
+SHA1: 591408928a70a41f9e4906cf6afbefa5e7a20083
+SHA256: 2fdf3d1de5daf0a4e0444470f725b97a9f3d1d2a339a5e5562c130427b4400f9
 
 Package: im.mjh.xianyuadblock
 Name: 闲鱼助手
@@ -511,7 +511,7 @@ SHA1: 4df6b7f7a25ae497161cbd1da71088377173ea2d
 SHA256: 3af6dd88273dc9de0c90bc7702d470383d8e973ae0e7b23bdc66243638c54084
 
 Package: im.mjh.xianyuadblock.roothide
-Name: 闲鱼助手
+Name: 闲鱼助手 (Roothide)
 Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
 Author: junhong
 Maintainer: junhong
@@ -527,14 +527,14 @@ Installed-Size: 1560
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=1ed737eaaa74
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
-Filename: ./pkg/57fd8e1dc00b/XianYuHelper_3.1.2+2_arm64e.deb
-Size: 557820
-MD5sum: 1f4b099f92c4f9c95fe0c042699db7a0
-SHA1: 7dd9417806a89b5b8ef0e29c1da00665176413d8
-SHA256: 57fd8e1dc00b690dd8f819b2df1ebcfa2cd608ee15be21cfb5496ab209fc5eb2
+Filename: ./pkg/f5637b2074d4/XianYuHelper_3.1.2+2_arm64e.deb
+Size: 557826
+MD5sum: a11ed8506d28d8ae82ecb4b157104ae4
+SHA1: 1a18944aad0487c53e857ac0390cd56ad4760301
+SHA256: f5637b2074d4e12451541a801f56d28dec2b8d3262e27406b476157da366e3f4
 
 Package: im.mjh.xianyuadblock.roothide
-Name: 闲鱼助手
+Name: 闲鱼助手 (Roothide)
 Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
 Author: junhong
 Maintainer: junhong
@@ -550,11 +550,11 @@ Installed-Size: 488
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=1ed737eaaa74
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=a4e03b11096b
-Filename: ./pkg/fc55ef95a150/im.mjh.xianyuadblock.roothide_3.0.0_iphoneos-arm64e.deb
-Size: 82304
-MD5sum: 5ecf02251f683a4b6a6fb31524f6a140
-SHA1: 5b66723c3a3fc5df4cf4eda4a46c48fdeb9744e0
-SHA256: fc55ef95a15083c2e1356057700b4b0d4b548eb3240a4b6404c5bcec3feee7fd
+Filename: ./pkg/eab72d017293/XianYuHelper_3.0.0_arm64e.deb
+Size: 82322
+MD5sum: 8fe1283a5ac18b63e3b0f74b400a29a8
+SHA1: 45be5507ad9bb066c906132a8b6d3db91c593e7d
+SHA256: eab72d0172937761158abee5153df749a5b94b6c0c62b63c62648a1b3c4b2199
 
 Package: fanqiefn
 Name: 番茄净化
@@ -578,7 +578,7 @@ ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=ca40f1736c4
 Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
 
 Package: fanqiefn.roothide
-Name: 番茄净化
+Name: 番茄净化 (Roothide)
 Maintainer: junhong
 Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
 Section: Tweaks
@@ -591,11 +591,11 @@ Architecture: iphoneos-arm64e
 Version: 3.1.1
 Installed-Size: 2992
 Author: junhong
-Filename: ./pkg/402b7110bcbb/fanqiefn_3.1.1_arm64e.deb
+Filename: ./pkg/1cf801dc1f18/fanqiefn_3.1.1_arm64e.deb
 Size: 1324356
-MD5sum: b298b73d383ab4cbfaa99c7ac3051eee
-SHA1: 2ee9fcd3befb7af23e46afe3c4a7cbfb08555223
-SHA256: 402b7110bcbb8b8cdc066a3fbaf0b54bf52b169e3bf8cd51a86e8e93c767b8dc
+MD5sum: d7629db90eff4374c9790f869b1714aa
+SHA1: 0fd60660991824be8721ac126505cef74dcac3f9
+SHA256: 1cf801dc1f1859a8e1c7de125b5327f725f3853b3cf413d6bea790ec15365ef8
 Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html?v=53c593603bb9
 SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=adfa4f60fd9b
 ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=adfa4f60fd9b
@@ -622,20 +622,20 @@ ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?
 Icon: https://apt.mjh.im/assets/im.mjh.uuscreenswitch/icon.png
 
 Package: im.mjh.uuscreenswitch.roothide
-Name: UU远控切屏
+Name: UU远控切屏 (Roothide)
 Description: 把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。
 Maintainer: junhong
 Author: junhong
 Section: Tweaks
 Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64e
-Filename: ./pkg/uuscreenswitch-1.0.1/UUScreenSwitch_1.0.1_arm64e.deb
+Filename: ./pkg/b28c00462cc0/UUScreenSwitch_1.0.1_arm64e.deb
 Version: 1.0.1
 Installed-Size: 208
-Size: 15894
-MD5sum: 4f2603e9d822c1beca38e15e4c3eb94d
-SHA1: 5e732070ecef53ca771fb3c8df29de800eb72a20
-SHA256: 4df1c16f3b905bfdb1bf7ca683c0313309de9c1d1ce7a4821b46adce19115ad6
+Size: 15912
+MD5sum: 59e26eafb86c08849a637276ec34258a
+SHA1: 6a0458fa6952e1eff0e90ea497ecf04c9834b948
+SHA256: b28c00462cc055f6ed357991f38222380dd0d8fb2fc5963dba55c6adcf0cd852
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.roothide.html?v=3396834f2dd0
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=667a37d4f836
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=667a37d4f836
