@@ -144,6 +144,15 @@
         },
         {
           "class": "DepictionTableTextView",
+          "title": "版本 3.2.2",
+          "text": "2026-10-20"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1、修复屏蔽启动广告时偶发闪退的问题。"
+        },
+        {
+          "class": "DepictionTableTextView",
           "title": "版本 3.2.1",
           "text": "2026-10-19"
         },
