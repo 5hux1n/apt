@@ -709,3 +709,45 @@ Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.roothide.html?
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=667a37d4f836
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=667a37d4f836
 Icon: https://apt.mjh.im/assets/im.mjh.uuscreenswitch.roothide/icon.png
+
+Package: uuhelper
+Name: uu 远控增强
+Description: UU 远控显示器快捷切换、常用组合键、显示器视角记忆与圆环滚轮增强。
+Maintainer: junhong
+Author: junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Installed-Size: 276
+Filename: ./pkg/uuhelper_1.1.0_arm64.deb
+Size: 39294
+MD5sum: 63e56717dff4a891665078b737a7aca0
+SHA1: 4c74d14c76bc76df6c1eaf1c10b5808d7998c7f1
+SHA256: 431dcc9ebd4e2bc721a12569fb5429516b7fafd75c6b01156d0604a2a121021e
+Depiction: https://apt.mjh.im/depiction/web/uuhelper.html
+SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.json
+Icon: https://apt.mjh.im/assets/uuhelper/icon.png
+
+Package: uuhelper.roothide
+Name: uu 远控增强 (Roothide)
+Description: UU 远控显示器快捷切换、常用组合键、显示器视角记忆与圆环滚轮增强。
+Maintainer: junhong
+Author: junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Installed-Size: 276
+Filename: ./pkg/uuhelper_1.1.0_arm64e.deb
+Size: 39318
+MD5sum: ecf5c254cec377ffbce797b3efcfa0f4
+SHA1: 457680a4e0e6417f1953c00302abee46713f89e6
+SHA256: c25d8f851fa9acb121de66d2a3094fa577f4f7a7e8be0569762d7a456f19a9ee
+Depiction: https://apt.mjh.im/depiction/web/uuhelper.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json
+Icon: https://apt.mjh.im/assets/uuhelper.roothide/icon.png
