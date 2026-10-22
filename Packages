@@ -625,51 +625,6 @@ MD5sum: 8fe1283a5ac18b63e3b0f74b400a29a8
 SHA1: 45be5507ad9bb066c906132a8b6d3db91c593e7d
 SHA256: eab72d0172937761158abee5153df749a5b94b6c0c62b63c62648a1b3c4b2199
 
-Package: fanqiefn
-Name: 番茄净化
-Maintainer: junhong
-Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
-Homepage: https://fanqie.goforit.si
-Architecture: iphoneos-arm64
-Version: 3.1.1
-Installed-Size: 3008
-Author: junhong
-Filename: ./pkg/b8c61fa3de0f/fanqiefn_3.1.1_arm64.deb
-Size: 1331456
-MD5sum: 1d6a73262f565ae7fa6e05a6f60a667c
-SHA1: ed3fbde709f6f9aef3aa336f035a759c97ac60d8
-SHA256: b8c61fa3de0f949a4e9390febfb5aa9f5ec9222014ccc4bac208c097e1d236ef
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html?v=100458ce1fe3
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=ca40f1736c48
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=ca40f1736c48
-Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
-
-Package: fanqiefn.roothide
-Name: 番茄净化 (Roothide)
-Maintainer: junhong
-Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
-Homepage: https://fanqie.goforit.si
-Conflicts: fanqiefn
-Replaces: fanqiefn
-Provides: fanqiefn
-Architecture: iphoneos-arm64e
-Version: 3.1.1
-Installed-Size: 2992
-Author: junhong
-Filename: ./pkg/1cf801dc1f18/fanqiefn_3.1.1_arm64e.deb
-Size: 1324356
-MD5sum: d7629db90eff4374c9790f869b1714aa
-SHA1: 0fd60660991824be8721ac126505cef74dcac3f9
-SHA256: 1cf801dc1f1859a8e1c7de125b5327f725f3853b3cf413d6bea790ec15365ef8
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html?v=53c593603bb9
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=adfa4f60fd9b
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=adfa4f60fd9b
-Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
-
 Package: im.mjh.uuscreenswitch
 Name: UU远控切屏
 Description: 把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。
@@ -749,3 +704,48 @@ Depiction: https://apt.mjh.im/depiction/web/uuhelper.roothide.html?v=e5ec67e69ca
 SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=fcbe7c2a85bd
 ModernDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=fcbe7c2a85bd
 Icon: https://apt.mjh.im/assets/uuhelper.roothide/icon.png
+
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: junhong
+Author: junhong
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://fanqie.goforit.si
+Architecture: iphoneos-arm64
+Version: 3.1.2
+Installed-Size: 3008
+Filename: ./pkg/d14b61dcb298/fanqiefn_3.1.2_arm64.deb
+Size: 1328154
+MD5sum: 087f10f9ddebdd3c9a3bf4b481ea54c5
+SHA1: 902eaf9fd8b0322259c4c7086ef9e64074120cfa
+SHA256: d14b61dcb29870b4b3d48fb1ce495d8cf850267d7e323bf29a45efe0bac4445a
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html?v=c59acdda881b
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=453917bf55b5
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=453917bf55b5
+Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
+
+Package: fanqiefn.roothide
+Name: 番茄净化 (Roothide)
+Maintainer: junhong
+Author: junhong
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://fanqie.goforit.si
+Conflicts: fanqiefn
+Replaces: fanqiefn
+Provides: fanqiefn
+Architecture: iphoneos-arm64e
+Version: 3.1.2
+Installed-Size: 3024
+Filename: ./pkg/3088cd9ca3ff/fanqiefn_3.1.2_arm64e.deb
+Size: 1337306
+MD5sum: aedbe022db9ea5a7d81c982f9fa39179
+SHA1: 617bd04c6d57748a3f9d2141d9fc91a287e6e0b7
+SHA256: 3088cd9ca3ffe1e3bb838de653aad0d8ac9d0b79dda8d6c7b9e281f19de799e0
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html?v=9c936d6b1663
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=2066b1851ae3
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=2066b1851ae3
+Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
