@@ -762,7 +762,7 @@ MD5sum: a5c58a6340d4383d28c2bc31ef1eb005
 SHA1: b061d8d60c40858f44c6a75c0159efb55fc86f00
 SHA256: 8637fa356cb9f0bade75019fd42a1b76ca17dca71f9bd251c3aa16b81b387653
 Section: Tweaks
-Homepage: https://5hux1n.github.io/Doleo/
+Homepage: https://doleo.goforit.si/
 Description: Sileo 的 DEB 下载与本地仓库工具。
 Author: junhong <mail@mjh.im>
 Moderndepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json
@@ -786,7 +786,7 @@ MD5sum: 6fff12a0aa057ec52ed553589998c30d
 SHA1: 8b7728c73358b8ddbf9696ccd3600399a34ca128
 SHA256: 3a889beacd94a4cb185bf32d5ca4cd26d85d4e43ecf433654c32276b60ebca46
 Section: Tweaks
-Homepage: https://5hux1n.github.io/Doleo/
+Homepage: https://doleo.goforit.si/
 Description: Sileo 的 DEB 下载与本地仓库工具。
 Author: junhong <mail@mjh.im>
 Moderndepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json
