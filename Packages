@@ -673,13 +673,13 @@ Author: junhong
 Section: Tweaks
 Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64
-Filename: ./pkg/aea93ba29ed0/uuhelper_1.0.2_arm64.deb
+Filename: ./pkg/8573bd37c884/uuhelper_1.0.2_arm64.deb
 Version: 1.0.2
-Installed-Size: 328
-Size: 50326
-MD5sum: 0016b66a756e6c371315c834b5e32d8f
-SHA1: 847bbab0e614baeab0284c6de3f578e784008636
-SHA256: aea93ba29ed05000708b191017c22c5858941a3ff59eee661a26bf4be65ed213
+Installed-Size: 360
+Size: 52558
+MD5sum: ed3bae698d49b051a2ebd14fd63ea060
+SHA1: 1cb1582e451c30745cb871056f499524b68c9fcb
+SHA256: 8573bd37c884bb7054d634cf6404298157b62c26a64d62f23160b61250c36374
 Depiction: https://apt.mjh.im/depiction/web/uuhelper.html?v=9f8c53a11fb8
 SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.json?v=bfd9a84d715f
 ModernDepiction: https://apt.mjh.im/depiction/native/uuhelper.json?v=bfd9a84d715f
@@ -695,13 +695,13 @@ Author: junhong
 Section: Tweaks
 Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64e
-Filename: ./pkg/5da1a8a8478b/uuhelper_1.0.2_arm64e.deb
+Filename: ./pkg/3f6400d7b2b8/uuhelper_1.0.2_arm64e.deb
 Version: 1.0.2
-Installed-Size: 328
-Size: 50182
-MD5sum: 4910b5ff4f1e2c0d23fa862bf788b037
-SHA1: 7f5e7e5334fc91c9100b6dea5cafad2e2f91f9c2
-SHA256: 5da1a8a8478b702fd1947e1239345e1f2f9f52328d394db305f799f7e6bcad09
+Installed-Size: 360
+Size: 52652
+MD5sum: df9790c7f594c1cf486e6f78022a7329
+SHA1: 2a7c98ff02a8cd79b8e0a2915107e5d9c5fcb0a9
+SHA256: 3f6400d7b2b86ede227823096bb2ac7e75903d6b0c65803208a04731101b7519
 Depiction: https://apt.mjh.im/depiction/web/uuhelper.roothide.html?v=341cca892131
 SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=4e64856b752b
 ModernDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=4e64856b752b
