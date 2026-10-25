@@ -284,6 +284,7 @@
             
             <div class="summary-box">Sileo 的 DEB 下载与本地仓库工具。</div>
             <div class="md_view"><p>Sileo 的 DEB 下载与本地仓库工具。将插件安装包保存在本地，按需选择版本下载、备份和重新安装。</p>
+<h2>主要功能</h2>
 <ul>
 <li><strong>仅下载不安装</strong>：选择软件源中可用的版本，支持连同依赖下载。</li>
 <li><strong>本地仓库</strong>：集中管理 DEB，查看版本与下载来源，支持导出及交给 Sileo 安装。</li>
@@ -293,10 +294,13 @@
 <li><strong>仓库管理</strong>：设置版本保留数量，标记当前源中已不可用的版本。</li>
 </ul>
 <h2>使用方式</h2>
-<p>安装后重新打开 Sileo。软件包页顶部的 <strong>Doleo</strong> 可打开仓库；插件详情页安装按钮旁的图标提供下载与仓库入口。自动备份需在设置中手动开启。</p>
+<ol>
+<li>安装后重新打开 <strong>Sileo</strong>。</li>
+<li>在软件包页点击顶部的 <strong>Doleo</strong>，进入仓库。</li>
+<li>在插件详情页点击安装按钮旁的图标，选择下载或查看仓库。</li>
+</ol>
+<p>自动备份需在设置中手动开启。</p>
 <p>下载已购插件前，请先在 Sileo 登录对应软件源账户，并打开该插件详情页。</p>
-<h2>从 Rootless 1.0.0 更新</h2>
-<p>如果已经出现 APT 钩子错误，请先用 Filza 打开 <code>/var/jb/etc/apt/apt.conf.d/</code>，将 <code>99doleo</code> 改名为 <code>99doleo.disabled</code>，再更新。1.0.1 会清理旧钩子配置，保留仓库文件和设置。</p>
 </div>
             
             
