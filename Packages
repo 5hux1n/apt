@@ -640,9 +640,9 @@ Size: 26060
 MD5sum: 68a286f8ba38591de21697dfe17970b5
 SHA1: 7819835266674d82ba43e39ceea8137454a3212e
 SHA256: faa7a9547619441ab0369848f55fe485fc16f4f71d326dab1cbb19d0c1d288cf
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.html?v=52e193d90665
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=9c8dcb2b8e61
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=9c8dcb2b8e61
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.html?v=b4df79e005dc
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=937edeffaf26
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=937edeffaf26
 Icon: https://apt.mjh.im/assets/im.mjh.uuscreenswitch/icon.png
 
 Package: im.mjh.uuscreenswitch.roothide
@@ -660,50 +660,54 @@ Size: 26020
 MD5sum: 7761697085f553fd6a1377c183efe98c
 SHA1: d6e8246a663b399ad28ddf75a1bed3912f922332
 SHA256: 63f3735d789caea48d57c1c167ad2accf1eb14a0edb624b86513a4aa6af34df9
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.roothide.html?v=e75d209a37f2
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=b3f5796dd3c1
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=b3f5796dd3c1
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.roothide.html?v=702264d57d95
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=af029dbcac8f
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=af029dbcac8f
 Icon: https://apt.mjh.im/assets/im.mjh.uuscreenswitch.roothide/icon.png
 
 Package: uuhelper
 Name: uu 远控增强
-Description: UU 远控常用组合键、圆环滚轮与显示器视角记忆增强。
+Description: UU 远控快捷键、圆盘滚轮、快捷切屏与视角记忆，支持 App 内独立开关。
 Maintainer: junhong
 Author: junhong
 Section: Tweaks
 Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64
-Filename: ./pkg/5218a92e3e36/uuhelper_1.0.1_arm64.deb
-Version: 1.0.1
-Installed-Size: 260
-Size: 34560
-MD5sum: ad73fdac9224e1c9c85a76d739bb1114
-SHA1: 75f2ac313c4c6a7bb1f3aa02afe57455b462e731
-SHA256: 5218a92e3e36efdeec18048d8065caf0e35c21210b2d33331255c1488447bc9d
-Depiction: https://apt.mjh.im/depiction/web/uuhelper.html?v=3f16152ebd1f
-SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.json?v=45af6c8c24d2
-ModernDepiction: https://apt.mjh.im/depiction/native/uuhelper.json?v=45af6c8c24d2
+Filename: ./pkg/aea93ba29ed0/uuhelper_1.0.2_arm64.deb
+Version: 1.0.2
+Installed-Size: 328
+Size: 50326
+MD5sum: 0016b66a756e6c371315c834b5e32d8f
+SHA1: 847bbab0e614baeab0284c6de3f578e784008636
+SHA256: aea93ba29ed05000708b191017c22c5858941a3ff59eee661a26bf4be65ed213
+Depiction: https://apt.mjh.im/depiction/web/uuhelper.html?v=9f8c53a11fb8
+SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.json?v=bfd9a84d715f
+ModernDepiction: https://apt.mjh.im/depiction/native/uuhelper.json?v=bfd9a84d715f
 Icon: https://apt.mjh.im/assets/uuhelper/icon.png
+Conflicts: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
 
 Package: uuhelper.roothide
 Name: uu 远控增强 (Roothide)
-Description: UU 远控常用组合键、圆环滚轮与显示器视角记忆增强。
+Description: UU 远控快捷键、圆盘滚轮、快捷切屏与视角记忆，支持 App 内独立开关。
 Maintainer: junhong
 Author: junhong
 Section: Tweaks
 Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64e
-Filename: ./pkg/91443c8c5104/uuhelper_1.0.1_arm64e.deb
-Version: 1.0.1
-Installed-Size: 260
-Size: 34432
-MD5sum: 5ce5cffb404c6bc3a6226c1616714dfd
-SHA1: 86797a94c7ffe2525843dc09dab45dac4eb489d9
-SHA256: 91443c8c51041f4daf5d6b5835d539f9c993eb7905af68aa3dd4ae1b8e5718db
-Depiction: https://apt.mjh.im/depiction/web/uuhelper.roothide.html?v=1c209b48319c
-SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=bd425385ea1d
-ModernDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=bd425385ea1d
+Filename: ./pkg/5da1a8a8478b/uuhelper_1.0.2_arm64e.deb
+Version: 1.0.2
+Installed-Size: 328
+Size: 50182
+MD5sum: 4910b5ff4f1e2c0d23fa862bf788b037
+SHA1: 7f5e7e5334fc91c9100b6dea5cafad2e2f91f9c2
+SHA256: 5da1a8a8478b702fd1947e1239345e1f2f9f52328d394db305f799f7e6bcad09
+Depiction: https://apt.mjh.im/depiction/web/uuhelper.roothide.html?v=341cca892131
+SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=4e64856b752b
+ModernDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=4e64856b752b
 Icon: https://apt.mjh.im/assets/uuhelper.roothide/icon.png
+Conflicts: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
 
 Package: fanqiefn
 Name: 番茄净化
