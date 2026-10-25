@@ -264,7 +264,7 @@
             <div class="package_info">
                 <h1 class="package_name">Doleo</h1>
                 <div class="detail-tags" aria-label="版本与适配信息">
-                    <span class="detail-tag">v1.0.0</span>
+                    <span class="detail-tag">v1.0.1</span>
                     <span class="detail-tag">RootHide · arm64e</span>
                     <span class="detail-tag">iOS 15+</span>
                 </div>
@@ -295,6 +295,8 @@
 <h2>使用方式</h2>
 <p>安装后重新打开 Sileo。软件包页顶部的 <strong>Doleo</strong> 可打开仓库；插件详情页安装按钮旁的图标提供下载与仓库入口。自动备份需在设置中手动开启。</p>
 <p>下载已购插件前，请先在 Sileo 登录对应软件源账户，并打开该插件详情页。</p>
+<h2>从 Rootless 1.0.0 更新</h2>
+<p>如果已经出现 APT 钩子错误，请先用 Filza 打开 <code>/var/jb/etc/apt/apt.conf.d/</code>，将 <code>99doleo</code> 改名为 <code>99doleo.disabled</code>，再更新。1.0.1 会清理旧钩子配置，保留仓库文件和设置。</p>
 </div>
             
             
@@ -302,6 +304,10 @@
         </div>
         <div class="changelog">
             <div class="changelog_entry">
+                <h4><span class="changelog_version">1.0.1</span><span class="changelog_date">2026-10-25</span></h4>
+                <div class="md_view"><p>修复 Rootless 环境下 APT 备份钩子导致安装、升级或卸载失败的问题。停用 Rootless 的升级前及安装时自动备份，保留下载与仓库管理功能。</p>
+</div>
+            </div><div class="changelog_entry">
                 <h4><span class="changelog_version">1.0.0</span><span class="changelog_date">2026-10-25</span></h4>
                 <div class="md_view"><p>首次发布，提供可选版本下载、本地 DEB 仓库、安装与升级自动备份，以及已购插件授权下载。</p>
 </div>
