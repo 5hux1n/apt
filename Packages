@@ -766,11 +766,11 @@ Tags: compatible_min::ios15.0
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.html?v=a808e4697f49
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json?v=d9bfb6ad6642
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json?v=d9bfb6ad6642
-Filename: ./pkg/7775d5cb84b8/Doleo_1.0.1_arm64.deb
-Size: 206562
-MD5sum: 1551dcdac56271400f130b07cf5e8b0d
-SHA1: 056e5ced30bfa2ab4334c3e29537a905e5c3ce47
-SHA256: 7775d5cb84b800b5067daa8122a98a92a9fd583a73b48b8a0689533a92460f08
+Filename: ./pkg/d9e347f3a61e/Doleo_1.0.1_arm64.deb
+Size: 206200
+MD5sum: 6e7223b44450189e4a044bbad5ec88b0
+SHA1: 05043b6bd5d5403d9dc6875f34a44702c6b394a7
+SHA256: d9e347f3a61e457183eecb95156518e8499e1104a88c3b954e9177340e5a5d6f
 
 Package: im.mjh.doleo.roothide
 Name: Doleo (Roothide)
@@ -788,8 +788,8 @@ Tags: compatible_min::ios15.0
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=7de75a3b2b1c
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=8caab411ac83
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=8caab411ac83
-Filename: ./pkg/9d56de8fba5f/Doleo_1.0.1_arm64e.deb
-Size: 209034
-MD5sum: f2c3d4695e02075130882d7e126472bf
-SHA1: 0bfad0f3b198d6f260be4bda8bdf7128af7e891c
-SHA256: 9d56de8fba5f43b1c2e3aacc4ff62db425ff8a457d1820a854e74426d1ea9bc4
+Filename: ./pkg/e2ca114027ee/Doleo_1.0.1_arm64e.deb
+Size: 208680
+MD5sum: bf09eff5932aaf847a87f79980a5f8dc
+SHA1: 6cfbd33ac79bea14f131cfff8521ebbdbfa77121
+SHA256: e2ca114027ee4c9f65c1726d19dc6580cbdf37938510486d22de35d822462999
