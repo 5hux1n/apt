@@ -709,51 +709,6 @@ Icon: https://apt.mjh.im/assets/uuhelper.roothide/icon.png
 Conflicts: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
 Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
 
-Package: fanqiefn
-Name: 番茄净化
-Maintainer: junhong
-Author: junhong
-Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
-Homepage: https://fanqie.goforit.si
-Architecture: iphoneos-arm64
-Version: 3.1.2
-Installed-Size: 3008
-Filename: ./pkg/d14b61dcb298/fanqiefn_3.1.2_arm64.deb
-Size: 1328154
-MD5sum: 087f10f9ddebdd3c9a3bf4b481ea54c5
-SHA1: 902eaf9fd8b0322259c4c7086ef9e64074120cfa
-SHA256: d14b61dcb29870b4b3d48fb1ce495d8cf850267d7e323bf29a45efe0bac4445a
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html?v=c59acdda881b
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=453917bf55b5
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=453917bf55b5
-Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
-
-Package: fanqiefn.roothide
-Name: 番茄净化 (Roothide)
-Maintainer: junhong
-Author: junhong
-Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
-Homepage: https://fanqie.goforit.si
-Conflicts: fanqiefn
-Replaces: fanqiefn
-Provides: fanqiefn
-Architecture: iphoneos-arm64e
-Version: 3.1.2
-Installed-Size: 3024
-Filename: ./pkg/3088cd9ca3ff/fanqiefn_3.1.2_arm64e.deb
-Size: 1337306
-MD5sum: aedbe022db9ea5a7d81c982f9fa39179
-SHA1: 617bd04c6d57748a3f9d2141d9fc91a287e6e0b7
-SHA256: 3088cd9ca3ffe1e3bb838de653aad0d8ac9d0b79dda8d6c7b9e281f19de799e0
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html?v=9c936d6b1663
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=2066b1851ae3
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=2066b1851ae3
-Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
-
 Package: im.mjh.doleo
 Name: Doleo
 Description: Sileo 的 DEB 下载与本地仓库工具。
@@ -797,3 +752,48 @@ Size: 208680
 MD5sum: bf09eff5932aaf847a87f79980a5f8dc
 SHA1: 6cfbd33ac79bea14f131cfff8521ebbdbfa77121
 SHA256: e2ca114027ee4c9f65c1726d19dc6580cbdf37938510486d22de35d822462999
+
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: junhong
+Author: junhong
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://fanqie.goforit.si
+Architecture: iphoneos-arm64
+Version: 3.3.0
+Installed-Size: 3008
+Filename: ./pkg/fc217a3d8ce0/番茄净化_3.3.0_arm64.deb
+Size: 1494246
+MD5sum: e1bdfa537da80fdae96726a0af4a49a1
+SHA1: 7d7e2434f8ce61098c4008cee7b9a3b9f141733d
+SHA256: fc217a3d8ce03324b15c3e3c9c8821e8dffbab1ce55ead0732f5db039d47dc21
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html?v=c59acdda881b
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=453917bf55b5
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=453917bf55b5
+Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
+
+Package: fanqiefn.roothide
+Name: 番茄净化 (Roothide)
+Maintainer: junhong
+Author: junhong
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://fanqie.goforit.si
+Conflicts: fanqiefn
+Replaces: fanqiefn
+Provides: fanqiefn
+Architecture: iphoneos-arm64e
+Version: 3.3.0
+Installed-Size: 3024
+Filename: ./pkg/cd1a9274091d/番茄净化_3.3.0_arm64e.deb
+Size: 1488930
+MD5sum: 23f330eff34a9f01d886120460607779
+SHA1: 39d1b23e1f55cc76747f46635e2e0cbf3660bd5d
+SHA256: cd1a9274091dbc3d532765b92438bda02e51580c128a84a5c0f62b1725aca9e2
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html?v=9c936d6b1663
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=2066b1851ae3
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=2066b1851ae3
+Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
