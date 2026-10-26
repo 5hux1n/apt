@@ -176,48 +176,6 @@ SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json?v=b3
 ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json?v=b3f3b060dae7
 Icon: https://apt.mjh.im/assets/danmutool.roothide/icon.png
 
-Package: hongguofn
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: 5hux1n
-Installed-Size: 552
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pkg/c6a6ab679f00/hongguofn_1.0.3_arm64.deb
-Size: 103066
-MD5sum: f64c4912e3ca5320a05a59b8e27495db
-SHA1: 0b8f13cf27a775ae7faa057ce1a3acb763bca605
-SHA256: c6a6ab679f006a565654fcfc13520ffb1b8699abfaf933814191d6f9b37e01fd
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
-Author: Junhong
-Name: 红果净化
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=9a227b59df0a
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=5cf177cdebe0
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=5cf177cdebe0
-Icon: https://apt.mjh.im/assets/hongguofn/icon.png
-
-Package: hongguofn.roothide
-Version: 1.0.3
-Architecture: iphoneos-arm64e
-Maintainer: 5hux1n
-Installed-Size: 552
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pkg/e0c22d4a8730/hongguofn_1.0.3_arm64e.deb
-Size: 103166
-MD5sum: 3647a99e59e257d9e761e1ce777e0a62
-SHA1: d7df67d324a188ec269da666ae957c8ff4a8d175
-SHA256: e0c22d4a873064a2be7c6ff4b38bbb0ff3475f0fc994047d82a73f9aa0c17dc8
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
-Author: Junhong
-Name: 红果净化 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=b4afeae5f348
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=8a44329b3d00
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=8a44329b3d00
-Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
-
 Package: hypicfix
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -797,3 +755,43 @@ Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html?v=9c936d6b166
 SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=2066b1851ae3
 ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=2066b1851ae3
 Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
+
+Package: hongguofn
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: 5hux1n
+Installed-Size: 4456
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./pkg/hongguofn_2.0.0_eeb057d844.deb
+Size: 1923892
+MD5sum: 7d5cdd91b2c2803bfd0b666c88f09b23
+SHA1: ee75a7a4274d16c1e711deee25b4b98f7aee13c2
+SHA256: eeb057d84435b9939b61b60171caa21d84fa643d97891446ceda8de66ba7a94c
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=74cd29d2cfb9
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=4a5f57c0ce47
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=4a5f57c0ce47
+Icon: https://apt.mjh.im/assets/hongguofn/icon.png
+
+Package: hongguofn.roothide
+Version: 2.0.0
+Architecture: iphoneos-arm64e
+Maintainer: 5hux1n
+Installed-Size: 4456
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./pkg/hongguofn.roothide_2.0.0_a4c452fc11.deb
+Size: 1934810
+MD5sum: bea76045018b6a6661d1d7a567d85081
+SHA1: 4fce7a396526eaf95c1e16ac2b0f6dd6ac267d2b
+SHA256: a4c452fc112d8602aef958d3c4b5ed01b9c9406771fd4fe24d11e6bd374bbdb5
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Name: 红果净化 (Roothide)
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=46ca8b444f75
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=9105709dbcfb
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=9105709dbcfb
+Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
