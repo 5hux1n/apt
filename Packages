@@ -759,14 +759,15 @@ Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
 Package: hongguofn
 Version: 2.0.0
 Architecture: iphoneos-arm64
-Maintainer: 5hux1n
+Maintainer: junhong
+Author: junhong
 Installed-Size: 4456
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pkg/hongguofn_2.0.0_eeb057d844.deb
-Size: 1923892
-MD5sum: 7d5cdd91b2c2803bfd0b666c88f09b23
-SHA1: ee75a7a4274d16c1e711deee25b4b98f7aee13c2
-SHA256: eeb057d84435b9939b61b60171caa21d84fa643d97891446ceda8de66ba7a94c
+Filename: ./pkg/hongguofn_2.0.0_f7c53a6f70.deb
+Size: 1939032
+MD5sum: efce711fe5b9246f562c54cde82fc7b1
+SHA1: fe46e8c9a70e55992368cc1da7915a88be68e465
+SHA256: f7c53a6f702c2dcc4fbb8d17827a2df3256dfaa1083bff804ad94bb9b103e41b
 Section: Tweaks
 Homepage: https://hongguo.goforit.si
 Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
@@ -779,14 +780,15 @@ Icon: https://apt.mjh.im/assets/hongguofn/icon.png
 Package: hongguofn.roothide
 Version: 2.0.0
 Architecture: iphoneos-arm64e
-Maintainer: 5hux1n
+Maintainer: junhong
+Author: junhong
 Installed-Size: 4456
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pkg/hongguofn.roothide_2.0.0_a4c452fc11.deb
-Size: 1934810
-MD5sum: bea76045018b6a6661d1d7a567d85081
-SHA1: 4fce7a396526eaf95c1e16ac2b0f6dd6ac267d2b
-SHA256: a4c452fc112d8602aef958d3c4b5ed01b9c9406771fd4fe24d11e6bd374bbdb5
+Filename: ./pkg/hongguofn.roothide_2.0.0_ecd154c769.deb
+Size: 1933812
+MD5sum: be538490f823061f235b734c0ffc3339
+SHA1: 8e829dbd482b2c44077ca0737082e8c8a69546f4
+SHA256: ecd154c7697539972699bab34ec709c9af7d72f28810af7fea859538bfb920db
 Section: Tweaks
 Homepage: https://hongguo.goforit.si
 Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
