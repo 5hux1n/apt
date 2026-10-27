@@ -757,16 +757,16 @@ ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=20
 Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
 
 Package: hongguofn
-Version: 2.0.4
+Version: 2.0.5
 Architecture: iphoneos-arm64
 Maintainer: Junhong
-Installed-Size: 4652
-Depends: firmware (>= 15.0)
-Filename: ./pkg/hongguofn_2.0.4_1ff99d76d4.deb
-Size: 1998256
-MD5sum: 90cc1e88cbbb8277c6fa899c1f0d8dea
-SHA1: 024f6eff42618783ddf425c41775b9dce61477b4
-SHA256: 1ff99d76d430e8b398dd61b4d3ab14d3321208290eafc798cb87e19defc793b3
+Installed-Size: 4659
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./pkg/hongguofn_2.0.5_86f50b21c9.deb
+Size: 2023358
+MD5sum: 65acd1b3ba9765ec324a19e1e86de195
+SHA1: edd6e5542559cd20d41e41a3e86b054376dc5e99
+SHA256: 86f50b21c9f5c41c0b4ca54a27042e8c025f6e40aebc37e90c68f793ba02f0d2
 Section: Tweaks
 Homepage: https://hongguo.goforit.si
 Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
@@ -775,22 +775,22 @@ Moderndepiction: https://apt.mjh.im/depiction/native/hongguofn.json
 Name: 红果净化
 Sileodepiction: https://apt.mjh.im/depiction/native/hongguofn.json
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=4d4e822376f1
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=f219b12be592
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=f219b12be592
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=b15688a6295e
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=71c0aa3c01e7
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=71c0aa3c01e7
 Icon: https://apt.mjh.im/assets/hongguofn/icon.png
 
 Package: hongguofn.roothide
-Version: 2.0.4
+Version: 2.0.5
 Architecture: iphoneos-arm64e
 Maintainer: Junhong
-Installed-Size: 4652
-Depends: firmware (>= 15.0)
-Filename: ./pkg/hongguofn.roothide_2.0.4_20214ef81e.deb
-Size: 2003428
-MD5sum: 67033b5c4ce4ce12936495b91a66b50d
-SHA1: 1c615be075aaf9aef38643fa4e8c0e6ca606d90b
-SHA256: 20214ef81e78db9d2b824b7a8df0328c420b8271e4dfe31ab6361bd2c1294ff9
+Installed-Size: 4691
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./pkg/hongguofn.roothide_2.0.5_acb5bf94f5.deb
+Size: 2035734
+MD5sum: bd5a63fb4b01c95d87f4065e3a7340da
+SHA1: e72750544c32c3f3f38fd9a13357771f88dada32
+SHA256: acb5bf94f51605b5aebf8a00a26f4bcd2e97f9bfbf05df5f5875d33772077975
 Section: Tweaks
 Homepage: https://hongguo.goforit.si
 Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
@@ -799,7 +799,7 @@ Moderndepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
 Name: 红果净化 (Roothide)
 Sileodepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=f4bc4bb560d1
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=224a2fe5ab37
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=224a2fe5ab37
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=12a40cf83fe7
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=43e7294bc681
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=43e7294bc681
 Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
