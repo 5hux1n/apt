@@ -670,46 +670,46 @@ Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
 Package: im.mjh.doleo
 Name: Doleo
 Description: Sileo 的 DEB 下载与本地仓库工具。
-Maintainer: junhong <mail@mjh.im>
-Author: junhong <mail@mjh.im>
+Maintainer: Junhong
+Author: Junhong
 Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate, dpkg
 Icon: https://apt.mjh.im/assets/im.mjh.doleo/icon.png
 Architecture: iphoneos-arm64
-Version: 1.0.1
-Installed-Size: 892
+Version: 1.0.2
+Installed-Size: 1008
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.html?v=0945bdb0e780
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json?v=0e1406951917
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json?v=0e1406951917
 Homepage: https://doleo.goforit.si/
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.html?v=8d3f44fd2ebf
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json?v=878f84bdc8fb
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json?v=878f84bdc8fb
-Filename: ./pkg/d9e347f3a61e/Doleo_1.0.1_arm64.deb
-Size: 206200
-MD5sum: 6e7223b44450189e4a044bbad5ec88b0
-SHA1: 05043b6bd5d5403d9dc6875f34a44702c6b394a7
-SHA256: d9e347f3a61e457183eecb95156518e8499e1104a88c3b954e9177340e5a5d6f
+Filename: ./pkg/2a10ad1340c6/Doleo_1.0.2_arm64.deb
+Size: 234662
+MD5sum: 758b8d123c1f96fad89aed0140f89e6c
+SHA1: f6b280dda0eaff5091b170d4e7753276f73ffbe9
+SHA256: 2a10ad1340c6d5fa4ba6eafb464c3632c829cc2517856e6095237ea8f032b32a
 
 Package: im.mjh.doleo.roothide
 Name: Doleo (Roothide)
 Description: Sileo 的 DEB 下载与本地仓库工具。
-Maintainer: junhong <mail@mjh.im>
-Author: junhong <mail@mjh.im>
+Maintainer: Junhong
+Author: Junhong
 Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate, dpkg
 Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
 Architecture: iphoneos-arm64e
-Version: 1.0.1
-Installed-Size: 904
+Version: 1.0.2
+Installed-Size: 1008
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=a89cb7b26821
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
 Homepage: https://doleo.goforit.si/
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=92e576d3fcd3
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=7396f508e35e
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=7396f508e35e
-Filename: ./pkg/e2ca114027ee/Doleo_1.0.1_arm64e.deb
-Size: 208680
-MD5sum: bf09eff5932aaf847a87f79980a5f8dc
-SHA1: 6cfbd33ac79bea14f131cfff8521ebbdbfa77121
-SHA256: e2ca114027ee4c9f65c1726d19dc6580cbdf37938510486d22de35d822462999
+Filename: ./pkg/3ca6436fb422/Doleo_1.0.2_arm64e.deb
+Size: 234822
+MD5sum: 2bbeaacb7162d13385d6791124d05111
+SHA1: 83ddfc70d8a67caf4e4fcbfa434dc382436feb04
+SHA256: 3ca6436fb42238c11086ec2206fe2cd04f3ec1c4d0c6bb56574111bc01a89f5f
 
 Package: fanqiefn
 Name: 番茄净化
