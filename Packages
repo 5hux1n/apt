@@ -762,7 +762,7 @@ Architecture: iphoneos-arm64
 Maintainer: Junhong
 Installed-Size: 4520
 Depends: firmware (>= 15.0)
-Filename: ./pkg/hongguofn_2.0.2_dfba100184.deb
+Filename: ./pkg/hongguofn_2.0.2_dfba100184f1.deb
 Size: 1952836
 MD5sum: 6dd06508a6da1089ce93580df4fda7b6
 SHA1: da23b2b8d06de1e51d52d2d6217fd9c624522087
