@@ -775,9 +775,9 @@ Moderndepiction: https://apt.mjh.im/depiction/native/hongguofn.json
 Name: 红果净化
 Sileodepiction: https://apt.mjh.im/depiction/native/hongguofn.json
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=b15688a6295e
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=6ae5b37bdcd6
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=6ae5b37bdcd6
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=f93d60ffb90f
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=3a710a843dc7
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=3a710a843dc7
 Icon: https://apt.mjh.im/assets/hongguofn/icon.png
 
 Package: hongguofn.roothide
@@ -799,7 +799,7 @@ Moderndepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
 Name: 红果净化 (Roothide)
 Sileodepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=12a40cf83fe7
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=c155af8ffd78
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=c155af8ffd78
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=2f0b3fce28b0
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=1d2e753b68b7
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=1d2e753b68b7
 Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
