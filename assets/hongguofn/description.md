@@ -24,3 +24,5 @@
 官网：https://hongguo.goforit.si
 
 反馈：https://pingme.pm/hongguo
+
+会员状态为本地显示，账号权益以实际账号为准。
