@@ -771,9 +771,7 @@ Section: Tweaks
 Homepage: https://hongguo.goforit.si
 Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
 Author: Junhong
-Moderndepiction: https://apt.mjh.im/depiction/native/hongguofn.json
 Name: 红果净化
-Sileodepiction: https://apt.mjh.im/depiction/native/hongguofn.json
 Tags: compatible_min::ios15.0
 Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=f93d60ffb90f
 SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=3a710a843dc7
@@ -795,9 +793,7 @@ Section: Tweaks
 Homepage: https://hongguo.goforit.si
 Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
 Author: Junhong
-Moderndepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
 Name: 红果净化 (Roothide)
-Sileodepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json
 Tags: compatible_min::ios15.0
 Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=2f0b3fce28b0
 SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=1d2e753b68b7
