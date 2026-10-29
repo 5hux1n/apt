@@ -757,19 +757,20 @@ ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=98
 Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
 
 Package: hongguofn
-Version: 2.0.6
+Version: 2.1.0
 Architecture: iphoneos-arm64
 Maintainer: Junhong
 Installed-Size: 4659
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pkg/hongguofn_2.0.6_85e41a0b1c.deb
-Size: 2024244
-MD5sum: 6727e5ea2300af7e2a46081e5efee696
-SHA1: 7763007df1418ceb56c37253df67b56e4d6837d7
-SHA256: 85e41a0b1cb377c2187591b65c3bf6322f832cbf83cae27e9dbe4867d91af1cf
+Filename: ./pkg/hongguofn_2.1.0_de31f861e8.deb
+Size: 2029140
+MD5sum: 7cc27e207727e22fb1ae5c94814d0224
+SHA1: 082cba57abbeda2d37f3bf61012f7a709cc4a3c3
+SHA256: de31f861e8330d7f95110ee4943c4563c233ba20955372c7325159e8bd4a6a2e
 Section: Tweaks
 Homepage: https://hongguo.goforit.si
-Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
 Author: Junhong
 Name: 红果净化
 Tags: compatible_min::ios15.0
@@ -779,19 +780,20 @@ ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=3a710a843d
 Icon: https://apt.mjh.im/assets/hongguofn/icon.png
 
 Package: hongguofn.roothide
-Version: 2.0.6
+Version: 2.1.0
 Architecture: iphoneos-arm64e
 Maintainer: Junhong
 Installed-Size: 4691
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pkg/hongguofn.roothide_2.0.6_477a20113a.deb
-Size: 2027052
-MD5sum: 6e301487e1e4328611da98abda27f784
-SHA1: d126795ff3f85fcd7574086745bc24af5a4fb1bf
-SHA256: 477a20113ae3e7ac9d83a4465faff63693bc7b9e7f45b0feb58481271fda772c
+Filename: ./pkg/hongguofn.roothide_2.1.0_8e8b3f9f31.deb
+Size: 2011164
+MD5sum: 33736618622ee77ec29b4747bb02531d
+SHA1: 318ab8e4f666bafc007fe96df1cd56f1d9436693
+SHA256: 8e8b3f9f31013b7107b2281b64e3c96d3c65f7034ca72f116b4e78dfa725c62d
 Section: Tweaks
 Homepage: https://hongguo.goforit.si
-Description: 红果短剧界面净化、导航与启动页选择、播放控制、原生二级设置。
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
 Author: Junhong
 Name: 红果净化 (Roothide)
 Tags: compatible_min::ios15.0
