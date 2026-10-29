@@ -774,9 +774,9 @@ Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广�
 Author: Junhong
 Name: 红果净化
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=f93d60ffb90f
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=3a710a843dc7
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=3a710a843dc7
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=cee1467ce5b7
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=39d15a186d29
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=39d15a186d29
 Icon: https://apt.mjh.im/assets/hongguofn/icon.png
 
 Package: hongguofn.roothide
@@ -797,7 +797,7 @@ Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广�
 Author: Junhong
 Name: 红果净化 (Roothide)
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=2f0b3fce28b0
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=1d2e753b68b7
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=1d2e753b68b7
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=3833e7f641c4
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=d44ca52a0d12
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=d44ca52a0d12
 Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
