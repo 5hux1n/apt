@@ -598,9 +598,9 @@ Size: 26060
 MD5sum: 68a286f8ba38591de21697dfe17970b5
 SHA1: 7819835266674d82ba43e39ceea8137454a3212e
 SHA256: faa7a9547619441ab0369848f55fe485fc16f4f71d326dab1cbb19d0c1d288cf
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.html?v=3595631c5620
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=2a4c4d6905d8
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=2a4c4d6905d8
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.html?v=83cebf8525d3
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=eb0c6631819c
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=eb0c6631819c
 Icon: https://apt.mjh.im/assets/im.mjh.uuscreenswitch/icon.png
 
 Package: im.mjh.uuscreenswitch.roothide
@@ -618,9 +618,9 @@ Size: 26020
 MD5sum: 7761697085f553fd6a1377c183efe98c
 SHA1: d6e8246a663b399ad28ddf75a1bed3912f922332
 SHA256: 63f3735d789caea48d57c1c167ad2accf1eb14a0edb624b86513a4aa6af34df9
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.roothide.html?v=4b896d5c8894
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=e180e15c53c0
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=e180e15c53c0
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.roothide.html?v=fce437e861df
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=f8ad67484093
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=f8ad67484093
 Icon: https://apt.mjh.im/assets/im.mjh.uuscreenswitch.roothide/icon.png
 
 Package: uuhelper
@@ -631,16 +631,16 @@ Author: junhong
 Section: Tweaks
 Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64
-Filename: ./pkg/8573bd37c884/uuhelper_1.0.2_arm64.deb
-Version: 1.0.2
+Filename: ./pkg/7327407404b6/uuhelper_1.0.3_arm64.deb
+Version: 1.0.3
 Installed-Size: 360
-Size: 52558
-MD5sum: ed3bae698d49b051a2ebd14fd63ea060
-SHA1: 1cb1582e451c30745cb871056f499524b68c9fcb
-SHA256: 8573bd37c884bb7054d634cf6404298157b62c26a64d62f23160b61250c36374
-Depiction: https://apt.mjh.im/depiction/web/uuhelper.html?v=01696cee2c10
-SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.json?v=e5d0b38a9464
-ModernDepiction: https://apt.mjh.im/depiction/native/uuhelper.json?v=e5d0b38a9464
+Size: 58712
+MD5sum: d5c659c0e99f29df1040a91cdbdedd56
+SHA1: e37e8e9120a9672ebfd8a8e41f89118e2117daee
+SHA256: 7327407404b61992eaff00188604c78a7b7c00b8dff85ba4af4f3f680306fab9
+Depiction: https://apt.mjh.im/depiction/web/uuhelper.html?v=f7a755a9d092
+SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.json?v=34ef83078b0a
+ModernDepiction: https://apt.mjh.im/depiction/native/uuhelper.json?v=34ef83078b0a
 Icon: https://apt.mjh.im/assets/uuhelper/icon.png
 Conflicts: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
 Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
@@ -653,16 +653,16 @@ Author: junhong
 Section: Tweaks
 Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64e
-Filename: ./pkg/3f6400d7b2b8/uuhelper_1.0.2_arm64e.deb
-Version: 1.0.2
+Filename: ./pkg/fb3825a2d7ae/uuhelper_1.0.3_arm64e.deb
+Version: 1.0.3
 Installed-Size: 360
-Size: 52652
-MD5sum: df9790c7f594c1cf486e6f78022a7329
-SHA1: 2a7c98ff02a8cd79b8e0a2915107e5d9c5fcb0a9
-SHA256: 3f6400d7b2b86ede227823096bb2ac7e75903d6b0c65803208a04731101b7519
-Depiction: https://apt.mjh.im/depiction/web/uuhelper.roothide.html?v=97446f62494e
-SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=84ae9a7f169b
-ModernDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=84ae9a7f169b
+Size: 58776
+MD5sum: 7245231dd959d7dca7ca3dc5254b12f7
+SHA1: 25a596f9a633bdd26c3f546d6383c4dbf5e60b92
+SHA256: fb3825a2d7ae2d299815ee79e845d0f9a91510af6fc50a2c71245491f5feb3b0
+Depiction: https://apt.mjh.im/depiction/web/uuhelper.roothide.html?v=71b6f8ecb0ef
+SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=70b69486b9b4
+ModernDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=70b69486b9b4
 Icon: https://apt.mjh.im/assets/uuhelper.roothide/icon.png
 Conflicts: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
 Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
