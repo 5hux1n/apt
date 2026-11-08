@@ -10,6 +10,75 @@ Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Homepage: https://xianyu.goforit.si
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm
+Version: 3.2.4
+Installed-Size: 2536
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=51e45cb6c793
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=026fed2a344d
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=026fed2a344d
+Filename: ./pkg/1db84d57cbd5/XianYuHelperRootful_3.2.4_arm64.deb
+Size: 836958
+MD5sum: 04a8c8e56ac9e0963815f1875882ef63
+SHA1: d93216518500200668c98f7e3c958f8cc9177ad7
+SHA256: 1db84d57cbd574edc2becf0499eaf10de0d711c3b9f3747a2ed20fbf4ab578b1
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64
+Version: 3.2.4
+Installed-Size: 2536
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=51e45cb6c793
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=026fed2a344d
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=026fed2a344d
+Filename: ./pkg/adbd6896c747/XianYuHelper_3.2.4_arm64.deb
+Size: 842472
+MD5sum: 5ef5febd1ae1d616e8752d29d91b82d5
+SHA1: 5f05ce119c804a06f3017e9ee31782c48f0eaa36
+SHA256: adbd6896c747d501fcd3fda93dec4c2e2fbeb0ef96b57e3922b81555810e06a2
+
+Package: im.mjh.xianyuadblock.roothide
+Name: 闲鱼助手 (Roothide)
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64e
+Version: 3.2.4
+Installed-Size: 2536
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=a72b54329647
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=0b98ad37be3b
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=0b98ad37be3b
+Filename: ./pkg/8ffe65ea16a0/XianYuHelper_3.2.4_arm64e.deb
+Size: 838294
+MD5sum: ef549cac00b8701f5d6f8672e43fb715
+SHA1: 7dba66f5306acf60a964fc12a0ec716c48b3d0b3
+SHA256: 8ffe65ea16a0ca5c7149ae2acb635236359a064502a7d5a14be38cde3548787a
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手 Rootful
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm
 Version: 3.2.3
 Installed-Size: 2504
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=0cab0900b0e5
