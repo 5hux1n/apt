@@ -933,3 +933,44 @@ Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=329651a9da
 SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=76e73950a420
 ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=76e73950a420
 Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
+
+
+Package: im.mjh.myeyeclean
+Name: 喵眼精灵去广告
+Description: 喵眼精灵去广告：掐断开屏/插屏/信息流/Banner/激励视频加载，拦截广告跳转 app
+Author: Junhong
+Maintainer: Junhong
+Section: Tweaks
+Homepage: https://apt.mjh.im/depiction/web/im.mjh.myeyeclean.html
+Icon: https://apt.mjh.im/assets/im.mjh.myeyeclean/icon.png
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Installed-Size: 168
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.myeyeclean.html?v=287f31436bc4
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.myeyeclean.json?v=563e7b103e8a
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.myeyeclean.json?v=563e7b103e8a
+Filename: ./pkg/f65f577ebbf8/im.mjh.myeyeclean_0.1.0-1_iphoneos-arm64.deb
+Size: 7690
+MD5sum: 6cda0e49f440f5ed0a298d650122208d
+SHA1: 8349b8a0530d4bc5d320a198ad52066bc9ba61fa
+SHA256: f65f577ebbf868a9179c1676a9a60456043bea160d813355fd9556bf485e5e9e
+
+Package: im.mjh.myeyeclean.roothide
+Name: 喵眼精灵去广告 (Roothide)
+Description: 喵眼精灵去广告：掐断开屏/插屏/信息流/Banner/激励视频加载，拦截广告跳转 app
+Author: Junhong
+Maintainer: Junhong
+Section: Tweaks
+Homepage: https://apt.mjh.im/depiction/web/im.mjh.myeyeclean.roothide.html
+Icon: https://apt.mjh.im/assets/im.mjh.myeyeclean.roothide/icon.png
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Installed-Size: 168
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.myeyeclean.roothide.html?v=16ff3713efc4
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.myeyeclean.roothide.json?v=c37e9042a838
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.myeyeclean.roothide.json?v=c37e9042a838
+Filename: ./pkg/cb40c5b09068/im.mjh.myeyeclean_0.1.0-2_iphoneos-arm64e.deb
+Size: 7660
+MD5sum: ffa876e362a02dd1681fe39c4d92107e
+SHA1: 410990967e1cdee8688d0c694cc84e554f2a4b03
+SHA256: cb40c5b090684113b01cc6275efc0ac5e4f13ab846ba4d050420b3d1f49baf17
