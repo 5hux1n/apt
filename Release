@@ -6,9 +6,9 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 欢迎光临
-Date: Tue, 10 Nov 2026 17:13:45 GMT
+Date: Wed, 11 Nov 2026 07:28:10 GMT
 SHA256:
- 54c00c672e79318487cfd773126030fea0db377768b36f5f1c4f302b82359385 45031 Packages
- f42501b41018a87b2872ca85bc8ffa43f4871e9e25b08aa5eeb2c2160ebbb558 8628 Packages.bz2
- d8380fcf659cb1f8b3cdcbd4878b3f7aeb8e1c310741d6ab7770abe964dd21a2 7788 Packages.xz
- 1ccf2989b828047776b497fca8ec925d40ff8d13c61e7d3f788d070362df51a5 8202 Packages.zst
+ 4673a67d39805047346c8dad25329df0b8bbe27648614e963237e2b3119a1002 45040 Packages
+ d2373618b74bcab3c77a36d8fb2c003e9e7d12b9bda03a5baf48d4a1bd64e756 8652 Packages.bz2
+ fea357d1cc224e4df36cb024c4741b37b9e55fb09acaabb1e6d9cbb730f75268 7792 Packages.xz
+ f2b7af6ad07414ab3d3ea552dd48206891aefb162f0d09d4d3d13527f0867413 8204 Packages.zst

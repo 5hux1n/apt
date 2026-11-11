@@ -263,7 +263,7 @@
             <div class="package_info">
                 <h1 class="package_name">喵眼精灵去广告 (Roothide)</h1>
                 <div class="detail-tags" aria-label="版本与适配信息">
-                    <span class="detail-tag">v0.1.0</span>
+                    <span class="detail-tag">v0.2.0</span>
                     <span class="detail-tag">RootHide · arm64e</span>
                     <span class="detail-tag">iOS 15+</span>
                 </div>
@@ -283,25 +283,19 @@
             </div>
         <div class="tweak_info">
             
-            <div class="summary-box">掐断喵眼精灵全部广告位，拦截电商 Deeplink 跳转</div>
-            <div class="md_view"><p>针对喵眼精灵（JACatEyeElf）的广告链路，从四个层面同时压制：</p>
-<ul>
-<li><strong>服务端策略</strong>：忽略下发的广告策略，始终按"免广告"处理</li>
-<li><strong>本地开关</strong>：<code>localADSwitch</code> 强制关闭，广告不加载</li>
-<li><strong>曝光计数</strong>：停止写曝光记录，查询恒为 0</li>
-<li><strong>Deeplink</strong>：拦截京东/淘宝/拼多多/抖音等电商跳转，保留支付类 scheme</li>
-</ul>
-<p>覆盖开屏、插屏、信息流、Banner、激励视频。聚合 SDK（Taku / MYads）不初始化，减少后台请求与耗电。</p>
-<blockquote><p>类名与选择器已做混淆处理，二进制内无明文。<br />
-仅用于本人设备，请勿用于商业分发。</p></blockquote>
+            <div class="summary-box">喵眼精灵 / 乔安智联双端去广告，关闭全部广告位并拦截电商跳转</div>
+            <div class="md_view"><p><strong>新增支持乔安智联（Joolink）</strong>：同一个插件同时作用于喵眼精灵和乔安智联。</p>
+<p>关闭开屏、插屏、信息流、Banner、激励视频广告；广告容器一并隐藏，减少残留的空白广告位。</p>
+<p>广告 SDK 不初始化，减少后台请求与耗电。</p>
+<p>拦截京东、淘宝、拼多多、抖音、快手等电商与短视频 App 跳转，保留支付宝、微信、电话、邮件等必要跳转。</p>
 </div>
             
             
             
         </div>
         <div class="changelog"><div class="changelog_entry">
-                <h4><span class="changelog_version">0.1.0</span><span class="changelog_date">2026-11-11</span></h4>
-                <div class="md_view"><p>首个版本：开屏 / 插屏 / 信息流 / Banner / 激励视频全部关闭，拦截电商 Deeplink 跳转，曝光计数不再增长。</p></div>
+                <h4><span class="changelog_version">0.2.0</span><span class="changelog_date">2026-11-11</span></h4>
+                <div class="md_view"><p>新增：支持乔安智联。</p></div>
             </div></div>
         <div class="caption center footer">junhong&#x27;s repo</div>
     </div>
