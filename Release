@@ -6,9 +6,19 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 欢迎光临
-Date: Wed, 11 Nov 2026 07:28:10 GMT
+Date: Thu, 12 Nov 2026 03:35:04 GMT
 SHA256:
- 4673a67d39805047346c8dad25329df0b8bbe27648614e963237e2b3119a1002 45040 Packages
- d2373618b74bcab3c77a36d8fb2c003e9e7d12b9bda03a5baf48d4a1bd64e756 8652 Packages.bz2
- fea357d1cc224e4df36cb024c4741b37b9e55fb09acaabb1e6d9cbb730f75268 7792 Packages.xz
- f2b7af6ad07414ab3d3ea552dd48206891aefb162f0d09d4d3d13527f0867413 8204 Packages.zst
+ 81c733fcd938faa4b9125e72c88666d43d1935201bb3414a839bdb2a9f6a4ed4 45040 Packages
+ 0eab02e7fe190be1df62dbf324f836ecee2ab6fb84d940cd10cf8aa3c4a3bf8b 8664 Packages.bz2
+ d7df1f84d06b15a68d50dd252cf23108700339275e212165c55a247098d9ade9 7776 Packages.xz
+ 728a14ef619ed24fed19f4263ddffc99d9b6db97829ce6ffd9cd28b3920b2ebf 8197 Packages.zst
+MD5Sum:
+ 22c9c1ba0a9ab94a101508d4bf7a3267 45040 Packages
+ 52fb7fa516857a1b2d1d4e6f598da35f 8664 Packages.bz2
+ 063ed6f4f2d68c52818afd4359b425a4 7776 Packages.xz
+ c8f07b87f22c5717437529b14d8c02ed 8197 Packages.zst
+SHA1:
+ 18dcc92a9d900401cb1addcc3b62f305aaba40df 45040 Packages
+ 02b3b61a83270f7c2eede56e49acb0fd1bd269c7 8664 Packages.bz2
+ 7251756a746dd9d148b69bb5276a4bbf0de947b0 7776 Packages.xz
+ 5be275b4eabe59c91780a7c2e23521422dc496f4 8197 Packages.zst
