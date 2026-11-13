@@ -226,6 +226,15 @@
     },
     {
      "class": "DepictionTableTextView",
+     "title": "版本 3.5.2",
+     "text": "2026-11-14"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 修复深色模式下底栏文字颜色为白色"
+    },
+    {
+     "class": "DepictionTableTextView",
      "title": "版本 3.5.1",
      "text": "2026-11-14"
     },
