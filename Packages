@@ -890,50 +890,6 @@ SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=564
 ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=5644ebb59eac
 Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
 
-Package: hongguofn
-Version: 2.2.2
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 6712
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pkg/hongguofn_2.2.2_9778ccd20c.deb
-Size: 2928424
-MD5sum: eb2003c21ecab324abdad5cf892f3257
-SHA1: 6b70bafdd366685c731e1886c1a3ded9604ec1e7
-SHA256: 9778ccd20c89537a8158ffad87860b7c2e7083014f7a66243d88dfa7ef8e4fb7
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
-Author: Junhong
-Name: 红果净化
-Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=1d0efea54bdb
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=3ae5a46c4474
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=3ae5a46c4474
-Icon: https://apt.mjh.im/assets/hongguofn/icon.png
-
-Package: hongguofn.roothide
-Version: 2.2.2
-Architecture: iphoneos-arm64e
-Maintainer: Junhong
-Installed-Size: 6712
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pkg/hongguofn.roothide_2.2.2_b54c89b9fc.deb
-Size: 2938920
-MD5sum: ab7f753c88af4ac901ed2978d1a741f8
-SHA1: d5a9673b19aeae2e6aa7c4ff41c226d964c00b75
-SHA256: b54c89b9fc2c6628ecc95b699b1e7ee016619d9104ddc242de127177951c33ba
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
-Author: Junhong
-Name: 红果净化 (Roothide)
-Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=329651a9da91
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=76e73950a420
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=76e73950a420
-Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
-
 Package: im.mjh.myeyeclean
 Name: 喵眼精灵去广告
 Description: 喵眼精灵 / 乔安智联去广告：关闭开屏/插屏/信息流/Banner/激励视频，拦截广告跳转
@@ -973,3 +929,47 @@ Size: 7818
 MD5sum: 83296c94d2e4bbbb8aee8cc1acc8a440
 SHA1: 39eccbf88ff402a8c8e9d1db81901562e2bfc814
 SHA256: c429f309c375a1bf5d6531c403d9b4ec55fc84e0b62b5ea8b6f448fcf381dfca
+
+Package: hongguofn
+Version: 2.2.4
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 7728
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./pkg/hongguofn_2.2.4_cc237d609a.deb
+Size: 3343890
+MD5sum: 951d59a126f2321b6f2b66be0b666d6f
+SHA1: 8d845c2fc5bbd890fbe3d4067eedf6fbef63f419
+SHA256: cc237d609abe9a8594c39f758298720d8683ed34c20616135e53c13549996117
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+Author: Junhong
+Name: 红果净化
+Tags: compatible_min::ios15.0
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=b009a32ba57f
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=0fb03997b584
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=0fb03997b584
+Icon: https://apt.mjh.im/assets/hongguofn/icon.png
+
+Package: hongguofn.roothide
+Version: 2.2.4
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 7728
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./pkg/hongguofn.roothide_2.2.4_cb640a71cd.deb
+Size: 3348248
+MD5sum: 7b441e6dea04c83cedbd82cc4d081a06
+SHA1: 1f23220da62914f892e323a21349bec1bd6fedcd
+SHA256: cb640a71cdd5e8c78013f30419ce6500ea3cf27f5d3040bdb8ffbc309442145b
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+Author: Junhong
+Name: 红果净化 (Roothide)
+Tags: compatible_min::ios15.0
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=011a3af84e7f
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=8d7a355ef6f2
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=8d7a355ef6f2
+Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
