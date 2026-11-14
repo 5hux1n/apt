@@ -226,6 +226,15 @@
     },
     {
      "class": "DepictionTableTextView",
+     "title": "版本 3.5.3",
+     "text": "2026-11-15"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 新增小说导出功能\n- 移除我的页面顶部插件入口"
+    },
+    {
+     "class": "DepictionTableTextView",
      "title": "版本 3.5.2",
      "text": "2026-11-14"
     },

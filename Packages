@@ -938,16 +938,16 @@ Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate
 Homepage: https://fanqie.goforit.si
 Architecture: iphoneos-arm64
-Version: 3.5.2
-Installed-Size: 5028
-Filename: ./pkg/c27fb5fbd74e/fanqiefn_3.5.2_arm64.deb
-Size: 2196712
-MD5sum: e5ece66dc6bb52cecfbb2d201a15cfef
-SHA1: 3a336f067eecd0b2b0a96e7ca5a0e96e204b01ff
-SHA256: c27fb5fbd74e5ca1b01c61a239954239dc290c35797ecafb256c5874b6088c7b
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html?v=cad65bb1b2b5
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=805e6d5bf0e4
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=805e6d5bf0e4
+Version: 3.5.3
+Installed-Size: 5656
+Filename: ./pkg/80bcffda22fb/fanqiefn_3.5.3_arm64.deb
+Size: 2453752
+MD5sum: 3b1ddb9a5b3aa1b13a0a53c88bd8bc24
+SHA1: 9b5a77f3d8ded354bd92f84a518e23b39bdada3a
+SHA256: 80bcffda22fbed65ad1061017aff06ba4dfe0411bff742cd526c9c8d00446f0b
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html?v=8a513f99fe74
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=977b2e380d95
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=977b2e380d95
 Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
 
 Package: fanqiefn.roothide
@@ -962,16 +962,16 @@ Conflicts: fanqiefn
 Replaces: fanqiefn
 Provides: fanqiefn
 Architecture: iphoneos-arm64e
-Version: 3.5.2
-Installed-Size: 5012
-Filename: ./pkg/e5a1be84ec5d/fanqiefn_3.5.2_arm64e.deb
-Size: 2193756
-MD5sum: aa80209b16b78674cfa6610a3c42f6f5
-SHA1: d275ed261bc59d300c9e6db4e448653db60f058b
-SHA256: e5a1be84ec5d264ee72efa410a837302eacd1e807d69995f5a197722692551db
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html?v=23580833cb5f
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=3ec07418c2e1
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=3ec07418c2e1
+Version: 3.5.3
+Installed-Size: 5656
+Filename: ./pkg/fd818d647c62/fanqiefn_3.5.3_arm64e.deb
+Size: 2463336
+MD5sum: f4942545ea2f090a178dfea29802c2c1
+SHA1: 12bb3a8cbcae288b5b409346ebde5e307c5d031f
+SHA256: fd818d647c6260ee3ba659f85ec43806994b3c8c54cc39bef59a69ed76b068f4
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html?v=e03ef382d8b7
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=d8ca4ee3adca
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=d8ca4ee3adca
 Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
 
 Package: im.mjh.xiaoyingclean
