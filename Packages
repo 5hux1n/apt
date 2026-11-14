@@ -973,3 +973,39 @@ Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html?v=23580833cb5
 SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=3ec07418c2e1
 ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=3ec07418c2e1
 Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
+
+Package: im.mjh.xiaoyingclean
+Name: 小鹰看看去广告
+Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横幅和原生广告，拦截广告跳转
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Installed-Size: 168
+Filename: ./pkg/b293826dca57/XiaoyingClean_0.1.0_arm64.deb
+Size: 7996
+MD5sum: 33305baf25ea158dec68a7cd8e0c2e65
+SHA1: 6db04693e2c0cb12627c0c2db9c3d36f471db75b
+SHA256: b293826dca576d5a002bab88dea126454ab794d257a0cacd69c08b01f110b870
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xiaoyingclean.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.json
+
+
+Package: im.mjh.xiaoyingclean.roothide
+Name: 小鹰看看去广告 (Roothide)
+Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横幅和原生广告，拦截广告跳转
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Installed-Size: 168
+Filename: ./pkg/ba88851c6baa/XiaoyingClean_0.1.0_arm64e.deb
+Size: 7972
+MD5sum: e7a74af28d09cc638f509f6356a686a9
+SHA1: 72fbc89a90bf9e6a30ce7cd92230b5a054d3cd65
+SHA256: ba88851c6baa336b5aee8bccf10f997b9862e15853e3d6374e3cc9f3c87fceea
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xiaoyingclean.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.roothide.json
+

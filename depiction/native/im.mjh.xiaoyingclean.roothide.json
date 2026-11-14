@@ -1,0 +1,16 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**小鹰看看去广告 (Roothide) 0.1.0**\n\n小鹰看看 3.0.41 原生广告容器隐藏与广告跳转拦截。\n\n覆盖可识别的原生开屏、插屏、横幅和视频广告容器。Flutter 自绘广告不在当前覆盖范围。仅作用于 com.okcam.ookcam。\n\niOS 15 及以上 · RootHide"
+        }
+      ]
+    }
+  ]
+}
