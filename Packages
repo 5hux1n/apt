@@ -1009,3 +1009,47 @@ SHA256: ba88851c6baa336b5aee8bccf10f997b9862e15853e3d6374e3cc9f3c87fceea
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.xiaoyingclean.roothide.html
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.roothide.json
 
+Package: moe.misty.sslkillswitch3
+Name: SSL Kill Switch 4
+Depends: preferenceloader
+Conflicts: com.nablac0d3.sslkillswitch2
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
+Maintainer: NyaMisty <misty@misty.moe>
+Author: NyaMisty <misty@misty.moe>, Alban Diquet <nabla.c0d3@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.5
+Installed-Size: 388
+Filename: pkg/63a5dfc6bdd2/SSLKillSwitch4_1.5_arm64.deb
+Size: 45420
+MD5sum: e68a3c6e802a9968720a780d3fe14a78
+SHA1: 216d86d39f8b26c14da3c181ac2c3e48bd176c95
+SHA256: 63a5dfc6bdd2a477ea83d70a6b67007157b23b8f229be46d61fa28037f6068f1
+Depiction: https://apt.mjh.im/depiction/web/moe.misty.sslkillswitch3.html
+SileoDepiction: https://apt.mjh.im/depiction/native/moe.misty.sslkillswitch3.json
+ModernDepiction: https://apt.mjh.im/depiction/native/moe.misty.sslkillswitch3.json
+Icon: https://apt.mjh.im/assets/moe.misty.sslkillswitch3/icon.png
+Homepage: https://github.com/5hux1n/SSLKillSwitch4
+
+Package: moe.misty.sslkillswitch3.roothide
+Name: SSL Kill Switch 4 (Roothide)
+Depends: preferenceloader
+Conflicts: com.nablac0d3.sslkillswitch2
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
+Maintainer: NyaMisty <misty@misty.moe>
+Author: NyaMisty <misty@misty.moe>, Alban Diquet <nabla.c0d3@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.5
+Installed-Size: 388
+Filename: pkg/7acde63f98ab/SSLKillSwitch4_1.5_arm64e.deb
+Size: 44442
+MD5sum: 381cc3594a452488839803de584aa7d2
+SHA1: 0a496466c675cc1c5f156e164f11652f01e39a90
+SHA256: 7acde63f98ab72e553028569152daf717d57ad868cc9d96777159d8c1f0048c2
+Depiction: https://apt.mjh.im/depiction/web/moe.misty.sslkillswitch3.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/moe.misty.sslkillswitch3.roothide.json
+ModernDepiction: https://apt.mjh.im/depiction/native/moe.misty.sslkillswitch3.roothide.json
+Icon: https://apt.mjh.im/assets/moe.misty.sslkillswitch3.roothide/icon.png
+Homepage: https://github.com/5hux1n/SSLKillSwitch4
+
