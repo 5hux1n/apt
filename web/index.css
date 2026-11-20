@@ -1,32 +1,16 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
+
+[hidden] { display: none !important; }
+:focus-visible { outline: 2px solid #335d86; outline-offset: 3px; }
 
 .body {
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", sans-serif;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: min(680px, calc(100% - 40px));
+    margin: 20px auto;
 
-}
-
-@media only screen and (max-width: 600px) {
-    .body {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .scroll_view {
-        width: calc(100vw - 60px);
-    }
-}
-@media only screen and (min-width: 601px) {
-    .body {
-        width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .scroll_view {
-        width: calc(500px - 40px);
-    }
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -34,7 +18,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .caption {
-    color: #bbb;
+    color: #626660;
     font-size: 16px;
 }
 
@@ -44,9 +28,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .scroll_view {
+    width: 100%;
     overflow-x: scroll;
     overflow-y: hidden;
-    margin: 10px;
+    margin: 10px 0;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 }
@@ -171,16 +156,11 @@ h3 {
 .banner_underlay {
     background-size: cover;
     background-position: center;
-    height: 150px;
+    height: clamp(150px, 30vw, 204px);
     width: 100%;
     border-radius: 8px;
-    z-index: -2;
     margin-bottom: 25px;
     top: 0;
-}
-
-.changelog {
-    display: none;
 }
 
 .changelog_entry {
@@ -212,4 +192,6 @@ a {
     .subtle_link, .subtle_link > div > div, .subtle_link > div > div > p {
         color: white;
     }
+    .caption { color: #a9afa5; }
+    :focus-visible { outline-color: #badbff; }
 }

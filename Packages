@@ -12,9 +12,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm
 Version: 3.2.4
 Installed-Size: 2536
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=51e45cb6c793
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=026fed2a344d
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=026fed2a344d
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=7c55c7486f4c
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
 Filename: ./pkg/1db84d57cbd5/XianYuHelperRootful_3.2.4_arm64.deb
 Size: 836958
 MD5sum: 04a8c8e56ac9e0963815f1875882ef63
@@ -35,9 +35,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm64
 Version: 3.2.4
 Installed-Size: 2536
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=51e45cb6c793
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=026fed2a344d
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=026fed2a344d
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=7c55c7486f4c
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
 Filename: ./pkg/adbd6896c747/XianYuHelper_3.2.4_arm64.deb
 Size: 842472
 MD5sum: 5ef5febd1ae1d616e8752d29d91b82d5
@@ -54,13 +54,13 @@ Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Homepage: https://xianyu.goforit.si
-Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
 Architecture: iphoneos-arm64e
 Version: 3.2.4
 Installed-Size: 2536
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=a72b54329647
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=0b98ad37be3b
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=0b98ad37be3b
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=7cd29d9ed473
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
 Filename: ./pkg/8ffe65ea16a0/XianYuHelper_3.2.4_arm64e.deb
 Size: 838294
 MD5sum: ef549cac00b8701f5d6f8672e43fb715
@@ -81,9 +81,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm
 Version: 3.2.3
 Installed-Size: 2504
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=0cab0900b0e5
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=baaa92565ed8
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=baaa92565ed8
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=7c55c7486f4c
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
 Filename: ./pkg/80e657fccd6b/XianYuHelperRootful_3.2.3_arm64.deb
 Size: 832260
 MD5sum: d61d33dbc8a2f4791c244dcdbbea82a3
@@ -104,9 +104,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm64
 Version: 3.2.3
 Installed-Size: 2504
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=0cab0900b0e5
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=baaa92565ed8
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=baaa92565ed8
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=7c55c7486f4c
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
 Filename: ./pkg/0a68325a5147/XianYuHelper_3.2.3_arm64.deb
 Size: 829844
 MD5sum: a28099f6befb62a4be209b1286a3d00c
@@ -123,13 +123,13 @@ Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Homepage: https://xianyu.goforit.si
-Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
 Architecture: iphoneos-arm64e
 Version: 3.2.3
 Installed-Size: 2504
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=91c677039a50
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=c0d3f312e9c0
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=c0d3f312e9c0
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=7cd29d9ed473
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
 Filename: ./pkg/f749618fb063/XianYuHelper_3.2.3_arm64e.deb
 Size: 834582
 MD5sum: 908fbfcbd11f1f321f1a5788b8bf5d59
@@ -150,9 +150,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm
 Version: 3.2.2
 Installed-Size: 1580
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=e792cc1af380
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=7c55c7486f4c
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
 Filename: ./pkg/c8e5abf8373b/XianYuHelperRootful_3.2.2_arm64.deb
 Size: 571054
 MD5sum: 49f93f09b4b54b9d5fae71cb6666ee7f
@@ -173,9 +173,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm64
 Version: 3.2.2
 Installed-Size: 1580
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=e792cc1af380
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=7c55c7486f4c
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
 Filename: ./pkg/9638dfb97707/XianYuHelper_3.2.2_arm64.deb
 Size: 572324
 MD5sum: a11e4cc8001ee909c05262c8419600ce
@@ -192,13 +192,13 @@ Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Homepage: https://xianyu.goforit.si
-Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
 Architecture: iphoneos-arm64e
 Version: 3.2.2
 Installed-Size: 1580
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=a98befb8ebea
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=92a66fd3fecb
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=92a66fd3fecb
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=7cd29d9ed473
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
 Filename: ./pkg/ae47c8891b67/XianYuHelper_3.2.2_arm64e.deb
 Size: 572782
 MD5sum: 7a7390546e48127b10269b88c4aa219a
@@ -219,9 +219,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm
 Version: 3.2.1
 Installed-Size: 1580
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=e792cc1af380
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=7c55c7486f4c
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
 Filename: ./pkg/6137da153d4a/XianYuHelperRootful_3.2.1_arm64.deb
 Size: 570494
 MD5sum: c5fde29f2b391f8522bb59db3c584fae
@@ -242,9 +242,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm64
 Version: 3.2.1
 Installed-Size: 1580
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=e792cc1af380
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=7c55c7486f4c
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
 Filename: ./pkg/d59e53da8f22/XianYuHelper_3.2.1_arm64.deb
 Size: 572918
 MD5sum: d60858bd390fe98a188e1e7ce10cc3a3
@@ -261,13 +261,13 @@ Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
 Homepage: https://xianyu.goforit.si
-Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
 Architecture: iphoneos-arm64e
 Version: 3.2.1
 Installed-Size: 1580
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=a98befb8ebea
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=92a66fd3fecb
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=92a66fd3fecb
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=7cd29d9ed473
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
 Filename: ./pkg/0a05319e054f/XianYuHelper_3.2.1_arm64e.deb
 Size: 570470
 MD5sum: ac09b66dab5ee1e71298b62847e60d4b
@@ -289,9 +289,9 @@ Section: Tweaks
 Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
 Author: Junhong
 Name: 弹幕助手
-Depiction: https://apt.mjh.im/depiction/web/danmutool.html?v=9b44767c29ab
-SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.json?v=b89ae56d5195
-ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.json?v=b89ae56d5195
+Depiction: https://apt.mjh.im/depiction/web/danmutool.html?v=da9f331b6703
+SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.json?v=c0a97abb54f6
+ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.json?v=c0a97abb54f6
 Icon: https://apt.mjh.im/assets/danmutool/icon.png
 
 Package: danmutool.roothide
@@ -309,9 +309,9 @@ Section: Tweaks
 Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
 Author: Junhong
 Name: 弹幕助手 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/danmutool.roothide.html?v=1bad277c3bab
-SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json?v=a54e1738d3c0
-ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json?v=a54e1738d3c0
+Depiction: https://apt.mjh.im/depiction/web/danmutool.roothide.html?v=c6b419579870
+SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json?v=db5648adf068
+ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.roothide.json?v=db5648adf068
 Icon: https://apt.mjh.im/assets/danmutool.roothide/icon.png
 
 Package: hypicfix
@@ -329,9 +329,9 @@ Section: Tweaks
 Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
 Author: Junhong
 Name: 醒图国际版修复工具
-Depiction: https://apt.mjh.im/depiction/web/hypicfix.html?v=50f19b093578
-SileoDepiction: https://apt.mjh.im/depiction/native/hypicfix.json?v=37527839f144
-ModernDepiction: https://apt.mjh.im/depiction/native/hypicfix.json?v=37527839f144
+Depiction: https://apt.mjh.im/depiction/web/hypicfix.html?v=7f56d9dff12d
+SileoDepiction: https://apt.mjh.im/depiction/native/hypicfix.json?v=c92f798ff4d8
+ModernDepiction: https://apt.mjh.im/depiction/native/hypicfix.json?v=c92f798ff4d8
 Icon: https://apt.mjh.im/assets/hypicfix/icon.png
 
 Package: hypicfix.roothide
@@ -349,9 +349,9 @@ Section: Tweaks
 Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
 Author: Junhong
 Name: 醒图国际版修复工具 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/hypicfix.roothide.html?v=1690e076b76e
-SileoDepiction: https://apt.mjh.im/depiction/native/hypicfix.roothide.json?v=cbbbc26561be
-ModernDepiction: https://apt.mjh.im/depiction/native/hypicfix.roothide.json?v=cbbbc26561be
+Depiction: https://apt.mjh.im/depiction/web/hypicfix.roothide.html?v=bbcb2ed4ba8d
+SileoDepiction: https://apt.mjh.im/depiction/native/hypicfix.roothide.json?v=cf1865238f39
+ModernDepiction: https://apt.mjh.im/depiction/native/hypicfix.roothide.json?v=cf1865238f39
 Icon: https://apt.mjh.im/assets/hypicfix.roothide/icon.png
 
 Package: im.mjh.alipay2nfc
@@ -371,9 +371,9 @@ Section: Tweaks
 Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
 Author: Junhong
 Name: Alipay2NFC
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.alipay2nfc.html?v=973643bcc038
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.json?v=34c059cc8432
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.json?v=34c059cc8432
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.alipay2nfc.html?v=9322e75763e0
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.json?v=ed536690257f
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.json?v=ed536690257f
 Icon: https://apt.mjh.im/assets/im.mjh.alipay2nfc/icon.png
 
 Package: im.mjh.alipay2nfc.roothide
@@ -393,9 +393,9 @@ Section: Tweaks
 Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
 Author: Junhong
 Name: Alipay2NFC · 碰一碰转接 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.alipay2nfc.roothide.html?v=16b47c98b3e8
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.roothide.json?v=8c2c1211e5b0
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.roothide.json?v=8c2c1211e5b0
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.alipay2nfc.roothide.html?v=d3c0a8415ea4
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.roothide.json?v=0934b511ced9
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.alipay2nfc.roothide.json?v=0934b511ced9
 Icon: https://apt.mjh.im/assets/im.mjh.alipay2nfc.roothide/icon.png
 
 Package: im.mjh.fakeperm
@@ -413,9 +413,9 @@ Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
 Name: 虚拟权限 · Fake Permission
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakeperm.html?v=2cc48423a42c
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.json?v=4e025787283e
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.json?v=4e025787283e
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakeperm.html?v=bc7b19bd0f16
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.json?v=1f4f07fa47f0
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.json?v=1f4f07fa47f0
 Icon: https://apt.mjh.im/assets/im.mjh.fakeperm/icon.png
 
 Package: im.mjh.fakeperm.roothide
@@ -433,9 +433,9 @@ Section: Tweaks
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
 Author: Junhong
 Name: 虚拟权限 · Fake Permission (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakeperm.roothide.html?v=4de0f592b85f
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.roothide.json?v=de78ba2c1eda
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.roothide.json?v=de78ba2c1eda
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakeperm.roothide.html?v=a7e4eda33de8
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.roothide.json?v=2f20622ff587
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.roothide.json?v=2f20622ff587
 Icon: https://apt.mjh.im/assets/im.mjh.fakeperm.roothide/icon.png
 
 Package: im.mjh.wclocate
@@ -453,9 +453,9 @@ Section: Tweaks
 Description: 微信虚拟定位 — 支持巨魔/越狱/证书自签，地图选点、地点搜索、拖拽定位、海拔伪装。开源地址：已在 github 开源，地址：https://github.com/11195666/wclocate
 Author: Junhong
 Name: 微信虚拟定位
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.wclocate.html?v=286d72557cdb
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json?v=a846572b9d20
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json?v=a846572b9d20
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.wclocate.html?v=7ad8e6560058
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json?v=78f13689b396
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json?v=78f13689b396
 Icon: https://apt.mjh.im/assets/im.mjh.wclocate/icon.png
 
 Package: im.mjh.fakenotify
@@ -473,9 +473,9 @@ Size: 78132
 MD5sum: d7ff654f48a7792bb886d89ed7f9aeb7
 SHA1: ce373d9045d9aeb637fb210e29a5cac2dc3105ad
 SHA256: e928665b3982038f83fad5c7945b3fa34cd649fbe9432823d674c9213822be5c
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakenotify.html?v=945b512deb7c
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.json?v=2c0f89424f79
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.json?v=2c0f89424f79
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakenotify.html?v=5a6768ff25b4
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.json?v=95b1640716db
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.json?v=95b1640716db
 Icon: https://apt.mjh.im/assets/im.mjh.fakenotify/icon.png
 
 Package: im.mjh.fakenotify.roothide
@@ -495,9 +495,9 @@ Size: 78742
 MD5sum: 514073af111a49b810ecfde2f4f56fe6
 SHA1: ed8551a83c2b95f97f34e816dc7194a9ec9a4039
 SHA256: 3aafaadc029ba84f12baa1fea2796f372fc0e83a6479c2941b86fd66b7b47d91
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakenotify.roothide.html?v=98cf583bb232
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.roothide.json?v=e10302244599
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.roothide.json?v=e10302244599
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakenotify.roothide.html?v=0a6a384257fe
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.roothide.json?v=11bff998785e
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakenotify.roothide.json?v=11bff998785e
 Icon: https://apt.mjh.im/assets/im.mjh.fakenotify.roothide/icon.png
 
 Package: spoofnotify
@@ -524,9 +524,9 @@ Size: 36646
 MD5sum: f2c442b8e1183057234a97d1c0ef3945
 SHA1: e40f23f9191143047099ec188da7e56626163021
 SHA256: 439cda8717aec660983a5cda5d4842e06e73219004b3a1aee8f22fe75812b807
-Depiction: https://apt.mjh.im/depiction/web/spoofnotify.html?v=f8a0d6d9cc88.0.2
-SileoDepiction: https://apt.mjh.im/depiction/native/spoofnotify.json?v=0be411214155.0.2
-ModernDepiction: https://apt.mjh.im/depiction/native/spoofnotify.json?v=0be411214155.0.2
+Depiction: https://apt.mjh.im/depiction/web/spoofnotify.html?v=892b2addee1a
+SileoDepiction: https://apt.mjh.im/depiction/native/spoofnotify.json?v=f5a7e2f38469
+ModernDepiction: https://apt.mjh.im/depiction/native/spoofnotify.json?v=f5a7e2f38469
 Icon: https://apt.mjh.im/assets/spoofnotify/icon.png
 Homepage: https://tongzhi.goforit.si/
 
@@ -554,9 +554,9 @@ Size: 36562
 MD5sum: 43ac1fce63db713e857ced5aee776208
 SHA1: ea3eff25b67de895a2ee9859d2fcd55d36a04b56
 SHA256: 3251eb15911caa5b9f37b2c09189a23e6214eb7c888258c21b5ecd28580b6726
-Depiction: https://apt.mjh.im/depiction/web/spoofnotify.roothide.html?v=0c65ab2bbbc6.0.2
-SileoDepiction: https://apt.mjh.im/depiction/native/spoofnotify.roothide.json?v=2b3ec5473008.0.2
-ModernDepiction: https://apt.mjh.im/depiction/native/spoofnotify.roothide.json?v=2b3ec5473008.0.2
+Depiction: https://apt.mjh.im/depiction/web/spoofnotify.roothide.html?v=bec7d0eff0fb
+SileoDepiction: https://apt.mjh.im/depiction/native/spoofnotify.roothide.json?v=bc1425c588a5
+ModernDepiction: https://apt.mjh.im/depiction/native/spoofnotify.roothide.json?v=bc1425c588a5
 Icon: https://apt.mjh.im/assets/spoofnotify.roothide/icon.png
 Homepage: https://tongzhi.goforit.si/
 
@@ -574,9 +574,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm
 Version: 3.2.0
 Installed-Size: 1560
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=e792cc1af380
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=7c55c7486f4c
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
 Filename: ./pkg/af182d5d8d2c/XianYuHelperRootful_3.2.0_arm64.deb
 Size: 565692
 MD5sum: 4251b49a4cf38f9b90eef622c14405a1
@@ -597,9 +597,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm64
 Version: 3.2.0
 Installed-Size: 1560
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=e792cc1af380
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=7c55c7486f4c
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
 Filename: ./pkg/7368f35f049a/XianYuHelper_3.2.0_arm64.deb
 Size: 566334
 MD5sum: 1b22ed67b08a8c9042d06b4f46d7b5cf
@@ -620,9 +620,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
 Architecture: iphoneos-arm64e
 Version: 3.2.0
 Installed-Size: 1560
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=a98befb8ebea
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=92a66fd3fecb
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=92a66fd3fecb
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=7cd29d9ed473
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
 Filename: ./pkg/2fdf3d1de5da/XianYuHelper_3.2.0_arm64e.deb
 Size: 563020
 MD5sum: 01e8259eea8fce37eecc070974abfebb
@@ -643,9 +643,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm64
 Version: 3.1.2+2
 Installed-Size: 1560
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=e792cc1af380
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=7c55c7486f4c
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
 Filename: ./pkg/a603a5338b9d/XianYuHelper_3.1.2+2_arm64.deb
 Size: 559872
 MD5sum: ce5e319992db2717817b68af305e77b5
@@ -666,9 +666,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 Architecture: iphoneos-arm64
 Version: 3.0.0
 Installed-Size: 488
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=e792cc1af380
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=81731f419620
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=7c55c7486f4c
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
 Filename: ./pkg/3af6dd88273d/im.mjh.xianyuadblock_3.0.0_iphoneos-arm64.deb
 Size: 82542
 MD5sum: 9e8b896222364564ed9bcaa797f261a2
@@ -689,9 +689,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
 Architecture: iphoneos-arm64e
 Version: 3.1.2+2
 Installed-Size: 1560
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=a98befb8ebea
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=92a66fd3fecb
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=92a66fd3fecb
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=7cd29d9ed473
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
 Filename: ./pkg/f5637b2074d4/XianYuHelper_3.1.2+2_arm64e.deb
 Size: 557826
 MD5sum: a11ed8506d28d8ae82ecb4b157104ae4
@@ -712,9 +712,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
 Architecture: iphoneos-arm64e
 Version: 3.0.0
 Installed-Size: 488
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=a98befb8ebea
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=92a66fd3fecb
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=92a66fd3fecb
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=7cd29d9ed473
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
 Filename: ./pkg/eab72d017293/XianYuHelper_3.0.0_arm64e.deb
 Size: 82322
 MD5sum: 8fe1283a5ac18b63e3b0f74b400a29a8
@@ -736,9 +736,9 @@ Size: 26060
 MD5sum: 68a286f8ba38591de21697dfe17970b5
 SHA1: 7819835266674d82ba43e39ceea8137454a3212e
 SHA256: faa7a9547619441ab0369848f55fe485fc16f4f71d326dab1cbb19d0c1d288cf
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.html?v=83cebf8525d3
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=eb0c6631819c
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=eb0c6631819c
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.html?v=4d469e56adee
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=f0ae74ad306e
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.json?v=f0ae74ad306e
 Icon: https://apt.mjh.im/assets/im.mjh.uuscreenswitch/icon.png
 
 Package: im.mjh.uuscreenswitch.roothide
@@ -756,9 +756,9 @@ Size: 26020
 MD5sum: 7761697085f553fd6a1377c183efe98c
 SHA1: d6e8246a663b399ad28ddf75a1bed3912f922332
 SHA256: 63f3735d789caea48d57c1c167ad2accf1eb14a0edb624b86513a4aa6af34df9
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.roothide.html?v=fce437e861df
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=f8ad67484093
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=f8ad67484093
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.uuscreenswitch.roothide.html?v=d0e27994cc7e
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=fb757259c5cd
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.uuscreenswitch.roothide.json?v=fb757259c5cd
 Icon: https://apt.mjh.im/assets/im.mjh.uuscreenswitch.roothide/icon.png
 
 Package: uuhelper
@@ -775,9 +775,9 @@ Size: 59372
 MD5sum: 139633516d87c85f204c823e7097aaea
 SHA1: e3f6ed1311bd30589317aa6f946e4f256f083321
 SHA256: a0a727af4a9834ddaefb6b440bdc68e7c37d8c69efd3192c321bcdfb16969bc6
-Depiction: https://apt.mjh.im/depiction/web/uuhelper.html?v=d467226649ec
-SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.json?v=50dcde8b8b10
-ModernDepiction: https://apt.mjh.im/depiction/native/uuhelper.json?v=50dcde8b8b10
+Depiction: https://apt.mjh.im/depiction/web/uuhelper.html?v=a6a6a1134aba
+SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.json?v=3abd8465e67e
+ModernDepiction: https://apt.mjh.im/depiction/native/uuhelper.json?v=3abd8465e67e
 Icon: https://apt.mjh.im/assets/uuhelper/icon.png
 
 Package: uuhelper.roothide
@@ -794,9 +794,9 @@ Size: 59374
 MD5sum: 9bdbac087cd9738a466db75badc258ba
 SHA1: 9b97802a5975b004d2ed1eaada7960430334f447
 SHA256: 488d06cae858e0b3087e67beb934d86558078816235ebf6faaecc9bf020e1607
-Depiction: https://apt.mjh.im/depiction/web/uuhelper.roothide.html?v=cfb7a6978b32
-SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=b1f183888060
-ModernDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=b1f183888060
+Depiction: https://apt.mjh.im/depiction/web/uuhelper.roothide.html?v=9153fad25288
+SileoDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=e44d362a73c0
+ModernDepiction: https://apt.mjh.im/depiction/native/uuhelper.roothide.json?v=e44d362a73c0
 Icon: https://apt.mjh.im/assets/uuhelper.roothide/icon.png
 
 Package: im.mjh.doleo
@@ -805,7 +805,7 @@ Description: Download and keep local DEB packages in Sileo.
 Maintainer: Junhong
 Author: Junhong
 Section: Tweaks
-Icon: file:///var/jb/usr/share/doleo/icon.png
+Icon: https://apt.mjh.im/assets/im.mjh.doleo/icon.png
 Architecture: iphoneos-arm64
 Version: 1.0.4
 Installed-Size: 1008
@@ -814,7 +814,7 @@ Size: 241674
 MD5sum: 3e63e8e78b9683c0d6a6410e7eded220
 SHA1: c0ece18a8adf925e1f4be5a4c57a23d71887c508
 SHA256: e3830a2bdab2cae5e277e2c033fe793dd4b918f9b55819bb558e01e43e58ea1b
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.html?v=14cd34a280b2
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.html?v=043a7845ba88
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json?v=f8a446502127
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json?v=f8a446502127
 Icon: https://apt.mjh.im/assets/im.mjh.doleo/icon.png
@@ -825,7 +825,7 @@ Description: Download and keep local DEB packages in Sileo.
 Maintainer: Junhong
 Author: Junhong
 Section: Tweaks
-Icon: file:///usr/share/doleo/icon.png
+Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
 Architecture: iphoneos-arm64e
 Version: 1.0.4
 Installed-Size: 1008
@@ -834,7 +834,7 @@ Size: 241568
 MD5sum: 89bef34efce027a460b3fa00b04fcb3a
 SHA1: 48602daddfcd2a58e856d0a7e85db89be2c75388
 SHA256: 9f45f92870db2c43308f8df51e91000e815b90758e12f2b1bafe0572504e92bb
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=4f47cce4fe68
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=a3356c102282
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=7442f048ebdb
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=7442f048ebdb
 Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
@@ -850,9 +850,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.myeyeclean/icon.png
 Architecture: iphoneos-arm64
 Version: 0.2.0
 Installed-Size: 168
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.myeyeclean.html?v=287f31436bc4
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.myeyeclean.json?v=563e7b103e8a
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.myeyeclean.json?v=563e7b103e8a
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.myeyeclean.html?v=791eefeb3bed
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.myeyeclean.json?v=533a6e3e5dca
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.myeyeclean.json?v=533a6e3e5dca
 Filename: ./pkg/27048d8fa3ae/im.mjh.myeyeclean_0.2.0-1_iphoneos-arm64.deb
 Size: 7856
 MD5sum: 33eaa0952433691f9ecb43a5aa014008
@@ -870,9 +870,9 @@ Icon: https://apt.mjh.im/assets/im.mjh.myeyeclean.roothide/icon.png
 Architecture: iphoneos-arm64e
 Version: 0.2.0
 Installed-Size: 168
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.myeyeclean.roothide.html?v=16ff3713efc4
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.myeyeclean.roothide.json?v=c37e9042a838
-ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.myeyeclean.roothide.json?v=c37e9042a838
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.myeyeclean.roothide.html?v=3c3275e77537
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.myeyeclean.roothide.json?v=533a6e3e5dca
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.myeyeclean.roothide.json?v=533a6e3e5dca
 Filename: ./pkg/c429f309c375/im.mjh.myeyeclean_0.2.0-2_iphoneos-arm64e.deb
 Size: 7818
 MD5sum: 83296c94d2e4bbbb8aee8cc1acc8a440
@@ -895,9 +895,9 @@ Size: 2453752
 MD5sum: 3b1ddb9a5b3aa1b13a0a53c88bd8bc24
 SHA1: 9b5a77f3d8ded354bd92f84a518e23b39bdada3a
 SHA256: 80bcffda22fbed65ad1061017aff06ba4dfe0411bff742cd526c9c8d00446f0b
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html?v=8a513f99fe74
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=977b2e380d95
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=977b2e380d95
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.html?v=4a712a16cf2a
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=b1eb82341cc3
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.json?v=b1eb82341cc3
 Icon: https://apt.mjh.im/assets/fanqiefn/icon.png
 
 Package: fanqiefn.roothide
@@ -919,9 +919,9 @@ Size: 2463336
 MD5sum: f4942545ea2f090a178dfea29802c2c1
 SHA1: 12bb3a8cbcae288b5b409346ebde5e307c5d031f
 SHA256: fd818d647c6260ee3ba659f85ec43806994b3c8c54cc39bef59a69ed76b068f4
-Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html?v=e03ef382d8b7
-SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=d8ca4ee3adca
-ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=d8ca4ee3adca
+Depiction: https://apt.mjh.im/depiction/web/fanqiefn.roothide.html?v=f4e6b3c3cbee
+SileoDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=371d193ec4ad
+ModernDepiction: https://apt.mjh.im/depiction/native/fanqiefn.roothide.json?v=371d193ec4ad
 Icon: https://apt.mjh.im/assets/fanqiefn.roothide/icon.png
 
 Package: im.mjh.xiaoyingclean
@@ -938,9 +938,10 @@ Size: 7996
 MD5sum: 33305baf25ea158dec68a7cd8e0c2e65
 SHA1: 6db04693e2c0cb12627c0c2db9c3d36f471db75b
 SHA256: b293826dca576d5a002bab88dea126454ab794d257a0cacd69c08b01f110b870
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xiaoyingclean.html
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.json
-
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xiaoyingclean.html?v=7249ab92eb11
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.json?v=39abec97cce9
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.json?v=39abec97cce9
+Icon: https://apt.mjh.im/assets/im.mjh.xiaoyingclean/icon.png
 
 Package: im.mjh.xiaoyingclean.roothide
 Name: 小鹰看看去广告 (Roothide)
@@ -956,8 +957,10 @@ Size: 7972
 MD5sum: e7a74af28d09cc638f509f6356a686a9
 SHA1: 72fbc89a90bf9e6a30ce7cd92230b5a054d3cd65
 SHA256: ba88851c6baa336b5aee8bccf10f997b9862e15853e3d6374e3cc9f3c87fceea
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xiaoyingclean.roothide.html
-SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.roothide.json
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xiaoyingclean.roothide.html?v=4f8385031808
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.roothide.json?v=6278e7c4b2ea
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.roothide.json?v=6278e7c4b2ea
+Icon: https://apt.mjh.im/assets/im.mjh.xiaoyingclean.roothide/icon.png
 
 Package: moe.misty.sslkillswitch3
 Name: SSL Kill Switch 4
@@ -975,9 +978,9 @@ Size: 45420
 MD5sum: e68a3c6e802a9968720a780d3fe14a78
 SHA1: 216d86d39f8b26c14da3c181ac2c3e48bd176c95
 SHA256: 63a5dfc6bdd2a477ea83d70a6b67007157b23b8f229be46d61fa28037f6068f1
-Depiction: https://apt.mjh.im/depiction/web/moe.misty.sslkillswitch3.html
-SileoDepiction: https://apt.mjh.im/depiction/native/moe.misty.sslkillswitch3.json
-ModernDepiction: https://apt.mjh.im/depiction/native/moe.misty.sslkillswitch3.json
+Depiction: https://apt.mjh.im/depiction/web/moe.misty.sslkillswitch3.html?v=ca0fd7e38276
+SileoDepiction: https://apt.mjh.im/depiction/native/moe.misty.sslkillswitch3.json?v=0b22a2e64f04
+ModernDepiction: https://apt.mjh.im/depiction/native/moe.misty.sslkillswitch3.json?v=0b22a2e64f04
 Icon: https://apt.mjh.im/assets/moe.misty.sslkillswitch3/icon.png
 Homepage: https://github.com/5hux1n/SSLKillSwitch4
 
@@ -997,9 +1000,9 @@ Size: 44442
 MD5sum: 381cc3594a452488839803de584aa7d2
 SHA1: 0a496466c675cc1c5f156e164f11652f01e39a90
 SHA256: 7acde63f98ab72e553028569152daf717d57ad868cc9d96777159d8c1f0048c2
-Depiction: https://apt.mjh.im/depiction/web/moe.misty.sslkillswitch3.roothide.html
-SileoDepiction: https://apt.mjh.im/depiction/native/moe.misty.sslkillswitch3.roothide.json
-ModernDepiction: https://apt.mjh.im/depiction/native/moe.misty.sslkillswitch3.roothide.json
+Depiction: https://apt.mjh.im/depiction/web/moe.misty.sslkillswitch3.roothide.html?v=1bc7f7a1c73b
+SileoDepiction: https://apt.mjh.im/depiction/native/moe.misty.sslkillswitch3.roothide.json?v=26b322ef5367
+ModernDepiction: https://apt.mjh.im/depiction/native/moe.misty.sslkillswitch3.roothide.json?v=26b322ef5367
 Icon: https://apt.mjh.im/assets/moe.misty.sslkillswitch3.roothide/icon.png
 Homepage: https://github.com/5hux1n/SSLKillSwitch4
 
@@ -1020,7 +1023,7 @@ Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、�
 Author: Junhong
 Name: 红果净化
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=27a13399eb52
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=f34fba0b106a
 SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=f7690c64f4c6
 ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=f7690c64f4c6
 Icon: https://apt.mjh.im/assets/hongguofn/icon.png
@@ -1042,7 +1045,45 @@ Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、�
 Author: Junhong
 Name: 红果净化 (Roothide)
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=d1a02811ee6d
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=d0dced443fad
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=d0dced443fad
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=f8580cc1870b
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=439eaa2a58e4
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=439eaa2a58e4
 Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
+
+Package: im.mjh.xianyuadblock
+Version: 3.2.5
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 2568
+Filename: ./pkg/7a32b0481ace/XianYuHelper_3.2.5_arm64.deb
+Size: 858130
+MD5sum: 68f26e0da4fc31816479b9b24f7cfcad
+SHA1: 71b46d867270dd75997043d0cadcb3371cf1c351
+SHA256: 7a32b0481ace15b576083b8c2f4b1e97042dedc04e49521950ae250341fa662c
+Section: Tweaks
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Name: 闲鱼助手
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=f228b38e954d
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+
+Package: im.mjh.xianyuadblock.roothide
+Version: 3.2.5
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 2568
+Filename: ./pkg/e386d443166a/XianYuHelper_3.2.5_arm64e.deb
+Size: 857928
+MD5sum: 15b818c412205c32e4250bab8776cea5
+SHA1: f715d6957fc59cad482506188902a462e8a5da9c
+SHA256: e386d443166adc46ebdb5b74167a5a0cdbb70950ee76d5471598e42d991c285d
+Section: Tweaks
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Name: 闲鱼助手 (Roothide)
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=310aa0767738
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png

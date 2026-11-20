@@ -17,7 +17,7 @@
         .masthead { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 24px 0; border-bottom: 1px solid var(--line); }
         .wordmark { font-size: 14px; font-weight: 650; letter-spacing: .08em; }
         .masthead nav { display: flex; gap: 18px; }
-        .masthead a { color: var(--muted); text-decoration: none; padding: 8px 0; font-size: 13px; }
+        .masthead a { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; color: var(--muted); text-decoration: none; padding: 8px 0; font-size: 13px; }
         .hero { padding: 20px 0; border-bottom: 1px solid var(--line); }
         .actions { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
         .add-source-caption { margin: 0; font-size: 12px; color: var(--muted); }
@@ -28,7 +28,7 @@
         .manager-link:active { opacity: .7; }
         .manager-icon { width: 30px; height: 30px; object-fit: contain; border-radius: 7px; }
         .section { margin-top: 32px; }
-        .section-head { position: relative; display: flex; align-items: center; min-height: 44px; margin-bottom: 16px; }
+        .section-head { position: relative; display: flex; align-items: center; min-height: 46px; margin-bottom: 16px; }
         .section-head h2, .section-head h1 { font-size: 19px; font-weight: 600; margin: 0; }
         .section-head p { font-size: 13px; color: var(--muted); margin: 5px 0 0; }
         .announcement-list { display: grid; gap: 10px; }
@@ -43,16 +43,16 @@
         .environment-tab { background: transparent; border: 0; border-bottom: 2px solid transparent; padding: 10px 0; min-height: 44px; color: var(--muted); cursor: pointer; font-size: 14px; }
         .environment-tab[aria-selected="true"] { border-bottom-color: var(--ink); color: var(--ink); font-weight: 600; }
         .section-block { margin-bottom: 24px; }
-        .search-morph { position: absolute; right: 0; top: 6px; width: 32px; height: 32px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); overflow: hidden; transition: width 360ms cubic-bezier(.2,.9,.22,1), border-radius 360ms cubic-bezier(.2,.9,.22,1); }
+        .search-morph { position: absolute; right: 0; top: 0; width: 46px; height: 46px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); overflow: hidden; transition: width 360ms cubic-bezier(.2,.9,.22,1), border-radius 360ms cubic-bezier(.2,.9,.22,1); }
         .search-morph.is-open { width: min(300px, calc(100% - 102px)); border-radius: 12px; }
-        .search-trigger { position: absolute; left: 0; top: 0; display: grid; place-items: center; width: 30px; height: 30px; border: 0; padding: 0; color: var(--muted); background: transparent; cursor: pointer; }
+        .search-trigger { position: absolute; left: 0; top: 0; display: grid; place-items: center; width: 44px; height: 44px; border: 0; padding: 0; color: var(--muted); background: transparent; cursor: pointer; }
         .search-icon { width: 14px; height: 14px; }
-        .search-morph input { position: absolute; left: 30px; top: 0; width: calc(100% - 58px); height: 30px; padding: 0; border: 0; outline: 0; background: transparent; color: var(--ink); font-size: 12px; opacity: 0; pointer-events: none; transition: opacity 120ms ease; -webkit-appearance: none; }
+        .search-morph input { position: absolute; left: 44px; top: 0; width: calc(100% - 88px); height: 44px; padding: 0; border: 0; outline: 0; background: transparent; color: var(--ink); font-size: 16px; opacity: 0; pointer-events: none; transition: opacity 120ms ease; -webkit-appearance: none; }
         .search-morph input::-webkit-search-cancel-button { display: none; }
         .search-morph input::placeholder { color: var(--muted); }
         .search-morph.is-ready input { opacity: 1; pointer-events: auto; }
         .search-morph:focus-within { outline: 1px solid var(--focus); outline-offset: 2px; }
-        .search-close { position: absolute; right: 0; top: 0; display: grid; place-items: center; width: 28px; height: 30px; border: 0; padding: 0; background: transparent; color: var(--muted); cursor: pointer; opacity: 0; visibility: hidden; transition: opacity 120ms ease; }
+        .search-close { position: absolute; right: 0; top: 0; display: grid; place-items: center; width: 44px; height: 44px; border: 0; padding: 0; background: transparent; color: var(--muted); cursor: pointer; opacity: 0; visibility: hidden; transition: opacity 120ms ease; }
         .search-morph.is-ready .search-close { opacity: 1; visibility: visible; }
         .search-close svg { width: 12px; height: 12px; }
         @media (prefers-reduced-motion: reduce) { .search-morph, .search-morph input, .search-close { transition: none; } }
@@ -67,12 +67,13 @@
         .package-detail::after { content: ""; position: absolute; inset: 0; border-radius: 3px; }
         .package-detail:focus-visible { outline: none; }
         .package-detail:focus-visible::after { outline: 2px solid var(--focus); outline-offset: 3px; }
-        .package-homepage { position: relative; z-index: 1; display: inline-flex; align-items: center; gap: 3px; flex-shrink: 0; min-height: 24px; font-size: 12px; color: var(--muted); text-decoration: none; white-space: nowrap; }
+        .package-homepage { position: relative; z-index: 1; display: inline-flex; align-items: center; gap: 3px; flex-shrink: 0; min-height: 44px; min-width: 44px; justify-content: center; margin-top: -10px; font-size: 12px; color: var(--muted); text-decoration: none; white-space: nowrap; }
         .package-homepage:hover { color: var(--ink); text-decoration: underline; }
         .package-homepage svg { width: 12px; height: 12px; }
         .package-name { min-width: 0; font-size: 16px; font-weight: 600; line-height: 1.45; overflow-wrap: anywhere; }
         .package-summary { color: var(--muted); font-size: 13px; line-height: 1.7; margin-top: 8px; overflow-wrap: anywhere; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
         .empty-state { display: none; padding: 36px 16px; text-align: center; color: var(--muted); border: 1px dashed var(--line); border-radius: 8px; }
+        .search-status { margin: 12px 0 0; color: var(--muted); font-size: 13px; }
         .footer { margin-top: 40px; padding: 22px 0 32px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
         @media (max-width: 760px) {
             .page { width: calc(100% - 40px); }
@@ -97,7 +98,7 @@
                 <p class="add-source-caption">点击右侧图标<br>快速添加软件源</p>
                 <div class="action-buttons">
                         <a class="manager-link" href="sileo://source/https://apt.mjh.im" aria-label="添加到 Sileo" title="添加到 Sileo"><img class="manager-icon" src="web/managers/sileo.png" width="30" height="30" alt=""><span class="manager-name">Sileo</span></a>
-                        <a class="manager-link" href="zbra://sources/add/https://apt.mjh.im" aria-label="添加到 Zebra" title="添加到 Zebra"><img class="manager-icon" src="web/managers/zebra.png" width="30" height="30" alt=""><span class="manager-name">Zebra</span></a>
+                        <a class="manager-link" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://apt.mjh.im" aria-label="添加到 Cydia" title="添加到 Cydia"><img class="manager-icon" src="web/managers/cydia.png" width="30" height="30" alt=""><span class="manager-name">Cydia</span></a>
                         <a class="manager-link" href="irisin://repository/add?url=https%3A%2F%2Fapt.mjh.im" aria-label="添加到 Irisin" title="添加到 Irisin"><img class="manager-icon" src="web/managers/irisin.png" width="30" height="30" alt=""><span class="manager-name">Irisin</span></a>
                 </div>
             </div>
@@ -119,196 +120,11 @@
                 <button class="environment-tab" id="tab-Rootless" type="button" role="tab" data-environment="Rootless" aria-controls="panel-Rootless" aria-selected="true" tabindex="0">Rootless</button>
                 <button class="environment-tab" id="tab-RootHide" type="button" role="tab" data-environment="RootHide" aria-controls="panel-RootHide" aria-selected="false" tabindex="-1">RootHide</button>
             </div>
+            <p class="search-status" id="search-status" role="status" aria-live="polite" hidden></p>
 
             <div class="section-block package-section" id="panel-Rootless" role="tabpanel" aria-labelledby="tab-Rootless" data-section-name="Rootless" >
                 <div class="package-list">
-<article class="package-card package-entry" data-name="小鹰看看去广告" data-bundle="im.mjh.xiaoyingclean" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
-<div class="package-card-top"><img class="package-icon" src="CydiaIcon.png" alt="" width="44" height="44" loading="lazy"><div class="package-main"><div class="package-heading"><div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.xiaoyingclean.html">小鹰看看去广告</a></div></div><div class="package-summary">小鹰看看 3.0.41 原生广告容器隐藏与广告跳转拦截。</div><div class="package-tags"><span class="tag">v0.1.0</span><span class="tag">iOS 15+</span></div></div></div></article>
-<article class="package-card package-entry" data-name="SSL Kill Switch 4" data-bundle="moe.misty.sslkillswitch3" data-developer="NyaMisty / Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/moe.misty.sslkillswitch3/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/moe.misty.sslkillswitch3.html">SSL Kill Switch 4</a></div>
-                                    <a class="package-homepage" href="https://github.com/5hux1n/SSLKillSwitch4" target="_blank" rel="noopener noreferrer" aria-label="SSL Kill Switch 4官网">官网<svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></a>
-                                </div>
-                                <div class="package-summary">SSL 证书校验调试工具，支持中文设置、白名单模式和 App 列表选择生效目标。</div>
-                                <div class="package-tags">
-                                    <span class="tag">v1.5</span>
-                                    <span class="tag">iOS 15+</span>
-                                    <span class="tag">开源</span>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="喵眼精灵去广告" data-bundle="im.mjh.myeyeclean" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/im.mjh.myeyeclean/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.myeyeclean.html">喵眼精灵去广告</a></div>
-                                </div>
-                                <div class="package-summary">喵眼精灵 / 乔安智联双端去广告，关闭全部广告位并拦截电商跳转</div>
-                                <div class="package-tags">
-                                    <span class="tag">v0.2.0</span>
-                                    <span class="tag">iOS 15+</span>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="Doleo" data-bundle="im.mjh.doleo" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/im.mjh.doleo/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.doleo.html">Doleo</a></div>
-                                    <a class="package-homepage" href="https://doleo.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="Doleo官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">Sileo 的 DEB 下载与本地仓库工具。</div>
-                                <div class="package-tags">
-                                    <span class="tag">v1.0.3</span>
-                                    <span class="tag">iOS 15+</span>
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="闲鱼助手" data-bundle="im.mjh.xianyuadblock" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/im.mjh.xianyuadblock/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.xianyuadblock.html">闲鱼助手</a></div>
-                                    <a class="package-homepage" href="https://xianyu.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="闲鱼助手官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">闲鱼广告与页面净化、自动好评与商品任务、虚拟商品交付、配置迁移及运行记录。</div>
-                                <div class="package-tags">
-                                    <span class="tag">v3.2.4</span>
-                                    <span class="tag">iOS 14+</span>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="FakeNotify" data-bundle="im.mjh.fakenotify" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/im.mjh.fakenotify/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.fakenotify.html">FakeNotify</a></div>
-                                    <a class="package-homepage" href="https://fakenotify.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="FakeNotify官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">一款模拟通知插件，允许配置多个通知任务，原生通知方案，支持通知栏、锁屏页面显示。</div>
-                                <div class="package-tags">
-                                    <span class="tag">v1.0.1</span>
-                                    <span class="tag">iOS 15+</span>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="通知权限伪装" data-bundle="spoofnotify" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/spoofnotify/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/spoofnotify.html">通知权限伪装</a></div>
-                                    <a class="package-homepage" href="https://tongzhi.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="通知权限伪装官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">从虚拟权限插件独立出来的通知权限伪装插件，使关闭了通知权限的 App 认为已开启通知。</div>
-                                <div class="package-tags">
-                                    <span class="tag">v1.0.0</span>
-                                    <span class="tag">iOS 15+</span>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="醒图国际版修复工具" data-bundle="hypicfix" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/hypicfix/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/hypicfix.html">醒图国际版修复工具</a></div>
-                                    <a class="package-homepage" href="https://mjh.im" target="_blank" rel="noopener noreferrer" aria-label="醒图国际版修复工具官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。</div>
-                                <div class="package-tags">
-                                    <span class="tag">v1.0.0</span>
-                                    <span class="tag">iOS 15+</span>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="Alipay2NFC" data-bundle="im.mjh.alipay2nfc" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/im.mjh.alipay2nfc/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.alipay2nfc.html">Alipay2NFC</a></div>
-                                    <a class="package-homepage" href="https://mjh.im" target="_blank" rel="noopener noreferrer" aria-label="Alipay2NFC官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。</div>
-                                <div class="package-tags">
-                                    <span class="tag">v3.5.0</span>
-                                    <span class="tag">iOS 14+</span>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="虚拟权限 · Fake Permission" data-bundle="im.mjh.fakeperm" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/im.mjh.fakeperm/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.fakeperm.html">虚拟权限 · Fake Permission</a></div>
-                                    <a class="package-homepage" href="https://xnqx.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="虚拟权限 · Fake Permission官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">针对任意 App 单独配置虚拟权限，防止隐私被过度索要。 支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟…</div>
-                                <div class="package-tags">
-                                    <span class="tag">v8.9.3</span>
-                                    <span class="tag">iOS 15+</span>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="番茄净化" data-bundle="fanqiefn" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/fanqiefn/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/fanqiefn.html">番茄净化</a></div>
-                                    <a class="package-homepage" href="https://fanqie.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="番茄净化官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。</div>
-                                <div class="package-tags">
-                                    <span class="tag">v3.5.3</span>
-                                    <span class="tag">iOS 15+</span>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
+                    <article class="package-card package-entry"
                        data-name="弹幕助手" data-bundle="danmutool" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
                         <div class="package-card-top">
                             <img class="package-icon" src="assets/danmutool/icon.png" alt="" width="44" height="44" loading="lazy">
@@ -322,12 +138,29 @@
                                     <span class="tag">v2.0.0</span>
                                     <span class="tag">iOS 15+</span>
 
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
+                       data-name="番茄净化" data-bundle="fanqiefn" data-developer="junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/fanqiefn/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/fanqiefn.html">番茄净化</a></div>
+                                    <a class="package-homepage" href="https://fanqie.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="番茄净化官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v3.5.3</span>
+                                    <span class="tag">iOS 15+</span>
 
                                 </div>
                             </div>
                         </div>
                     </article>
-<article class="package-card package-entry"
+                    <article class="package-card package-entry"
                        data-name="红果净化" data-bundle="hongguofn" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
                         <div class="package-card-top">
                             <img class="package-icon" src="assets/hongguofn/icon.png" alt="" width="44" height="44" loading="lazy">
@@ -345,7 +178,115 @@
                             </div>
                         </div>
                     </article>
-<article class="package-card package-entry"
+                    <article class="package-card package-entry"
+                       data-name="醒图国际版修复工具" data-bundle="hypicfix" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/hypicfix/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/hypicfix.html">醒图国际版修复工具</a></div>
+                                    <a class="package-homepage" href="https://mjh.im" target="_blank" rel="noopener noreferrer" aria-label="醒图国际版修复工具官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v1.0.0</span>
+                                    <span class="tag">iOS 15+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
+                       data-name="Alipay2NFC" data-bundle="im.mjh.alipay2nfc" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/im.mjh.alipay2nfc/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.alipay2nfc.html">Alipay2NFC</a></div>
+                                    <a class="package-homepage" href="https://mjh.im" target="_blank" rel="noopener noreferrer" aria-label="Alipay2NFC官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v3.5.0</span>
+                                    <span class="tag">iOS 14+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
+                       data-name="Doleo" data-bundle="im.mjh.doleo" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/im.mjh.doleo/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.doleo.html">Doleo</a></div>
+                                    <a class="package-homepage" href="https://doleo.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="Doleo官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">Sileo 的 DEB 下载与本地仓库工具。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v1.0.4</span>
+                                    <span class="tag">iOS 15+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
+                       data-name="FakeNotify" data-bundle="im.mjh.fakenotify" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/im.mjh.fakenotify/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.fakenotify.html">FakeNotify</a></div>
+                                    <a class="package-homepage" href="https://fakenotify.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="FakeNotify官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">一款模拟通知插件，允许配置多个通知任务，原生通知方案，支持通知栏、锁屏页面显示。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v1.0.1</span>
+                                    <span class="tag">iOS 15+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
+                       data-name="虚拟权限 · Fake Permission" data-bundle="im.mjh.fakeperm" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/im.mjh.fakeperm/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.fakeperm.html">虚拟权限 · Fake Permission</a></div>
+                                    <a class="package-homepage" href="https://xnqx.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="虚拟权限 · Fake Permission官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">针对任意 App 单独配置虚拟权限，防止隐私被过度索要。 支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟…</div>
+                                <div class="package-tags">
+                                    <span class="tag">v8.9.3</span>
+                                    <span class="tag">iOS 15+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
+                       data-name="UU远控切屏" data-bundle="im.mjh.uuscreenswitch" data-developer="junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/im.mjh.uuscreenswitch/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.uuscreenswitch.html">UU远控切屏</a></div>
+                                    <a class="package-homepage" href="https://github.com/5hux1n/UUScreenSwitch" target="_blank" rel="noopener noreferrer" aria-label="UU远控切屏官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v1.0.3</span>
+                                    <span class="tag">iOS 15+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
                        data-name="微信虚拟定位" data-bundle="im.mjh.wclocate" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="">
                         <div class="package-card-top">
                             <img class="package-icon" src="assets/im.mjh.wclocate/icon.png" alt="" width="44" height="44" loading="lazy">
@@ -359,95 +300,54 @@
                                     <span class="tag">v4.0.0</span>
                                     <span class="tag">iOS 15+</span>
 
-
                                 </div>
                             </div>
                         </div>
                     </article>
-<article class="package-card package-entry"
-                       data-name="UU远控切屏" data-bundle="im.mjh.uuscreenswitch" data-developer="junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
+                    <article class="package-card package-entry"
+                       data-name="闲鱼助手" data-bundle="im.mjh.xianyuadblock" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
                         <div class="package-card-top">
-                            <img class="package-icon" src="assets/im.mjh.uuscreenswitch/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <img class="package-icon" src="assets/im.mjh.xianyuadblock/icon.png" alt="" width="44" height="44" loading="lazy">
                             <div class="package-main">
                                 <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.uuscreenswitch.html">UU远控切屏</a></div>
-                                    <a class="package-homepage" href="https://github.com/5hux1n/UUScreenSwitch" target="_blank" rel="noopener noreferrer" aria-label="UU远控切屏官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">已合并至 uu 远控增强，后续不再单独更新。</div>
-                                <div class="package-tags">
-                                    <span class="tag">v1.0.3</span>
-                                    <span class="tag">iOS 15+</span>
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="uu 远控增强" data-bundle="uuhelper" data-developer="junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/uuhelper/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/uuhelper.html">uu 远控增强</a></div>
-                                    <a class="package-homepage" href="https://github.com/5hux1n/uuhelper" target="_blank" rel="noopener noreferrer" aria-label="uu 远控增强官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">快捷键、圆盘滚轮、快捷切屏和视角记忆，支持 App 内独立开关。</div>
-                                <div class="package-tags">
-                                    <span class="tag">v1.0.4</span>
-                                    <span class="tag">iOS 15+</span>
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-</div>
-            </div>
-            <div class="section-block package-section" id="panel-RootHide" role="tabpanel" aria-labelledby="tab-RootHide" data-section-name="RootHide" hidden>
-                <div class="package-list">
-<article class="package-card package-entry" data-name="小鹰看看去广告 (Roothide)" data-bundle="im.mjh.xiaoyingclean.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
-<div class="package-card-top"><img class="package-icon" src="CydiaIcon.png" alt="" width="44" height="44" loading="lazy"><div class="package-main"><div class="package-heading"><div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.xiaoyingclean.roothide.html">小鹰看看去广告 (Roothide)</a></div></div><div class="package-summary">小鹰看看 3.0.41 原生广告容器隐藏与广告跳转拦截。</div><div class="package-tags"><span class="tag">v0.1.0</span><span class="tag">iOS 15+</span></div></div></div></article>
-<article class="package-card package-entry"
-                       data-name="喵眼精灵去广告 (Roothide)" data-bundle="im.mjh.myeyeclean.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/im.mjh.myeyeclean.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.myeyeclean.roothide.html">喵眼精灵去广告 (Roothide)</a></div>
-                                </div>
-                                <div class="package-summary">喵眼精灵 / 乔安智联双端去广告，关闭全部广告位并拦截电商跳转</div>
-                                <div class="package-tags">
-                                    <span class="tag">v0.2.0</span>
-                                    <span class="tag">iOS 15+</span>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="闲鱼助手" data-bundle="im.mjh.xianyuadblock.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/im.mjh.xianyuadblock.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.xianyuadblock.roothide.html">闲鱼助手</a></div>
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.xianyuadblock.html">闲鱼助手</a></div>
                                     <a class="package-homepage" href="https://xianyu.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="闲鱼助手官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
                                 </div>
                                 <div class="package-summary">闲鱼广告与页面净化、自动好评与商品任务、虚拟商品交付、配置迁移及运行记录。</div>
                                 <div class="package-tags">
-                                    <span class="tag">v3.2.4</span>
+                                    <span class="tag">v3.2.5</span>
                                     <span class="tag">iOS 14+</span>
-
 
                                 </div>
                             </div>
                         </div>
                     </article>
-<article class="package-card package-entry" data-name="SSL Kill Switch 4 (Roothide)" data-bundle="moe.misty.sslkillswitch3.roothide" data-developer="NyaMisty / Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
+                    <article class="package-card package-entry"
+                       data-name="小鹰看看去广告" data-bundle="im.mjh.xiaoyingclean" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
                         <div class="package-card-top">
-                            <img class="package-icon" src="assets/moe.misty.sslkillswitch3.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <img class="package-icon" src="assets/im.mjh.xiaoyingclean/icon.png" alt="" width="44" height="44" loading="lazy">
                             <div class="package-main">
                                 <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/moe.misty.sslkillswitch3.roothide.html">SSL Kill Switch 4 (Roothide)</a></div>
-                                    <a class="package-homepage" href="https://github.com/5hux1n/SSLKillSwitch4" target="_blank" rel="noopener noreferrer" aria-label="SSL Kill Switch 4 (Roothide)官网">官网<svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></a>
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.xiaoyingclean.html">小鹰看看去广告</a></div>
+
+                                </div>
+                                <div class="package-summary">小鹰看看 3.0.41 原生广告容器隐藏与广告跳转拦截。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v0.1.0</span>
+                                    <span class="tag">iOS 15+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
+                       data-name="SSL Kill Switch 4" data-bundle="moe.misty.sslkillswitch3" data-developer="NyaMisty / Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/moe.misty.sslkillswitch3/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/moe.misty.sslkillswitch3.html">SSL Kill Switch 4</a></div>
+                                    <a class="package-homepage" href="https://github.com/5hux1n/SSLKillSwitch4" target="_blank" rel="noopener noreferrer" aria-label="SSL Kill Switch 4官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
                                 </div>
                                 <div class="package-summary">SSL 证书校验调试工具，支持中文设置、白名单模式和 App 列表选择生效目标。</div>
                                 <div class="package-tags">
@@ -458,25 +358,83 @@
                             </div>
                         </div>
                     </article>
-<article class="package-card package-entry"
-                       data-name="Doleo" data-bundle="im.mjh.doleo.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
+                    <article class="package-card package-entry"
+                       data-name="通知权限伪装" data-bundle="spoofnotify" data-developer="Junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
                         <div class="package-card-top">
-                            <img class="package-icon" src="assets/im.mjh.doleo.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <img class="package-icon" src="assets/spoofnotify/icon.png" alt="" width="44" height="44" loading="lazy">
                             <div class="package-main">
                                 <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.doleo.roothide.html">Doleo</a></div>
-                                    <a class="package-homepage" href="https://doleo.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="Doleo官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/spoofnotify.html">通知权限伪装</a></div>
+                                    <a class="package-homepage" href="https://tongzhi.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="通知权限伪装官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
                                 </div>
-                                <div class="package-summary">Sileo 的 DEB 下载与本地仓库工具。</div>
+                                <div class="package-summary">从虚拟权限插件独立出来的通知权限伪装插件，使关闭了通知权限的 App 认为已开启通知。App 正常开启通知权限时不会被拦截，通知提醒正常放行。</div>
                                 <div class="package-tags">
-                                    <span class="tag">v1.0.3</span>
+                                    <span class="tag">v1.0.2</span>
                                     <span class="tag">iOS 15+</span>
 
                                 </div>
                             </div>
                         </div>
                     </article>
-<article class="package-card package-entry"
+                    <article class="package-card package-entry"
+                       data-name="uu 远控增强" data-bundle="uuhelper" data-developer="junhong" data-section="Tweaks" data-env="Rootless" data-arch="iphoneos-arm64">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/uuhelper/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/uuhelper.html">uu 远控增强</a></div>
+                                    <a class="package-homepage" href="https://uu.goforit.si/#helper" target="_blank" rel="noopener noreferrer" aria-label="uu 远控增强官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">UU 远控快捷键、圆盘滚轮、快捷切屏与视角记忆，支持 App 内独立开关。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v1.0.4</span>
+                                    <span class="tag">iOS 15+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="section-block package-section" id="panel-RootHide" role="tabpanel" aria-labelledby="tab-RootHide" data-section-name="RootHide" hidden>
+                <div class="package-list">
+                    <article class="package-card package-entry"
+                       data-name="弹幕助手 (Roothide)" data-bundle="danmutool.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/danmutool.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/danmutool.roothide.html">弹幕助手 (Roothide)</a></div>
+                                    <a class="package-homepage" href="https://dmzs.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="弹幕助手 (Roothide)官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">支持抖音/小红书/快手/视频号直播弹幕快捷发送</div>
+                                <div class="package-tags">
+                                    <span class="tag">v2.0.0</span>
+                                    <span class="tag">iOS 15+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
+                       data-name="番茄净化 (Roothide)" data-bundle="fanqiefn.roothide" data-developer="junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/fanqiefn.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/fanqiefn.roothide.html">番茄净化 (Roothide)</a></div>
+                                    <a class="package-homepage" href="https://fanqie.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="番茄净化 (Roothide)官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v3.5.3</span>
+                                    <span class="tag">iOS 15+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
                        data-name="红果净化 (Roothide)" data-bundle="hongguofn.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
                         <div class="package-card-top">
                             <img class="package-icon" src="assets/hongguofn.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
@@ -494,167 +452,52 @@
                             </div>
                         </div>
                     </article>
-<article class="package-card package-entry"
-                       data-name="醒图国际版修复工具" data-bundle="hypicfix.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
+                    <article class="package-card package-entry"
+                       data-name="醒图国际版修复工具 (Roothide)" data-bundle="hypicfix.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
                         <div class="package-card-top">
                             <img class="package-icon" src="assets/hypicfix.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
                             <div class="package-main">
                                 <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/hypicfix.roothide.html">醒图国际版修复工具</a></div>
-                                    <a class="package-homepage" href="https://mjh.im" target="_blank" rel="noopener noreferrer" aria-label="醒图国际版修复工具官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/hypicfix.roothide.html">醒图国际版修复工具 (Roothide)</a></div>
+                                    <a class="package-homepage" href="https://mjh.im" target="_blank" rel="noopener noreferrer" aria-label="醒图国际版修复工具 (Roothide)官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
                                 </div>
                                 <div class="package-summary">修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。</div>
                                 <div class="package-tags">
                                     <span class="tag">v1.0.0</span>
                                     <span class="tag">iOS 15+</span>
 
-
                                 </div>
                             </div>
                         </div>
                     </article>
-<article class="package-card package-entry"
-                       data-name="FakeNotify" data-bundle="im.mjh.fakenotify.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/im.mjh.fakenotify.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.fakenotify.roothide.html">FakeNotify</a></div>
-                                    <a class="package-homepage" href="https://fakenotify.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="FakeNotify官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">一款模拟通知插件，允许配置多个通知任务，原生通知方案，支持通知栏、锁屏页面显示。</div>
-                                <div class="package-tags">
-                                    <span class="tag">v1.0.1</span>
-                                    <span class="tag">iOS 15+</span>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="通知权限伪装" data-bundle="spoofnotify.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/spoofnotify.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/spoofnotify.roothide.html">通知权限伪装</a></div>
-                                    <a class="package-homepage" href="https://tongzhi.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="通知权限伪装官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">从虚拟权限插件独立出来的通知权限伪装插件，使关闭了通知权限的 App 认为已开启通知。</div>
-                                <div class="package-tags">
-                                    <span class="tag">v1.0.0</span>
-                                    <span class="tag">iOS 15+</span>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="番茄净化" data-bundle="fanqiefn.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/fanqiefn.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/fanqiefn.roothide.html">番茄净化</a></div>
-                                    <a class="package-homepage" href="https://fanqie.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="番茄净化官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。</div>
-                                <div class="package-tags">
-                                    <span class="tag">v3.5.3</span>
-                                    <span class="tag">iOS 15+</span>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="虚拟权限 · Fake Permission" data-bundle="im.mjh.fakeperm.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/im.mjh.fakeperm.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.fakeperm.roothide.html">虚拟权限 · Fake Permission</a></div>
-                                    <a class="package-homepage" href="https://xnqx.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="虚拟权限 · Fake Permission官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">针对任意 App 单独配置虚拟权限，防止隐私被过度索要。 支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟…</div>
-                                <div class="package-tags">
-                                    <span class="tag">v8.9.3</span>
-                                    <span class="tag">iOS 15+</span>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="Alipay2NFC · 碰一碰转接" data-bundle="im.mjh.alipay2nfc.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
+                    <article class="package-card package-entry"
+                       data-name="Alipay2NFC · 碰一碰转接 (Roothide)" data-bundle="im.mjh.alipay2nfc.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
                         <div class="package-card-top">
                             <img class="package-icon" src="assets/im.mjh.alipay2nfc.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
                             <div class="package-main">
                                 <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.alipay2nfc.roothide.html">Alipay2NFC · 碰一碰转接</a></div>
-                                    <a class="package-homepage" href="https://mjh.im" target="_blank" rel="noopener noreferrer" aria-label="Alipay2NFC · 碰一碰转接官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.alipay2nfc.roothide.html">Alipay2NFC · 碰一碰转接 (Roothide)</a></div>
+                                    <a class="package-homepage" href="https://mjh.im" target="_blank" rel="noopener noreferrer" aria-label="Alipay2NFC · 碰一碰转接 (Roothide)官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
                                 </div>
                                 <div class="package-summary">让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。</div>
                                 <div class="package-tags">
                                     <span class="tag">v3.5.0</span>
                                     <span class="tag">iOS 14+</span>
 
-
                                 </div>
                             </div>
                         </div>
                     </article>
-<article class="package-card package-entry"
-                       data-name="弹幕助手" data-bundle="danmutool.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
+                    <article class="package-card package-entry"
+                       data-name="Doleo (Roothide)" data-bundle="im.mjh.doleo.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
                         <div class="package-card-top">
-                            <img class="package-icon" src="assets/danmutool.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <img class="package-icon" src="assets/im.mjh.doleo.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
                             <div class="package-main">
                                 <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/danmutool.roothide.html">弹幕助手</a></div>
-                                    <a class="package-homepage" href="https://dmzs.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="弹幕助手官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.doleo.roothide.html">Doleo (Roothide)</a></div>
+                                    <a class="package-homepage" href="https://doleo.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="Doleo (Roothide)官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
                                 </div>
-                                <div class="package-summary">支持抖音/小红书/快手/视频号直播弹幕快捷发送</div>
-                                <div class="package-tags">
-                                    <span class="tag">v2.0.0</span>
-                                    <span class="tag">iOS 15+</span>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="UU远控切屏" data-bundle="im.mjh.uuscreenswitch.roothide" data-developer="junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/im.mjh.uuscreenswitch.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.uuscreenswitch.roothide.html">UU远控切屏</a></div>
-                                    <a class="package-homepage" href="https://github.com/5hux1n/UUScreenSwitch" target="_blank" rel="noopener noreferrer" aria-label="UU远控切屏官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">已合并至 uu 远控增强，后续不再单独更新。</div>
-                                <div class="package-tags">
-                                    <span class="tag">v1.0.3</span>
-                                    <span class="tag">iOS 15+</span>
-
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-<article class="package-card package-entry"
-                       data-name="uu 远控增强" data-bundle="uuhelper.roothide" data-developer="junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
-                        <div class="package-card-top">
-                            <img class="package-icon" src="assets/uuhelper.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
-                            <div class="package-main">
-                                <div class="package-heading">
-                                    <div class="package-name"><a class="package-detail" href="depiction/web/uuhelper.roothide.html">uu 远控增强</a></div>
-                                    <a class="package-homepage" href="https://github.com/5hux1n/uuhelper" target="_blank" rel="noopener noreferrer" aria-label="uu 远控增强官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                                </div>
-                                <div class="package-summary">快捷键、圆盘滚轮、快捷切屏和视角记忆，支持 App 内独立开关。</div>
+                                <div class="package-summary">Sileo 的 DEB 下载与本地仓库工具。</div>
                                 <div class="package-tags">
                                     <span class="tag">v1.0.4</span>
                                     <span class="tag">iOS 15+</span>
@@ -663,7 +506,151 @@
                             </div>
                         </div>
                     </article>
-</div>
+                    <article class="package-card package-entry"
+                       data-name="FakeNotify (Roothide)" data-bundle="im.mjh.fakenotify.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/im.mjh.fakenotify.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.fakenotify.roothide.html">FakeNotify (Roothide)</a></div>
+                                    <a class="package-homepage" href="https://fakenotify.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="FakeNotify (Roothide)官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">一款模拟通知插件，允许配置多个通知任务，原生通知方案，支持通知栏、锁屏页面显示。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v1.0.1</span>
+                                    <span class="tag">iOS 15+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
+                       data-name="虚拟权限 · Fake Permission (Roothide)" data-bundle="im.mjh.fakeperm.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/im.mjh.fakeperm.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.fakeperm.roothide.html">虚拟权限 · Fake Permission (Roothide)</a></div>
+                                    <a class="package-homepage" href="https://xnqx.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="虚拟权限 · Fake Permission (Roothide)官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">针对任意 App 单独配置虚拟权限，防止隐私被过度索要。 支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟…</div>
+                                <div class="package-tags">
+                                    <span class="tag">v8.9.3</span>
+                                    <span class="tag">iOS 15+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
+                       data-name="UU远控切屏 (Roothide)" data-bundle="im.mjh.uuscreenswitch.roothide" data-developer="junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/im.mjh.uuscreenswitch.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.uuscreenswitch.roothide.html">UU远控切屏 (Roothide)</a></div>
+                                    <a class="package-homepage" href="https://github.com/5hux1n/UUScreenSwitch" target="_blank" rel="noopener noreferrer" aria-label="UU远控切屏 (Roothide)官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v1.0.3</span>
+                                    <span class="tag">iOS 15+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
+                       data-name="闲鱼助手 (Roothide)" data-bundle="im.mjh.xianyuadblock.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/im.mjh.xianyuadblock.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.xianyuadblock.roothide.html">闲鱼助手 (Roothide)</a></div>
+                                    <a class="package-homepage" href="https://xianyu.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="闲鱼助手 (Roothide)官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">闲鱼广告与页面净化、自动好评与商品任务、虚拟商品交付、配置迁移及运行记录。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v3.2.5</span>
+                                    <span class="tag">iOS 14+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
+                       data-name="小鹰看看去广告 (Roothide)" data-bundle="im.mjh.xiaoyingclean.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/im.mjh.xiaoyingclean.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/im.mjh.xiaoyingclean.roothide.html">小鹰看看去广告 (Roothide)</a></div>
+
+                                </div>
+                                <div class="package-summary">小鹰看看 3.0.41 原生广告容器隐藏与广告跳转拦截。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v0.1.0</span>
+                                    <span class="tag">iOS 15+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
+                       data-name="SSL Kill Switch 4 (Roothide)" data-bundle="moe.misty.sslkillswitch3.roothide" data-developer="NyaMisty / Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/moe.misty.sslkillswitch3.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/moe.misty.sslkillswitch3.roothide.html">SSL Kill Switch 4 (Roothide)</a></div>
+                                    <a class="package-homepage" href="https://github.com/5hux1n/SSLKillSwitch4" target="_blank" rel="noopener noreferrer" aria-label="SSL Kill Switch 4 (Roothide)官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">SSL 证书校验调试工具，支持中文设置、白名单模式和 App 列表选择生效目标。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v1.5</span>
+                                    <span class="tag">iOS 15+</span>
+                                    <span class="tag">开源</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
+                       data-name="通知权限伪装 (Roothide)" data-bundle="spoofnotify.roothide" data-developer="Junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/spoofnotify.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/spoofnotify.roothide.html">通知权限伪装 (Roothide)</a></div>
+                                    <a class="package-homepage" href="https://tongzhi.goforit.si/" target="_blank" rel="noopener noreferrer" aria-label="通知权限伪装 (Roothide)官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">从虚拟权限插件独立出来的通知权限伪装插件，使关闭了通知权限的 App 认为已开启通知。App 正常开启通知权限时不会被拦截，通知提醒正常放行。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v1.0.2</span>
+                                    <span class="tag">iOS 15+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="package-card package-entry"
+                       data-name="uu 远控增强 (Roothide)" data-bundle="uuhelper.roothide" data-developer="junhong" data-section="Tweaks" data-env="RootHide" data-arch="iphoneos-arm64e">
+                        <div class="package-card-top">
+                            <img class="package-icon" src="assets/uuhelper.roothide/icon.png" alt="" width="44" height="44" loading="lazy">
+                            <div class="package-main">
+                                <div class="package-heading">
+                                    <div class="package-name"><a class="package-detail" href="depiction/web/uuhelper.roothide.html">uu 远控增强 (Roothide)</a></div>
+                                    <a class="package-homepage" href="https://uu.goforit.si/#helper" target="_blank" rel="noopener noreferrer" aria-label="uu 远控增强 (Roothide)官网">官网<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                                </div>
+                                <div class="package-summary">UU 远控快捷键、圆盘滚轮、快捷切屏与视角记忆，支持 App 内独立开关。</div>
+                                <div class="package-tags">
+                                    <span class="tag">v1.0.4</span>
+                                    <span class="tag">iOS 15+</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
             </div>
 
             <div class="empty-state" id="empty-state">没有找到匹配的插件，请尝试其他关键词。</div>
@@ -671,6 +658,6 @@
 
         <footer class="footer">junhong's repo</footer>
     </div>
-    <script src="web/repo-home.js?v=20261013-4"></script>
+    <script src="web/repo-home.js?v=20261120"></script>
 </body>
 </html>

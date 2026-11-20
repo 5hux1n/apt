@@ -1,427 +1,909 @@
 <!DOCTYPE html>
+
 <html lang="zh-CN">
+
 <head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>番茄净化 (Roothide)</title>
+
     <link rel="stylesheet" type="text/css" href="../../web/index.css">
+
     <style>
+
         a, .tint, .table-btn:after { color: #27BEF5; }
+
         .meta-badge {
+
             display: inline-flex;
+
             align-items: center;
+
             gap: 8px;
+
             padding: 8px 12px;
+
             border-radius: 999px;
+
             font-size: 12px;
+
             font-weight: 700;
+
         }
+
         .badge-group {
+
             display: flex;
+
             flex-wrap: wrap;
+
             gap: 8px;
+
             margin: 12px 0 6px;
+
         }
+
         .meta-badge {
+
             background: rgba(0,0,0,0.05);
+
             color: inherit;
+
         }
+
         .package_head { display: flex; align-items: flex-start; gap: 15px; margin-bottom: 12px; }
+
         .package_head > img { float: none; flex: 0 0 75px; }
+
         .package_head .package_info { margin-left: 0; min-width: 0; }
+
         .package_name { overflow-wrap: anywhere; }
+
         .detail-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 9px; }
+
         .detail-tag { background: #e9f3ff; color: #335d86; font-size: 11px; line-height: 1.5; padding: 2px 7px; border-radius: 4px; }
-        .detail-updated { color: #8e8e93; font-size: 12px; line-height: 1.5; margin: 8px 0 0; }
+
+        .detail-updated { color: #626660; font-size: 12px; line-height: 1.5; margin: 8px 0 0; }
+
         @media (prefers-color-scheme: dark) {
+
             .detail-tag { background: #203c55; color: #badbff; }
+
         }
+
         .footer { border-top: 1px solid rgba(0,0,0,0.08); margin-top: 24px; padding-top: 16px; }
+
         @media (prefers-color-scheme: dark) { .footer { border-top-color: rgba(255,255,255,0.12); } }
+
         /* Tabs styling */
+
         .nav {
+
             display: flex;
+
             margin: 12px 0 10px;
+
             background: rgba(0,0,0,0.04);
+
             border-radius: 12px;
+
             padding: 4px;
+
             gap: 4px;
+
         }
+
         .nav_btn {
+
             flex: 1;
+
+            font-family: inherit;
+
+            background: transparent;
+
+            border: 0;
+
+            min-height: 44px;
+
             text-align: center;
-            color: #8e8e93;
-            font-weight: 600;
-            font-size: 14px;
-            padding: 10px 16px;
-            border-radius: 10px;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            border-bottom: none;
-        }
-        .nav_btn.active {
-            background: #fff;
-            color: #27BEF5;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-            border-bottom: none;
-        }
-        .nav_btn:not(.active):hover {
-            color: #3c3c43;
-            background: rgba(0,0,0,0.03);
-        }
-        .summary-box {
-            padding: 0;
-            margin: 18px 0 20px;
-            line-height: 1.7;
-            font-size: 14px;
+
             color: #626660;
-        }
-        .table { margin-bottom: 10px; }
-        .resource-grid, .info-list, .badge-row {
-            display: grid;
-            gap: 10px;
-            margin-top: 12px;
-        }
-        .resource-grid { display: flex; gap: 10px; margin: 0 0 18px; }
-        .resource-grid > .resource-button { flex: 1; min-width: 0; }
-        .resource-button {
-            display: inline-flex; align-items: center; justify-content: center; gap: 7px;
-            min-height: 38px; padding: 0 15px; border-radius: 10px;
-            background: #e9f3ff; color: #335d86; font-size: 13px; font-weight: 600;
-            text-decoration: none; transition: background .15s ease, transform .15s ease;
-        }
-        .resource-button:hover { background: #deecfc; opacity: 1; }
-        .resource-button:active { transform: scale(.97); }
-        .resource-button:focus-visible { outline: 2px solid #335d86; outline-offset: 3px; }
-        @media (prefers-color-scheme: dark) {
-            .resource-button { background: #203c55; color: #badbff; }
-            .resource-button:hover { background: #294966; }
-        }
-        @media (prefers-reduced-motion: reduce) { .resource-button { transition: none; } .resource-button:active { transform: none; } }
-        .social-links {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 12px;
-        }
-        .social-pill {
-            display: inline-flex;
-            align-items: center;
-            padding: 9px 14px;
-            border-radius: 999px;
-            background: rgba(0,0,0,0.05);
-            color: inherit;
-            text-decoration: none;
+
+            font-weight: 600;
+
             font-size: 14px;
+
+            padding: 10px 16px;
+
+            border-radius: 10px;
+
+            cursor: pointer;
+
+            transition: all 0.2s ease;
+
+            border-bottom: none;
+
         }
-        .meta-note {
-            color: #8e8e93;
-            font-size: 13px;
-            margin-top: 12px;
-            line-height: 1.6;
+
+        .nav_btn.active {
+
+            background: #fff;
+
+            color: #335d86;
+
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+
+            border-bottom: none;
+
         }
-        .info-list-item, .matrix-item {
+
+        .nav_btn:not(.active):hover {
+
+            color: #3c3c43;
+
             background: rgba(0,0,0,0.03);
-            border-radius: 14px;
-            padding: 12px 14px;
-            line-height: 1.65;
+
         }
-        .matrix-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 10px;
-            margin-top: 12px;
-            margin-bottom: 14px;
-        }
-        .matrix-title {
-            font-size: 12px;
-            font-weight: 700;
-            color: #8e8e93;
-            text-transform: uppercase;
-            letter-spacing: 0.04em;
-            margin-bottom: 6px;
-        }
-        .matrix-text { font-size: 14px; }
-        /* Changelog card styling */
-        .changelog_entry {
-            background: rgba(0,0,0,0.03);
-            border-radius: 14px;
-            padding: 16px 18px;
-            margin-bottom: 14px;
-        }
-        .changelog_entry h4 {
-            display: flex;
-            align-items: baseline;
-            justify-content: space-between;
-            gap: 12px;
-            font-size: 15px;
-            font-weight: 700;
-            color: #27BEF5;
-            margin-bottom: 10px;
-        }
-        .changelog_date {
-            margin-left: auto;
-            font-size: 12px;
-            font-weight: 500;
-            opacity: 0.55;
-            text-align: right;
-            white-space: nowrap;
-        }
-        /* Description markdown beautification */
-        .md_view h1 {
-            font-size: 22px;
-            font-weight: 800;
-            margin: 18px 0 10px;
-        }
-        .md_view h2 {
-            font-size: 17px;
-            font-weight: 700;
-            margin: 16px 0 8px;
-            padding-bottom: 6px;
-            border-bottom: 1px solid rgba(0,0,0,0.06);
-        }
-        .md_view h3 {
-            font-size: 15px;
-            font-weight: 700;
-            margin: 14px 0 6px;
-        }
-        .md_view p {
-            font-size: 14px;
+
+        .summary-box {
+
+            padding: 0;
+
+            margin: 18px 0 20px;
+
             line-height: 1.7;
-            color: #3c3c43;
-            margin: 8px 0;
-        }
-        .md_view ul, .md_view ol {
-            padding-left: 20px;
-            margin: 8px 0;
-        }
-        .md_view li {
+
             font-size: 14px;
-            line-height: 1.8;
-            color: #3c3c43;
-            margin-bottom: 4px;
+
+            color: #626660;
+
         }
-        .md_view code {
-            background: rgba(0,0,0,0.05);
-            padding: 2px 6px;
-            border-radius: 5px;
-            font-size: 13px;
-            font-family: "SF Mono", Menlo, monospace;
+
+        .table { margin-bottom: 10px; }
+
+        .resource-grid, .info-list, .badge-row {
+
+            display: grid;
+
+            gap: 10px;
+
+            margin-top: 12px;
+
         }
-        .md_view strong {
-            font-weight: 700;
+
+        .resource-grid { display: flex; gap: 10px; margin: 0 0 18px; }
+
+        .resource-grid > .resource-button { flex: 1; min-width: 0; }
+
+        .resource-button {
+
+            display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+
+            min-height: 44px; padding: 0 10px; border-radius: 10px; white-space: nowrap;
+
+            background: #e9f3ff; color: #335d86; font-size: 13px; font-weight: 600;
+
+            text-decoration: none; transition: background .15s ease, transform .15s ease;
+
         }
+
+        .resource-button:hover { background: #deecfc; opacity: 1; }
+
+        .resource-button:active { transform: scale(.97); }
+
+        .resource-button:focus-visible { outline: 2px solid #335d86; outline-offset: 3px; }
+
         @media (prefers-color-scheme: dark) {
-            .nav {
-                background: rgba(255,255,255,0.06);
-            }
-            .nav_btn.active {
-                background: rgba(255,255,255,0.12);
-                box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-            }
-            .nav_btn:not(.active):hover {
-                color: #d2d2d7;
-                background: rgba(255,255,255,0.04);
-            }
-            .social-pill,
-            .info-list-item,
-            .matrix-item,
-            .meta-badge,
-            .changelog_entry {
-                background: rgba(255,255,255,0.08);
-            }
-            .meta-note, .matrix-title {
-                color: #98989d;
-            }
-            .summary-box { color: #a9afa5; }
-            .md_view p, .md_view li {
-                color: #d2d2d7;
-            }
-            .md_view h2 {
-                border-bottom-color: rgba(255,255,255,0.1);
-            }
-            .md_view code {
-                background: rgba(255,255,255,0.1);
-            }
+
+            .resource-button { background: #203c55; color: #badbff; }
+
+            .resource-button:hover { background: #294966; }
+
         }
+
+        @media (prefers-reduced-motion: reduce) { .resource-button { transition: none; } .resource-button:active { transform: none; } }
+
+        .social-links {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 10px;
+
+            margin-top: 12px;
+
+        }
+
+        .social-pill {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            padding: 9px 14px;
+
+            border-radius: 999px;
+
+            background: rgba(0,0,0,0.05);
+
+            color: inherit;
+
+            text-decoration: none;
+
+            font-size: 14px;
+
+        }
+
+        .meta-note {
+
+            color: #8e8e93;
+
+            font-size: 13px;
+
+            margin-top: 12px;
+
+            line-height: 1.6;
+
+        }
+
+        .info-list-item, .matrix-item {
+
+            background: rgba(0,0,0,0.03);
+
+            border-radius: 14px;
+
+            padding: 12px 14px;
+
+            line-height: 1.65;
+
+        }
+
+        .matrix-grid {
+
+            display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+
+            gap: 10px;
+
+            margin-top: 12px;
+
+            margin-bottom: 14px;
+
+        }
+
+        .matrix-title {
+
+            font-size: 12px;
+
+            font-weight: 700;
+
+            color: #8e8e93;
+
+            text-transform: uppercase;
+
+            letter-spacing: 0.04em;
+
+            margin-bottom: 6px;
+
+        }
+
+        .matrix-text { font-size: 14px; }
+
+        /* Changelog card styling */
+
+        .changelog_entry {
+
+            background: rgba(0,0,0,0.03);
+
+            border-radius: 14px;
+
+            padding: 16px 18px;
+
+            margin-bottom: 14px;
+
+        }
+
+        .changelog_entry h4 {
+
+            display: flex;
+
+            align-items: baseline;
+
+            justify-content: space-between;
+
+            gap: 12px;
+
+            font-size: 15px;
+
+            font-weight: 700;
+
+            color: #335d86;
+
+            margin-bottom: 10px;
+
+        }
+
+        .changelog_date {
+
+            margin-left: auto;
+
+            font-size: 12px;
+
+            font-weight: 500;
+
+            color: #626660;
+
+            text-align: right;
+
+            white-space: nowrap;
+
+        }
+
+        /* Description markdown beautification */
+
+        .md_view h1 {
+
+            font-size: 22px;
+
+            font-weight: 800;
+
+            margin: 18px 0 10px;
+
+        }
+
+        .md_view h2 {
+
+            font-size: 17px;
+
+            font-weight: 700;
+
+            margin: 16px 0 8px;
+
+            padding-bottom: 6px;
+
+            border-bottom: 1px solid rgba(0,0,0,0.06);
+
+        }
+
+        .md_view h3 {
+
+            font-size: 15px;
+
+            font-weight: 700;
+
+            margin: 14px 0 6px;
+
+        }
+
+        .md_view p {
+
+            font-size: 14px;
+
+            line-height: 1.7;
+
+            color: #3c3c43;
+
+            margin: 8px 0;
+
+        }
+
+        .md_view ul, .md_view ol {
+
+            padding-left: 20px;
+
+            margin: 8px 0;
+
+        }
+
+        .md_view li {
+
+            font-size: 14px;
+
+            line-height: 1.8;
+
+            color: #3c3c43;
+
+            margin-bottom: 4px;
+
+        }
+
+        .md_view code {
+
+            background: rgba(0,0,0,0.05);
+
+            padding: 2px 6px;
+
+            border-radius: 5px;
+
+            font-size: 13px;
+
+            font-family: "SF Mono", Menlo, monospace;
+
+        }
+
+        .md_view strong {
+
+            font-weight: 700;
+
+        }
+
+        @media (prefers-color-scheme: dark) {
+
+            .nav {
+
+                background: rgba(255,255,255,0.06);
+
+            }
+
+            .nav_btn.active {
+
+                background: rgba(255,255,255,0.12);
+
+                box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+
+            }
+
+            .nav_btn:not(.active):hover {
+
+                color: #d2d2d7;
+
+                background: rgba(255,255,255,0.04);
+
+            }
+
+            .social-pill,
+
+            .info-list-item,
+
+            .matrix-item,
+
+            .meta-badge,
+
+            .changelog_entry {
+
+                background: rgba(255,255,255,0.08);
+
+            }
+
+            .meta-note, .matrix-title {
+
+                color: #98989d;
+
+            }
+
+            .nav_btn, .detail-updated, .changelog_date { color: #a9afa5; }
+
+            .nav_btn.active, .changelog_entry h4 { color: #badbff; }
+
+            .summary-box { color: #a9afa5; }
+
+            .md_view p, .md_view li {
+
+                color: #d2d2d7;
+
+            }
+
+            .md_view h2 {
+
+                border-bottom-color: rgba(255,255,255,0.1);
+
+            }
+
+            .md_view code {
+
+                background: rgba(255,255,255,0.1);
+
+            }
+
+        }
+
     </style>
-    <script src="../../web/index.js?v=20261017-cn"></script>
+
+    <script src="../../web/index.js?v=20261120" defer></script>
+
     <meta name="description" content="番茄净化 (Roothide) · 开发者：junhong · 15.0 以上">
+
     <meta property="og:title" content="番茄净化 (Roothide)">
+
     <meta property="og:description" content="番茄净化 (Roothide) · 开发者：junhong · 15.0 以上">
-    <meta property="og:image" content="../../assets/fanqiefn.roothide/banner.png">
+
+    <meta property="og:image" content="https://apt.mjh.im/assets/fanqiefn.roothide/banner.png">
+
     <meta name="twitter:card" content="summary_large_image">
+
     <meta name="twitter:title" content="番茄净化 (Roothide)">
+
     <meta name="twitter:description" content="番茄净化 (Roothide) · 开发者：junhong · 15.0 以上">
+
     <meta name="twitter:image" content="https://apt.mjh.im/assets/fanqiefn.roothide/banner.png">
+
     <meta name="theme-color" content="#27BEF5">
+
 </head>
+
 <body>
+
     <div class="body">
-        <div style="background-image: url(../../assets/fanqiefn.roothide/banner.png)" class="banner_underlay"></div>
+
+        <div style="background-image: url(../../assets/fanqiefn.roothide/banner.png)" class="banner_underlay" aria-hidden="true"></div>
+
         <div class="package package_head">
-            <img src="../../assets/fanqiefn.roothide/icon.png">
+
+            <img src="../../assets/fanqiefn.roothide/icon.png" alt="番茄净化 (Roothide) 图标" width="75" height="75">
+
             <div class="package_info">
+
                 <h1 class="package_name">番茄净化 (Roothide)</h1>
+
                 <div class="detail-tags" aria-label="版本与适配信息">
-                    <span class="detail-tag">v3.3.0</span>
+
+                    <span class="detail-tag">v3.5.3</span>
+
                     <span class="detail-tag">RootHide · arm64e</span>
+
                     <span class="detail-tag">iOS 15+</span>
+
                 </div>
-                <p class="detail-updated">更新时间：2026-10-26</p>
+
+                <p class="detail-updated">更新时间：2026-11-15</p>
+
             </div>
+
         </div>
-        <div class="nav">
-            <div class="nav_btn active tweak_info_btn" onclick="swap('.changelog','.tweak_info');">详情</div>
-            <div class="nav_btn changelog_btn" onclick="swap('.tweak_info','.changelog');">更新日志</div>
+
+        <div class="nav" role="tablist" aria-label="插件详情">
+
+            <button class="nav_btn active tweak_info_btn" id="details-tab" type="button" role="tab" aria-controls="details-panel" aria-selected="true" tabindex="0">详情</button>
+
+            <button class="nav_btn changelog_btn" id="changelog-tab" type="button" role="tab" aria-controls="changelog-panel" aria-selected="false" tabindex="-1">更新日志</button>
+
         </div>
+
             <div class="resource-grid">
-                <a href="https://fanqie.goforit.si/" class="resource-button">插件官网</a>
-                <a href="https://pingme.pm/fanqie" class="resource-button">提交反馈</a>
+
+                <a href="https://fanqie.goforit.si/" class="resource-button" target="_blank" rel="noopener noreferrer">插件官网</a>
+
+                <a href="https://pingme.pm/fanqie" class="resource-button" target="_blank" rel="noopener noreferrer">提交反馈</a>
+
                 <a href="alipays://platformapi/startapp?saId=10000007&amp;qrcode=https%3A%2F%2Fqr.alipay.com%2Ffkx180736inoxop5mkbqh83%3F_s%3Dweb-other&amp;launchKey=c7f8d186-3e05-4668-a7eb-8cf336c2108f-1780370320745" class="resource-button donation-button">赏杯咖啡</a>
+
             </div>
-            <div class="resource-grid">
-                <a href="https://t.me/junhongdev" class="resource-button" rel="noopener">加入 TG 频道</a>
-                <a href="https://t.me/junhongdevchat" class="resource-button" rel="noopener">加入 TG 群组</a>
+
+<div class="resource-grid">
+
+                <a href="https://t.me/junhongdev" class="resource-button" target="_blank" rel="noopener noreferrer">加入 TG 频道</a>
+
+                <a href="https://t.me/junhongdevchat" class="resource-button" target="_blank" rel="noopener noreferrer">加入 TG 群组</a>
+
             </div>
-        <div class="tweak_info">
-            
+
+        <div class="tweak_info" id="details-panel" role="tabpanel" aria-labelledby="details-tab" tabindex="0">
+
+
+
             <div class="summary-box">阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。</div>
+
             <div class="md_view"><h2>阅读与听书</h2>
+
 <ul>
+
 <li>去除阅读小说的广告</li>
+
 <li>去除听书时的广告</li>
+
 <li>隐藏章末圈子入口</li>
+
 <li>隐藏章节末作者的话模块</li>
+
 <li>隐藏本章讨论入口</li>
+
 <li>隐藏章末圈子按钮</li>
+
 <li>隐藏章末送礼物</li>
+
 <li>隐藏最新章节下方发讨论圈子送礼物三个按钮</li>
+
 <li>允许快速跳过激励广告</li>
+
 <li>小说阅读页面返回标题固定为章节名</li>
+
 </ul>
+
 <h2>页面与推广净化</h2>
+
 <ul>
+
 <li>扩展默认启动页支持书架个人中心</li>
+
 <li>去除各类推广入口</li>
+
 <li>去除小说评价邀请弹窗</li>
+
 <li>隐藏听读赚钱挂件</li>
+
 <li>隐藏底部福利导航</li>
+
 <li>隐藏我的页面福利卡片</li>
+
 <li>隐藏我的页面推荐卡片</li>
+
 <li>隐藏书架漫剧推荐横幅</li>
+
 <li>隐藏书架今日听读时长</li>
+
 <li>隐藏书架导入本地书入口</li>
+
 </ul>
+
 <h2>显示与权限</h2>
+
 <ul>
+
 <li>伪装番茄小说已经通知杈限</li>
+
 <li>伪装番茄小说已经添加小组件</li>
+
 <li>会员显示为9999-12-31</li>
+
 <li>修复会员类型显示，保留出版 VIP、无广告 VIP、SVIP 原生类型</li>
+
 </ul>
+
 <p>已适配番茄小说7.3.9。</p>
+
 </div>
-            
-            
-            
+
+
+
+
+
+
+
         </div>
-        <div class="changelog"><div class="changelog_entry"><h4><span class="changelog_version">3.5.3</span><span class="changelog_date">2026-11-15</span></h4><div class="md_view"><ul><li>新增小说导出功能</li><li>移除我的页面顶部插件入口</li></ul></div></div><div class="changelog_entry"><h4><span class="changelog_version">3.5.2</span><span class="changelog_date">2026-11-14</span></h4><div class="md_view"><ul><li>修复深色模式下底栏文字颜色为白色</li></ul></div></div><div class="changelog_entry"><h4><span class="changelog_version">3.5.1</span><span class="changelog_date">2026-11-14</span></h4><div class="md_view"><ul><li>优化 iPad 液态玻璃效果</li><li>优化仿液态玻璃效果</li><li>优化底栏字号调节效果</li><li>优化原生玻璃着色调节效果</li><li>优化深色模式底栏文字显示效果</li></ul></div></div>
+
+        <div class="changelog" id="changelog-panel" role="tabpanel" aria-labelledby="changelog-tab" tabindex="0" hidden>
+
             <div class="changelog_entry">
+
+                <h4><span class="changelog_version">3.5.3</span><span class="changelog_date">2026-11-15</span></h4>
+
+                <div class="md_view"><ul>
+
+<li>新增小说导出功能</li>
+
+<li>移除我的页面顶部插件入口</li>
+
+</ul>
+
+</div>
+
+            </div><div class="changelog_entry">
+
+                <h4><span class="changelog_version">3.5.2</span><span class="changelog_date">2026-11-14</span></h4>
+
+                <div class="md_view"><ul>
+
+<li>修复深色模式下底栏文字颜色为白色</li>
+
+</ul>
+
+</div>
+
+            </div><div class="changelog_entry">
+
+                <h4><span class="changelog_version">3.5.1</span><span class="changelog_date">2026-11-14</span></h4>
+
+                <div class="md_view"><ul>
+
+<li>优化 iPad 液态玻璃效果</li>
+
+<li>优化仿液态玻璃效果</li>
+
+<li>优化底栏字号调节效果</li>
+
+<li>优化原生玻璃着色调节效果</li>
+
+<li>优化深色模式底栏文字显示效果</li>
+
+</ul>
+
+</div>
+
+            </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">3.3.0</span><span class="changelog_date">2026-10-26</span></h4>
+
                 <div class="md_view"><ul>
+
 <li>新增书城顶部列表自定义隐藏</li>
+
 <li>优化短篇去广告</li>
+
 <li>优化短篇自动解锁并展开全文</li>
+
 <li>新增屏蔽系统通知红点提醒</li>
+
 <li>新增屏蔽内容小组件添加提醒</li>
+
 </ul>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">3.1.2</span><span class="changelog_date">2026-10-22</span></h4>
+
                 <div class="md_view"><ul>
+
 <li>修复状态栏显示时双击开始自动阅读失效的问题。</li>
+
 <li>适配番茄小说 7.4.1。</li>
+
 </ul>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">3.1.1</span><span class="changelog_date">2026-10-19</span></h4>
+
                 <div class="md_view"><ul>
+
 <li>修复听书播放一直加载的问题。</li>
+
 <li>优化双击切换自动阅读的首次启动。</li>
+
 </ul>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">3.1.0</span><span class="changelog_date">2026-10-18</span></h4>
+
                 <div class="md_view"><ul>
+
 <li>新增自动领福利，支持签到、宝箱、存钱罐、视频任务、红包十连开及预约任务。</li>
+
 <li>新增福利任务静默模式，减少到账提示、音效和推荐弹窗。</li>
+
 <li>激励广告支持自动跳过，增加直播与备用广告处理。</li>
+
 <li>新增完整金币显示，金币不再缩写为“万”。</li>
+
 <li>新增短篇广告净化，过滤正文插页广告及激励广告卡片。</li>
+
 <li>新增书摘小组件提醒、章末“开启评论”按钮的独立隐藏开关。</li>
+
 <li>新增我的页搜索框、阅读页“去赚更多”和听书悬浮按钮的独立隐藏开关。</li>
+
 <li>新增双击正文切换自动阅读。</li>
+
 <li>会员状态展示补充出版物 VIP 卡片。</li>
+
 <li>设置项分组管理，支持展开和收起。</li>
+
 <li>新增我的页设置快捷入口、反馈及自愿赞助入口。</li>
+
 </ul>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">3.0.5</span><span class="changelog_date">2026-10-11</span></h4>
+
                 <div class="md_view"><ul>
+
 <li>新增屏蔽热启动广告开关，减少回到前台时的广告打扰。</li>
+
 <li>新增解除自动阅读广告时长限制开关，保留手动暂停与后台暂停。</li>
+
 <li>两项新开关默认关闭，可在插件设置中按需开启。</li>
+
 </ul>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">3.0.4</span><span class="changelog_date">2026-10-08</span></h4>
+
                 <div class="md_view"><ul>
+
 <li>新增书架漫剧推荐、今日听读时长和导入本地书入口的独立隐藏开关。</li>
+
 <li>修复会员类型被统一显示为出版 VIP 的问题，保留各卡片的原生类型。</li>
+
 </ul>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">3.0.3</span><span class="changelog_date">2026-10-07</span></h4>
+
                 <div class="md_view"><ul>
+
 <li>新增书城与我的页发帖悬浮按钮的独立隐藏开关。</li>
+
 <li>新增底部短剧导航隐藏开关。</li>
+
 <li>新增关闭短剧进入自动播放开关，保留手动播放。</li>
+
 </ul>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">3.0.2</span><span class="changelog_date">2026-10-06</span></h4>
+
                 <div class="md_view"><ul>
+
 <li>修复退出阅读及章末的自动评分邀请屏蔽。</li>
+
 <li>改善最新章节底部留白，避免催更与更新时间被阅读底栏遮挡。</li>
+
 </ul>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">3.0.1</span><span class="changelog_date">2026-10-06</span></h4>
+
                 <div class="md_view"><ul>
+
 <li>修复番茄小说 7.3.9 中“隐藏本章讨论”开关失效的问题。</li>
+
 <li>改善最新章节末尾布局：隐藏圈子或快捷按钮时，增加避开阅读底栏的自适应留白。</li>
+
 </ul>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">3.0.0</span><span class="changelog_date">2026-10-05</span></h4>
+
                 <div class="md_view"><p>1、新增阅读与听书广告净化、推广入口清理。<br />
+
 2、新增章末内容、福利导航及个人页卡片的独立开关。<br />
+
 3、新增原生二级设置、插件总开关、版本及作者和插件源链接。<br />
+
 4、新增书架与“我的”默认启动选项，以及章节名返回标题。<br />
+
 5、新增自动评价邀请、听读赚钱挂件控制与激励广告快速关闭选项。<br />
+
 6、新增会员状态显示选项，保留原有通知与小组件权限伪装。<br />
+
 7、新增 RootHide 安装包与官网下载安装入口。</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">2.0.0</span></h4>
+
                 <div class="md_view"><p>新增小组件权限伪装，去除添加小组件的弹窗提醒；优化通知权限伪装逻辑</p>
+
 </div>
+
             </div>
+
         </div>
+
         <div class="caption center footer">junhong&#x27;s repo</div>
+
     </div>
+
 </body>
-<script>compatible("15.0","","15.0 以上");externalize()</script>
+
 </html>

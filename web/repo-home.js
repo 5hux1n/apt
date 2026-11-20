@@ -7,6 +7,7 @@
     var panels = Array.from(document.querySelectorAll('.package-section'));
     var cards = Array.from(document.querySelectorAll('.package-entry'));
     var empty = document.getElementById('empty-state');
+    var status = document.getElementById('search-status');
     var motion = window.matchMedia('(prefers-reduced-motion: reduce)');
     var active = tabs.find(function (tab) { return tab.getAttribute('aria-selected') === 'true'; }) || tabs[0];
     var readyTimer;
@@ -20,15 +21,24 @@
             card.hidden = query !== '' && !text.includes(query);
         });
         var count = 0;
+        var otherResults = [];
         panels.forEach(function (panel) {
             panel.hidden = panel.dataset.sectionName !== active.dataset.environment;
-            if (!panel.hidden) count += panel.querySelectorAll('.package-entry:not([hidden])').length;
+            var matches = panel.querySelectorAll('.package-entry:not([hidden])').length;
+            if (!panel.hidden) count += matches;
+            else if (matches) otherResults.push(panel.dataset.sectionName + ' ' + matches + ' 个');
         });
+        status.hidden = query === '';
+        status.textContent = active.dataset.environment + '：' + count + ' 个结果' +
+            (otherResults.length ? '；其他架构：' + otherResults.join('、') + '，可切换上方标签查看。' : '。');
+        empty.textContent = '当前 ' + active.dataset.environment + ' 下没有匹配的插件，请尝试其他关键词或架构。';
         empty.style.display = count === 0 ? 'block' : 'none';
     }
 
     function select(tab) {
         active = tab;
+        input.placeholder = '搜索 ' + tab.dataset.environment + ' 插件';
+        input.setAttribute('aria-label', input.placeholder);
         tabs.forEach(function (item) {
             var selected = item === tab;
             item.setAttribute('aria-selected', String(selected));

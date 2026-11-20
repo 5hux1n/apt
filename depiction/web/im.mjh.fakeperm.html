@@ -1,500 +1,1009 @@
 <!DOCTYPE html>
+
 <html lang="zh-CN">
+
 <head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>虚拟权限 · Fake Permission</title>
+
     <link rel="stylesheet" type="text/css" href="../../web/index.css">
+
     <style>
+
         a, .tint, .table-btn:after { color: #27BEF5; }
+
         .meta-badge {
+
             display: inline-flex;
+
             align-items: center;
+
             gap: 8px;
+
             padding: 8px 12px;
+
             border-radius: 999px;
+
             font-size: 12px;
+
             font-weight: 700;
+
         }
+
         .badge-group {
+
             display: flex;
+
             flex-wrap: wrap;
+
             gap: 8px;
+
             margin: 12px 0 6px;
+
         }
+
         .meta-badge {
+
             background: rgba(0,0,0,0.05);
+
             color: inherit;
+
         }
+
         .package_head { display: flex; align-items: flex-start; gap: 15px; margin-bottom: 12px; }
+
         .package_head > img { float: none; flex: 0 0 75px; }
+
         .package_head .package_info { margin-left: 0; min-width: 0; }
+
         .package_name { overflow-wrap: anywhere; }
+
         .detail-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 9px; }
+
         .detail-tag { background: #e9f3ff; color: #335d86; font-size: 11px; line-height: 1.5; padding: 2px 7px; border-radius: 4px; }
-        .detail-updated { color: #8e8e93; font-size: 12px; line-height: 1.5; margin: 8px 0 0; }
+
+        .detail-updated { color: #626660; font-size: 12px; line-height: 1.5; margin: 8px 0 0; }
+
         @media (prefers-color-scheme: dark) {
+
             .detail-tag { background: #203c55; color: #badbff; }
+
         }
+
         .footer { border-top: 1px solid rgba(0,0,0,0.08); margin-top: 24px; padding-top: 16px; }
+
         @media (prefers-color-scheme: dark) { .footer { border-top-color: rgba(255,255,255,0.12); } }
+
         /* Tabs styling */
+
         .nav {
+
             display: flex;
+
             margin: 12px 0 10px;
+
             background: rgba(0,0,0,0.04);
+
             border-radius: 12px;
+
             padding: 4px;
+
             gap: 4px;
+
         }
+
         .nav_btn {
+
             flex: 1;
+
+            font-family: inherit;
+
+            background: transparent;
+
+            border: 0;
+
+            min-height: 44px;
+
             text-align: center;
-            color: #8e8e93;
-            font-weight: 600;
-            font-size: 14px;
-            padding: 10px 16px;
-            border-radius: 10px;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            border-bottom: none;
-        }
-        .nav_btn.active {
-            background: #fff;
-            color: #27BEF5;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-            border-bottom: none;
-        }
-        .nav_btn:not(.active):hover {
-            color: #3c3c43;
-            background: rgba(0,0,0,0.03);
-        }
-        .summary-box {
-            padding: 0;
-            margin: 18px 0 20px;
-            line-height: 1.7;
-            font-size: 14px;
+
             color: #626660;
-        }
-        .table { margin-bottom: 10px; }
-        .resource-grid, .info-list, .badge-row {
-            display: grid;
-            gap: 10px;
-            margin-top: 12px;
-        }
-        .resource-grid { display: flex; gap: 10px; margin: 0 0 18px; }
-        .resource-grid > .resource-button { flex: 1; min-width: 0; }
-        .resource-button {
-            display: inline-flex; align-items: center; justify-content: center; gap: 7px;
-            min-height: 38px; padding: 0 15px; border-radius: 10px;
-            background: #e9f3ff; color: #335d86; font-size: 13px; font-weight: 600;
-            text-decoration: none; transition: background .15s ease, transform .15s ease;
-        }
-        .resource-button:hover { background: #deecfc; opacity: 1; }
-        .resource-button:active { transform: scale(.97); }
-        .resource-button:focus-visible { outline: 2px solid #335d86; outline-offset: 3px; }
-        @media (prefers-color-scheme: dark) {
-            .resource-button { background: #203c55; color: #badbff; }
-            .resource-button:hover { background: #294966; }
-        }
-        @media (prefers-reduced-motion: reduce) { .resource-button { transition: none; } .resource-button:active { transform: none; } }
-        .social-links {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 12px;
-        }
-        .social-pill {
-            display: inline-flex;
-            align-items: center;
-            padding: 9px 14px;
-            border-radius: 999px;
-            background: rgba(0,0,0,0.05);
-            color: inherit;
-            text-decoration: none;
+
+            font-weight: 600;
+
             font-size: 14px;
+
+            padding: 10px 16px;
+
+            border-radius: 10px;
+
+            cursor: pointer;
+
+            transition: all 0.2s ease;
+
+            border-bottom: none;
+
         }
-        .meta-note {
-            color: #8e8e93;
-            font-size: 13px;
-            margin-top: 12px;
-            line-height: 1.6;
+
+        .nav_btn.active {
+
+            background: #fff;
+
+            color: #335d86;
+
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+
+            border-bottom: none;
+
         }
-        .info-list-item, .matrix-item {
+
+        .nav_btn:not(.active):hover {
+
+            color: #3c3c43;
+
             background: rgba(0,0,0,0.03);
-            border-radius: 14px;
-            padding: 12px 14px;
-            line-height: 1.65;
+
         }
-        .matrix-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 10px;
-            margin-top: 12px;
-            margin-bottom: 14px;
-        }
-        .matrix-title {
-            font-size: 12px;
-            font-weight: 700;
-            color: #8e8e93;
-            text-transform: uppercase;
-            letter-spacing: 0.04em;
-            margin-bottom: 6px;
-        }
-        .matrix-text { font-size: 14px; }
-        /* Changelog card styling */
-        .changelog_entry {
-            background: rgba(0,0,0,0.03);
-            border-radius: 14px;
-            padding: 16px 18px;
-            margin-bottom: 14px;
-        }
-        .changelog_entry h4 {
-            display: flex;
-            align-items: baseline;
-            justify-content: space-between;
-            gap: 12px;
-            font-size: 15px;
-            font-weight: 700;
-            color: #27BEF5;
-            margin-bottom: 10px;
-        }
-        .changelog_date {
-            margin-left: auto;
-            font-size: 12px;
-            font-weight: 500;
-            opacity: 0.55;
-            text-align: right;
-            white-space: nowrap;
-        }
-        /* Description markdown beautification */
-        .md_view h1 {
-            font-size: 22px;
-            font-weight: 800;
-            margin: 18px 0 10px;
-        }
-        .md_view h2 {
-            font-size: 17px;
-            font-weight: 700;
-            margin: 16px 0 8px;
-            padding-bottom: 6px;
-            border-bottom: 1px solid rgba(0,0,0,0.06);
-        }
-        .md_view h3 {
-            font-size: 15px;
-            font-weight: 700;
-            margin: 14px 0 6px;
-        }
-        .md_view p {
-            font-size: 14px;
+
+        .summary-box {
+
+            padding: 0;
+
+            margin: 18px 0 20px;
+
             line-height: 1.7;
-            color: #3c3c43;
-            margin: 8px 0;
-        }
-        .md_view ul, .md_view ol {
-            padding-left: 20px;
-            margin: 8px 0;
-        }
-        .md_view li {
+
             font-size: 14px;
-            line-height: 1.8;
-            color: #3c3c43;
-            margin-bottom: 4px;
+
+            color: #626660;
+
         }
-        .md_view code {
-            background: rgba(0,0,0,0.05);
-            padding: 2px 6px;
-            border-radius: 5px;
-            font-size: 13px;
-            font-family: "SF Mono", Menlo, monospace;
+
+        .table { margin-bottom: 10px; }
+
+        .resource-grid, .info-list, .badge-row {
+
+            display: grid;
+
+            gap: 10px;
+
+            margin-top: 12px;
+
         }
-        .md_view strong {
-            font-weight: 700;
+
+        .resource-grid { display: flex; gap: 10px; margin: 0 0 18px; }
+
+        .resource-grid > .resource-button { flex: 1; min-width: 0; }
+
+        .resource-button {
+
+            display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+
+            min-height: 44px; padding: 0 10px; border-radius: 10px; white-space: nowrap;
+
+            background: #e9f3ff; color: #335d86; font-size: 13px; font-weight: 600;
+
+            text-decoration: none; transition: background .15s ease, transform .15s ease;
+
         }
+
+        .resource-button:hover { background: #deecfc; opacity: 1; }
+
+        .resource-button:active { transform: scale(.97); }
+
+        .resource-button:focus-visible { outline: 2px solid #335d86; outline-offset: 3px; }
+
         @media (prefers-color-scheme: dark) {
-            .nav {
-                background: rgba(255,255,255,0.06);
-            }
-            .nav_btn.active {
-                background: rgba(255,255,255,0.12);
-                box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-            }
-            .nav_btn:not(.active):hover {
-                color: #d2d2d7;
-                background: rgba(255,255,255,0.04);
-            }
-            .social-pill,
-            .info-list-item,
-            .matrix-item,
-            .meta-badge,
-            .changelog_entry {
-                background: rgba(255,255,255,0.08);
-            }
-            .meta-note, .matrix-title {
-                color: #98989d;
-            }
-            .summary-box { color: #a9afa5; }
-            .md_view p, .md_view li {
-                color: #d2d2d7;
-            }
-            .md_view h2 {
-                border-bottom-color: rgba(255,255,255,0.1);
-            }
-            .md_view code {
-                background: rgba(255,255,255,0.1);
-            }
+
+            .resource-button { background: #203c55; color: #badbff; }
+
+            .resource-button:hover { background: #294966; }
+
         }
+
+        @media (prefers-reduced-motion: reduce) { .resource-button { transition: none; } .resource-button:active { transform: none; } }
+
+        .social-links {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 10px;
+
+            margin-top: 12px;
+
+        }
+
+        .social-pill {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            padding: 9px 14px;
+
+            border-radius: 999px;
+
+            background: rgba(0,0,0,0.05);
+
+            color: inherit;
+
+            text-decoration: none;
+
+            font-size: 14px;
+
+        }
+
+        .meta-note {
+
+            color: #8e8e93;
+
+            font-size: 13px;
+
+            margin-top: 12px;
+
+            line-height: 1.6;
+
+        }
+
+        .info-list-item, .matrix-item {
+
+            background: rgba(0,0,0,0.03);
+
+            border-radius: 14px;
+
+            padding: 12px 14px;
+
+            line-height: 1.65;
+
+        }
+
+        .matrix-grid {
+
+            display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+
+            gap: 10px;
+
+            margin-top: 12px;
+
+            margin-bottom: 14px;
+
+        }
+
+        .matrix-title {
+
+            font-size: 12px;
+
+            font-weight: 700;
+
+            color: #8e8e93;
+
+            text-transform: uppercase;
+
+            letter-spacing: 0.04em;
+
+            margin-bottom: 6px;
+
+        }
+
+        .matrix-text { font-size: 14px; }
+
+        /* Changelog card styling */
+
+        .changelog_entry {
+
+            background: rgba(0,0,0,0.03);
+
+            border-radius: 14px;
+
+            padding: 16px 18px;
+
+            margin-bottom: 14px;
+
+        }
+
+        .changelog_entry h4 {
+
+            display: flex;
+
+            align-items: baseline;
+
+            justify-content: space-between;
+
+            gap: 12px;
+
+            font-size: 15px;
+
+            font-weight: 700;
+
+            color: #335d86;
+
+            margin-bottom: 10px;
+
+        }
+
+        .changelog_date {
+
+            margin-left: auto;
+
+            font-size: 12px;
+
+            font-weight: 500;
+
+            color: #626660;
+
+            text-align: right;
+
+            white-space: nowrap;
+
+        }
+
+        /* Description markdown beautification */
+
+        .md_view h1 {
+
+            font-size: 22px;
+
+            font-weight: 800;
+
+            margin: 18px 0 10px;
+
+        }
+
+        .md_view h2 {
+
+            font-size: 17px;
+
+            font-weight: 700;
+
+            margin: 16px 0 8px;
+
+            padding-bottom: 6px;
+
+            border-bottom: 1px solid rgba(0,0,0,0.06);
+
+        }
+
+        .md_view h3 {
+
+            font-size: 15px;
+
+            font-weight: 700;
+
+            margin: 14px 0 6px;
+
+        }
+
+        .md_view p {
+
+            font-size: 14px;
+
+            line-height: 1.7;
+
+            color: #3c3c43;
+
+            margin: 8px 0;
+
+        }
+
+        .md_view ul, .md_view ol {
+
+            padding-left: 20px;
+
+            margin: 8px 0;
+
+        }
+
+        .md_view li {
+
+            font-size: 14px;
+
+            line-height: 1.8;
+
+            color: #3c3c43;
+
+            margin-bottom: 4px;
+
+        }
+
+        .md_view code {
+
+            background: rgba(0,0,0,0.05);
+
+            padding: 2px 6px;
+
+            border-radius: 5px;
+
+            font-size: 13px;
+
+            font-family: "SF Mono", Menlo, monospace;
+
+        }
+
+        .md_view strong {
+
+            font-weight: 700;
+
+        }
+
+        @media (prefers-color-scheme: dark) {
+
+            .nav {
+
+                background: rgba(255,255,255,0.06);
+
+            }
+
+            .nav_btn.active {
+
+                background: rgba(255,255,255,0.12);
+
+                box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+
+            }
+
+            .nav_btn:not(.active):hover {
+
+                color: #d2d2d7;
+
+                background: rgba(255,255,255,0.04);
+
+            }
+
+            .social-pill,
+
+            .info-list-item,
+
+            .matrix-item,
+
+            .meta-badge,
+
+            .changelog_entry {
+
+                background: rgba(255,255,255,0.08);
+
+            }
+
+            .meta-note, .matrix-title {
+
+                color: #98989d;
+
+            }
+
+            .nav_btn, .detail-updated, .changelog_date { color: #a9afa5; }
+
+            .nav_btn.active, .changelog_entry h4 { color: #badbff; }
+
+            .summary-box { color: #a9afa5; }
+
+            .md_view p, .md_view li {
+
+                color: #d2d2d7;
+
+            }
+
+            .md_view h2 {
+
+                border-bottom-color: rgba(255,255,255,0.1);
+
+            }
+
+            .md_view code {
+
+                background: rgba(255,255,255,0.1);
+
+            }
+
+        }
+
     </style>
-    <script src="../../web/index.js?v=20261017-cn"></script>
+
+    <script src="../../web/index.js?v=20261120" defer></script>
+
     <meta name="description" content="虚拟权限 · Fake Permission · 开发者：Junhong · 15.0 以上">
+
     <meta property="og:title" content="虚拟权限 · Fake Permission">
+
     <meta property="og:description" content="虚拟权限 · Fake Permission · 开发者：Junhong · 15.0 以上">
-    <meta property="og:image" content="../../assets/im.mjh.fakeperm/banner.png">
+
+    <meta property="og:image" content="https://apt.mjh.im/assets/im.mjh.fakeperm/banner.png">
+
     <meta name="twitter:card" content="summary_large_image">
+
     <meta name="twitter:title" content="虚拟权限 · Fake Permission">
+
     <meta name="twitter:description" content="虚拟权限 · Fake Permission · 开发者：Junhong · 15.0 以上">
+
     <meta name="twitter:image" content="https://apt.mjh.im/assets/im.mjh.fakeperm/banner.png">
+
     <meta name="theme-color" content="#27BEF5">
+
 </head>
+
 <body>
+
     <div class="body">
-        <div style="background-image: url(../../assets/im.mjh.fakeperm/banner.png)" class="banner_underlay"></div>
+
+        <div style="background-image: url(../../assets/im.mjh.fakeperm/banner.png)" class="banner_underlay" aria-hidden="true"></div>
+
         <div class="package package_head">
-            <img src="../../assets/im.mjh.fakeperm/icon.png">
+
+            <img src="../../assets/im.mjh.fakeperm/icon.png" alt="虚拟权限 · Fake Permission 图标" width="75" height="75">
+
             <div class="package_info">
+
                 <h1 class="package_name">虚拟权限 · Fake Permission</h1>
+
                 <div class="detail-tags" aria-label="版本与适配信息">
+
                     <span class="detail-tag">v8.9.3</span>
+
                     <span class="detail-tag">Rootless · arm64</span>
+
                     <span class="detail-tag">iOS 15+</span>
+
                 </div>
+
                 <p class="detail-updated">更新时间：暂未同步</p>
+
             </div>
+
         </div>
-        <div class="nav">
-            <div class="nav_btn active tweak_info_btn" onclick="swap('.changelog','.tweak_info');">详情</div>
-            <div class="nav_btn changelog_btn" onclick="swap('.tweak_info','.changelog');">更新日志</div>
+
+        <div class="nav" role="tablist" aria-label="插件详情">
+
+            <button class="nav_btn active tweak_info_btn" id="details-tab" type="button" role="tab" aria-controls="details-panel" aria-selected="true" tabindex="0">详情</button>
+
+            <button class="nav_btn changelog_btn" id="changelog-tab" type="button" role="tab" aria-controls="changelog-panel" aria-selected="false" tabindex="-1">更新日志</button>
+
         </div>
+
             <div class="resource-grid">
-                <a href="https://xnqx.goforit.si/" class="resource-button">插件官网</a>
-                <a href="https://pingme.pm/fakeperm" class="resource-button">提交反馈</a>
+
+                <a href="https://xnqx.goforit.si/" class="resource-button" target="_blank" rel="noopener noreferrer">插件官网</a>
+
+                <a href="https://pingme.pm/fakeperm" class="resource-button" target="_blank" rel="noopener noreferrer">提交反馈</a>
+
                 <a href="alipays://platformapi/startapp?saId=10000007&amp;qrcode=https%3A%2F%2Fqr.alipay.com%2Ffkx180736inoxop5mkbqh83%3F_s%3Dweb-other&amp;launchKey=c7f8d186-3e05-4668-a7eb-8cf336c2108f-1780370320745" class="resource-button donation-button">赏杯咖啡</a>
+
             </div>
-            <div class="resource-grid">
-                <a href="https://t.me/junhongdev" class="resource-button" rel="noopener">加入 TG 频道</a>
-                <a href="https://t.me/junhongdevchat" class="resource-button" rel="noopener">加入 TG 群组</a>
+
+<div class="resource-grid">
+
+                <a href="https://t.me/junhongdev" class="resource-button" target="_blank" rel="noopener noreferrer">加入 TG 频道</a>
+
+                <a href="https://t.me/junhongdevchat" class="resource-button" target="_blank" rel="noopener noreferrer">加入 TG 群组</a>
+
             </div>
-        <div class="tweak_info">
-            
+
+        <div class="tweak_info" id="details-panel" role="tabpanel" aria-labelledby="details-tab" tabindex="0">
+
+
+
             <div class="summary-box">针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
+
+
 
 支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟拍照)、麦克风伪装、蓝牙伪装、剪贴板伪装、传感器防摇一摇、WiFi模拟(SSID/BSSID/历史)、机型伪装、iOS版本伪装(内置数据库)、地区伪装(内置选择器)、语言伪装(内置选择器)、UUID标识符伪装(IDFV/IDFA)、App版本伪装、屏蔽代理检测、屏蔽截图/录屏检测、配置导入导出、App暂停/恢复。
 
+
+
 已测试设备:
+
 iPhone 14 Pro - iOS 16.3
+
 iPhone 12 - iOS 16.1.1
+
 iPhone SE 1st - iOS 15.8.5
+
 iPad 9 - iOS 15.4.1
 
+
+
 其他设备请自行测试</div>
+
             <div class="md_view"><p>针对任意 App 单独配置虚拟权限，防止隐私被过度索取。</p>
+
 <h3>支持的伪装功能</h3>
+
 <p><strong>基础权限伪装：</strong> 通知、推送、相册、通讯录、日历、蓝牙、剪贴板、传感器（防摇一摇）</p>
+
 <p><strong>定位伪装：</strong> 地图选点 / 地址搜索 / 海拔高度 / 历史记录</p>
+
 <p><strong>相机伪装：</strong> 强制相册选择器 / 虚拟拍照替换 / 相册入口按钮</p>
+
 <p><strong>麦克风伪装：</strong> 完整的麦克风拦截，防止「麦克风被占用」提示</p>
+
 <p><strong>WiFi 模拟：</strong> 自定义 SSID / BSSID / 历史记录</p>
+
 <p><strong>机型伪装：</strong> 内置热门机型列表 + 自定义输入</p>
+
 <p><strong>iOS 版本伪装：</strong> 内置 122 条真实版本数据库 (iOS 15-26)，关联 Build 号</p>
+
 <p><strong>地区伪装：</strong> 内置 28 个国家/地区选择器，选择后自动填入运营商 MCC/MNC</p>
+
 <p><strong>语言伪装：</strong> 内置 25 种语言选择器</p>
+
 <p><strong>UUID 标识符伪装：</strong> IDFV + IDFA 统一为一个 UUID 字段，支持随机生成</p>
+
 <p><strong>App 版本伪装：</strong> 可自定义 版本号 / 内部号</p>
+
 <p><strong>屏蔽检测：</strong> 代理/VPN 检测、截图检测、录屏检测</p>
+
 <p><strong>其他：</strong> 配置导入导出 / App 暂停恢复 / 版本更新检测 / 中英文界面</p>
+
 <hr />
+
 <h3>已测试设备</h3>
+
 <p>iPhone 14 Pro（iOS 16.3）</p>
+
 <p>iPhone 12（iOS 16.1）</p>
+
 <p>iPhone SE 1st（iOS 15.8.5）</p>
+
 <p>iPad 9th（iOS 15.4.1）</p>
+
 <p>其他设备请自行测试，免费插件兼容性不作保障。</p>
+
 <p>插件仅用于测试、学习用途，请于 24 小时内删除。</p>
+
 <h3>Fake Permission · FakeTweak</h3>
+
 <p>Individually configure spoofed permissions for any app to prevent excessive privacy requests.</p>
+
 <p><strong>Permission spoofing:</strong> notifications, push, photos, contacts, calendar, bluetooth, clipboard, sensor (shake-ad blocking)</p>
+
 <p><strong>Location spoofing:</strong> map picker / address search / altitude / history, covering Amap, Baidu, Tencent LBS SDKs</p>
+
 <p><strong>Camera spoofing:</strong> force photo library picker / fake capture replacement / album entry button</p>
+
 <p><strong>Microphone spoofing:</strong> full interception to prevent &quot;mic occupied&quot; errors</p>
+
 <p><strong>WiFi spoofing:</strong> custom SSID / BSSID / history</p>
+
 <p><strong>Device model spoofing:</strong> built-in popular models + custom identifier input</p>
+
 <p><strong>iOS version spoofing:</strong> built-in database of 122 real versions (iOS 15-26) with search and one-tap auto-fill</p>
+
 <p><strong>Region spoofing:</strong> built-in picker with 28 countries, auto-fills carrier MCC/MNC</p>
+
 <p><strong>Language spoofing:</strong> built-in picker with 25 languages</p>
+
 <p><strong>UUID identifier spoofing:</strong> unified IDFV/IDFA field with random generation</p>
+
 <p><strong>App version spoofing:</strong> customizable CFBundleShortVersionString / CFBundleVersion</p>
+
 <p><strong>Detection blocking:</strong> proxy/VPN detection, screenshot detection, screen recording detection</p>
+
 <p><strong>More:</strong> config import/export, app pause/resume, version update checker, Chinese/English UI</p>
+
 <p>Tested Devices: iPhone 14 Pro (iOS 16.3), iPhone 12 (iOS 16.1), iPhone SE 1st (iOS 15.8.5), iPad 9th (iOS 15.4.1). Other devices test at your own risk.</p>
+
 <p>This tweak is for testing and educational purposes only. Please uninstall within 24 hours.</p>
+
 </div>
-            
-            
-            
+
+
+
+
+
+
+
         </div>
-        <div class="changelog">
+
+        <div class="changelog" id="changelog-panel" role="tabpanel" aria-labelledby="changelog-tab" tabindex="0" hidden>
+
             <div class="changelog_entry">
+
                 <h4><span class="changelog_version">8.9.3</span><span class="changelog_date">2026-09-22</span></h4>
+
                 <div class="md_view"><p>1、修复地图选点页地名与坐标不符、地名不显示的问题<br />
+
 2、地址改为多行完整显示（国家 - 省 - 市 - 区 - 街道），经纬度作副标题<br />
+
 3、历史记录中只有坐标的旧条目会自动补全地址<br />
+
 4、下架异常的 roothide 8.6.0，roothide 用户请用 8.7.0 及以上</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">8.7.1</span><span class="changelog_date">2026-09-21</span></h4>
+
                 <div class="md_view"><p>1、修复支付宝等 App 开启虚拟定位后一直停在「定位中」、始终拿不到位置的问题<br />
+
 2、修复同时开启虚拟定位与虚拟传感器时，支付宝等 App 一打开就闪退的问题<br />
+
 3、修复插件主页的 Telegram 入口无法直接打开聊天的问题<br />
+
 4、插件主页页脚精简显示内容</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">8.7.0</span><span class="changelog_date">2026-09-19</span></h4>
+
                 <div class="md_view"><p>【机型 / 版本数据更新】</p>
+
 <ul>
+
 <li>机型伪装新增 iPhone Duo（折叠屏，iPhone19,4）与 iPhone 18 全系：18 Pro（iPhone19,2）、18 Pro Max US/Global（iPhone19,3 / iPhone19,7）</li>
+
 <li>iOS 版本伪装更新至 iOS 27.0（24A437），补齐 iOS 26 缺失补丁：26.5.2 / 26.6 / 26.6.1 / 26.6.2 / 26.7</li>
+
 </ul>
+
 <p>【定位】</p>
+
 <ul>
+
 <li>修复改完定位后伪装会短暂失效：高德地图等 App 会出现「前几秒是目标位置、随后回落到真实位置」，以往必须杀掉 App 才能恢复。现在即使不重启 App 也持续生效，不再依赖杀进程</li>
+
 <li>兼容高德 / 百度 SDK 后续版本新增的定位回调，避免真实坐标被透传</li>
+
 </ul>
+
 <p>【相机】</p>
+
 <ul>
+
 <li>更换虚拟照片不再需要杀 App：重新选图 / 旋转 / 翻转后，直接回 App 拍照即生效，支持连续更换不同照片</li>
+
 </ul>
+
 <p>【版本伪装】</p>
+
 <ul>
+
 <li>修复两段版本号（27.0 / 26.7 / 18.5 等）不生效的问题：此前会在 operatingSystemVersion 中静默回退真实版本</li>
+
 </ul>
+
 <p>【地图选择器】</p>
+
 <ul>
+
 <li>修复拖动地图后地名与经纬度不一致：反查请求乱序返回，旧结果会覆盖新结果</li>
+
 <li>修复国外地点只显示经纬度：地理反查改为强引用并取消上一次请求，地名按 地区 / 城市 / 行政 / 国家 / 街道 逐级回退</li>
+
 </ul>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">8.6.0</span><span class="changelog_date">2026-09-19</span></h4>
+
                 <div class="md_view"><p>1、新增权限配置页入口右侧显示当前配置值。<br />
+
 2、修复配置导入导出清除缺失字段的问题。<br />
+
 3、修复卸载插件异常残留问题。<br />
+
 4、优化 UI</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">8.5.0</span><span class="changelog_date">2026-09-19</span></h4>
+
                 <div class="md_view"><p>1、修复 iOS15.0 pac 指针崩溃问题。<br />
+
 2、优化启动逻辑</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">8.3.0</span><span class="changelog_date">2026-09-19</span></h4>
+
                 <div class="md_view"><p>【新增功能】<br />
+
 1、iOS 版本伪装<br />
+
 2、地区伪装，自动关联运营商 MCC/MNC<br />
+
 3、语言伪装 — 内置 25 种语言选择器，支持自定义输入<br />
+
 4、UUID 标识符伪装 (IDFV/IDFA)，支持随机生成<br />
+
 5、App 版本伪装<br />
+
 6、屏蔽代理检测<br />
+
 7、屏蔽截图/录屏检测</p>
+
 <p>【问题修复】<br />
+
 8、修复麦克风「被占用」提示<br />
+
 9、修复通讯录部分 App 不生效<br />
+
 10、修复切换开关需返回主页才杀后台的问题<br />
+
 11、修复 modal 弹出页面关闭时不杀后台的问题<br />
+
 12、修复 v8.2.0 引入的部分 C 函数 hook 导致启动阶段闪退的问题</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">8.2.0</span></h4>
+
                 <div class="md_view"><p>1、修复定位坐标回退问题（cfprefsd 异步刷盘导致读到旧缓存）<br />
+
 2、修复多进程 App 杀后台不彻底的问题（大众点评等）<br />
+
 3、新增高德/百度/腾讯定位 SDK 完整代理拦截<br />
+
 4、新增美团隐私 SDK (METPrivacyMonitor) 定位伪装覆盖<br />
+
 5、新增气压计高度伪装 (CMAltimeter)<br />
+
 6、新增剪贴板 detectPatterns/detectValues 拦截<br />
+
 7、新增 AVAudioApplication iOS 17+ 麦克风权限支持<br />
+
 8、新增 widget 定位授权伪装<br />
+
 9、修复蓝牙权限在 iOS 16.5 部分场景无效的问题<br />
+
 10、优化 Filter.plist 写入策略（仅写 DynamicLibraries 目录）<br />
+
 11、优化偏好读取路径（/var/mobile/ 优先，roothide 兼容）<br />
+
 12、多项 UI 优化与性能改进</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">8.1.0</span></h4>
+
                 <div class="md_view"><p>1、修复部分设备插件不生效的问题<br />
+
 2、优化注入可靠性问题<br />
+
 3、支持 arm64 + arm64e 双架构，提升 roothide 兼容性<br />
+
 4、修复 iPad 上 Tab 栏宽度溢出问题<br />
+
 5、多项性能优化，大幅提升 App 列表加载速度</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">8.0.0</span></h4>
+
                 <div class="md_view"><p>修复部分用户下载安装失败的问题</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">7.0.0</span></h4>
+
                 <div class="md_view"><p>重构注入逻辑，减少注入失败的概率</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">5.3.0</span></h4>
+
                 <div class="md_view"><p>新增版本检测功能</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">5.2.4</span></h4>
+
                 <div class="md_view"><p>1、修复拍照替换图片异常旋转的问题<br />
+
 2、修复持续获取定位数据导致定位失败的问题<br />
+
 3、修复伪装麦克风权限部分接口失效</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">5.2.2</span></h4>
+
                 <div class="md_view"><p>1、紧急修复了部分 IOS15 设备插件不生效的 BUG<br />
+
 2、修复了导入、导出、重置配置会丢失部分配置的 BUG<br />
+
 3、修复了配置变更后，无法自动杀掉目标 app 进程的 bug<br />
+
 4、修复了 telegram 链接编码错误的问题<br />
+
 5、修复了微信、telegram、whatsapp 等部分 APP 相机接口覆盖不全导致伪装失败的 BUG<br />
+
 6、优化了 app 列表加载速度<br />
+
 7、优化权限配置的逻辑性，个性化配置变得更简单</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">5.2.1</span></h4>
+
                 <div class="md_view"><p>修复部分设备无效的问题</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">5.1.3</span></h4>
+
                 <div class="md_view"><p>优化可能造成的 ios15 系统上安全模式的问题（待验证）</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">5.1.2</span></h4>
+
                 <div class="md_view"><p>优化 UI，优化可能造成的 ios15 系统上安全模式的问题（待验证），修复 bug</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">5.0.0</span></h4>
+
                 <div class="md_view"><p>新增日历、WIFI 伪装，新增导入导出配置、新增可暂停配置，修复 bug</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">4.0.0</span></h4>
+
                 <div class="md_view"><p>修复部分 app 伪装定位不生效的 BUG，新增支持自定义机型</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">3.0.0</span></h4>
+
                 <div class="md_view"><p>新增相机伪装（强制相册/虚拟拍照）、机型伪装、全局开关即时生效无需注销；中英文界面</p>
+
 </div>
+
             </div><div class="changelog_entry">
+
                 <h4><span class="changelog_version">2.0.0</span></h4>
+
                 <div class="md_view"><p>新增相机、麦克风、剪贴板保护；支持地图选点/搜索地址/海拔伪装；全局开关一键控制</p>
+
 </div>
+
             </div>
+
         </div>
+
         <div class="caption center footer">junhong&#x27;s repo</div>
+
     </div>
+
 </body>
-<script>compatible("15.0","","15.0 以上");externalize()</script>
+
 </html>
