@@ -943,6 +943,25 @@ SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.json?v=
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.json?v=39abec97cce9
 Icon: https://apt.mjh.im/assets/im.mjh.xiaoyingclean/icon.png
 
+Package: im.mjh.xiaoyingclean
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 80
+Filename: ./pkg/83ff1eacf983/XiaoyingClean_0.1.1_arm64.deb
+Size: 9574
+MD5sum: cf82b576bf602b430ee686a8ffa3fbb8
+SHA1: 5cea9ac29edf97b77aadd8bf4bffc18094b3cde7
+SHA256: 83ff1eacf983942808dc94d5423cc96ac9c153f091a581442d11828da37e4667
+Section: Tweaks
+Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横幅和原生广告，拦截广告跳转
+Author: Junhong
+Name: 小鹰看看去广告
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xiaoyingclean.html?v=339ceff7604b
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.json?v=a73882ee254c
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.json?v=a73882ee254c
+Icon: https://apt.mjh.im/assets/im.mjh.xiaoyingclean/icon.png
+
 Package: im.mjh.xiaoyingclean.roothide
 Name: 小鹰看看去广告 (Roothide)
 Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横幅和原生广告，拦截广告跳转
@@ -960,6 +979,25 @@ SHA256: ba88851c6baa336b5aee8bccf10f997b9862e15853e3d6374e3cc9f3c87fceea
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.xiaoyingclean.roothide.html?v=4f8385031808
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.roothide.json?v=6278e7c4b2ea
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.roothide.json?v=6278e7c4b2ea
+Icon: https://apt.mjh.im/assets/im.mjh.xiaoyingclean.roothide/icon.png
+
+Package: im.mjh.xiaoyingclean.roothide
+Version: 0.1.1
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 80
+Filename: ./pkg/be740725e2f8/XiaoyingClean_0.1.1_arm64e.deb
+Size: 9646
+MD5sum: 99ae5dc01105b80c56eba43cb4961948
+SHA1: 505af658f5a387661a7ee57e21e24e8cb2f5c912
+SHA256: be740725e2f8c42c94c6a8895388d658f4e36293f6d4dffdd037d840874e5431
+Section: Tweaks
+Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横幅和原生广告，拦截广告跳转
+Author: Junhong
+Name: 小鹰看看去广告 (Roothide)
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xiaoyingclean.roothide.html?v=67292a08b90f
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.roothide.json?v=35ce9596d142
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.roothide.json?v=35ce9596d142
 Icon: https://apt.mjh.im/assets/im.mjh.xiaoyingclean.roothide/icon.png
 
 Package: moe.misty.sslkillswitch3
