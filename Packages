@@ -1119,6 +1119,48 @@ SileoDepiction: https://apt.mjh.im/depiction/native/com.mjh.threadsglass.roothid
 ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.threadsglass.roothide.json?v=a48a69311c47
 
 Package: hongguofn
+Version: 2.2.8
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 14792
+Filename: ./pkg/hongguofn_2.2.8_93532d877f.deb
+Size: 7449160
+MD5sum: f13a8e66f0e51f06524abf8ce3bcac31
+SHA1: 2c06365d6f64f1ffc8eebefd9b2a9288783d112d
+SHA256: 93532d877f3b119080679bfe47afbe3d85aee8d569bad0653893cb9223d70370
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Author: Junhong
+Name: 红果净化
+Tags: compatible_min::ios15.0
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=c2190f9f432f
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=f51d52d8303d
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=f51d52d8303d
+Icon: https://apt.mjh.im/assets/hongguofn/icon.png
+
+Package: hongguofn.roothide
+Version: 2.2.8
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 14904
+Filename: ./pkg/hongguofn.roothide_2.2.8_b98bb0d37d.deb
+Size: 7499408
+MD5sum: 4cb176cb77c5785f80c7a4d0afa2f5d6
+SHA1: 492f8e1f596372c28facb42b4aaf0fa896f10bd8
+SHA256: b98bb0d37dbe9db79e916bffd494ca5a69428077e3a7411869f6e64b0c6ab4ec
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Author: Junhong
+Name: 红果净化 (Roothide)
+Tags: compatible_min::ios15.0
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=94c4af07ac12
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=45fed2de724a
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=45fed2de724a
+Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
+
+Package: hongguofn
 Version: 2.2.7
 Architecture: iphoneos-arm64
 Maintainer: Junhong
