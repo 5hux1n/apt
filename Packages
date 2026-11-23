@@ -1128,7 +1128,7 @@ Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
 
 Package: com.mjh.threadsglass
 Name: Threads 仿液态玻璃
-Description: 为旧版 iOS 上的 Threads 提供仿液态玻璃底栏，支持独立发布按钮和双指长按设置。
+Description: 为旧版 iOS 上的 Threads 提供仿液态玻璃底栏，支持独立发布按钮。
 Maintainer: Junhong
 Author: Junhong
 Section: Tweaks
@@ -1146,7 +1146,7 @@ ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.threadsglass.json?v
 
 Package: com.mjh.threadsglass.roothide
 Name: Threads 仿液态玻璃 (Roothide)
-Description: 为旧版 iOS 上的 Threads 提供仿液态玻璃底栏，支持独立发布按钮和双指长按设置。
+Description: 为旧版 iOS 上的 Threads 提供仿液态玻璃底栏，支持独立发布按钮。
 Maintainer: Junhong
 Author: Junhong
 Section: Tweaks
