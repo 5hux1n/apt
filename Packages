@@ -1125,3 +1125,39 @@ Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
+
+Package: com.mjh.threadsglass
+Name: Threads 仿液态玻璃
+Description: 为旧版 iOS 上的 Threads 提供仿液态玻璃底栏，支持独立发布按钮和双指长按设置。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 476
+Filename: ./pkg/ee8c72bb5f3c/ThreadsLiquidGlass_1.0.1_arm64.deb
+Size: 216088
+MD5sum: 948352ebce76edb31b673f353170e7ae
+SHA1: 8bf05a0a0f69f244683d4aaa10d86bb7a87f0397
+SHA256: ee8c72bb5f3ca50639d82e54e0f1d764d667ce432b15ef01a140e312dc4abb8b
+Depiction: https://apt.mjh.im/depiction/web/com.mjh.threadsglass.html?v=15225e7c8ea4
+SileoDepiction: https://apt.mjh.im/depiction/native/com.mjh.threadsglass.json?v=aaa8beffbdca
+ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.threadsglass.json?v=aaa8beffbdca
+
+Package: com.mjh.threadsglass.roothide
+Name: Threads 仿液态玻璃 (Roothide)
+Description: 为旧版 iOS 上的 Threads 提供仿液态玻璃底栏，支持独立发布按钮和双指长按设置。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 476
+Filename: ./pkg/78927b280ed5/ThreadsLiquidGlass_1.0.1_arm64e.deb
+Size: 218458
+MD5sum: 767684a93c70be65663fee46e6f52039
+SHA1: 0d98f89267f671e3d465049036000c7042d100e9
+SHA256: 78927b280ed5f2c5be19ae5d19ade2531d03065297de2ffc854037c93a1dfc91
+Depiction: https://apt.mjh.im/depiction/web/com.mjh.threadsglass.roothide.html?v=cfa93dacf243
+SileoDepiction: https://apt.mjh.im/depiction/native/com.mjh.threadsglass.roothide.json?v=aaa8beffbdca
+ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.threadsglass.roothide.json?v=aaa8beffbdca
