@@ -1044,50 +1044,6 @@ ModernDepiction: https://apt.mjh.im/depiction/native/moe.misty.sslkillswitch3.ro
 Icon: https://apt.mjh.im/assets/moe.misty.sslkillswitch3.roothide/icon.png
 Homepage: https://github.com/5hux1n/SSLKillSwitch4
 
-Package: hongguofn
-Version: 2.2.6
-Architecture: iphoneos-arm64
-Maintainer: Junhong
-Installed-Size: 8164
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pkg/hongguofn_2.2.6_8840502425.deb
-Size: 3514992
-MD5sum: c9cf25a4237cbfeccfa313b6ee3c6f0c
-SHA1: 99c53511b397cb7432a877e2ede4b5695aea0b1a
-SHA256: 8840502425d753b1708b378f4be73ed5ee6f419010e09881676c956cc8a3bc4e
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
-Author: Junhong
-Name: 红果净化
-Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=f34fba0b106a
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=f7690c64f4c6
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=f7690c64f4c6
-Icon: https://apt.mjh.im/assets/hongguofn/icon.png
-
-Package: hongguofn.roothide
-Version: 2.2.6
-Architecture: iphoneos-arm64e
-Maintainer: Junhong
-Installed-Size: 8180
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pkg/hongguofn.roothide_2.2.6_eedb60eb24.deb
-Size: 3529992
-MD5sum: a4bec2aeb76de989df3fa2a01fe6836a
-SHA1: 79e7a1f9e58b195475fd0629f40f3cc1133467a3
-SHA256: eedb60eb24bb6d0a8160c379110c89e8b84785abf5fd4d7c5eed4e874a959880
-Section: Tweaks
-Homepage: https://hongguo.goforit.si
-Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
-Author: Junhong
-Name: 红果净化 (Roothide)
-Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=f8580cc1870b
-SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=439eaa2a58e4
-ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=439eaa2a58e4
-Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
-
 Package: im.mjh.xianyuadblock
 Version: 3.2.5
 Architecture: iphoneos-arm64
@@ -1161,3 +1117,89 @@ SHA256: 78927b280ed5f2c5be19ae5d19ade2531d03065297de2ffc854037c93a1dfc91
 Depiction: https://apt.mjh.im/depiction/web/com.mjh.threadsglass.roothide.html?v=cfa93dacf243
 SileoDepiction: https://apt.mjh.im/depiction/native/com.mjh.threadsglass.roothide.json?v=aaa8beffbdca
 ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.threadsglass.roothide.json?v=aaa8beffbdca
+
+Package: hongguofn
+Version: 2.2.7
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 14536
+Filename: ./pkg/hongguofn_2.2.7_b60140f4a3.deb
+Size: 7324942
+MD5sum: 5bb9957a52bf13fa02f9567f35ff68c8
+SHA1: 933dce794c09d08d4cc110b630a59cbba983734e
+SHA256: b60140f4a3b40c48ec3c0f238e4f21bf9813f4f23ddc29a8ebb1b60559ad4e3f
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Author: Junhong
+Name: 红果净化
+Tags: compatible_min::ios15.0
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=53cca93ac4a6
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=e9a9c9840e51
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=e9a9c9840e51
+Icon: https://apt.mjh.im/assets/hongguofn/icon.png
+
+Package: hongguofn.roothide
+Version: 2.2.7
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 14664
+Filename: ./pkg/hongguofn.roothide_2.2.7_fa6a2cedad.deb
+Size: 7374604
+MD5sum: 26eef0aa2d1ea86bddb95152a68631f5
+SHA1: d678c34bf1e8fa95cd3e19a23210b6f811934a5f
+SHA256: fa6a2cedad832622fcdc95c83406e112074ccc4848feaa37155c28edd3b83200
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Author: Junhong
+Name: 红果净化 (Roothide)
+Tags: compatible_min::ios15.0
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=32d26628da7b
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=45f0d29929d4
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=45f0d29929d4
+Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
+
+Package: hongguofn
+Version: 2.2.6
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 8164
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./pkg/hongguofn_2.2.6_8840502425.deb
+Size: 3514992
+MD5sum: c9cf25a4237cbfeccfa313b6ee3c6f0c
+SHA1: 99c53511b397cb7432a877e2ede4b5695aea0b1a
+SHA256: 8840502425d753b1708b378f4be73ed5ee6f419010e09881676c956cc8a3bc4e
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Author: Junhong
+Name: 红果净化
+Tags: compatible_min::ios15.0
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=f34fba0b106a
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=f7690c64f4c6
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=f7690c64f4c6
+Icon: https://apt.mjh.im/assets/hongguofn/icon.png
+
+Package: hongguofn.roothide
+Version: 2.2.6
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 8180
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./pkg/hongguofn.roothide_2.2.6_eedb60eb24.deb
+Size: 3529992
+MD5sum: a4bec2aeb76de989df3fa2a01fe6836a
+SHA1: 79e7a1f9e58b195475fd0629f40f3cc1133467a3
+SHA256: eedb60eb24bb6d0a8160c379110c89e8b84785abf5fd4d7c5eed4e874a959880
+Section: Tweaks
+Homepage: https://hongguo.goforit.si
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Author: Junhong
+Name: 红果净化 (Roothide)
+Tags: compatible_min::ios15.0
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=f8580cc1870b
+SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=439eaa2a58e4
+ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=439eaa2a58e4
+Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png

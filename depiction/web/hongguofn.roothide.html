@@ -1,1053 +1,545 @@
 <!DOCTYPE html>
-
 <html lang="zh-CN">
-
 <head>
-
     <meta charset="utf-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>红果净化 (Roothide)</title>
-
     <link rel="stylesheet" type="text/css" href="../../web/index.css">
-
     <style>
-
         a, .tint, .table-btn:after { color: #27BEF5; }
-
         .meta-badge {
-
             display: inline-flex;
-
             align-items: center;
-
             gap: 8px;
-
             padding: 8px 12px;
-
             border-radius: 999px;
-
             font-size: 12px;
-
             font-weight: 700;
-
         }
-
         .badge-group {
-
             display: flex;
-
             flex-wrap: wrap;
-
             gap: 8px;
-
             margin: 12px 0 6px;
-
         }
-
         .meta-badge {
-
             background: rgba(0,0,0,0.05);
-
             color: inherit;
-
         }
-
         .package_head { display: flex; align-items: flex-start; gap: 15px; margin-bottom: 12px; }
-
         .package_head > img { float: none; flex: 0 0 75px; }
-
         .package_head .package_info { margin-left: 0; min-width: 0; }
-
         .package_name { overflow-wrap: anywhere; }
-
         .detail-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 9px; }
-
         .detail-tag { background: #e9f3ff; color: #335d86; font-size: 11px; line-height: 1.5; padding: 2px 7px; border-radius: 4px; }
-
         .detail-updated { color: #626660; font-size: 12px; line-height: 1.5; margin: 8px 0 0; }
-
         @media (prefers-color-scheme: dark) {
-
             .detail-tag { background: #203c55; color: #badbff; }
-
         }
-
         .footer { border-top: 1px solid rgba(0,0,0,0.08); margin-top: 24px; padding-top: 16px; }
-
         @media (prefers-color-scheme: dark) { .footer { border-top-color: rgba(255,255,255,0.12); } }
-
         /* Tabs styling */
-
         .nav {
-
             display: flex;
-
             margin: 12px 0 10px;
-
             background: rgba(0,0,0,0.04);
-
             border-radius: 12px;
-
             padding: 4px;
-
             gap: 4px;
-
         }
-
         .nav_btn {
-
             flex: 1;
-
             font-family: inherit;
-
             background: transparent;
-
             border: 0;
-
             min-height: 44px;
-
             text-align: center;
-
             color: #626660;
-
             font-weight: 600;
-
             font-size: 14px;
-
             padding: 10px 16px;
-
             border-radius: 10px;
-
             cursor: pointer;
-
             transition: all 0.2s ease;
-
             border-bottom: none;
-
         }
-
         .nav_btn.active {
-
             background: #fff;
-
             color: #335d86;
-
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-
             border-bottom: none;
-
         }
-
         .nav_btn:not(.active):hover {
-
             color: #3c3c43;
-
             background: rgba(0,0,0,0.03);
-
         }
-
         .summary-box {
-
             padding: 0;
-
             margin: 18px 0 20px;
-
             line-height: 1.7;
-
             font-size: 14px;
-
             color: #626660;
-
         }
-
         .table { margin-bottom: 10px; }
-
         .resource-grid, .info-list, .badge-row {
-
             display: grid;
-
             gap: 10px;
-
             margin-top: 12px;
-
         }
-
         .resource-grid { display: flex; gap: 10px; margin: 0 0 18px; }
-
         .resource-grid > .resource-button { flex: 1; min-width: 0; }
-
         .resource-button {
-
             display: inline-flex; align-items: center; justify-content: center; gap: 7px;
-
             min-height: 44px; padding: 0 10px; border-radius: 10px; white-space: nowrap;
-
             background: #e9f3ff; color: #335d86; font-size: 13px; font-weight: 600;
-
             text-decoration: none; transition: background .15s ease, transform .15s ease;
-
         }
-
         .resource-button:hover { background: #deecfc; opacity: 1; }
-
         .resource-button:active { transform: scale(.97); }
-
         .resource-button:focus-visible { outline: 2px solid #335d86; outline-offset: 3px; }
-
         @media (prefers-color-scheme: dark) {
-
             .resource-button { background: #203c55; color: #badbff; }
-
             .resource-button:hover { background: #294966; }
-
         }
-
         @media (prefers-reduced-motion: reduce) { .resource-button { transition: none; } .resource-button:active { transform: none; } }
-
         .social-links {
-
             display: flex;
-
             flex-wrap: wrap;
-
             gap: 10px;
-
             margin-top: 12px;
-
         }
-
         .social-pill {
-
             display: inline-flex;
-
             align-items: center;
-
             padding: 9px 14px;
-
             border-radius: 999px;
-
             background: rgba(0,0,0,0.05);
-
             color: inherit;
-
             text-decoration: none;
-
             font-size: 14px;
-
         }
-
         .meta-note {
-
             color: #8e8e93;
-
             font-size: 13px;
-
             margin-top: 12px;
-
             line-height: 1.6;
-
         }
-
         .info-list-item, .matrix-item {
-
             background: rgba(0,0,0,0.03);
-
             border-radius: 14px;
-
             padding: 12px 14px;
-
             line-height: 1.65;
-
         }
-
         .matrix-grid {
-
             display: grid;
-
             grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-
             gap: 10px;
-
             margin-top: 12px;
-
             margin-bottom: 14px;
-
         }
-
         .matrix-title {
-
             font-size: 12px;
-
             font-weight: 700;
-
             color: #8e8e93;
-
             text-transform: uppercase;
-
             letter-spacing: 0.04em;
-
             margin-bottom: 6px;
-
         }
-
         .matrix-text { font-size: 14px; }
-
         /* Changelog card styling */
-
         .changelog_entry {
-
             background: rgba(0,0,0,0.03);
-
             border-radius: 14px;
-
             padding: 16px 18px;
-
             margin-bottom: 14px;
-
         }
-
         .changelog_entry h4 {
-
             display: flex;
-
             align-items: baseline;
-
             justify-content: space-between;
-
             gap: 12px;
-
             font-size: 15px;
-
             font-weight: 700;
-
             color: #335d86;
-
             margin-bottom: 10px;
-
         }
-
         .changelog_date {
-
             margin-left: auto;
-
             font-size: 12px;
-
             font-weight: 500;
-
             color: #626660;
-
             text-align: right;
-
             white-space: nowrap;
-
         }
-
         /* Description markdown beautification */
-
         .md_view h1 {
-
             font-size: 22px;
-
             font-weight: 800;
-
             margin: 18px 0 10px;
-
         }
-
         .md_view h2 {
-
             font-size: 17px;
-
             font-weight: 700;
-
             margin: 16px 0 8px;
-
             padding-bottom: 6px;
-
             border-bottom: 1px solid rgba(0,0,0,0.06);
-
         }
-
         .md_view h3 {
-
             font-size: 15px;
-
             font-weight: 700;
-
             margin: 14px 0 6px;
-
         }
-
         .md_view p {
-
             font-size: 14px;
-
             line-height: 1.7;
-
             color: #3c3c43;
-
             margin: 8px 0;
-
         }
-
         .md_view ul, .md_view ol {
-
             padding-left: 20px;
-
             margin: 8px 0;
-
         }
-
         .md_view li {
-
             font-size: 14px;
-
             line-height: 1.8;
-
             color: #3c3c43;
-
             margin-bottom: 4px;
-
         }
-
         .md_view code {
-
             background: rgba(0,0,0,0.05);
-
             padding: 2px 6px;
-
             border-radius: 5px;
-
             font-size: 13px;
-
             font-family: "SF Mono", Menlo, monospace;
-
         }
-
         .md_view strong {
-
             font-weight: 700;
-
         }
-
         @media (prefers-color-scheme: dark) {
-
             .nav {
-
                 background: rgba(255,255,255,0.06);
-
             }
-
             .nav_btn.active {
-
                 background: rgba(255,255,255,0.12);
-
                 box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-
             }
-
             .nav_btn:not(.active):hover {
-
                 color: #d2d2d7;
-
                 background: rgba(255,255,255,0.04);
-
             }
-
             .social-pill,
-
             .info-list-item,
-
             .matrix-item,
-
             .meta-badge,
-
             .changelog_entry {
-
                 background: rgba(255,255,255,0.08);
-
             }
-
             .meta-note, .matrix-title {
-
                 color: #98989d;
-
             }
-
             .nav_btn, .detail-updated, .changelog_date { color: #a9afa5; }
-
             .nav_btn.active, .changelog_entry h4 { color: #badbff; }
-
             .summary-box { color: #a9afa5; }
-
             .md_view p, .md_view li {
-
                 color: #d2d2d7;
-
             }
-
             .md_view h2 {
-
                 border-bottom-color: rgba(255,255,255,0.1);
-
             }
-
             .md_view code {
-
                 background: rgba(255,255,255,0.1);
-
             }
-
         }
-
     </style>
-
     <script src="../../web/index.js?v=20261120" defer></script>
-
     <meta name="description" content="红果净化 (Roothide) · 开发者：Junhong · 15.0 以上">
-
     <meta property="og:title" content="红果净化 (Roothide)">
-
     <meta property="og:description" content="红果净化 (Roothide) · 开发者：Junhong · 15.0 以上">
-
     <meta property="og:image" content="https://apt.mjh.im/assets/hongguofn.roothide/banner.png">
-
     <meta name="twitter:card" content="summary_large_image">
-
     <meta name="twitter:title" content="红果净化 (Roothide)">
-
     <meta name="twitter:description" content="红果净化 (Roothide) · 开发者：Junhong · 15.0 以上">
-
     <meta name="twitter:image" content="https://apt.mjh.im/assets/hongguofn.roothide/banner.png">
-
     <meta name="theme-color" content="#27BEF5">
-
 </head>
-
 <body>
-
     <div class="body">
-
         <div style="background-image: url(../../assets/hongguofn.roothide/banner.png)" class="banner_underlay" aria-hidden="true"></div>
-
         <div class="package package_head">
-
             <img src="../../assets/hongguofn.roothide/icon.png" alt="红果净化 (Roothide) 图标" width="75" height="75">
-
             <div class="package_info">
-
                 <h1 class="package_name">红果净化 (Roothide)</h1>
-
                 <div class="detail-tags" aria-label="版本与适配信息">
-
-                    <span class="detail-tag">v2.2.6</span>
-
+                    <span class="detail-tag">v2.2.7</span>
                     <span class="detail-tag">RootHide · arm64e</span>
-
                     <span class="detail-tag">iOS 15+</span>
-
                 </div>
-
                 <p class="detail-updated">更新时间：暂未同步</p>
-
             </div>
-
         </div>
-
         <div class="nav" role="tablist" aria-label="插件详情">
-
             <button class="nav_btn active tweak_info_btn" id="details-tab" type="button" role="tab" aria-controls="details-panel" aria-selected="true" tabindex="0">详情</button>
-
             <button class="nav_btn changelog_btn" id="changelog-tab" type="button" role="tab" aria-controls="changelog-panel" aria-selected="false" tabindex="-1">更新日志</button>
-
         </div>
-
             <div class="resource-grid">
-
                 <a href="https://hongguo.goforit.si/" class="resource-button" target="_blank" rel="noopener noreferrer">插件官网</a>
-
                 <a href="https://pingme.pm/hongguo" class="resource-button" target="_blank" rel="noopener noreferrer">提交反馈</a>
-
                 <a href="alipays://platformapi/startapp?saId=10000007&amp;qrcode=https%3A%2F%2Fqr.alipay.com%2Ffkx180736inoxop5mkbqh83%3F_s%3Dweb-other&amp;launchKey=c7f8d186-3e05-4668-a7eb-8cf336c2108f-1780370320745" class="resource-button donation-button">赏杯咖啡</a>
-
             </div>
-
 <div class="resource-grid">
-
                 <a href="https://t.me/junhongdev" class="resource-button" target="_blank" rel="noopener noreferrer">加入 TG 频道</a>
-
                 <a href="https://t.me/junhongdevchat" class="resource-button" target="_blank" rel="noopener noreferrer">加入 TG 群组</a>
-
             </div>
-
         <div class="tweak_info" id="details-panel" role="tabpanel" aria-labelledby="details-tab" tabindex="0">
-
-
-
+            
             <div class="summary-box">适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。</div>
-
             <div class="md_view"><ul>
-
 <li>液态玻璃：iOS 26 及以上使用原生玻璃效果，较低系统提供仿液态玻璃；支持参数调节与实时预览，适配 iPhone 和 iPad。</li>
-
 <li>界面净化：按需隐藏挂件、推广入口、剧标签和播放页互动按钮。</li>
-
 <li>导航设置：隐藏顶部频道、底部导航，自选默认启动页与首页频道。</li>
-
 <li>播放增强：广告控制、时长与播放量显示、左右侧长按倍速、默认倍速和清晰度锁定。</li>
-
 <li>清屏观看：自动清屏、超级清屏、隐藏状态栏及双指手势切换。</li>
-
 <li>视频保存：App 内本地下载、保存到相册、进度提示及下载后自动保存。</li>
-
 <li>更多功能：个人中心与侧边栏净化、红点隐藏、小说自动阅读和自动福利任务。</li>
-
 </ul>
-
 <p>设置入口：我的 → 设置 → 红果净化；双指长按底部导航栏 1 秒也可打开设置。</p>
-
 </div>
-
-
-
-
-
-
-
+            
+            
+            
         </div>
-
         <div class="changelog" id="changelog-panel" role="tabpanel" aria-labelledby="changelog-tab" tabindex="0" hidden>
-
             <div class="changelog_entry">
-
+                <h4><span class="changelog_version">2.2.7</span><span class="changelog_date">2026-11-23</span></h4>
+                <div class="md_view"><ul>
+<li>新增「显示听视频入口」和「听视频画面铺满」开关</li>
+<li>新增禁用短剧灵动岛和活跃卡片</li>
+<li>新增显示真实分享数量</li>
+<li>新增首页和播放页组件大小、透明度调节，支持批量设置</li>
+<li>新增首页横幅高度、图文尺寸和透明度调节</li>
+<li>新增评论面板毛玻璃和文字颜色调节</li>
+<li>新增「评论区保持视频尺寸」开关</li>
+<li>修复评论动图保存后变成静态图的问题</li>
+<li>优化液态玻璃参数页的分组和布局</li>
+<li>优化推荐流整页问卷拦截</li>
+<li>优化信息流小游戏推广拦截</li>
+<li>优化 App Store 评分弹窗和好评引导拦截</li>
+<li>移除强制显示 iPad 全屏播放按钮</li>
+</ul>
+</div>
+            </div><div class="changelog_entry">
                 <h4><span class="changelog_version">2.2.6</span><span class="changelog_date">2026-11-18</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>新增隐藏“我的”页面周末追剧社卡片</li>
-
 <li>新增隐藏播放页看好剧买好物商品入口</li>
-
 <li>新增隐藏首页底栏背景开关</li>
-
 <li>新增自定义底栏文字颜色</li>
-
 <li>修复底栏字号调节后可能不及时生效的问题</li>
-
 <li>优化 iPad 横竖屏切换时的底部布局异常</li>
-
 <li>优化超级清屏进入时的背景闪动处理</li>
-
 <li>优化隐藏收藏按钮</li>
-
 <li>优化会员卡片展示逻辑</li>
-
 <li>修复设置入口卡顿的问题</li>
-
 <li>新增强制显示 iPad 全屏播放按钮</li>
-
 <li>修复底栏隐藏导致的顶栏不显示的问题</li>
-
 <li>修复视频卡半屏的问题</li>
-
 </ul>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">2.2.4</span><span class="changelog_date">2026-11-13</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>新增底部导航玻璃效果（iOS 26+）</li>
-
 <li>新增底部导航玻璃参数调节（iOS 26+）</li>
-
 <li>新增仿液态玻璃（iOS 26 以下）</li>
-
 <li>修复已知问题</li>
-
 </ul>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">2.2.2</span><span class="changelog_date">2026-11-07</span></h4>
-
                 <div class="md_view"><ol>
-
 <li><strong>新增配置导入与导出、恢复默认配置功能</strong></li>
-
 <li><strong>新增隐藏我的页看剧偏好栏</strong></li>
-
 <li><strong>新增隐藏播放页红果圈入口</strong></li>
-
 <li><strong>新增隐藏剧好物入口</strong></li>
-
 <li><strong>新增屏蔽热更新挂件入口</strong></li>
-
 <li><strong>优化部分热更新广告位的配置拦截</strong></li>
-
 <li><strong>优化激励广告跳过</strong></li>
-
 <li><strong>优化隐藏剧标签</strong></li>
-
 <li><strong>优化隐藏热评</strong></li>
-
 <li><strong>修复返回播放页后状态栏偶尔重新显示的问题</strong></li>
-
 <li><strong>移除「我的」页右上角的净化入口</strong></li>
-
 </ol>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">2.2.1</span><span class="changelog_date">2026-11-04</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>新增“禁止整剧结束后自动续播”</li>
-
 <li>新增“屏蔽调研问卷”开关</li>
-
 <li>修复默认倍速偶发不生效的问题</li>
-
 <li>修复超级清屏模式下弹幕被隐藏的问题</li>
-
 <li>修复关闭总开关后部分功能仍生效的问题</li>
-
 <li>优化部分隐藏效果</li>
-
 </ul>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">2.2.0</span><span class="changelog_date">2026-11-02</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>新增开启 App 时默认静音功能</li>
-
 <li>新增定时关闭播放功能</li>
-
 <li>恢复播放页更多菜单控制开关</li>
-
 <li>优化短剧去广告</li>
-
 <li>优化去除热启动开屏广告</li>
-
 <li>优化去除悬浮卡片广告</li>
-
 <li>优化去除直播推广广告</li>
-
 <li>优化广告预加载拦截</li>
-
 </ul>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">2.1.0</span><span class="changelog_date">2026-10-29</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>修复部分版本插件入口与原生消息按钮重叠的问题</li>
-
 <li>修复超级清屏出现色差分界线的问题</li>
-
 <li>新增兼容红果漫剧 app （7.4.1）</li>
-
 </ul>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">2.0.6</span><span class="changelog_date">2026-10-28</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>新增禁用双击点赞开关。</li>
-
 <li>新增回到前台保留手动暂停开关，默认关闭。</li>
-
 <li>调整默认清晰度为跟随 App 设置，保留已有选择。</li>
-
 <li>优化与 liquidass 的播放菜单兼容性。</li>
-
 <li>新增对修改 Bundle ID 的多开包的识别支持。</li>
-
 </ul>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">2.0.5</span><span class="changelog_date">2026-10-28</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>新增关于页 Telegram 频道入口。</li>
-
 <li>修复播放页互动按钮隐藏后右侧留白与错位。</li>
-
 <li>修复视频保存默认为 1080P 报错的问题。</li>
-
 </ul>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">2.0.4</span><span class="changelog_date">2026-10-27</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>新增双指切换超级清屏开关。</li>
-
 <li>优化视频保存，优先选择 1080P，无对应版本时逐级降档。</li>
-
 <li>修复跳过广告时仍有声音。</li>
-
 <li>修复清屏后底部圆角覆盖残留。</li>
-
 </ul>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">2.0.3</span><span class="changelog_date">2026-10-27</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>新增禁用首页按钮刷新视频。</li>
-
 <li>优化播放时自动清屏的更多菜单显示。</li>
-
 <li>修复完整清屏时播放页底部黑条。</li>
-
 </ul>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">2.0.2</span><span class="changelog_date">2026-10-27</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>新增隐藏红果首发标签开关。</li>
-
 <li>新增播放页显示整剧播放量。</li>
-
 <li>优化播放页标签隐藏后的布局。</li>
-
 <li>优化默认启动页选择。</li>
-
 <li>优化完整清屏时更多菜单的显示。</li>
-
 <li>移除更多菜单独立隐藏开关。</li>
-
 </ul>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">2.0.1</span><span class="changelog_date">2026-10-26</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>优化滑动切换视频时的流畅度。</li>
-
 <li>修复更多菜单按钮偶发隐藏失效。</li>
-
 <li>修复播放菜单倍速区域布局错位。</li>
-
 <li>修复原生设置页插件入口偶发缺失。</li>
-
 <li>修复未开启隐藏时剧标签等控件异常消失。</li>
-
 <li>修复退出长按锁速后倍速未恢复。</li>
-
 <li>移除非必需的安装依赖。</li>
-
 </ul>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">2.0.0</span><span class="changelog_date">2026-10-26</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>适配红果短剧 7.4.1。</li>
-
 <li>新增本地视频保存到相册。</li>
-
 <li>新增保存到相册的进度提示。</li>
-
 <li>新增下载完成后自动保存到相册。</li>
-
 <li>新增整剧播放量显示。</li>
-
 <li>新增左右侧长按倍速独立设置。</li>
-
 <li>新增播放时完整清屏，暂停后恢复显示。</li>
-
 <li>新增播放时隐藏手机状态栏的独立开关。</li>
-
 <li>新增播放页用户头像隐藏开关。</li>
-
 <li>新增播放页收藏按钮隐藏开关。</li>
-
 <li>新增播放页分享按钮隐藏开关。</li>
-
 <li>新增播放页评论按钮隐藏开关。</li>
-
 <li>新增播放页爱心按钮隐藏开关。</li>
-
 <li>新增小说阅读奖励挂件隐藏开关。</li>
-
 <li>新增小说双击自动阅读。</li>
-
 <li>新增解除小说自动阅读广告限时。</li>
-
 <li>新增截图识同款挂件隐藏开关。</li>
-
 <li>新增福利引导气泡隐藏开关。</li>
-
 <li>新增自动签到。</li>
-
 <li>新增宝箱奖励自动领取。</li>
-
 <li>新增红包任务自动领取。</li>
-
 <li>新增存钱罐奖励自动领取。</li>
-
 <li>新增自动完成预约任务。</li>
-
 <li>新增横屏长按倍速提示背景透明化。</li>
-
 <li>新增双击视频打开评论区。</li>
-
 <li>新增双指长按底部导航打开插件设置。</li>
-
 <li>优化切换视频卡顿问题。</li>
-
 <li>优化顶部、底部导航隐藏与恢复，即时生效。</li>
-
 <li>修复仅保留一个底部导航项时的位置偏移。</li>
-
 <li>修复爆剧标志异常隐藏和残留空位。</li>
-
 <li>修复视频暂停后返回前台自动播放。</li>
-
 </ul>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">1.0.3</span><span class="changelog_date">2026-10-11</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>理清插件长按倍速与普通播放倍速：手动选择原生倍速后不再被插件强制覆盖</li>
-
 <li>修正长按倍速提示出现浮点长小数的问题，设置列表中的倍速值及时刷新</li>
-
 <li>在原生长按及播放设置菜单的倍速区域增加长按默认倍速滑块和启动默认倍速锁定开关，与插件设置同步</li>
-
 <li>调整时长标签布局，紧贴进度条上方显示</li>
-
 <li>新增全屏播放按钮的独立隐藏开关</li>
-
 <li>播放页顶部集数隐藏开关同时控制返回箭头</li>
-
 <li>播放设置面板按已配置的清晰度锁定切换，并在引擎切换完成后刷新选中档位。</li>
-
 </ul>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">1.0.2</span><span class="changelog_date">2026-10-10</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>补充短剧插页广告和缓存广告的请求、插入拦截</li>
-
 <li>新增播放页顶部集数、倍速按钮、更多菜单、清屏按钮、底部弹幕按钮的独立开关，播放时隐藏、暂停时恢复</li>
-
 <li>修正滑动换集后自动清屏未及时应用的问题。</li>
-
 </ul>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">1.0.1</span><span class="changelog_date">2026-10-08</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>修正默认启动页与首页频道选择</li>
-
 <li>移除失效的分类选项</li>
-
 <li>新增红点提醒净化与两侧栏游戏中心独立隐藏</li>
-
 <li>恢复通知权限伪装</li>
-
 <li>倍速滑块与步进器支持 0.5～3.0 倍、每步 0.05，可自动按配置倍速播放</li>
-
 <li>新增清晰度锁定、自动清屏及暂停时退出清屏子开关。</li>
-
 </ul>
-
 </div>
-
             </div><div class="changelog_entry">
-
                 <h4><span class="changelog_version">1.0.0</span><span class="changelog_date">2026-10-07</span></h4>
-
                 <div class="md_view"><ul>
-
 <li>观看页面独立净化开关</li>
-
 <li>顶部与底部导航多选隐藏</li>
-
 <li>启动页及频道选择</li>
-
 <li>时长显示、播放和本地下载控制</li>
-
 <li>个人中心快捷区与会员状态显示。</li>
-
 </ul>
-
 </div>
-
             </div>
-
         </div>
-
         <div class="caption center footer">junhong&#x27;s repo</div>
-
     </div>
-
 </body>
-
 </html>
