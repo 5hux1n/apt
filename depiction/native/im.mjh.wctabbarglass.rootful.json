@@ -1,0 +1,1 @@
+{"minVersion":"0.4","class":"DepictionTabView","tabs":[{"tabname":"详情","class":"DepictionStackView","views":[{"class":"DepictionMarkdownView","markdown":"为微信启用原生液态玻璃底栏，iOS26+启用原生液态玻璃  \niOS26以下仿液态玻璃效果\n\n支持有根无根隐根巨魔自签","useMargins":true}]}]}

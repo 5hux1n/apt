@@ -1246,7 +1246,7 @@ SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=43
 ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=439eaa2a58e4
 Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
 
-Package: com.mjh.wctabbarglass
+Package: im.mjh.wctabbarglass
 Name: 微信底栏玻璃
 Description: 为微信启用原生液态玻璃底栏，iOS26+启用原生液态玻璃
  iOS26以下仿液态玻璃效果
@@ -1256,19 +1256,22 @@ Maintainer: Junhong
 Author: Junhong
 Section: Tweaks
 Depends: firmware (>= 15.0)
+Conflicts: com.mjh.wctabbarglass
+Replaces: com.mjh.wctabbarglass
+Provides: com.mjh.wctabbarglass
 Architecture: iphoneos-arm64
 Version: 1.0.1
-Installed-Size: 1380
-Filename: ./pkg/4d80be66f0a9/WCTabBarGlass_1.0.1_arm64.deb
-Size: 674062
-MD5sum: 15f91508b1180a673c3f09fd981a12e2
-SHA1: d5b5cfb881fb24251789b4a439b5800349cb5c86
-SHA256: 4d80be66f0a9b663f66b239827809dbfd18cd50443e4a3b7d5d232865e225465
-Depiction: https://apt.mjh.im/depiction/web/com.mjh.wctabbarglass.html?v=523835ed5d33
-SileoDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.json?v=cd7af4ff5b69
-ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.json?v=cd7af4ff5b69
+Installed-Size: 1348
+Filename: ./pkg/1c7c0bc30a8a/WCTabBarGlass_1.0.1_arm64.deb
+Size: 667226
+MD5sum: ece459796d0fcf686f46cdfdc9143d77
+SHA1: ee82d2bc6bc444bbaff4be72edbf14d95433d2d4
+SHA256: 1c7c0bc30a8a21e9fea45939080b38a345aeaf7b76a14bbc9be2ef44ac47c51c
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.wctabbarglass.html?v=28f37fcd25ec
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.wctabbarglass.json?v=cd7af4ff5b69
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.wctabbarglass.json?v=cd7af4ff5b69
 
-Package: com.mjh.wctabbarglass.roothide
+Package: im.mjh.wctabbarglass.roothide
 Name: 微信底栏玻璃 (Roothide)
 Description: 为微信启用原生液态玻璃底栏，iOS26+启用原生液态玻璃
  iOS26以下仿液态玻璃效果
@@ -1278,19 +1281,22 @@ Maintainer: Junhong
 Author: Junhong
 Section: Tweaks
 Depends: firmware (>= 15.0)
+Conflicts: com.mjh.wctabbarglass.roothide
+Replaces: com.mjh.wctabbarglass.roothide
+Provides: com.mjh.wctabbarglass.roothide
 Architecture: iphoneos-arm64e
 Version: 1.0.1
-Installed-Size: 1348
-Filename: ./pkg/9926c9e2705e/WCTabBarGlass_1.0.1_arm64e.deb
-Size: 688820
-MD5sum: 69a28c313722e89a728e5533c626b3f4
-SHA1: 79dd0eafcdc664f545109ef6009e9536995aee17
-SHA256: 9926c9e2705e369c8f1a6ab0ea3597e0df092f32990a8c75a5835850dbb82334
-Depiction: https://apt.mjh.im/depiction/web/com.mjh.wctabbarglass.roothide.html?v=b5459d18f2b0
-SileoDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.roothide.json?v=cd7af4ff5b69
-ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.roothide.json?v=cd7af4ff5b69
+Installed-Size: 1364
+Filename: ./pkg/0000516abf5d/WCTabBarGlass_1.0.1_arm64e.deb
+Size: 675962
+MD5sum: 23fbf2c3cf2fd97b74952d718255ee8d
+SHA1: b0d45de845f5cd2518928c480caba18f72298694
+SHA256: 0000516abf5d482aa08b6d795bc82bd1636eec0f41ee72a06da352619d440ad1
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.wctabbarglass.roothide.html?v=eb3d97043434
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.wctabbarglass.roothide.json?v=cd7af4ff5b69
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.wctabbarglass.roothide.json?v=cd7af4ff5b69
 
-Package: com.mjh.wctabbarglass
+Package: im.mjh.wctabbarglass
 Name: 微信底栏玻璃
 Description: 为微信启用原生液态玻璃底栏，iOS26+启用原生液态玻璃
  iOS26以下仿液态玻璃效果
@@ -1300,14 +1306,17 @@ Maintainer: Junhong
 Author: Junhong
 Section: Tweaks
 Depends: firmware (>= 14.0)
+Conflicts: com.mjh.wctabbarglass
+Replaces: com.mjh.wctabbarglass
+Provides: com.mjh.wctabbarglass
 Architecture: iphoneos-arm
 Version: 1.0.1
-Installed-Size: 2724
-Filename: ./pkg/7e9ca2743ee9/WCTabBarGlass_1.0.1_rootful.deb
-Size: 1316236
-MD5sum: cafd8d65bc3029415479ec9cef8e3a73
-SHA1: c82ad1c00e12971805dbe6486161e3dda07ac546
-SHA256: 7e9ca2743ee952cf53db287922b3ae21b8e4c383f45fe359f117c2cc4d000f1d
-Depiction: https://apt.mjh.im/depiction/web/com.mjh.wctabbarglass.rootful.html?v=895964830218
-SileoDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.rootful.json?v=cd7af4ff5b69
-ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.rootful.json?v=cd7af4ff5b69
+Installed-Size: 2756
+Filename: ./pkg/0b4644050218/WCTabBarGlass_1.0.1_rootful.deb
+Size: 1316528
+MD5sum: 238aa1d76b9f7b63ef70adf20f20f690
+SHA1: 09b7a57f4753f76f5ac6f7297ee7d2c8ccfdf9bc
+SHA256: 0b46440502189dd0bb89bf5f8697c7517adfa3df2961d04d91c6420b8ff6ade5
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.wctabbarglass.rootful.html?v=e357fbda5500
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.wctabbarglass.rootful.json?v=cd7af4ff5b69
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.wctabbarglass.rootful.json?v=cd7af4ff5b69
