@@ -1257,14 +1257,14 @@ Author: Junhong
 Section: Tweaks
 Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64
-Version: 1.0.0
+Version: 1.0.1
 Installed-Size: 1380
-Filename: ./pkg/71daae6bc8ac/WCTabBarGlass_1.0.0_arm64.deb
-Size: 683128
-MD5sum: c2baea831f235fef6c05862eb29705fd
-SHA1: 18d8fd268abfea8a6f61791c848e9123883d977f
-SHA256: 71daae6bc8ac3d8cda84b60e1170548a9226722425a860c79b7acda9393cbbfb
-Depiction: https://apt.mjh.im/depiction/web/com.mjh.wctabbarglass.html?v=67335b9250ea
+Filename: ./pkg/4d80be66f0a9/WCTabBarGlass_1.0.1_arm64.deb
+Size: 674062
+MD5sum: 15f91508b1180a673c3f09fd981a12e2
+SHA1: d5b5cfb881fb24251789b4a439b5800349cb5c86
+SHA256: 4d80be66f0a9b663f66b239827809dbfd18cd50443e4a3b7d5d232865e225465
+Depiction: https://apt.mjh.im/depiction/web/com.mjh.wctabbarglass.html?v=f65c964ecf9a
 SileoDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.json?v=cd7af4ff5b69
 ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.json?v=cd7af4ff5b69
 
@@ -1279,14 +1279,14 @@ Author: Junhong
 Section: Tweaks
 Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64e
-Version: 1.0.0
+Version: 1.0.1
 Installed-Size: 1348
-Filename: ./pkg/d6b0572ccfbc/WCTabBarGlass_1.0.0_arm64e.deb
-Size: 664746
-MD5sum: a5e6c434e5c4199237400021c7036e02
-SHA1: 4342f7445240f7da0aeebc59465e08aebeb191fa
-SHA256: d6b0572ccfbc488f22cbf3c70a023f7b69c3f54bcd2b576da04ce7aa0e064e07
-Depiction: https://apt.mjh.im/depiction/web/com.mjh.wctabbarglass.roothide.html?v=b4a59b7e55fc
+Filename: ./pkg/9926c9e2705e/WCTabBarGlass_1.0.1_arm64e.deb
+Size: 688820
+MD5sum: 69a28c313722e89a728e5533c626b3f4
+SHA1: 79dd0eafcdc664f545109ef6009e9536995aee17
+SHA256: 9926c9e2705e369c8f1a6ab0ea3597e0df092f32990a8c75a5835850dbb82334
+Depiction: https://apt.mjh.im/depiction/web/com.mjh.wctabbarglass.roothide.html?v=23841b4e04db
 SileoDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.roothide.json?v=cd7af4ff5b69
 ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.roothide.json?v=cd7af4ff5b69
 
@@ -1301,13 +1301,13 @@ Author: Junhong
 Section: Tweaks
 Depends: firmware (>= 14.0)
 Architecture: iphoneos-arm
-Version: 1.0.0
+Version: 1.0.1
 Installed-Size: 2724
-Filename: ./pkg/36575333c972/WCTabBarGlass_1.0.0_rootful.deb
-Size: 1307640
-MD5sum: 7e2e758f3abac1da3c095074c5481828
-SHA1: 171029601faf00e039ecd2b8b195394cb667a337
-SHA256: 36575333c972026e31960627c5e64dd447a343ced3ae20ba34c881957fecf7ab
-Depiction: https://apt.mjh.im/depiction/web/com.mjh.wctabbarglass.rootful.html?v=f4a818f3375c
+Filename: ./pkg/7e9ca2743ee9/WCTabBarGlass_1.0.1_rootful.deb
+Size: 1316236
+MD5sum: cafd8d65bc3029415479ec9cef8e3a73
+SHA1: c82ad1c00e12971805dbe6486161e3dda07ac546
+SHA256: 7e9ca2743ee952cf53db287922b3ae21b8e4c383f45fe359f117c2cc4d000f1d
+Depiction: https://apt.mjh.im/depiction/web/com.mjh.wctabbarglass.rootful.html?v=8b8b1732b0af
 SileoDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.rootful.json?v=cd7af4ff5b69
 ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.rootful.json?v=cd7af4ff5b69
