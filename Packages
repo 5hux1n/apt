@@ -938,7 +938,7 @@ Size: 7996
 MD5sum: 33305baf25ea158dec68a7cd8e0c2e65
 SHA1: 6db04693e2c0cb12627c0c2db9c3d36f471db75b
 SHA256: b293826dca576d5a002bab88dea126454ab794d257a0cacd69c08b01f110b870
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xiaoyingclean.html?v=7249ab92eb11
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xiaoyingclean.html?v=339ceff7604b
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.json?v=39abec97cce9
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.json?v=39abec97cce9
 Icon: https://apt.mjh.im/assets/im.mjh.xiaoyingclean/icon.png
@@ -976,7 +976,7 @@ Size: 7972
 MD5sum: e7a74af28d09cc638f509f6356a686a9
 SHA1: 72fbc89a90bf9e6a30ce7cd92230b5a054d3cd65
 SHA256: ba88851c6baa336b5aee8bccf10f997b9862e15853e3d6374e3cc9f3c87fceea
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xiaoyingclean.roothide.html?v=4f8385031808
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xiaoyingclean.roothide.html?v=67292a08b90f
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.roothide.json?v=6278e7c4b2ea
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xiaoyingclean.roothide.json?v=6278e7c4b2ea
 Icon: https://apt.mjh.im/assets/im.mjh.xiaoyingclean.roothide/icon.png
@@ -1058,7 +1058,7 @@ Section: Tweaks
 Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
 Author: junhong
 Name: 闲鱼助手
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=f228b38e954d
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.html?v=7c55c7486f4c
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.json?v=6554625d718e
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
@@ -1077,7 +1077,7 @@ Section: Tweaks
 Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
 Author: junhong
 Name: 闲鱼助手 (Roothide)
-Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=310aa0767738
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuadblock.roothide.html?v=7cd29d9ed473
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuadblock.roothide.json?v=cf6a295911a1
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock.roothide/icon.png
@@ -1096,7 +1096,7 @@ Size: 216088
 MD5sum: 948352ebce76edb31b673f353170e7ae
 SHA1: 8bf05a0a0f69f244683d4aaa10d86bb7a87f0397
 SHA256: ee8c72bb5f3ca50639d82e54e0f1d764d667ce432b15ef01a140e312dc4abb8b
-Depiction: https://apt.mjh.im/depiction/web/com.mjh.threadsglass.html?v=e60be3c0155f
+Depiction: https://apt.mjh.im/depiction/web/com.mjh.threadsglass.html?v=2c828f2ea23d
 SileoDepiction: https://apt.mjh.im/depiction/native/com.mjh.threadsglass.json?v=a48a69311c47
 ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.threadsglass.json?v=a48a69311c47
 
@@ -1114,7 +1114,7 @@ Size: 218458
 MD5sum: 767684a93c70be65663fee46e6f52039
 SHA1: 0d98f89267f671e3d465049036000c7042d100e9
 SHA256: 78927b280ed5f2c5be19ae5d19ade2531d03065297de2ffc854037c93a1dfc91
-Depiction: https://apt.mjh.im/depiction/web/com.mjh.threadsglass.roothide.html?v=f1d61b35caa3
+Depiction: https://apt.mjh.im/depiction/web/com.mjh.threadsglass.roothide.html?v=8b200170ed9d
 SileoDepiction: https://apt.mjh.im/depiction/native/com.mjh.threadsglass.roothide.json?v=a48a69311c47
 ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.threadsglass.roothide.json?v=a48a69311c47
 
@@ -1176,7 +1176,7 @@ Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、�
 Author: Junhong
 Name: 红果净化
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=53cca93ac4a6
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=c2190f9f432f
 SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=e9a9c9840e51
 ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=e9a9c9840e51
 Icon: https://apt.mjh.im/assets/hongguofn/icon.png
@@ -1197,7 +1197,7 @@ Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、�
 Author: Junhong
 Name: 红果净化 (Roothide)
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=32d26628da7b
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=94c4af07ac12
 SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=45f0d29929d4
 ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=45f0d29929d4
 Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
@@ -1219,7 +1219,7 @@ Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、�
 Author: Junhong
 Name: 红果净化
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=f34fba0b106a
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.html?v=c2190f9f432f
 SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=f7690c64f4c6
 ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.json?v=f7690c64f4c6
 Icon: https://apt.mjh.im/assets/hongguofn/icon.png
@@ -1241,7 +1241,7 @@ Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、�
 Author: Junhong
 Name: 红果净化 (Roothide)
 Tags: compatible_min::ios15.0
-Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=f8580cc1870b
+Depiction: https://apt.mjh.im/depiction/web/hongguofn.roothide.html?v=94c4af07ac12
 SileoDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=439eaa2a58e4
 ModernDepiction: https://apt.mjh.im/depiction/native/hongguofn.roothide.json?v=439eaa2a58e4
 Icon: https://apt.mjh.im/assets/hongguofn.roothide/icon.png
@@ -1264,7 +1264,7 @@ Size: 674062
 MD5sum: 15f91508b1180a673c3f09fd981a12e2
 SHA1: d5b5cfb881fb24251789b4a439b5800349cb5c86
 SHA256: 4d80be66f0a9b663f66b239827809dbfd18cd50443e4a3b7d5d232865e225465
-Depiction: https://apt.mjh.im/depiction/web/com.mjh.wctabbarglass.html?v=f65c964ecf9a
+Depiction: https://apt.mjh.im/depiction/web/com.mjh.wctabbarglass.html?v=523835ed5d33
 SileoDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.json?v=cd7af4ff5b69
 ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.json?v=cd7af4ff5b69
 
@@ -1286,7 +1286,7 @@ Size: 688820
 MD5sum: 69a28c313722e89a728e5533c626b3f4
 SHA1: 79dd0eafcdc664f545109ef6009e9536995aee17
 SHA256: 9926c9e2705e369c8f1a6ab0ea3597e0df092f32990a8c75a5835850dbb82334
-Depiction: https://apt.mjh.im/depiction/web/com.mjh.wctabbarglass.roothide.html?v=23841b4e04db
+Depiction: https://apt.mjh.im/depiction/web/com.mjh.wctabbarglass.roothide.html?v=b5459d18f2b0
 SileoDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.roothide.json?v=cd7af4ff5b69
 ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.roothide.json?v=cd7af4ff5b69
 
@@ -1308,6 +1308,6 @@ Size: 1316236
 MD5sum: cafd8d65bc3029415479ec9cef8e3a73
 SHA1: c82ad1c00e12971805dbe6486161e3dda07ac546
 SHA256: 7e9ca2743ee952cf53db287922b3ae21b8e4c383f45fe359f117c2cc4d000f1d
-Depiction: https://apt.mjh.im/depiction/web/com.mjh.wctabbarglass.rootful.html?v=8b8b1732b0af
+Depiction: https://apt.mjh.im/depiction/web/com.mjh.wctabbarglass.rootful.html?v=895964830218
 SileoDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.rootful.json?v=cd7af4ff5b69
 ModernDepiction: https://apt.mjh.im/depiction/native/com.mjh.wctabbarglass.rootful.json?v=cd7af4ff5b69
